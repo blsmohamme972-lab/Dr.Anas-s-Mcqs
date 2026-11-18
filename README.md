@@ -12,10 +12,12 @@ This repository now contains the first usable frontend slice from the app plan:
 - Study mode with answer feedback, explanations, saved questions, and local progress.
 - Exam mode with scope, question count, shuffle, optional timer, review marks, and score breakdown.
 - Progress and settings views.
+- Local-first Favorites, hidden-question management, and Quick Review Mode with swipe navigation.
+- Question handoff buttons for GPT and Cloud AI apps, with a formatted prompt containing the question and options.
 - PWA manifest and service worker for a cached offline shell.
 - Local browser persistence for the preview state.
 
-The question bank currently contains nine educational preview questions. The import, OCR, medical review, publishing, account, and sync services are intentionally left for the next backend milestone.
+The question bank currently contains nine educational preview questions. Favorites, hidden questions, study filters, quick review state, settings, and progress are stored locally in the browser. The import, OCR, medical review, publishing, account, and sync services are intentionally left for the next backend milestone.
 
 ## Run locally
 
