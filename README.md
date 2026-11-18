@@ -15,9 +15,12 @@ This repository now contains the first usable frontend slice from the app plan:
 - Local-first Favorites, hidden-question management, and Quick Review Mode with swipe navigation.
 - Question handoff buttons for GPT and Cloud AI apps, with a formatted prompt containing the question and options.
 - PWA manifest and service worker for a cached offline shell.
-- Local browser persistence for the preview state.
+- Local browser persistence for the preview state, including automatic restoration of the current Study and Quick Review sessions, filters, theme, Favorites, hidden questions, and progress.
+- JSON Export and Import backup from Settings with validation and protection against replacing data when a file is invalid.
+- A visible, user-controlled service worker update notice with a safe Refresh action.
+- Keyboard-friendly controls, visible focus states, accessible labels, and clear empty/error states for unavailable question sets.
 
-The question bank currently contains nine educational preview questions. Favorites, hidden questions, study filters, quick review state, settings, and progress are stored locally in the browser. The import, OCR, medical review, publishing, account, and sync services are intentionally left for the next backend milestone.
+The question bank currently contains nine educational preview questions. Favorites, hidden questions, study filters, quick review state, settings, progress, and local backup files are stored locally in the browser. OCR, medical review, publishing, account, and sync services are intentionally left for the next backend milestone.
 
 ## Run locally
 

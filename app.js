@@ -72,9 +72,15 @@
   };
 
   var STORAGE_KEY = "atlas-mcqs-local-state-v1";
+  var LEGACY_STORAGE_KEYS = ["atlas-mcqs-local-state"];
+  var BACKUP_FORMAT = "atlas-mcqs-backup";
+  var BACKUP_VERSION = 1;
+  var backupNotice = null;
   var state = loadState();
   var toastTimer = null;
   var examTimer = null;
+  var swRegistration = null;
+  var swRefreshing = false;
   var quickReviewPointerStartX = null;
   var quickReviewIgnoreClick = false;
 
@@ -98,35 +104,135 @@
     };
   }
 
-  function loadState() {
+  function isObject(value) {
+    return value && typeof value === "object" && !Array.isArray(value);
+  }
+
+  function validSpecialty(value) {
+    return value === "all" || SPECIALTIES.some(function (item) { return item.key === value; });
+  }
+
+  function questionIds(value) {
+    var seen = {};
+    return Array.isArray(value) ? value.filter(function (id) {
+      if (typeof id !== "string" || !question(id) || seen[id]) return false;
+      seen[id] = true;
+      return true;
+    }) : [];
+  }
+
+  function integer(value, fallback, minimum, maximum) {
+    var number = Number(value);
+    if (!Number.isFinite(number)) return fallback;
+    number = Math.floor(number);
+    if (typeof minimum === "number") number = Math.max(minimum, number);
+    if (typeof maximum === "number") number = Math.min(maximum, number);
+    return number;
+  }
+
+  function normalizeState(stored) {
     var base = initialState();
+    if (!isObject(stored)) return base;
+    base.view = typeof stored.view === "string" && Object.prototype.hasOwnProperty.call(PAGE_COPY, stored.view) ? stored.view : base.view;
+    base.topicFilter = validSpecialty(stored.topicFilter) ? stored.topicFilter : base.topicFilter;
+    base.topicSearch = typeof stored.topicSearch === "string" ? stored.topicSearch.slice(0, 120) : base.topicSearch;
+    base.theme = stored.theme === "dark" ? "dark" : "light";
+    base.savedQuestionIds = Array.isArray(stored.savedQuestionIds) ? questionIds(stored.savedQuestionIds) : base.savedQuestionIds;
+    base.hiddenQuestionIds = questionIds(stored.hiddenQuestionIds);
+
+    var progress = isObject(stored.progress) ? stored.progress : {};
+    base.progress.answered = integer(progress.answered, base.progress.answered, 0);
+    base.progress.correct = integer(progress.correct, base.progress.correct, 0, base.progress.answered);
+    base.progress.streak = integer(progress.streak, base.progress.streak, 0);
+    ["bySpecialty", "correctBySpecialty"].forEach(function (key) {
+      var source = isObject(progress[key]) ? progress[key] : {};
+      SPECIALTIES.forEach(function (item) {
+        base.progress[key][item.key] = integer(source[item.key], base.progress[key][item.key], 0);
+      });
+    });
+    SPECIALTIES.forEach(function (item) {
+      base.progress.correctBySpecialty[item.key] = Math.min(base.progress.correctBySpecialty[item.key], base.progress.bySpecialty[item.key]);
+    });
+
+    var study = isObject(stored.study) ? stored.study : {};
+    base.study.specialty = validSpecialty(study.specialty) ? study.specialty : base.study.specialty;
+    base.study.topic = typeof study.topic === "string" ? study.topic : base.study.topic;
+    if (base.study.topic !== "all" && (!topic(base.study.topic) || (base.study.specialty !== "all" && topic(base.study.topic).specialty !== base.study.specialty))) base.study.topic = "all";
+    base.study.index = integer(study.index, 0, 0);
+    base.study.answered = Boolean(study.answered);
+    base.study.selected = Number.isInteger(study.selected) ? study.selected : null;
+    base.study.sessionAnswered = integer(study.sessionAnswered, 0, 0);
+    base.study.sessionCorrect = integer(study.sessionCorrect, 0, 0, base.study.sessionAnswered);
+    var studyItems = QUESTIONS.filter(function (item) {
+      return base.hiddenQuestionIds.indexOf(item.id) === -1 && (base.study.specialty === "all" || item.specialty === base.study.specialty) && (base.study.topic === "all" || item.topic === base.study.topic);
+    });
+    if (!studyItems.length) {
+      base.study.index = 0;
+      base.study.answered = false;
+      base.study.selected = null;
+    } else {
+      base.study.index = base.study.index % studyItems.length;
+      if (!base.study.answered || base.study.selected === null || base.study.selected < 0 || base.study.selected >= studyItems[base.study.index].options.length) {
+        base.study.answered = false;
+        base.study.selected = null;
+      }
+    }
+
+    var quick = isObject(stored.quickReview) ? stored.quickReview : {};
+    base.quickReview.active = Boolean(quick.active) || base.view === "quick-review";
+    base.quickReview.queue = questionIds(quick.queue).filter(function (id) { return base.hiddenQuestionIds.indexOf(id) === -1; });
+    base.quickReview.index = integer(quick.index, 0, 0);
+    base.quickReview.revealed = Boolean(quick.revealed);
+    if (base.quickReview.queue.length) base.quickReview.index %= base.quickReview.queue.length;
+    else {
+      base.quickReview.index = 0;
+      base.quickReview.revealed = false;
+    }
+
+    var exam = isObject(stored.exam) ? stored.exam : {};
+    base.exam.specialty = validSpecialty(exam.specialty) ? exam.specialty : base.exam.specialty;
+    base.exam.count = integer(exam.count, base.exam.count, 3, QUESTIONS.length);
+    base.exam.randomized = exam.randomized !== false;
+    base.exam.timed = Boolean(exam.timed);
+    base.exam.active = false;
+    base.exam.submitted = false;
+    base.exam.queue = [];
+    base.exam.answers = {};
+    base.exam.reviewed = {};
+    base.exam.endsAt = null;
+    base.exam.result = null;
+    base.activity = Array.isArray(stored.activity) ? stored.activity.filter(function (item) { return isObject(item); }).slice(0, 12) : base.activity;
+    return base;
+  }
+
+  function loadState() {
     try {
-      var stored = JSON.parse(localStorage.getItem(STORAGE_KEY) || "null");
-      if (!stored) return base;
-      base.view = stored.view || base.view;
-      base.topicFilter = stored.topicFilter || base.topicFilter;
-      base.topicSearch = stored.topicSearch || base.topicSearch;
-      base.theme = stored.theme || base.theme;
-      base.savedQuestionIds = Array.isArray(stored.savedQuestionIds) ? stored.savedQuestionIds : base.savedQuestionIds;
-      base.hiddenQuestionIds = Array.isArray(stored.hiddenQuestionIds) ? stored.hiddenQuestionIds : base.hiddenQuestionIds;
-      base.progress = Object.assign({}, base.progress, stored.progress || {});
-      base.progress.bySpecialty = Object.assign({}, initialState().progress.bySpecialty, (stored.progress || {}).bySpecialty || {});
-      base.progress.correctBySpecialty = Object.assign({}, initialState().progress.correctBySpecialty, (stored.progress || {}).correctBySpecialty || {});
-      base.study = Object.assign({}, base.study, stored.study || {});
-      base.quickReview = Object.assign({}, base.quickReview, stored.quickReview || {});
-      base.exam = Object.assign({}, base.exam, stored.exam || {}, { active: false, submitted: false, queue: [], answers: {}, reviewed: {}, result: null });
-      base.activity = Array.isArray(stored.activity) ? stored.activity : base.activity;
-      return base;
+      var raw = localStorage.getItem(STORAGE_KEY);
+      if (!raw) LEGACY_STORAGE_KEYS.some(function (key) { raw = localStorage.getItem(key); return Boolean(raw); });
+      return raw ? normalizeState(JSON.parse(raw)) : initialState();
     } catch (error) {
-      return base;
+      return initialState();
+    }
+  }
+
+  function stateSnapshot(source) {
+    return Object.assign({}, source, {
+      schemaVersion: BACKUP_VERSION,
+      exam: Object.assign({}, source.exam, { active: false, submitted: false, queue: [], answers: {}, reviewed: {}, result: null, endsAt: null })
+    });
+  }
+
+  function persistState(nextState) {
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(stateSnapshot(nextState)));
+      return true;
+    } catch (error) {
+      return false;
     }
   }
 
   function saveState() {
-    try {
-      var snapshot = Object.assign({}, state, { exam: Object.assign({}, state.exam, { active: false, submitted: false, queue: [], answers: {}, reviewed: {}, result: null }) });
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(snapshot));
-    } catch (error) {}
+    persistState(state);
   }
 
   function icon(name) {
@@ -170,9 +276,11 @@
   }
 
   function quickReviewQueue() {
-    return (state.quickReview.queue.length ? state.quickReview.queue.map(question).filter(Boolean) : studyQueue()).filter(function (item) {
+    var savedQueue = state.quickReview.queue.length ? state.quickReview.queue.map(question).filter(Boolean) : [];
+    var visibleSavedQueue = savedQueue.filter(function (item) {
       return state.hiddenQuestionIds.indexOf(item.id) === -1;
     });
+    return visibleSavedQueue.length ? visibleSavedQueue : studyQueue();
   }
 
   function filteredTopics() {
@@ -195,10 +303,8 @@
     document.querySelectorAll("[data-nav]").forEach(function (button) {
       var active = button.dataset.nav === state.view;
       button.classList.toggle("is-active", active);
-      if (button.classList.contains("nav-item")) {
-        if (active) button.setAttribute("aria-current", "page");
-        else button.removeAttribute("aria-current");
-      }
+      if (active) button.setAttribute("aria-current", "page");
+      else button.removeAttribute("aria-current");
     });
   }
 
@@ -274,11 +380,25 @@
     return '<option value="all">All topics</option>' + items.map(function (item) { return '<option value="' + esc(item.name) + '" ' + (state.study.topic === item.name ? "selected" : "") + ">" + esc(item.name) + "</option>"; }).join("");
   }
 
+  function studyEmptyCopy() {
+    var visibleQuestions = QUESTIONS.filter(function (item) { return state.hiddenQuestionIds.indexOf(item.id) === -1; });
+    if (!visibleQuestions.length) {
+      return { heading: "No visible questions", text: "All preview questions are hidden. Restore a question from Settings to bring it back into future study sessions.", action: "Manage hidden questions", actionType: "settings" };
+    }
+    return { heading: "No questions match these filters", text: "Change the specialty or topic filters to continue with a visible question.", action: "Reset study filters", actionType: "reset-study-filters" };
+  }
+
+  function studyEmptyState(symbol) {
+    var copy = studyEmptyCopy();
+    var action = copy.actionType === "settings" ? '<button class="button button-primary" data-nav="settings" type="button">' + copy.action + " " + icon("arrow") + "</button>" : '<button class="button button-primary" data-action="reset-study-filters" type="button">' + copy.action + " " + icon("undo") + "</button>";
+    return '<div class="empty-state" role="status">' + icon(symbol || "bookmark") + '<h3>' + copy.heading + '</h3><p>' + copy.text + '</p><div class="page-heading-actions">' + action + '<button class="button button-secondary" data-nav="favorites" type="button">Open favorites</button></div></div>';
+  }
+
   function renderStudy() {
     var queue = studyQueue();
     var item = currentStudyQuestion();
     if (!item) {
-      return '<section aria-labelledby="study-heading"><div class="page-heading"><div><h2 id="study-heading">Study mode</h2><p>Your visible question set is ready whenever you are.</p></div></div><div class="empty-state">' + icon("bookmark") + '<h3>All matching questions are hidden</h3><p>Restore a question from Settings to bring it back into future study sessions.</p><div class="page-heading-actions"><button class="button button-primary" data-nav="settings" type="button">Manage hidden questions ' + icon("arrow") + '</button><button class="button button-secondary" data-nav="favorites" type="button">Open favorites</button></div></div></section>';
+      return '<section aria-labelledby="study-heading"><div class="page-heading"><div><h2 id="study-heading">Study mode</h2><p>Your visible question set is ready whenever you are.</p></div></div>' + studyEmptyState("bookmark") + "</section>";
     }
     var selected = state.study.selected;
     var answered = state.study.answered;
@@ -288,7 +408,7 @@
       var correct = answered && index === item.answer;
       var wrong = answered && index === selected && index !== item.answer;
       var chosen = answered && index === selected;
-      return '<button class="option-button ' + (correct ? "is-correct " : "") + (wrong ? "is-wrong " : "") + (chosen && !correct ? "is-selected" : "") + '" data-study-answer="' + index + '" type="button" ' + (answered ? "disabled" : "") + '><span class="option-key">' + letter(index) + '</span><span>' + esc(option) + '</span><span class="option-status-icon">' + (correct ? icon("check") : wrong ? icon("x") : "") + "</span></button>";
+      return '<button class="option-button ' + (correct ? "is-correct " : "") + (wrong ? "is-wrong " : "") + (chosen && !correct ? "is-selected" : "") + '" data-study-answer="' + index + '" type="button" aria-label="Option ' + letter(index) + ': ' + esc(option) + '" ' + (answered ? "disabled" : "") + '><span class="option-key">' + letter(index) + '</span><span>' + esc(option) + '</span><span class="option-status-icon">' + (correct ? icon("check") : wrong ? icon("x") : "") + "</span></button>";
     }).join("");
     var explanation = answered ? '<div class="answer-panel"><span class="answer-panel-icon">' + icon(selected === item.answer ? "check" : "info") + '</span><div><strong>' + (selected === item.answer ? "Correct answer" : "Correct answer · " + letter(item.answer)) + '</strong><p>' + esc(item.explanation) + '</p><p class="answer-panel-note">' + esc(item.pearl) + "</p></div></div>" : "";
     return '<section aria-labelledby="study-heading"><div class="page-heading"><div><h2 id="study-heading">Study mode</h2><p>Answer, read the reasoning, and keep the questions worth revisiting. Your local session is ready while the content pipeline is being built.</p></div><div class="page-heading-actions">' + tag(item.specialty) + '</div></div><div class="study-layout"><div class="study-main"><div class="card study-control-card"><div class="study-control-info"><span class="section-heading-icon">' + icon("target") + '</span><div><strong>Focused review</strong><span>' + queue.length + ' visible preview questions in this session</span></div></div><div class="study-controls"><label class="select-field"><span class="sr-only">Specialty</span><select id="study-specialty" aria-label="Study specialty">' + specialtyOptions(state.study.specialty) + '</select></label><label class="select-field"><span class="sr-only">Topic</span><select id="study-topic" aria-label="Study topic">' + topicOptions() + '</select></label><button class="button button-quiet" data-action="start-quick-review" type="button">' + icon("spark") + ' Quick review</button></div></div><article class="card question-card"><div class="question-meta"><span class="question-counter">QUESTION ' + ((state.study.index % Math.max(queue.length, 1)) + 1) + " / " + queue.length + '</span><div class="question-meta-actions"><button class="bookmark-button ' + (saved ? "is-saved" : "") + '" data-study-bookmark type="button" aria-label="' + (saved ? "Remove from favorites" : "Add question to Favorites") + '" title="' + (saved ? "Remove from favorites" : "Add question to Favorites") + '">' + icon("bookmark") + '</button><button class="bookmark-button" data-study-hide type="button" aria-label="Do not show this question again" title="Do not show this question again">' + icon("x") + '</button></div></div><h3>' + esc(item.stem) + '</h3><div class="question-options" role="group" aria-label="Answer choices">' + options + '</div>' + explanation + '<div class="question-ai-actions"><button class="button button-quiet" data-study-favorite type="button">' + icon("bookmark") + ' ' + (saved ? "Remove from Favorites" : "Add question to Favorites") + '</button><button class="button button-quiet" data-ask-ai="gpt" type="button">' + icon("spark") + ' Ask GPT AI</button><button class="button button-quiet" data-ask-ai="cloud" type="button">' + icon("cloud") + ' Ask Cloud AI</button><button class="button button-quiet" data-study-hide type="button">Do not show this question again</button></div><div class="question-footer"><div class="question-source">' + icon("bookOpen") + ' Preview question · source page pending</div><button class="button ' + (answered ? "button-primary" : "button-secondary") + '" data-study-next type="button">' + (answered ? "Next question" : "Reveal answer") + " " + icon("arrow") + '</button></div></article></div><aside class="study-aside"><article class="card aside-card"><h3>Session progress</h3><p>Keep the loop small and consistent.</p><div class="session-progress"><div class="session-progress-line"><span style="width:' + sessionPercent + '%"></span></div><div class="session-progress-meta"><span>' + state.study.sessionAnswered + ' answered</span><span>' + state.study.sessionCorrect + ' correct</span></div></div></article><article class="card aside-card"><h3>Confidence by specialty</h3><p>Your recent answers, grouped by the fixed catalog.</p><div class="confidence-list">' + SPECIALTIES.map(function (sp) { var total = state.progress.bySpecialty[sp.key] || 0; var correct = state.progress.correctBySpecialty[sp.key] || 0; var confidence = Math.round((correct / Math.max(total, 1)) * 100); return '<div class="confidence-row"><div class="confidence-label"><span>' + sp.short + '</span><strong>' + confidence + '%</strong></div><div class="confidence-bar"><span style="width:' + confidence + '%"></span></div></div>'; }).join("") + "</div></article></aside></div></section>";
@@ -296,22 +416,28 @@
 
   function renderQuickReview() {
     var queue = quickReviewQueue();
-    if (!queue.length) return '<section aria-labelledby="quick-review-heading"><div class="page-heading"><div><h2 id="quick-review-heading">Quick review</h2><p>There are no visible questions in this set yet.</p></div></div><div class="empty-state">' + icon("spark") + '<h3>Nothing to review</h3><p>Restore a hidden question or choose another study filter.</p><button class="button button-primary" data-nav="settings" type="button">Manage hidden questions ' + icon("arrow") + '</button></div></section>';
+    if (!queue.length) return '<section aria-labelledby="quick-review-heading"><div class="page-heading"><div><h2 id="quick-review-heading">Quick review</h2><p>There are no visible questions in this set yet.</p></div></div>' + studyEmptyState("spark") + "</section>";
     var item = queue[state.quickReview.index % queue.length];
     var revealed = state.quickReview.revealed;
     var saved = state.savedQuestionIds.indexOf(item.id) !== -1;
     var shortExplanation = item.pearl || item.explanation;
-    return '<section aria-labelledby="quick-review-heading"><div class="page-heading"><div><h2 id="quick-review-heading">Quick review</h2><p>Tap the card to reveal the answer, then swipe left or right for the next question.</p></div><div class="page-heading-actions"><button class="button button-secondary" data-action="exit-quick-review" type="button">' + icon("undo") + ' Back to study</button></div></div><div class="quick-review-layout"><article class="card quick-review-card" data-quick-review-card tabindex="0"><div class="quick-review-top"><span class="question-counter">QUESTION ' + (state.quickReview.index % queue.length + 1) + ' / ' + queue.length + '</span><div class="question-meta-actions"><button class="bookmark-button ' + (saved ? "is-saved" : "") + '" data-quick-favorite type="button" aria-label="' + (saved ? "Remove from favorites" : "Add question to Favorites") + '">' + icon("bookmark") + '</button><button class="bookmark-button" data-quick-hide type="button" aria-label="Do not show this question again" title="Do not show this question again">' + icon("x") + '</button></div></div><div class="quick-review-tag">' + tag(item.specialty) + '<span>' + esc(item.topic) + '</span></div><h3>' + esc(item.stem) + '</h3>' + (revealed ? '<div class="quick-review-answer"><span class="answer-panel-icon">' + icon("check") + '</span><div><strong>Correct answer · ' + letter(item.answer) + '</strong><p>' + esc(item.options[item.answer]) + '</p><p class="answer-panel-note">' + esc(shortExplanation) + '</p></div></div>' : '<button class="quick-review-reveal" data-quick-reveal type="button">' + icon("spark") + '<strong>Show answer</strong><span>Tap or press Enter</span></button>') + '</article><div class="quick-review-controls"><button class="button button-secondary" data-quick-prev type="button">' + icon("arrowLeft") + ' Previous</button><span>Swipe to move quickly</span><button class="button button-primary" data-quick-next type="button">Next ' + icon("arrow") + '</button></div></div></section>';
+    return '<section aria-labelledby="quick-review-heading"><div class="page-heading"><div><h2 id="quick-review-heading">Quick review</h2><p>Tap the card to reveal the answer, then swipe left or right for the next question.</p></div><div class="page-heading-actions"><button class="button button-secondary" data-action="exit-quick-review" type="button">' + icon("undo") + ' Back to study</button></div></div><div class="quick-review-layout"><article class="card quick-review-card" data-quick-review-card aria-label="Reveal the answer for this question" tabindex="0"><div class="quick-review-top"><span class="question-counter">QUESTION ' + (state.quickReview.index % queue.length + 1) + ' / ' + queue.length + '</span><div class="question-meta-actions"><button class="bookmark-button ' + (saved ? "is-saved" : "") + '" data-quick-favorite type="button" aria-label="' + (saved ? "Remove from favorites" : "Add question to Favorites") + '">' + icon("bookmark") + '</button><button class="bookmark-button" data-quick-hide type="button" aria-label="Do not show this question again" title="Do not show this question again">' + icon("x") + '</button></div></div><div class="quick-review-tag">' + tag(item.specialty) + '<span>' + esc(item.topic) + '</span></div><h3>' + esc(item.stem) + '</h3>' + (revealed ? '<div class="quick-review-answer" aria-live="polite"><span class="answer-panel-icon">' + icon("check") + '</span><div><strong>Correct answer · ' + letter(item.answer) + '</strong><p>' + esc(item.options[item.answer]) + '</p><p class="answer-panel-note">' + esc(shortExplanation) + '</p></div></div>' : '<button class="quick-review-reveal" data-quick-reveal type="button">' + icon("spark") + '<strong>Show answer</strong><span>Tap or press Enter</span></button>') + '</article><div class="quick-review-controls"><button class="button button-secondary" data-quick-prev type="button" aria-label="Previous quick review question">' + icon("arrowLeft") + ' Previous</button><span>Swipe to move quickly</span><button class="button button-primary" data-quick-next type="button" aria-label="Next quick review question">Next ' + icon("arrow") + '</button></div></div></section>';
   }
 
   function examOptions() {
     return '<option value="all">All specialties</option>' + SPECIALTIES.map(function (item) { return '<option value="' + item.key + '" ' + (state.exam.specialty === item.key ? "selected" : "") + ">" + item.label + "</option>"; }).join("");
   }
 
+  function examQuestions(scope) {
+    return QUESTIONS.filter(function (item) { return state.hiddenQuestionIds.indexOf(item.id) === -1 && (scope === "all" || item.specialty === scope); });
+  }
+
   function renderExam() {
     if (state.exam.submitted) return renderExamResult();
     if (state.exam.active) return renderExamActive();
-    return '<section aria-labelledby="exam-heading"><div class="page-heading"><div><h2 id="exam-heading">Exam mode</h2><p>Create a short assessment with the same fixed topics, then review the result while the question bank grows toward the full content model.</p></div><div class="page-heading-actions"><span class="status-tag specialty-tag--cardiac">Ready when you are</span></div></div><div class="exam-layout"><article class="card exam-setup"><h3>Build your exam</h3><p>Choose a scope, set the pace, and use this preview loop to validate the exam experience before the backend question bank arrives.</p><div class="form-grid"><div class="form-field"><label for="exam-specialty">Scope</label><label class="select-field"><select id="exam-specialty">' + examOptions() + '</select></label></div><div class="form-field"><label for="exam-count">Questions</label><label class="number-field"><input id="exam-count" type="number" min="3" max="' + QUESTIONS.length + '" value="' + Math.min(state.exam.count, QUESTIONS.length) + '" /></label></div><div class="form-field"><label>Order</label><div class="toggle-field"><span>Shuffle questions</span><label class="toggle-input"><input id="exam-randomized" type="checkbox" ' + (state.exam.randomized ? "checked" : "") + ' /><span class="toggle-slider"></span></label></div></div><div class="form-field"><label>Timer</label><div class="toggle-field"><span>10-minute timer</span><label class="toggle-input"><input id="exam-timed" type="checkbox" ' + (state.exam.timed ? "checked" : "") + ' /><span class="toggle-slider"></span></label></div></div></div><div class="form-footer"><button class="button button-primary" id="start-exam" type="button">' + icon("exam") + ' Start exam</button></div></article><aside class="card exam-side-card"><h3>What is included</h3><div class="exam-side-list"><div class="exam-side-item"><span>01</span><span>Mark a question for review and return before submitting.</span></div><div class="exam-side-item"><span>02</span><span>See a topic-level score breakdown after submission.</span></div><div class="exam-side-item"><span>03</span><span>Keep your attempt in this browser while offline.</span></div></div></aside></div></section>';
+    var available = examQuestions(state.exam.specialty);
+    var scopeMessage = available.length ? '<p class="form-feedback form-feedback--success" role="status">' + available.length + ' visible questions are ready for this scope.</p>' : '<div class="form-feedback form-feedback--error" role="alert"><strong>No visible questions</strong><span>Restore a hidden question or choose another scope before starting an exam.</span></div>';
+    return '<section aria-labelledby="exam-heading"><div class="page-heading"><div><h2 id="exam-heading">Exam mode</h2><p>Create a short assessment with the same fixed topics, then review the result while the question bank grows toward the full content model.</p></div><div class="page-heading-actions"><span class="status-tag specialty-tag--cardiac">Ready when you are</span></div></div><div class="exam-layout"><article class="card exam-setup"><h3>Build your exam</h3><p>Choose a scope, set the pace, and use this preview loop to validate the exam experience before the backend question bank arrives.</p><div class="form-grid"><div class="form-field"><label for="exam-specialty">Scope</label><label class="select-field"><select id="exam-specialty" aria-label="Exam specialty">' + examOptions() + '</select></label></div><div class="form-field"><label for="exam-count">Questions</label><label class="number-field"><input id="exam-count" type="number" min="3" max="' + QUESTIONS.length + '" value="' + Math.min(state.exam.count, QUESTIONS.length) + '" aria-label="Number of exam questions" /></label></div><div class="form-field"><label>Order</label><div class="toggle-field"><span>Shuffle questions</span><label class="toggle-input"><input id="exam-randomized" type="checkbox" aria-label="Shuffle exam questions" ' + (state.exam.randomized ? "checked" : "") + ' /><span class="toggle-slider"></span></label></div></div><div class="form-field"><label>Timer</label><div class="toggle-field"><span>10-minute timer</span><label class="toggle-input"><input id="exam-timed" type="checkbox" aria-label="Enable exam timer" ' + (state.exam.timed ? "checked" : "") + ' /><span class="toggle-slider"></span></label></div></div></div>' + scopeMessage + '<div class="form-footer"><button class="button button-primary" id="start-exam" type="button" ' + (available.length ? "" : "disabled") + '>' + icon("exam") + ' Start exam</button></div></article><aside class="card exam-side-card"><h3>What is included</h3><div class="exam-side-list"><div class="exam-side-item"><span>01</span><span>Mark a question for review and return before submitting.</span></div><div class="exam-side-item"><span>02</span><span>See a topic-level score breakdown after submission.</span></div><div class="exam-side-item"><span>03</span><span>Keep your attempt in this browser while offline.</span></div></div></aside></div></section>';
   }
 
   function examQueue() {
@@ -325,9 +451,9 @@
     var selected = state.exam.answers[item.id];
     var marked = Boolean(state.exam.reviewed[item.id]);
     var options = item.options.map(function (option, index) {
-      return '<button class="option-button ' + (selected === index ? "is-selected" : "") + '" data-exam-answer="' + index + '" type="button"><span class="option-key">' + letter(index) + '</span><span>' + esc(option) + '</span><span class="option-status-icon"></span></button>';
+      return '<button class="option-button ' + (selected === index ? "is-selected" : "") + '" data-exam-answer="' + index + '" type="button" aria-label="Option ' + letter(index) + ': ' + esc(option) + '" aria-pressed="' + (selected === index ? "true" : "false") + '"><span class="option-key">' + letter(index) + '</span><span>' + esc(option) + '</span><span class="option-status-icon"></span></button>';
     }).join("");
-    return '<section aria-labelledby="exam-heading"><div class="page-heading"><div><h2 id="exam-heading">Exam mode</h2><p>Answer the set, mark anything you want to revisit, then submit for a topic breakdown.</p></div></div><div class="exam-active"><div class="card exam-toolbar"><div class="exam-toolbar-left"><strong>' + specialty(item.specialty) .label + '</strong><span>' + (state.exam.index + 1) + " of " + queue.length + '</span></div><div class="exam-toolbar-right">' + (state.exam.timed ? '<span class="exam-timer">' + icon("clock") + ' <span id="exam-timer-label">' + formatTimer(state.exam.endsAt - Date.now()) + "</span></span>" : "") + '<button class="button button-quiet" id="exit-exam" type="button">Exit exam</button></div></div><div class="progress-line"><span style="width:' + Math.round(((state.exam.index + 1) / queue.length) * 100) + '%"></span></div><article class="card exam-question"><div class="question-meta"><span class="question-counter">' + (marked ? "MARKED FOR REVIEW" : "QUESTION IN PROGRESS") + '</span><button class="bookmark-button ' + (marked ? "is-saved" : "") + '" id="toggle-review" type="button" aria-label="Mark for review">' + icon("bookmark") + '</button></div><h3>' + esc(item.stem) + '</h3><div class="question-options" role="group" aria-label="Answer choices">' + options + '</div><div class="exam-question-footer"><button class="button button-secondary" id="exam-prev" type="button" ' + (state.exam.index === 0 ? "disabled" : "") + '>' + icon("arrowLeft") + ' Previous</button><button class="button button-primary" id="exam-next" type="button">' + (state.exam.index === queue.length - 1 ? "Review submission" : "Next question") + " " + icon("arrow") + '</button></div></article><div class="exam-submit-footer"><button class="button button-secondary" id="submit-exam" type="button">Submit exam</button></div></div></section>';
+    return '<section aria-labelledby="exam-heading"><div class="page-heading"><div><h2 id="exam-heading">Exam mode</h2><p>Answer the set, mark anything you want to revisit, then submit for a topic breakdown.</p></div></div><div class="exam-active"><div class="card exam-toolbar"><div class="exam-toolbar-left"><strong>' + specialty(item.specialty) .label + '</strong><span>' + (state.exam.index + 1) + " of " + queue.length + '</span></div><div class="exam-toolbar-right">' + (state.exam.timed ? '<span class="exam-timer">' + icon("clock") + ' <span id="exam-timer-label">' + formatTimer(state.exam.endsAt - Date.now()) + "</span></span>" : "") + '<button class="button button-quiet" id="exit-exam" type="button">Exit exam</button></div></div><div class="progress-line"><span style="width:' + Math.round(((state.exam.index + 1) / queue.length) * 100) + '%"></span></div><article class="card exam-question"><div class="question-meta"><span class="question-counter">' + (marked ? "MARKED FOR REVIEW" : "QUESTION IN PROGRESS") + '</span><button class="bookmark-button ' + (marked ? "is-saved" : "") + '" id="toggle-review" type="button" aria-label="' + (marked ? "Remove review mark" : "Mark for review") + '" aria-pressed="' + (marked ? "true" : "false") + '">' + icon("bookmark") + '</button></div><h3>' + esc(item.stem) + '</h3><div class="question-options" role="group" aria-label="Answer choices">' + options + '</div><div class="exam-question-footer"><button class="button button-secondary" id="exam-prev" type="button" ' + (state.exam.index === 0 ? "disabled" : "") + '>' + icon("arrowLeft") + ' Previous</button><button class="button button-primary" id="exam-next" type="button">' + (state.exam.index === queue.length - 1 ? "Review submission" : "Next question") + " " + icon("arrow") + '</button></div></article><div class="exam-submit-footer"><button class="button button-secondary" id="submit-exam" type="button">Submit exam</button></div></div></section>';
   }
 
   function renderExamResult() {
@@ -363,7 +489,8 @@
     var hiddenList = hidden.length ? '<div class="hidden-question-list">' + hidden.map(function (item) {
       return '<div class="hidden-question-row"><div><strong>' + esc(item.topic) + '</strong><p>' + esc(item.stem) + '</p></div><button class="button button-quiet" data-restore-question="' + item.id + '" type="button">Restore</button></div>';
     }).join("") + '</div><button class="button button-secondary" id="restore-all-hidden" type="button">Restore all hidden questions</button>' : '<div class="settings-empty">No questions are hidden.</div>';
-    return '<section aria-labelledby="settings-heading"><div class="page-heading"><div><h2 id="settings-heading">Settings</h2><p>Keep the study workspace comfortable on a phone, tablet, or desktop. These preferences stay in this browser for now.</p></div></div><div class="settings-layout"><div class="settings-main"><article class="card settings-card"><h3>Workspace preferences</h3><p>Everything in this preview is English-only, matching the product foundation.</p><div class="settings-row"><div class="settings-label"><h4>Appearance</h4><p>Choose a light or dark reading surface.</p></div><label class="toggle-input theme-toggle"><input id="theme-toggle" type="checkbox" ' + (state.theme === "dark" ? "checked" : "") + ' /><span class="toggle-slider"></span></label></div><div class="settings-row"><div class="settings-label"><h4>Content language</h4><p>Questions, explanations, and controls use one consistent language.</p></div><div class="settings-select select-field"><select aria-label="Content language" disabled><option>English</option></select></div></div><div class="settings-row"><div class="settings-label"><h4>Local progress</h4><p>Clear the preview answers and return to the starting counters.</p></div><button class="button button-secondary" id="reset-progress" type="button">Reset local progress</button></div></article><article class="card settings-card hidden-settings-card"><div class="settings-section-heading"><div><h3>Hidden questions</h3><p>Questions you hide stay out of future study and exam sessions until you restore them.</p></div><span class="settings-badge">' + hidden.length + ' hidden</span></div>' + hiddenList + '</article></div><aside class="settings-side"><article class="card aside-card"><h3>Connection</h3><p>Study remains available with the cached preview. Results are ready to sync when the backend is connected.</p><span class="settings-badge" id="settings-connection-badge">' + (navigator.onLine ? "Online · ready to sync" : "Offline · local only") + '</span></article><article class="card aside-card"><h3>Release channel</h3><p>Central updates are enabled through the PWA service worker, with a safe cache boundary for the shell.</p><span class="settings-badge">v0.2 local tools</span></article></aside></div></section>';
+    var notice = backupNotice ? '<div class="settings-feedback settings-feedback--' + backupNotice.type + '" role="status" aria-live="polite">' + esc(backupNotice.message) + '</div>' : '';
+    return '<section aria-labelledby="settings-heading"><div class="page-heading"><div><h2 id="settings-heading">Settings</h2><p>Keep the study workspace comfortable on a phone, tablet, or desktop. These preferences stay in this browser for now.</p></div></div><div class="settings-layout"><div class="settings-main"><article class="card settings-card"><h3>Workspace preferences</h3><p>Everything in this preview is English-only, matching the product foundation.</p><div class="settings-row"><div class="settings-label"><h4>Appearance</h4><p>Choose a light or dark reading surface.</p></div><label class="toggle-input theme-toggle"><input id="theme-toggle" type="checkbox" aria-label="Use dark theme" ' + (state.theme === "dark" ? "checked" : "") + ' /><span class="toggle-slider"></span></label></div><div class="settings-row"><div class="settings-label"><h4>Content language</h4><p>Questions, explanations, and controls use one consistent language.</p></div><div class="settings-select select-field"><select aria-label="Content language" disabled><option>English</option></select></div></div><div class="settings-row"><div class="settings-label"><h4>Local progress</h4><p>Clear the preview answers and return to the starting counters.</p></div><button class="button button-secondary" id="reset-progress" type="button">Reset local progress</button></div></article><article class="card settings-card backup-card"><div class="settings-section-heading"><div><h3>Local backup</h3><p>Export your favorites, hidden questions, filters, theme, progress, and study sessions as a JSON file.</p></div><span class="settings-badge">JSON</span></div><div class="backup-actions"><button class="button button-primary" id="export-backup" type="button">Export backup</button><button class="button button-secondary" id="import-backup" type="button">Import backup</button><input id="backup-file" type="file" accept="application/json,.json" hidden /></div>' + notice + '</article><article class="card settings-card hidden-settings-card"><div class="settings-section-heading"><div><h3>Hidden questions</h3><p>Questions you hide stay out of future study and exam sessions until you restore them.</p></div><span class="settings-badge">' + hidden.length + ' hidden</span></div>' + hiddenList + '</article></div><aside class="settings-side"><article class="card aside-card"><h3>Connection</h3><p>Study remains available with the cached preview. Results are ready to sync when the backend is connected.</p><span class="settings-badge" id="settings-connection-badge">' + (navigator.onLine ? "Online · ready to sync" : "Offline · local only") + '</span></article><article class="card aside-card"><h3>Release channel</h3><p>Central updates are enabled through the PWA service worker, with a safe cache boundary for the shell.</p><span class="settings-badge">v0.2 local tools</span></article></aside></div></section>';
   }
 
   function recordAnswer(item, correct) {
@@ -422,6 +549,97 @@
     }
   }
 
+  function setBackupNotice(type, message) {
+    backupNotice = { type: type, message: message };
+  }
+
+  function exportBackup() {
+    try {
+      var payload = {
+        format: BACKUP_FORMAT,
+        version: BACKUP_VERSION,
+        exportedAt: new Date().toISOString(),
+        app: "Atlas MCQs",
+        state: stateSnapshot(state)
+      };
+      var blob = new Blob([JSON.stringify(payload, null, 2)], { type: "application/json" });
+      var url = URL.createObjectURL(blob);
+      var link = document.createElement("a");
+      link.href = url;
+      link.download = "atlas-mcqs-backup-" + new Date().toISOString().slice(0, 10) + ".json";
+      document.body.appendChild(link);
+      link.click();
+      link.remove();
+      setTimeout(function () { URL.revokeObjectURL(url); }, 0);
+      setBackupNotice("success", "Backup exported successfully. Keep the JSON file somewhere safe.");
+      showToast("Backup exported successfully.");
+      render();
+    } catch (error) {
+      setBackupNotice("error", "The backup could not be exported from this browser.");
+      showToast("The backup could not be exported.", "error");
+      render();
+    }
+  }
+
+  function validateBackup(payload) {
+    if (!isObject(payload) || payload.format !== BACKUP_FORMAT || payload.version !== BACKUP_VERSION || !isObject(payload.state)) {
+      return { valid: false, message: "This file is not a valid Atlas MCQs backup. Choose a JSON backup exported from Settings." };
+    }
+    var source = payload.state;
+    if (!Array.isArray(source.savedQuestionIds) || !Array.isArray(source.hiddenQuestionIds) || !isObject(source.study) || !isObject(source.progress) || (source.theme !== "light" && source.theme !== "dark")) {
+      return { valid: false, message: "The backup is missing required Atlas MCQs data and was not imported." };
+    }
+    return { valid: true, state: normalizeState(source) };
+  }
+
+  function importBackupText(text) {
+    var payload;
+    try {
+      payload = JSON.parse(text);
+    } catch (error) {
+      setBackupNotice("error", "The selected file is not valid JSON. Your current data is unchanged.");
+      showToast("Invalid backup file. Your current data is unchanged.", "error");
+      render();
+      return;
+    }
+    var validation = validateBackup(payload);
+    if (!validation.valid) {
+      setBackupNotice("error", validation.message + " Your current data is unchanged.");
+      showToast("Invalid backup file. Your current data is unchanged.", "error");
+      render();
+      return;
+    }
+    if (!persistState(validation.state)) {
+      setBackupNotice("error", "The backup could not be saved in this browser. Your current data is unchanged.");
+      showToast("Import failed. Your current data is unchanged.", "error");
+      render();
+      return;
+    }
+    clearInterval(examTimer);
+    state = validation.state;
+    setBackupNotice("success", "Backup imported successfully. Your local study workspace has been restored.");
+    showToast("Backup imported successfully.");
+    render();
+  }
+
+  function importBackupFile(file) {
+    if (!file) return;
+    if (file.size > 2 * 1024 * 1024) {
+      setBackupNotice("error", "This backup file is too large. Choose a JSON file smaller than 2 MB. Your current data is unchanged.");
+      showToast("Backup is too large. Your current data is unchanged.", "error");
+      render();
+      return;
+    }
+    var reader = new FileReader();
+    reader.onload = function () { importBackupText(String(reader.result || "")); };
+    reader.onerror = function () {
+      setBackupNotice("error", "The backup could not be read. Your current data is unchanged.");
+      showToast("Import failed. Your current data is unchanged.", "error");
+      render();
+    };
+    reader.readAsText(file);
+  }
+
   function startQuickReview() {
     var queue = studyQueue();
     if (!queue.length) {
@@ -474,7 +692,7 @@
     var count = Number(document.getElementById("exam-count").value || QUESTIONS.length);
     var randomized = document.getElementById("exam-randomized").checked;
     var timed = document.getElementById("exam-timed").checked;
-    var items = QUESTIONS.filter(function (item) { return state.hiddenQuestionIds.indexOf(item.id) === -1 && (scope === "all" || item.specialty === scope); }).slice();
+    var items = examQuestions(scope).slice();
     if (!items.length) {
       showToast("There are no visible questions in this exam scope.");
       return;
@@ -505,6 +723,7 @@
   }
 
   function submitExam() {
+    if (!state.exam.active || state.exam.submitted) return;
     var queue = examQueue();
     var result = { score: 0, total: queue.length, bySpecialty: {} };
     queue.forEach(function (item) {
@@ -540,12 +759,39 @@
     if (badge) badge.textContent = online ? "Online · ready to sync" : "Offline · local only";
   }
 
-  function showToast(message) {
+  function showUpdateNotice() {
+    var notice = document.getElementById("update-notice");
+    if (notice) notice.hidden = false;
+  }
+
+  function setupServiceWorker() {
+    if (!("serviceWorker" in navigator)) return;
+    navigator.serviceWorker.addEventListener("controllerchange", function () {
+      if (!swRefreshing) return;
+      swRefreshing = false;
+      window.location.reload();
+    });
+    navigator.serviceWorker.register("service-worker.js").then(function (registration) {
+      swRegistration = registration;
+      if (registration.waiting) showUpdateNotice();
+      registration.addEventListener("updatefound", function () {
+        var worker = registration.installing;
+        if (!worker) return;
+        worker.addEventListener("statechange", function () {
+          if (worker.state === "installed" && navigator.serviceWorker.controller) showUpdateNotice();
+        });
+      });
+    }).catch(function () {});
+  }
+
+  function showToast(message, tone) {
     clearTimeout(toastTimer);
     var old = document.querySelector(".toast");
     if (old) old.remove();
     var toast = document.createElement("div");
-    toast.className = "toast";
+    toast.className = "toast" + (tone === "error" ? " toast--error" : "");
+    toast.setAttribute("role", tone === "error" ? "alert" : "status");
+    toast.setAttribute("aria-live", tone === "error" ? "assertive" : "polite");
     toast.innerHTML = '<span class="toast-dot"></span><span>' + esc(message) + "</span>";
     document.body.appendChild(toast);
     toastTimer = setTimeout(function () { toast.classList.add("is-leaving"); setTimeout(function () { toast.remove(); }, 180); }, 2800);
@@ -564,6 +810,22 @@
   }
 
   document.addEventListener("click", function (event) {
+    if (event.target.closest("#refresh-app")) {
+      var notice = document.getElementById("update-notice");
+      if (notice) notice.hidden = true;
+      if (swRegistration && swRegistration.waiting) {
+        swRefreshing = true;
+        swRegistration.waiting.postMessage({ type: "SKIP_WAITING" });
+      } else {
+        window.location.reload();
+      }
+      return;
+    }
+    if (event.target.closest("#dismiss-update")) {
+      var updateNotice = document.getElementById("update-notice");
+      if (updateNotice) updateNotice.hidden = true;
+      return;
+    }
     var nav = event.target.closest("[data-nav]");
     if (nav) { navigate(nav.dataset.nav); return; }
     if (event.target.closest("#menu-toggle")) {
@@ -605,6 +867,7 @@
       return;
     }
     if (event.target.closest("[data-action='continue-study']")) { state.study.specialty = "all"; state.study.topic = "all"; navigate("study"); return; }
+    if (event.target.closest("[data-action='reset-study-filters']")) { state.study.specialty = "all"; state.study.topic = "all"; state.study.index = 0; state.study.answered = false; state.study.selected = null; render(); return; }
     if (event.target.closest("[data-action='start-quick-review']")) { startQuickReview(); return; }
     if (event.target.closest("[data-action='exit-quick-review']")) { state.quickReview.active = false; navigate("study"); return; }
     var favoriteQuestion = event.target.closest("[data-favorite-question]");
@@ -683,6 +946,8 @@
     if (event.target.closest("#submit-exam")) { submitExam(); return; }
     if (event.target.closest("#exit-exam")) { state.exam.active = false; clearInterval(examTimer); showToast("Exam paused. Your answers are kept in this browser."); render(); return; }
     if (event.target.closest("#restart-exam")) { state.exam.submitted = false; state.exam.result = null; navigate("exam"); return; }
+    if (event.target.closest("#export-backup")) { exportBackup(); return; }
+    if (event.target.closest("#import-backup")) { var backupInput = document.getElementById("backup-file"); if (backupInput) backupInput.click(); return; }
     var restoreButton = event.target.closest("[data-restore-question]");
     if (restoreButton) { restoreQuestion(restoreButton.dataset.restoreQuestion); return; }
     if (event.target.closest("#restore-all-hidden")) {
@@ -711,12 +976,28 @@
     } else if (event.target.id === "theme-toggle") {
       state.theme = event.target.checked ? "dark" : "light";
       render();
+    } else if (event.target.id === "exam-specialty") {
+      state.exam.specialty = validSpecialty(event.target.value) ? event.target.value : "all";
+      render();
+    } else if (event.target.id === "exam-count") {
+      state.exam.count = integer(event.target.value, state.exam.count, 3, QUESTIONS.length);
+      saveState();
+    } else if (event.target.id === "exam-randomized") {
+      state.exam.randomized = event.target.checked;
+      saveState();
+    } else if (event.target.id === "exam-timed") {
+      state.exam.timed = event.target.checked;
+      saveState();
+    } else if (event.target.id === "backup-file") {
+      importBackupFile(event.target.files && event.target.files[0]);
+      event.target.value = "";
     }
   });
 
   document.addEventListener("input", function (event) {
     if (event.target.id !== "topic-search") return;
     state.topicSearch = event.target.value;
+    saveState();
     var cursor = event.target.selectionStart;
     var results = document.getElementById("topic-results");
     if (results) results.innerHTML = topicResults();
@@ -755,7 +1036,5 @@
   renderIcons(document);
   render();
 
-  if ("serviceWorker" in navigator) {
-    window.addEventListener("load", function () { navigator.serviceWorker.register("service-worker.js").catch(function () {}); });
-  }
+  window.addEventListener("load", setupServiceWorker);
 }());

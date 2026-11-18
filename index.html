@@ -11,6 +11,16 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <div class="update-notice" id="update-notice" role="status" aria-live="polite" hidden>
+      <div>
+        <strong>Update ready</strong>
+        <span>A newer version of Atlas MCQs is ready.</span>
+      </div>
+      <div class="update-notice-actions">
+        <button class="button button-primary" id="refresh-app" type="button">Refresh</button>
+        <button class="button button-quiet" id="dismiss-update" type="button" aria-label="Dismiss update notice">Later</button>
+      </div>
+    </div>
     <div class="app-shell">
       <aside class="sidebar" id="sidebar" aria-label="Primary navigation">
         <div class="brand">
@@ -79,7 +89,7 @@
       <div class="app-frame">
         <header class="topbar">
           <div class="topbar-leading">
-            <button class="icon-button menu-button" id="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+            <button class="icon-button menu-button" id="menu-toggle" type="button" aria-label="Open navigation" aria-controls="sidebar" aria-expanded="false">
               <span data-icon="menu" aria-hidden="true"></span>
             </button>
             <div>

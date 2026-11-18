@@ -96,6 +96,50 @@ select:focus-visible {
   outline-offset: 2px;
 }
 
+.update-notice {
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  z-index: 120;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  max-width: min(480px, calc(100vw - 32px));
+  padding: 13px 15px;
+  border: 1px solid var(--line-strong);
+  border-radius: 14px;
+  background: var(--surface);
+  box-shadow: var(--shadow-md);
+  color: var(--ink);
+}
+
+.update-notice[hidden] {
+  display: none;
+}
+
+.update-notice strong,
+.update-notice span {
+  display: block;
+}
+
+.update-notice strong {
+  font-size: 12px;
+}
+
+.update-notice span {
+  margin-top: 3px;
+  color: var(--ink-soft);
+  font-size: 10px;
+  line-height: 1.4;
+}
+
+.update-notice-actions {
+  display: flex;
+  flex: none;
+  align-items: center;
+  gap: 6px;
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -2591,6 +2635,40 @@ main {
   line-height: 1.5;
 }
 
+.backup-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.settings-feedback,
+.form-feedback {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  margin-top: 14px;
+  padding: 10px 12px;
+  border-radius: 9px;
+  font-size: 9px;
+  line-height: 1.45;
+}
+
+.settings-feedback--success,
+.form-feedback--success {
+  background: var(--mint-soft);
+  color: var(--mint);
+}
+
+.settings-feedback--error,
+.form-feedback--error {
+  background: var(--coral-soft);
+  color: var(--coral);
+}
+
+.form-feedback--success {
+  display: block;
+}
+
 .settings-main {
   display: grid;
   gap: 15px;
@@ -2779,6 +2857,14 @@ main {
   flex: none;
   border-radius: 50%;
   background: var(--mint);
+}
+
+.toast--error {
+  border-color: var(--coral);
+}
+
+.toast--error .toast-dot {
+  background: var(--coral);
 }
 
 @keyframes toast-in {
@@ -3197,6 +3283,31 @@ main {
   .toast {
     right: 16px;
     bottom: 82px;
+  }
+
+  .update-notice {
+    top: 10px;
+    right: 10px;
+    left: 10px;
+    max-width: none;
+    gap: 12px;
+  }
+
+  .update-notice-actions {
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 420px) {
+  .update-notice {
+    align-items: stretch;
+    flex-direction: column;
+    gap: 9px;
+  }
+
+  .update-notice-actions {
+    justify-content: flex-end;
+    margin-left: 0;
   }
 }
 
