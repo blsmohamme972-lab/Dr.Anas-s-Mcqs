@@ -181,7 +181,7 @@
   }
 
   function prefetchImages() {
-    var urls = [];
+    var urls = BOOKS.map(function (b) { return b.cover; }).filter(Boolean);
     QUESTIONS.forEach(function (q) { urls = urls.concat(q.images); });
     var i = 0;
     (function next() {
@@ -446,7 +446,9 @@
   }
 
   function cover(b, big) {
-    return '<span class="book-cover book-cover--' + b.specialty + (big ? " book-cover--big" : "") + '">' + esc(b.code) + '</span>';
+    var cls = "book-cover book-cover--" + b.specialty + (big ? " book-cover--big" : "");
+    if (b.cover) return '<img class="' + cls + ' book-cover--img" src="' + esc(b.cover) + '" alt="' + esc(b.title) + ' cover" loading="lazy" />';
+    return '<span class="' + cls + '">' + esc(b.code) + '</span>';
   }
 
   function progressLine(stats) {
