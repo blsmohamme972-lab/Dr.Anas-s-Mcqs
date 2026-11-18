@@ -689,6 +689,335 @@
    "file": "sachinder-vascular-2024.json",
    "count": 510,
    "cover": "data/covers/sachinder-vascular-2024.jpg"
+  },
+  {
+   "id": "wesley-moore-2019",
+   "title": "Moore – Vascular and Endovascular Surgery Review",
+   "short": "Wesley Moore",
+   "code": "WM",
+   "specialty": "vascular",
+   "publisher": "Elsevier",
+   "edition": "9th edition (2019)",
+   "description": "Chapter review questions from Moore's Vascular and Endovascular Surgery: A Comprehensive Review.",
+   "chapters": [
+    {
+     "id": "ch1",
+     "title": "1. A History of Vascular Surgery"
+    },
+    {
+     "id": "ch3",
+     "title": "3. Vascular Wall Biology"
+    },
+    {
+     "id": "ch4",
+     "title": "4. Anatomy and Surgical Exposure of the Vascular System"
+    },
+    {
+     "id": "ch5",
+     "title": "5. Hemodynamics for the Vascular Surgeon"
+    },
+    {
+     "id": "ch6",
+     "title": "6. Hemostasis and Thrombosis"
+    },
+    {
+     "id": "ch7",
+     "title": "7. Atherosclerosis: Pathology, Pathogenesis, and Medical Management"
+    },
+    {
+     "id": "ch8",
+     "title": "8. Nonatherosclerotic Vascular Disease"
+    },
+    {
+     "id": "ch9",
+     "title": "9. Venous Vascular Malformations"
+    },
+    {
+     "id": "ch10",
+     "title": "10. Congenital Arterial Malformations"
+    },
+    {
+     "id": "ch11",
+     "title": "11. Antibiotic Prophylaxis in Vascular Disease Management"
+    },
+    {
+     "id": "ch13",
+     "title": "13. Medical Management of Vascular Disease, Including Pharmacology of Drugs Used in Vascular Disease Management"
+    },
+    {
+     "id": "ch14",
+     "title": "14. Noninvasive Vascular Diagnostic Laboratory"
+    },
+    {
+     "id": "ch15",
+     "title": "15. Principles of Imaging in Vascular Disease"
+    },
+    {
+     "id": "ch16",
+     "title": "16. Vascular Grafts: Characteristics and Rational Selection"
+    },
+    {
+     "id": "ch17",
+     "title": "17. Introduction to Endovascular Surgery: Arterial Access, Guidewires, Catheters, Sheaths, Angioplasty Catheters, and Stents"
+    },
+    {
+     "id": "ch18",
+     "title": "18. Atherectomy and Arterial Closure Devices"
+    },
+    {
+     "id": "ch19",
+     "title": "19. Extracranial Cerebrovascular Disease: The Carotid Artery"
+    },
+    {
+     "id": "ch20",
+     "title": "20. Surgical Reconstruction of the Supra-Aortic Trunks and Vertebral Arteries"
+    },
+    {
+     "id": "ch21",
+     "title": "21. Endovascular Repair of Extracranial Cerebrovascular Lesions"
+    },
+    {
+     "id": "ch22",
+     "title": "22. Carotid Body Tumors"
+    },
+    {
+     "id": "ch23",
+     "title": "23. Surgical Management of Aortoiliac Occlusive Disease"
+    },
+    {
+     "id": "ch24",
+     "title": "24. Angioplasty and Stenting for Aortoiliac Disease"
+    },
+    {
+     "id": "ch25",
+     "title": "25. Diagnosis and Surgical Management of the Visceral Ischemic Syndromes"
+    },
+    {
+     "id": "ch26",
+     "title": "26. Diagnosis and Management of Renal Vascular Occlusive Disease"
+    },
+    {
+     "id": "ch27",
+     "title": "27. Angioplasty and Stenting for Mesenteric and Renal Artery Disease"
+    },
+    {
+     "id": "ch28",
+     "title": "28. Surgical Management of Femoral, Popliteal, and Tibial Arterial Occlusive Disease"
+    },
+    {
+     "id": "ch29",
+     "title": "29. Endoscopic Harvesting of the Saphenous Vein"
+    },
+    {
+     "id": "ch30",
+     "title": "30. Infrainguinal Endovascular Reconstruction"
+    },
+    {
+     "id": "ch31",
+     "title": "31. Endovascular Repair of Infrapopliteal Arterial Occlusive Disease"
+    },
+    {
+     "id": "ch32",
+     "title": "32. Thoracic and Lumbar Sympathectomy"
+    },
+    {
+     "id": "ch33",
+     "title": "33. Thoracic Outlet Syndrome and Vascular Disease of the Upper Extremity"
+    },
+    {
+     "id": "ch34",
+     "title": "34. Natural History and Nonoperative Treatment of Chronic Lower Extremity Ischemia"
+    },
+    {
+     "id": "ch35",
+     "title": "35. Thrombolysis for Arterial and Graft Occlusions"
+    },
+    {
+     "id": "ch36",
+     "title": "36. Descending Thoracic and Thoracoabdominal Aortic Aneurysms"
+    },
+    {
+     "id": "ch38",
+     "title": "38. Hybrid Approach to Aortic Arch and Thoracoabdominal Aortic Pathology"
+    },
+    {
+     "id": "ch40",
+     "title": "40. Acute and Chronic Aortic Dissection"
+    },
+    {
+     "id": "ch41",
+     "title": "41. Aneurysms of the Aorta and Iliac Arteries"
+    },
+    {
+     "id": "ch42",
+     "title": "42. Endovascular Repair of Juxtarenal (Chimney), Infrarenal, and Iliac Artery Aneurysms"
+    },
+    {
+     "id": "ch43",
+     "title": "43. Open Surgical and Endovascular Management of Ruptured Abdominal Aortic Aneurysm"
+    },
+    {
+     "id": "ch44",
+     "title": "44. Laparoscopic Aortic Surgery for Aneurysm and Occlusive Disease"
+    },
+    {
+     "id": "ch45",
+     "title": "45. Building a Hybrid Operating Suite Including Robotic Capability"
+    },
+    {
+     "id": "ch46",
+     "title": "46. Splanchnic and Renal Artery Aneurysms"
+    },
+    {
+     "id": "ch47",
+     "title": "47. Aneurysms of the Peripheral Arteries"
+    },
+    {
+     "id": "ch48",
+     "title": "48. Surgical and Endovascular Management of Vascular Trauma Including Aortic Transection"
+    },
+    {
+     "id": "ch49",
+     "title": "49. Venous Thromboembolic Disease"
+    },
+    {
+     "id": "ch50",
+     "title": "50. Thrombolysis and Mechanical Thrombectomy for Deep Venous Thrombosis and Pulmonary Embolism"
+    },
+    {
+     "id": "ch51",
+     "title": "51. Surgical Management of Chronic Venous Obstruction"
+    },
+    {
+     "id": "ch52",
+     "title": "52. Endovascular Repair of Chronic Venous Obstruction"
+    },
+    {
+     "id": "ch53",
+     "title": "53. Etiology and Management of Varicose Veins"
+    },
+    {
+     "id": "ch54",
+     "title": "54. Management of Venous Leg Ulcers"
+    },
+    {
+     "id": "ch55",
+     "title": "55. Portal Hypertension"
+    },
+    {
+     "id": "ch56",
+     "title": "56. Lymphedema"
+    },
+    {
+     "id": "ch57",
+     "title": "57. Hemodialysis and Vascular Access"
+    },
+    {
+     "id": "ch58",
+     "title": "58. Neointimal Hyperplasia"
+    },
+    {
+     "id": "ch59",
+     "title": "59. Prosthetic Graft Infection"
+    },
+    {
+     "id": "ch60",
+     "title": "60. Noninfectious Complications in Vascular Surgery"
+    },
+    {
+     "id": "ch62",
+     "title": "62. Diabetic Foot Complications"
+    },
+    {
+     "id": "ch63",
+     "title": "63. The Wound Care Center and Limb Salvage"
+    },
+    {
+     "id": "ch64",
+     "title": "64. Lower Extremity Amputation"
+    },
+    {
+     "id": "ch65",
+     "title": "65. Anterior Spine Exposure"
+    },
+    {
+     "id": "ch66",
+     "title": "66. Carotid Sinus Stimulation"
+    },
+    {
+     "id": "ch67",
+     "title": "67. Building an Outpatient Interventional Suite"
+    }
+   ],
+   "file": "wesley-moore-2019.json",
+   "count": 576,
+   "cover": "data/covers/wesley-moore-2019.jpg"
+  },
+  {
+   "id": "sesats-12",
+   "title": "SESATS 12 – Cardiothoracic Surgery",
+   "short": "SESATS 12",
+   "code": "S2",
+   "specialty": "cardiac",
+   "publisher": "SESATS",
+   "edition": "SESATS XII (2017)",
+   "description": "Self-education self-assessment questions in adult cardiac, thoracic, congenital and critical care.",
+   "file": "sesats-12.json",
+   "count": 394,
+   "cover": "data/covers/sesats-12.jpg"
+  },
+  {
+   "id": "sesats-13",
+   "title": "SESATS 13 – Cardiothoracic Surgery",
+   "short": "SESATS 13",
+   "code": "S3",
+   "specialty": "cardiac",
+   "publisher": "SESATS",
+   "edition": "SESATS XIII (2020)",
+   "description": "Self-education self-assessment questions in adult cardiac, thoracic and congenital heart surgery.",
+   "chapters": [
+    {
+     "id": "ch1",
+     "title": "Adult Cardiac Surgery (Q1–125)"
+    },
+    {
+     "id": "ch2",
+     "title": "Thoracic Surgery (Q126–250)"
+    },
+    {
+     "id": "ch3",
+     "title": "Congenital Heart Disease (Q251–328)"
+    }
+   ],
+   "file": "sesats-13.json",
+   "count": 328,
+   "cover": "data/covers/sesats-13.jpg"
+  },
+  {
+   "id": "statpearls-thoracic-2025",
+   "title": "StatPearls – Thoracic Surgery Board Review",
+   "short": "StatPearls Thoracic",
+   "code": "SP",
+   "specialty": "thoracic",
+   "publisher": "StatPearls Publishing",
+   "edition": "2025 (sample)",
+   "description": "Thoracic surgery board-style questions from the StatPearls 2025 review (sample chapter).",
+   "file": "statpearls-thoracic-2025.json",
+   "count": 84,
+   "cover": "data/covers/statpearls-thoracic-2025.jpg"
+  },
+  {
+   "id": "tsra-review",
+   "title": "TSRA – Review of Cardiothoracic Surgery",
+   "short": "TSRA Review",
+   "code": "TR",
+   "specialty": "cardiac",
+   "publisher": "Thoracic Surgery Residents Association",
+   "edition": "Mery & Turek",
+   "description": "Question bank from the TSRA Review of Cardiothoracic Surgery app: cardiac, thoracic and congenital.",
+   "file": "tsra-review.json",
+   "count": 836,
+   "cover": "data/covers/tsra-review.jpg"
   }
  ]
 }

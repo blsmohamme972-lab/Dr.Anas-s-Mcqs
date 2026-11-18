@@ -1,0 +1,1598 @@
+[
+ {
+  "id": "statpearls-thoracic-2025-q001",
+  "number": 1,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Benign Lung Disease & Infection",
+  "stem": "A 45-year-old man presents with a 2-month history of worsening dyspnea on exertion. Associated symptoms include a non-productive cough. A review of symptoms is negative for fevers or sick contacts. His oxygen saturation is 89% on room air. On physical examination, lung auscultation reveals bibasilar fine crackles. Chest radiography shows peri-hilar infiltrates without air-bronchograms and is described by the radiologist as a “batwing pattern.” There is no cardiomegaly or pleural effusions. Which of the following is most likely to confirm the suspected diagnosis?",
+  "options": [
+   "High-resolution computed tomography of the chest with contrast",
+   "Bronchoscopy with bronchoalveolar lavage and transbronchial biopsy",
+   "Measurement of serum granulocyte-macrophage colony-stimulating factor antibody levels",
+   "CT guided biopsy"
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q002",
+  "number": 2,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Thoracic Trauma",
+  "stem": "A 17-year-old girl presents with injuries sustained in a motorcycle collision. Vital signs are blood pressure 80/50 mmHg and respiratory rate 22 breaths/min. On physical examination, she is groaning and speaking in a low voice, has multiple abrasions, is cold to the touch, and has extensive subcutaneous emphysema in the right upper chest and neck. A focused assessment with sonography in trauma (FAST) exam is performed. What is the next step in management?",
+  "options": [
+   "Chest X-ray.",
+   "Urgent chest computed tomography scan.",
+   "Tube thoracostomy.",
+   "Fluid resuscitation."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q003",
+  "number": 3,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Thoracic Trauma",
+  "stem": "A 50-year-old woman presents to the emergency department after a motor vehicle collision in which she is the unrestrained driver. Her vital signs include heart rate 110 bpm, stable blood pressure, and respiratory rate in the high 20s. She looks uncomfortable and has a deformity of the medial clavicle, prominent sternum, and no palpable SC joint on the left. What management is indicated?",
+  "options": [
+   "Stat chest x-ray followed by a stat CT angiogram of the chest",
+   "Chest radiographs and, if normal, no further workup",
+   "Thoracotomy to evaluate pathology directly",
+   "Treating her pain, placing her in a sling, and referring her to outpatient orthopedic follow-up"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q004",
+  "number": 4,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Upper Extremity & Thoracic Outlet",
+  "stem": "A 25-year-old woman is admitted to the hospital for axillary and pectoral pain and weakness and muscle loss of the base of the thumb. An x-ray reveals the presence of a cervical rib. What is the most likely cause of these symptoms?",
+  "options": [
+   "Arterial thoracic outlet syndrome",
+   "Venous thoracic outlet syndrome",
+   "Rib tumor",
+   "Neurogenic thoracic outlet syndrome"
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q005",
+  "number": 5,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Benign Lung Disease & Infection",
+  "stem": "A 45-year-old man from Guatemala presents to the emergency department with a complaint of “coughing up blood.” A chest radiograph shows left upper lobe cavitary lesions with associated hilar lymphadenopathy. While reevaluating the patient, he suddenly starts coughing up large quantities of bright red blood. The patient was placed in the left lateral decubitus and Trendelenburg position but still has large amounts of hemoptysis. Oxygen saturation continues to drop, and the patient becomes lethargic. The decision is made to intubate the patient. The patient is intubated and currently hemodynamically stable. The pulmonologist is at the bedside, ready for bronchoscopy, with plans for a potential argon plasma coagulation. Hospital transport is also at the bedside, ready to take the patient for a CT scan. The surgical team is also on its way to evaluate the patient. Which of the following is the best plan of action?",
+  "options": [
+   "Wait for surgery to evaluate the patient for possible emergent lobectomy.",
+   "Take the patient to CT.",
+   "Perform fiberoptic bronchoscopy for diagnostic and therapeutic purposes.",
+   "Interventional radiology"
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q006",
+  "number": 6,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Thoracic Techniques & Postoperative Care",
+  "stem": "You are performing a left upper lobectomy. The lobe is retracted laterally and inferiorly and all of a sudden, dark blood fills the chest cavity. What structure has been injured?",
+  "options": [
+   "Apical posterior branch of the left pulmonary artery",
+   "The main pulmonary artery",
+   "A branch of the superior pulmonary vein",
+   "Parenchymal bleeding"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q007",
+  "number": 7,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Mediastinal Masses",
+  "stem": "Computed tomography results for a 40-year-old man with chest pain show a 6-cm anterior mediastinal mass with prominent calcification. Serum a-fetoprotein and B-human chorionic gonadotropin levels are within normal limits. He undergoes surgical excision, revealing a grossly chalky mass with sebum-like material, hair, and a tooth. He is diagnosed with mediastinal teratoma. Which of the following is the most appropriate postoperative management?",
+  "options": [
+   "Surveillance alone",
+   "Four cycles of adjuvant therapy with bleomycin, etoposide, and cisplatin",
+   "Radiation therapy alone",
+   "Three cycles of paclitaxel, ifosfamide, and cisplatin plus radiation therapy"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q008",
+  "number": 8,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Thoracic Trauma",
+  "stem": "A 36-year-old woman is brought by her friends to the emergency department after being stabbed in her left chest. The patient is placed on a cardiac monitor with the following vital signs: heart rate 112/min, blood pressure 101/65 mmHg, respiratory rate 22/min, and SpO₂ 91%. The patient becomes unresponsive as soon as intravenous access is obtained and then becomes pulseless. In no particular order, which of the following interventions is best suited for this patient?",
+  "options": [
+   "Focused Assessment with Sonography in Trauma, intubate, incision between 5th rib space starting from sternal border to posterior axillary line to the sternum",
+   "Intubate, central line, incision between 5th rib space starting from posterior axillary line to the sternum",
+   "Intubate, chest tube, incision between 5th rib space starting from sternal border to posterior axillary line",
+   "Intubate, chest tube, incision between 5th rib space starting from posterior axillary line to the sternum"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q009",
+  "number": 9,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Benign Lung Disease & Infection",
+  "stem": "A 55-year-old man who recently flew from India is brought to the emergency department for large-volume hemoptysis. The patient was first seen at the primary care clinic, complaining of fevers, chills, and profuse night sweats. The patient was tried on a course of inhaled tranexamic acid, which did not control the initial bleeding. Subsequently, the patient was intubated. A CT of the chest shows a left upper lobe cavitary lesion and a bronchial artery source of the bleeding. The patient has a blood pressure of 101/70 mm Hg, a heart rate of 98 beats/minute, an oxygen saturation of 100% SpO₂, and a respiratory rate of 15 breaths per minute on a ventilator. Which of the following is the best next step in management?",
+  "options": [
+   "Perform bronchoscopy and use cold saline lavage to control the source of bleeding and isolate the etiology of the hemoptysis.",
+   "Take the patient to the operating room for surgical lobectomy for bleeding control.",
+   "Replace the single-lumen endotracheal tube with a double-lumen endotracheal tube.",
+   "Perform bronchial artery embolization to stop bleeding."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q010",
+  "number": 10,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Pleural Effusion & Empyema",
+  "stem": "A 67-year-old man with a history of mesothelioma, small cell lung cancer, congestive heart failure, liver cirrhosis, diabetes mellitus, and 30-pack-year smoking presents with new-onset shortness of breath. The patient started having shortness of breath when climbing stairs “about a month ago,” but over the past two days, he has noticed it while sitting up or standing. The patient stopped smoking five years ago and stopped drinking alcohol 12 years ago. The patient denies fever, chills, nausea, recent illness, or sick contacts. His temperature is 37.2 °C (98.9 °F), pulse is 92 bpm, blood pressure is 158/96 mm Hg, and respiratory rate is 19 breaths per minute. The patient appears tired, and mucous membranes are dry. Ultrasound reveals pleural thickening and nodularity. Pleural fluid analysis reveals cloudy fluid with a protein level of 4.8 g/dL, fluid protein-to-serum protein ratio of 0.89, serum-fluid albumin gradient of 0.65 g/dL, fluid-to-serum LDH ratio of 0.7, and cholesterol of 88 mg/dL. Serum ACTH is markedly elevated. Which of the following is the most likely diagnosis?",
+  "options": [
+   "Transudate secondary to liver cirrhosis",
+   "Transudate secondary to congestive heart failure",
+   "Malignant effusion secondary to mesothelioma",
+   "Malignant effusion secondary to small cell lung cancer"
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q011",
+  "number": 11,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Mediastinal Masses",
+  "stem": "A 47-year-old previously healthy woman presents with a 3-month history of dry cough with breathlessness on exertion. Physical examination and blood tests are found to be normal. The standard chest radiograph shows a right paratracheal opacity. Chest computed tomography reveals a paratracheal cystic mass compressing the upper right lobe. A thoracoscopic excision of the cyst was achieved. Histologic examination of the surgical specimen reveals a pseudostratified ciliated epithelium of a respiratory type with focal Malpighian metaplasia lines the cyst. The cyst wall contains cartilage, smooth muscle, and glandular tissue. Which of the following is the most likely diagnosis based on these findings?",
+  "options": [
+   "Hydatid cyst",
+   "Bronchogenic cyst",
+   "Chronic healed abscess",
+   "Fibroma"
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q012",
+  "number": 12,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Pleural Effusion & Empyema",
+  "stem": "A 70-year-old man is being treated with ceftriaxone and azithromycin for left community-acquired pneumonia and left pleural effusion. He undergoes diagnostic thoracentesis under ultrasound guidance for the large free-flowing pleural effusion. The pleural fluid is turbid and thick, there is no frank pus, the pH is less than 7.2, and the glucose concentration is normal. Cultures are sent for sensitivity. What is the next step in treatment for this patient?",
+  "options": [
+   "Continue current antibiotic regimen until culture results are completed",
+   "Broaden the antibiotic coverage",
+   "Place a chest tube for continued drainage of the fluid",
+   "Perform a VATS for decortication of the lung and add metronidazole"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q013",
+  "number": 13,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Thoracic Trauma",
+  "stem": "A 39-year-old woman with obesity presents with feculent vomiting 10 days after accidental blunt trauma to her abdomen. Imaging shows a diaphragmatic hernia causing bowel strangulation. Which of the following is the strongest indication for using a thoracic rather than abdominal surgical approach to treat this patient?",
+  "options": [
+   "Obesity",
+   "Feculent vomiting",
+   "Bowel strangulation",
+   "Delayed presentation"
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q014",
+  "number": 14,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Pleural Effusion & Empyema",
+  "stem": "A 75-year-old man with stage IIIB adenocarcinoma of the lung is undergoing thoracentesis of a newly discovered large right pleural effusion for which he was admitted after presenting with increased dyspnea on exertion ongoing for four weeks. Pleural pressures are measured and demonstrate an initial pleural pressure of -10 cm H₂O; this further decreases to -40 cm H₂O after removing 500 mL of pleural fluid. A CT chest obtained after thoracentesis reveals the right lung has not re-expanded with thoracentesis and small hydropneumothorax. This is treated conservatively with supplemental oxygen, and the patient is discharged home. Cytology from pleural fluid returns, demonstrating adenocarcinoma. One week later, the patient returns to the emergency department with respiratory distress and is found to have reaccumulation of a large, right pleural effusion. Which of the following treatment options should the patient receive?",
+  "options": [
+   "Indwelling pleural catheter",
+   "Thoracoscopy and pleurodesis",
+   "Pleurodesis with bleomycin",
+   "Placement of a pleuro-peritoneal shunt"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q015",
+  "number": 15,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Chest Wall & Diaphragm",
+  "stem": "A 34-year-old man needs a sternal tap. The provider carefully sterilizes the area and inserts the needle into the upper part of the manubrium for bone marrow aspiration. The provider needs to be very careful during the procedure because the needle can pierce which of the following structures related to the upper part of the manubrium?",
+  "options": [
+   "Left brachiocephalic vein",
+   "Lungs",
+   "Right atrium",
+   "Right ventricle"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q016",
+  "number": 16,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "GERD & Hiatal Hernia",
+  "stem": "A 72-year-old male with past medical history of type III paraesophageal hernia presents to the emergency department complaining of sudden-onset, acute chest and epigastric abdominal pain. The pain is sharp in quality and radiates to the back. He has had episodes of severe retching but he has not passed any vomitus. He does not have prior cardiovascular medical history or risk factors. What has likely occurred and what is the next best step?",
+  "options": [
+   "He has developed a small bowel obstruction and requires a nasogastric tube placed for decompression",
+   "He has developed a gastric volvulus and requires immediate surgical evaluation",
+   "He has developed a gastric volvulus and requires urgent endoscopic decompression",
+   "He has developed a gastric volvulus and requires Trendelenburg position followed by colonoscopy"
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q017",
+  "number": 17,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Thoracic Trauma",
+  "stem": "A 17-year-old boy presents via EMS with a stab wound to the right chest. His vital signs are blood pressure 100/60 mm Hg, respiratory rate 22 breaths/min, heart rate 120 bpm, and oxygen saturation 94% on room air. The physical examination shows a wound at the eighth intercostal space in the midclavicular line. Auscultation reveals bilaterally equal air entry. Which of the following is the next best step in management?",
+  "options": [
+   "Resuscitate with intravenous fluids, oxygen, and abdominal computed tomography (CT) with IV contrast",
+   "Explore the stab wound in the emergency department",
+   "Diagnostic peritoneal lavage and delayed chest CT scan",
+   "Diagnostic laparoscopy"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q018",
+  "number": 18,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Thoracic Trauma",
+  "stem": "A 55-year-old man is brought to the emergency department (ED) by paramedics after sustaining a stab wound to the left lateral chest. He was initially found with pulses and signs of life, but both were lost 6 minutes prior to arrival at the ED. The patient was intubated en route, and cardiopulmonary resuscitation was initiated. His intubation tube is confirmed with high-resolution video laryngoscopy, and breath sounds are auscultated bilaterally but clearer on the right side. Which of the following best describes the most appropriate preparation for this patient to undergo resuscitative thoracotomy?",
+  "options": [
+   "The patient is supine with arms extended, the endotracheal tube is advanced farther, bilateral chest tubes are in place, and the incision is started on the left side of the sternum.",
+   "The patient is supine with arms unextended, the endotracheal tube is withdrawn slightly, bilateral chest tubes are in place, and the incision is started on the right side of the sternum.",
+   "The patient is supine with arms extended, the endotracheal tube is withdrawn slightly, bilateral chest tubes are in place, and the incision is started on the right side of the sternum.",
+   "The patient is supine with arms extended, the endotracheal tube is advanced further, a left chest tube is in place, and the incision is started on the left side of the sternum."
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q019",
+  "number": 19,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Pulmonary Physiology & Preoperative Evaluation",
+  "stem": "A 75-year-old man with a history of tobacco use disorder and chronic obstructive pulmonary disease is diagnosed with left-sided bronchogenic carcinoma. Pulmonary function tests reveal a very poor reserve with predicted postoperative FEV1 and DLCO of 20%. Subsequent cardiopulmonary exercise testing, including measuring maximal oxygen consumption (VO₂ max), is done to assess fitness for surgery. What is the VO₂ max cut-off value below which nonsurgical options should be pursued for this patient?",
+  "options": [
+   "30 mL/kg/min",
+   "25 mL/kg/min",
+   "20 mL/kg/min",
+   "15 mL/kg/min"
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q020",
+  "number": 20,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Chest Wall & Diaphragm",
+  "stem": "A 60-year-old man presented with worsening dyspnea since coronary artery bypass surgery three weeks ago. A history of present illness reveals significant worsening of his breathing on lying down flat, and he is sleeping in his recliner. He has been a smoker for 40 years but denies a history of lung problems. His pulmonary function tests showed reduced FEV1 (70%) and FVC (60%) with preserved FEV1%. Repeating the tests in the supine position, the FEV1 decreases to 60% predicted and FVC to 40%. Which of the following is the most likely cause of his symptoms?",
+  "options": [
+   "Post-coronary artery bypass grafting syndrome",
+   "Post-procedure pleural effusion",
+   "Post-procedure pneumonia",
+   "Diaphragmatic palsy"
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q021",
+  "number": 21,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Thoracic Trauma",
+  "stem": "A 17-year-old man presents to the emergency department after being involved in a motor vehicle collision. He complains of right-sided chest and shoulder pain and has difficulty moving his right upper extremity. Initial chest radiograph shows a right 3rd rib fracture. Computed tomography (CT) is performed and shows additional right 4th and 5th rib fractures and an associated 7 mm right pneumothorax. What is the best next management step?",
+  "options": [
+   "Emergent right thoracostomy tube placement in the emergency department",
+   "Nonoperative management with analgesics and outpatient follow-up",
+   "Nonoperative management with inpatient observation and serial chest radiographs",
+   "Needle decompression of the right hemithorax to evacuate the pneumothorax"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q022",
+  "number": 22,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Trachea & Airway",
+  "stem": "An 18-month-old boy is eating pecans, begins choking, and becomes cyanotic. The symptoms subsided in the emergency department. He appears comfortable, but his mother states he was “just not himself” since the choking episode. Physical examination demonstrates equal breath sounds without wheezing. A chest X-ray is normal. Which of the following is the next step in treatment?",
+  "options": [
+   "Repeat the chest radiograph in 12 hours.",
+   "Discharge the patient to home and tell the mother to return if his condition worsens.",
+   "Admit the patient for a rigid bronchoscopy performed with the patient under general anesthesia after an appropriate time has been allotted for ingesting nothing by mouth (NPO).",
+   "Admit the patient to the hospital for observation."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q023",
+  "number": 23,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Cardiopulmonary Bypass & Myocardial Protection",
+  "stem": "A 78-year-old woman with a medical history of coronary artery disease, hypertension, diabetes mellitus, gastroesophageal reflux disease (GERD), and chronic obstructive pulmonary disease (COPD) presents for coronary artery bypass grafting. The provider gives her an antidote for heparin given during the surgery. Which of the following medications that the patient has taken in the past would predispose her to potential adverse effects from this antidote?",
+  "options": [
+   "Hydralazine",
+   "Isophane insulin",
+   "Albuterol",
+   "Prednisone"
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q024",
+  "number": 24,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Pleural Effusion & Empyema",
+  "stem": "A 65-year-old man with a history of stage IIIb squamous cell cancer of the lung presents with increasing dyspnea on exertion and orthopnea ongoing for four weeks with gradual worsening. On presentation, his oxygen saturation is 90% on ambient air, and his respiratory rate is 30 breaths/minute. Labs are at baseline. A chest radiograph demonstrates a large pleural effusion with contralateral mediastinal shift. He undergoes large-volume thoracentesis of 3 liters with immediate relief of dyspnea. The following day, he developed respiratory distress with new hypoxia requiring supplemental oxygen. Which of the following is the most likely cause of the patient’s newly developed respiratory distress?",
+  "options": [
+   "Pneumothorax ex vacuo",
+   "Recurrent pleural effusion",
+   "Reexpansion pulmonary edema",
+   "Pulmonary embolism"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q025",
+  "number": 25,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "GERD & Hiatal Hernia",
+  "stem": "A 52-year-old man presents with 2 weeks of dysphagia, chest pain, and bloody stools for the last 24 hours. His history is significant for a Nissen fundoplication 6 months ago. He had a screening colonoscopy 3 weeks ago, which was completely normal. Which of the following diagnostic tests will identify his likely etiology?",
+  "options": [
+   "Colonoscopy",
+   "Ambulatory pH monitoring",
+   "Angiogram",
+   "Barium swallow"
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q026",
+  "number": 26,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Upper Extremity & Thoracic Outlet",
+  "stem": "A 17-year-old baseball player develops an acute onset of pain in his right arm after practice. On exam, he has significant swelling with distended neck veins. He has no previous medical problems. Which of the following is the most likely diagnosis?",
+  "options": [
+   "Paget-Schroetter syndrome (PSS)",
+   "Lymphedema",
+   "Secondary upper extremity deep venous thrombosis",
+   "Superior vena cava (SVC) syndrome"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q027",
+  "number": 27,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Pneumothorax",
+  "stem": "A 28-year-old man presents with a sudden onset of shortness of breath while walking. He is a heavy smoker. The chest radiograph reveals a 90% pneumothorax on the right side. The emergency room resident places a size 32F tube to evacuate the pneumothorax. An hour later the patient complains of severe shortness of breath and his oxygen saturation is 89% on room air. A portable chest radiograph reveals vascular congestion in the right lung. He was taken to the intensive care unit and placed on a ventilator because of severe respiratory distress. Which of the following is true about this condition?",
+  "options": [
+   "It only occurs in older people.",
+   "The incidence is very high.",
+   "It affects patients with extensive pneumothorax.",
+   "It occurs only with exudate but not transudate effusion evacuations."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q028",
+  "number": 28,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Perioperative Care & Complications",
+  "stem": "A 65-year-old man is undergoing 3-vessel coronary artery bypass grafting and aortic and mitral valve replacement. At the end of the procedure, during the closure of the sternotomy, the patient has diffuse bleeding from the sternum and skin incision. Multiple attempts to stop the bleeding using electrocautery and topical agents are unsuccessful. Thrombelastography demonstrates slightly increased reaction time (R), normal maximal amplitude (MA), and 70% lysis after 30 minutes (LY30). Which of the following is the most appropriate next step?",
+  "options": [
+   "Neutralize heparin with protamine sulfate",
+   "Administer tranexamic acid",
+   "Initiate massive blood transfusion protocol",
+   "Transfuse platelets and fresh frozen plasma"
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q029",
+  "number": 29,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Benign Lung Disease & Infection",
+  "stem": "A 49-year-old man with end-stage renal disease presents after 2 episodes of hemoptysis in the past 3 hours. His vital signs are significant for a blood pressure of 90/60 mm Hg and a heart rate of 110 bpm. Two years ago, he was diagnosed with a small-vessel necrotizing antineutrophil cytoplasmic antibody-associated vasculitis after a myeloperoxidase antineutrophil cytoplasmic antibody test is positive. His medications include azathioprine and a glucocorticoid. Lung biopsy will likely show which of the following?",
+  "options": [
+   "Granulomatous lesions involving upper and lower airways",
+   "Linear deposits of immune complexes on immunofluorescent microscopy",
+   "Pulmonary capillaritis",
+   "Wedge-shaped infarction of lung parenchyma"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q030",
+  "number": 30,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Benign Lung Disease & Infection",
+  "stem": "A 32-year-old woman presents with exertional dyspnea. Her medical history includes systemic sclerosis. Pulmonary examination reveals bilateral fine basal crackles. Pulmonary function tests show a restrictive pattern with reduced DLCO. A chest CT exhibits reticular markings and ground glass opacification, mainly in the lower zones, with no honeycombing changes. What is the diagnosis?",
+  "options": [
+   "Interstitial pneumonitis",
+   "Respiratory bronchiolitis associated interstitial lung disease",
+   "Acute interstitial pneumonia",
+   "Desquamative interstitial pneumonia"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q031",
+  "number": 31,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Chest Wall & Diaphragm",
+  "stem": "A 35-year-old man presents to the clinic for a lump below his left axilla. He first noticed it 2 months ago, but it has gradually been increasing in size. He has no known medical problems and takes no medications. He also denies smoking or using illicit substances. Physical examination reveals a firm growth barely palpable in the left midaxillary line. A CT of the chest reveals a 4 cm rounded growth in the chest wall muscles. Which of the following is the most appropriate next step in the treatment of this patient?",
+  "options": [
+   "Needle aspiration",
+   "Incisional biopsy",
+   "Excisional biopsy",
+   "Radiotherapy"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q032",
+  "number": 32,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Chest Wall & Diaphragm",
+  "stem": "A 65-year-old man presents for a follow-up visit. A history of present illness reveals that he underwent low-dose CT for lung cancer screening, and a left diaphragmatic palsy was identified. A review of systems is noncontributory. He walks on a treadmill for 20 min daily. His medical history includes coronary artery bypass graft surgery two years ago. What is the next step in management?",
+  "options": [
+   "Referral to thoracic surgery for repair of the left diaphragmatic palsy",
+   "Referral to an interventional radiologist for phrenic nerve pacing",
+   "Treatment with bilevel positive airway pressure for diaphragmatic palsy during sleep",
+   "Advise no treatment as he is not having symptoms right now"
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q033",
+  "number": 33,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Pleural Effusion & Empyema",
+  "stem": "A 17-year-old girl with a medical history of seasonal allergies presents to the emergency department with dyspnea, fever, chills, and a productive cough for the last 10 days. She reports taking over-the-counter cough medicine, but this did not help. Her vitals are heart rate 112 bpm, blood pressure 120/80 mm Hg, respiratory rate 26 breaths/min, and oral temperature 103.2 °F (39.5 °C). The patient has rigors throughout the exam. She has sinus tachycardia, tachypnea, diffuse rhonchi in bilateral lung fields, and decreased breath sounds at the left lung base. CT of the chest shows a loculated effusion concerning pneumonia in the left lower lobe. Diagnostic thoracocentesis is completed, and pleural fluid culture and sensitivity are pending, but pus was drained from the thoracic cavity. Given the likely diagnosis, what is the most appropriate antibiotic and drainage treatment?",
+  "options": [
+   "Vancomycin only with chest tube placement",
+   "Ceftriaxone and metronidazole with a plan for video-assisted thoracoscopic surgery (VATS) decortication",
+   "Gentamicin with a plan for VATS decortication",
+   "Amikacin and vancomycin with a plan for a VATS decortication"
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q034",
+  "number": 34,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Chest Wall & Diaphragm",
+  "stem": "A 65-year-old man presents with progressive weakness in his upper extremities over the last four weeks. He cannot lift his hand above the shoulder and cannot do any fine activities with his hands. He also reports progressive exertional breathlessness. He reports that when he lays down flat, he gets a choking sensation and has to get up from the bed. His medical history includes severe multilevel spondylosis. His MRI of the spine shows severe multilevel cervical cord compression. Chest radiograph shows elevated left diaphragm. Which of the following is the next best step in evaluation?",
+  "options": [
+   "MRI of the brain to look for intracranial pathology, as strokes are common in this patient population.",
+   "Echocardiogram because of orthopnea.",
+   "Polysomnography to rule out sleep apnea, as the patient reports symptoms at night.",
+   "Thorax ultrasound is used to look for diaphragmatic movements, and deep breathing is used to rule out diaphragmatic palsy."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q035",
+  "number": 35,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Pulmonary Physiology & Preoperative Evaluation",
+  "stem": "A 39-year-old woman was hospitalized with extensive third-degree burns to her lower limbs and abdomen. On the 4th hospital day, she developed acute kidney injury and worsening respiratory distress. Her respiratory rate is 28 breaths/min. A chest x-ray showed bilateral pulmonary infiltrates. She is placed on mechanical ventilation. The ventilator settings are respiratory rate 14 breaths/min, 70% FiO₂, positive end-expiratory pressure (PEEP) of 5 cm H₂O, and a tidal volume of 10 mL/kg of ideal body weight. Arterial blood gases showed pH 7.55, PaCO₂ 28, and PaO₂ 55. What is the next step in management?",
+  "options": [
+   "Decrease respiratory rate to 10 breaths/min and increase FiO₂ to 100%.",
+   "Start deep sedation and neuromuscular blockade, increase the PEEP to 10 cm H₂O, and set the tidal volume to 6 mL/kg.",
+   "Increase FiO₂ to 100% and repeat ABGs in an hour.",
+   "Sedate the patient deeply and reassess after 30 minutes."
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q036",
+  "number": 36,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Esophageal Perforation & Caustic Injury",
+  "stem": "A 65-year-old man undergoes an elective outpatient esophagogastroduodenoscopy for symptoms of gastroesophageal disease. In the post-anesthesia care unit, he develops chest pain, and subcutaneous cervical crepitus is identified on physical examination. What is the most common location of an esophageal injury?",
+  "options": [
+   "The cricopharyngeus at the upper esophageal sphincter",
+   "The mid-portion of the esophagus",
+   "The gastroesophageal junction",
+   "At the left distal, intrathoracic, posterolateral portion of the esophagus"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q037",
+  "number": 37,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Pleural Effusion & Empyema",
+  "stem": "A 26-year-old man presents with a 1-week history of cough and dyspnea. For the past 2 days, his cough has been productive, and he has had a high-grade fever and chills at night. His vitals are blood pressure 110/56 mm Hg, heart rate 130 bpm, and temperature 103.2 °F (39.6 °C). Chest radiograph shows left pleural effusion. A bedside ultrasound shows a left moderate pleural effusion with septations. He is given intravenous fluids and antibiotics for community-acquired pneumonia after drawing blood cultures. Diagnostic thoracentesis findings are pH 7.0, lactate 1149 mg/dL, and glucose 2 mg/dL. Which of the following is the best next step in management?",
+  "options": [
+   "Continue with intravenous antibiotics and repeat ultrasound in 48 hours",
+   "Place an indwelling intrapleural catheter.",
+   "Perform video-assisted thoracoscopic surgery.",
+   "Place a small-bore chest tube and administer intrapleural tPA and DNAase."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q038",
+  "number": 38,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Thoracic Techniques & Postoperative Care",
+  "stem": "A 36-year-old male medical device salesman complains of excessive sweating in his hands and armpits when he is anxious and meeting new people. It interferes significantly with his work because he hesitates to shake hands and becomes embarrassed during sales presentations by his perspiration-soaked shirt. Prescription-strength antiperspirants and anticholinergic medications have not alleviated his symptoms. After consultation with his physician, he decides to undergo surgical treatment. Thoracoscopic sympathectomy is planned to relieve the sympathetic overstimulation of the affected areas while remaining intact in the innervation of the head, neck, trunk, and lower extremities. At which intercostal spaces should the endoscopic surgeon divide the sympathetic chain?",
+  "options": [
+   "T1-T2",
+   "T3-T4",
+   "T5-9",
+   "T10-11"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q039",
+  "number": 39,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Thoracic Trauma",
+  "stem": "A 35-year-old man presents via EMS with injuries sustained from an explosion. A history of present illness reveals that he was standing about 50 feet away from the detonation of an improvised explosive device. He was wearing body armor and a helmet. His vital signs are blood pressure 89/55 mm Hg, heart rate 120 bpm, and respiratory rate 20 breaths/min. On physical examination, he demonstrates severe pain and respiratory distress. He has decreased breath sounds and hyper-resonance to percussion over the right lung. Left lung sounds are clear to auscultation. Jugular venous distension is present. No signs of penetrating injury or lacerations were identified during the examination. Which of the following changes is expected?",
+  "options": [
+   "Increased intrapleural pressure",
+   "Decreased intrapleural pressure",
+   "Increased lung compliance",
+   "Increased right lung volume"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q040",
+  "number": 40,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Chest Wall & Diaphragm",
+  "stem": "A 60-year-old woman is two days postoperative from an open repair of a pericardial cyst. A postoperative chest radiograph reveals an elevated right hemidiaphragm. The radiology interpretation is possible diaphragmatic paralysis. Which of the following modalities would confirm this diagnosis?",
+  "options": [
+   "CT scan",
+   "MRI",
+   "There is no definitive test",
+   "Ultrasound or fluoroscopy"
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q041",
+  "number": 41,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Trachea & Airway",
+  "stem": "A 17-year-old boy suffered a severe blunt laryngeal injury while snowmobiling 3 weeks ago, requiring emergent cricothyrotomy. This was formalized into a tracheostomy 1 day later. His other injuries included a radial and ulnar fracture, which required surgical reduction and fixation. He has remained mechanically ventilated since the tracheostomy. In the intensive care unit, the nurse reports suctioning 50 mL of frank blood from the tracheostomy tube for the second time today. His heart rate is 70 bpm, his oxygen saturation is 100% on 20% FiO2 and volume-controlled ventilation, and his blood pressure is 129/80 mm Hg. On examination, a #6 cuffed Shiley tracheostomy tube is in place with bloody gauze present around the tube but no active bleeding. Flexible tracheal suction via the tracheostomy does not yield any frank blood. What is the most appropriate next step to obtain a diagnosis?",
+  "options": [
+   "Perform flexible bronchoscopy via the tracheostomy.",
+   "Overinflate the tracheostomy tube cuff.",
+   "Replace the #6 tracheostomy tube with a #8 tube.",
+   "Obtain a CT angiogram."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q042",
+  "number": 42,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "GERD & Hiatal Hernia",
+  "stem": "A 43-year-old woman is post-laparoscopic Nissen fundoplication and is in the postoperative care unit (PACU). Her oxygen saturation is 89% on room air, and the anesthesiologist ordered a chest radiograph, which demonstrated a small to moderate-sized right-sided pneumothorax. Which of the following is the correct management of this complication?",
+  "options": [
+   "Insertion of a small-bore chest tube in the right pleural space",
+   "Return to OR and immediate closure of the diaphragm and pleural defect",
+   "Supplemental oxygen to keep oxygen saturation greater than 92%",
+   "Serial chest radiographs to monitor for resolution"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q043",
+  "number": 43,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Pleural Effusion & Empyema",
+  "stem": "A 54-year-old man came to the emergency room with a sudden onset of chest pain and trouble breathing. He has been a chronic smoker for the last 30 years, with a 30-pack per year history. The provider ordered a radiograph and diagnosed the patient with right-sided pleural effusion. He sent the patient for thoracentesis. The provider placed the needle in the midaxillary line between the 4th and 6th ribs. The needle may pierce which of the following of the organs?",
+  "options": [
+   "Heart",
+   "Liver",
+   "Lung",
+   "Spleen"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q044",
+  "number": 44,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Lung Cancer",
+  "stem": "A 70-year-old man undergoes surgical resection of a 4.3 cm spiculated mass in his left upper lung lobe. Histological examination demonstrates a poorly differentiated adenocarcinoma with negative margins. Hilar lymph nodes are positive, but mediastinal lymph nodes are negative. What is the most appropriate management?",
+  "options": [
+   "Palliative care",
+   "Adjuvant chemotherapy",
+   "Adjuvant chemoradiation",
+   "Adjuvant radiation"
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q045",
+  "number": 45,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Thoracic Trauma",
+  "stem": "A 22-year-old man presents to the trauma bay after being involved in an altercation where he sustained a gunshot wound to the right anterior chest within the cardiac box adjacent to the sternum. He is hemodynamically stable en route but, during the primary survey, becomes acutely hypotensive and loses vital signs. The patient undergoes resuscitative thoracotomy. Where should the incision be made?",
+  "options": [
+   "Right posterolateral thoracotomy in the 3rd intercostal space",
+   "Right anterolateral thoracotomy in the 5th intercostal space",
+   "Left posterolateral thoracotomy in the 4th intercostal space",
+   "Left anterolateral thoracotomy in the 5th intercostal space"
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q046",
+  "number": 46,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Lung Cancer",
+  "stem": "A 65-year-old man with a 40-pack-year cigarette smoking history reports quitting 5 years ago. Which of the following outcomes is associated with lung cancer screening using annual low-dose computed tomography?",
+  "options": [
+   "Reduction in lung cancer mortality by 5%",
+   "Reduction in lung cancer mortality by 10%",
+   "Reduction in lung cancer mortality by 20%",
+   "Reduction in both lung cancer mortality by 30%"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q047",
+  "number": 47,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Chest Wall & Diaphragm",
+  "stem": "A 49-year-old patient has presented with a swelling on the left lower anterior chest wall for the past 3 years. Initially, the swelling is small and has gradually progressed to the present size of around 6 cm x 8 cm. Computed tomography scan shows a well-defined lobulated round heterogeneous soft tissue density with hypodense areas. Necrosis and peripheral calcifications are noted in the anterior aspect of the eighth rib. The whole tumor is excised en masse, along with the seventh, eighth, and ninth ribs and a large portion of a diaphragm. Histological examination reveals irregularly shaped lobules of cartilage varying in size and shape. These lobules are separated by fibrous bands or permeate bony trabeculae. The chondrocytes are atypical, varying in size and shape, with enlarged hyperchromatic nuclei. Binucleation is seen. There were also some myxoid changes. What is the most likely diagnosis for this patient?",
+  "options": [
+   "Chondroblastoma",
+   "Enchondroma",
+   "Chondrosarcoma",
+   "Myxofibrosarcoma"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q048",
+  "number": 48,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Pediatric & Congenital Thoracic",
+  "stem": "A 17-year-old student presents for his routine wellness exam. He denies any current symptoms or complaints. His vitals include a temperature of 98.6 °F (37 °C), blood pressure of 110/80 mm Hg, heart rate of 97 bpm, respiratory rate of 15 bpm, and oxygen saturation of 97% on room air. Physical examination reveals normal bilateral breath sounds. His chest x-ray is normal except for the abnormal origin of the right bronchus high above the carina. What would be the next best step in management regarding this finding?",
+  "options": [
+   "Observation only",
+   "Medical treatment with bronchodilators and anticholinergics",
+   "CT of the chest",
+   "Flexible bronchoscopy"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q049",
+  "number": 49,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Aortic Valve Disease",
+  "stem": "While performing a problematic aortic valve replacement, the right coronary ostium has been perforated during suture placement along the annulus. The irregular longitudinal tear is about 7 mm away from the coronary ostia. Which of the following is the best treatment?",
+  "options": [
+   "Repair the ostial perforation with a 7-0 prolene suture",
+   "Perform a saphenous vein graft (SVG) bypass to the right coronary artery (RCA)",
+   "Stent the coronary ostia",
+   "Resect and reconstruct the right coronary ostia as a new buttonhole"
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q050",
+  "number": 50,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "GERD & Hiatal Hernia",
+  "stem": "A 46-year-old man presents with sudden-onset chest pain and diaphoresis. His electrocardiogram shows a normal sinus rhythm. Laboratory test results show normal cardiac enzymes. A chest x-ray demonstrates pneumomediastinum with a silhouette posterior to the cardiac structures. An emergency thoracotomy reveals a perforation in the body of the stomach with a large hiatal hernia involving sliding of the gastroesophageal (GE) junction into the thoracic cavity. What statement is relevant to his underlying condition?",
+  "options": [
+   "Diagnosis is based on 24-hour pH measurement.",
+   "Most patients with this type of hernia have specific thoracodorsal pain at T7 to T10 levels.",
+   "Most patients with this type of sliding hernia are symptomatic.",
+   "Esophageal mucosal ulcerations and Cameron ulcers are most commonly seen in this type of hernia."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q051",
+  "number": 51,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Thoracic Trauma",
+  "stem": "A 49-year-old man presents to the emergency department after being struck by a sedan while using a crosswalk. He is awake and alert on arrival with a Glasgow Coma Scale (GCS) of 14. His vital signs include a heart rate of 110 bpm and blood pressure of 150/90 mm Hg. He is speaking clearly but is slightly confused. Breath sounds are auscultated bilaterally, and oxygen saturation is 97%. There are no signs of external hemorrhage. Upon exposing the patient, he has mild ecchymosis over his left ribs and abdomen. During the secondary exam, he is noted to have minimal tenderness over his entire abdomen and tenderness to his left chest wall. CT imaging of the head, neck, chest, abdomen, and pelvis reveals a fracture of the ninth anterolateral rib. There are no other abnormalities on CT. The patient is up and walking around now and is asking when he can go home. What is the next best step in the treatment of this patient?",
+  "options": [
+   "Discharge the patient home",
+   "Observe the patient in the emergency department for 6 hours, then discharge home",
+   "Admit the patient for 24 hours with serial abdominal and neurological exams",
+   "Admit the patient to the ICU for his rib fracture"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q052",
+  "number": 52,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Pleural Effusion & Empyema",
+  "stem": "A 7-year-old boy who has a history of asthma arrived at the emergency department with a three-day history of fever, cough, and shortness of breath. He also reported mild, right-sided chest pain that worsened with inspiration. His parents mentioned he had been losing weight and appeared lethargic over the past two weeks. Upon examination, the boy appeared unwell, moderately dehydrated, and was experiencing respiratory distress. His vital signs were as follows: a temperature of 38.6 °C (101.5 °F), an HR of 159 BPM, BP of 109/60 mm Hg, a RR of 38 breaths/min, and an oxygen saturation of 90% on room air, which improved to 96% with a nasal cannula at 1 l/min. Chest examination revealed asymmetrical chest expansion, significantly reduced breath sounds on the right side, scattered crackles, and dullness of percussion on the same side. No bronchial breathing was detected. Other systemic examinations were unremarkable. Initial laboratory tests showed a normal complete blood count (CBC) but an elevated erythrocyte sedimentation rate (ESR) of 70 mm/h. A chest radiograph indicated a diffuse opacity covering most of the right chest, obscuring the costophrenic and cardiophrenic angles, and a tracheal deviation to the left, suggesting a large right-sided pleural effusion. The pleural fluid was found to be hemorrhagic. Laboratory analysis showed a white blood cell count of 1,318/ml, with 91% lymphocytes predominating and an LDH level of 1,219 units/l. The gram stain was negative. Which of the following is the most common cause of this pleural effusion?",
+  "options": [
+   "Neuroblastoma",
+   "Non-Hodgkin lymphoma",
+   "Seminoma",
+   "Ewing sarcoma"
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q053",
+  "number": 53,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Chest Wall & Diaphragm",
+  "stem": "A 16-year-old boy presents for a follow-up visit. A review of systems is positive for social anxiety related to a complex, asymmetric depression in his sternum that has been present since childhood. The findings of his heart and lung examinations are unremarkable, and the Haller index is 3.75. What is the most appropriate treatment?",
+  "options": [
+   "Sternal suction device",
+   "Mini-invasive repair of pectus excavatum",
+   "Modified Ravitch repair",
+   "Staged correction with Nuss procedure followed by Ravitch repair"
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q054",
+  "number": 54,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Benign Lung Disease & Infection",
+  "stem": "A 37-year-old man presents with fevers and general malaise. His medical history is significant for alcohol use disorder. A 2-view chest radiograph shows a mass in the periphery of the right lung with an air-fluid level. The patient is started on intravenous antibiotics. Over the next 2 days, the patient looks more toxic and shows signs of sepsis with fever, tachycardia, and hypotension. The lung mass appears to have increased and the patient is not improving. Which of the following is the most appropriate next step in management?",
+  "options": [
+   "Thoracotomy",
+   "Video-assisted thoracoscopic surgery",
+   "Percutaneous decompression",
+   "Infiltration of the mass with antibiotics"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q055",
+  "number": 55,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Benign Lung Disease & Infection",
+  "stem": "A 40-year-old woman with no significant past medical history presents with nonspecific respiratory symptoms. A chest radiograph shows a proximal mass. A computed tomography (CT) scan shows a polypoid endobronchial lesion measuring 2 cm in diameter. Endoscopic resection of the lesion is performed. The microscopic examination reveals a polypoid lesion covered by squamous epithelium without atypical cells or invasion. Which of the following is the most likely diagnosis?",
+  "options": [
+   "Squamous cell carcinoma",
+   "Squamous cell papilloma",
+   "Glandular papilloma",
+   "Mixed papilloma"
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q056",
+  "number": 56,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Pulmonary Physiology & Preoperative Evaluation",
+  "stem": "A 70-year-old woman with chronic obstructive pulmonary disease presents with a 3-day history of rapidly worsening dyspnea. She is intubated and placed on mechanical ventilation for respiratory failure. The ventilator is placed on assist-control (AC) mode with a rate of 12 breaths/min, a FIO₂ of 1.0, a tidal volume of 500 mL, and positive end-expiratory pressure (PEEP) of 0 cm H₂O. Arterial blood gas after intubation demonstrates pH 7.23, PaCO₂ 75 mm Hg, and PO₂ 350 mm Hg, so FIO₂ is decreased to 0.7. Thirty minutes later, the patient’s blood pressure is 75/40 mm Hg, heart rate is 135 bpm, and respiratory rate is 26 breaths/min. Her trachea is midline, there are breath sounds in both lung fields, and bilateral wheezing persists until the next inspiration. The high-pressure alarm is triggered. Which of the following is the most appropriate next step in treatment?",
+  "options": [
+   "Increase the inspiratory flow rate.",
+   "Decrease the inspiratory rate.",
+   "Decrease the FiO₂.",
+   "Increase the PEEP to 5 cm H₂O."
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q057",
+  "number": 57,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Pleural Effusion & Empyema",
+  "stem": "A 17-year-old boy who lives in a homeless shelter is brought to the emergency department by emergency medical services for significant respiratory distress. He has a history of alcohol use disorder and intravenous drug use. He has had hemoptysis for several weeks. He is admitted to the intensive care unit and intubated for respiratory failure. A chest radiograph shows a left-sided, moderate-sized pleural effusion with mediastinal shift and perihilar lymphadenopathy. Which of the following organisms is the most probable cause of his pleural effusion?",
+  "options": [
+   "Haemophilus influenzae",
+   "Staphylococcus aureus",
+   "Mycobacterium tuberculosis",
+   "Klebsiella pneumoniae"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q058",
+  "number": 58,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Pediatric & Congenital Thoracic",
+  "stem": "A 4-month-old boy is brought to the clinic by his parents due to tachypnea, irritability, and poor feeding. The patient has been seen previously due to failure to thrive. He is hospitalized for further monitoring and management. Chest radiography shows dextraposition of the heart and a hypoplastic right lung. Which of the following best describes the surgical indication for treating an asymptomatic patient with the childhood/adult variant of this syndrome?",
+  "options": [
+   "The pulmonary-to-systemic flow ratio is greater than 1.",
+   "The pulmonary-to-systemic flow ratio is greater than 1.5.",
+   "The patient is always treated regardless of the pulmonary-to-systemic flow ratio.",
+   "No intervention is needed if the patient is asymptomatic, even with a high pulmonary-to-systemic flow ratio."
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q059",
+  "number": 59,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Benign Lung Disease & Infection",
+  "stem": "A 65-year-old man presents in the emergency department with fever, productive cough, hemoptysis, and shortness of breath for the past week. There is no history of night sweats or weight loss. The chest radiograph shows a coin-shaped lesion with popcorn-like calcifications in the right midzone. Chest computed tomography shows a 4-cm fat-containing nodular structure occluding the left mainstem bronchus. Sputum is negative for atypical cells, acid-fast bacilli, and bacteria. Computed tomography-guided percutaneous fine-needle aspiration confirms that it is a benign lesion. Which of the following components most likely constitute the cellular makeup of this lesion?",
+  "options": [
+   "Capillary endothelium interspersed with stromal cells",
+   "Mature mesenchymal tissue and fibromyxoid tissue",
+   "Fibrous and myxoid areas, presence of pseudolipoblasts",
+   "Arborizing fibrovascular branches, lined by nonkeratinizing squamous epithelium"
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q060",
+  "number": 60,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Upper Extremity & Thoracic Outlet",
+  "stem": "A 28-year-old man presents with weakness in his right arm. A history of present illness reveals that he cannot throw a baseball anymore. His physical examination reveals marked atrophy of the hypothenar, interossei muscles, and abductor pollicis brevis. There is diminished sensation along the ulnar aspect of the forearm. His thenar eminence has normal sensation. The medial antebrachial cutaneous (MABC) sensory nerve action potential amplitude was decreased on the nerve conduction studies. Which of the following statements is correct?",
+  "options": [
+   "Bilateral internal jugular veins comparative Doppler sonography is necessary for decision-making.",
+   "Scalene muscle sonographic evaluation, along with the chest computed tomography angiogram (CTA) is a mandatory primary step in the evaluation.",
+   "Chest and cervical x-rays are mandatory in the primary evaluation steps.",
+   "A positive result in electrodiagnostic studies is considered a reduction of >95 m/s, and an overall velocity of <60 m/s is regarded as an indication for surgery."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q061",
+  "number": 61,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Benign Lung Disease & Infection",
+  "stem": "A 45-year-old man presents with 1 day of chills, fevers, and malaise. His history is significant for diabetes mellitus requiring insulin. His current blood glucose is 278 mg/dL. A chest radiograph reveals a right-sided consolidation. Chest CT shows pleural effusion, consolidation, a nodule, and ground-glass opacities. Biopsy shows a dimorphic fungal organism adjacent to thrombosed vessels. Which of the following is the treatment of choice?",
+  "options": [
+   "Posaconazole and emergent lobectomy",
+   "Posaconazole and emergent wedge resection",
+   "Amphotericin B and wedge excision",
+   "Amphotericin B and radical debridement right lung"
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q062",
+  "number": 62,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Thoracic Trauma",
+  "stem": "A 17-year-old boy is brought to the emergency department via ambulance with multiple gunshot wounds to his chest. The patient is tachycardic, hypotensive, and saturating 92% on room air. The patient is in moderate respiratory distress with a Glasgow Coma Scale score of 14. Chest radiography reveals complete opacification of the right hemithorax. A chest tube is placed and immediately drains 1,500 ml of blood. What is the next best step in management?",
+  "options": [
+   "Close observation",
+   "Thoracotomy",
+   "Pigtail catheter placement",
+   "Endotracheal intubation"
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q063",
+  "number": 63,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Chest Wall & Diaphragm",
+  "stem": "A 17-year-old woman presents with concerns about her body appearance. A history of present illness reveals that ever since she was a child, her right upper arm and breast were not as well-developed compared to the left side. She denies any major functional ability but feels very conscious of the fact that her right breast is much smaller than the left breast. The physical examination reveals marked hypoplasia of the right upper chest and breast and upper limb abnormalities. The chest radiograph reveals an ipsilateral hyperlucent hemithorax. Which of the following blood vessel alterations is the cause of this syndrome?",
+  "options": [
+   "Aortic arch",
+   "Subclavian artery",
+   "Internal thoracic artery",
+   "Intercostal artery"
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q064",
+  "number": 64,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Thoracic Techniques & Postoperative Care",
+  "stem": "A dark mass is aspirated during a mediastinoscopy, but no blood returns. A biopsy is taken, and 5 seconds later, a gush of dark blood fills the mediastinoscope. The bleeding worsens despite wound packing. Which of the following is the best next step in management?",
+  "options": [
+   "Additional wound packing and closure",
+   "Right anterior thoracotomy",
+   "Median sternotomy",
+   "Subxiphoid pericardial window"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q065",
+  "number": 65,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Lung Cancer",
+  "stem": "A 68-year-old man presents with impaired vision that improves with the chin-up position. A review of systems is positive for occasional left shoulder pain, which he attributes to lifting heavy objects at work. He has a 30-pack-year smoking history. The physical examination reveals a drooping left eyelid, a warm and dry left side of the face, and mild weakness of his left-hand grip. What is the initial step in diagnosis?",
+  "options": [
+   "Chest x-ray",
+   "Chest CT with contrast",
+   "Chest MRI",
+   "High-resolution chest CT"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q066",
+  "number": 66,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Chest Wall & Diaphragm",
+  "stem": "A 14-year-old woman who has always been shy about participating in sports because of her body appearance presents to the plastic surgeon. She states that her right upper arm and breast were not well developed since she was a child compared to the left side. She denies any major functional disability but feels uncomfortable that her right breast is much smaller than her left breast. Examination reveals that she has marked hypoplasia of the right upper chest and breast and has upper limb abnormalities. The chest radiograph reveals ipsilateral hyperlucent hemithorax. Which of the following muscles is rarely affected?",
+  "options": [
+   "Latissimus dorsi",
+   "Serratus anterior",
+   "Pectoralis minor",
+   "Innermost intercostal"
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q067",
+  "number": 67,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Thoracic Techniques & Postoperative Care",
+  "stem": "A patient undergoes a right pneumonectomy. Four days postoperatively, he is afebrile, hemodynamically stable, and has a normal white blood cell count. A chest radiograph reveals a newly formed air-fluid level. Which of the following is the appropriate management at this time?",
+  "options": [
+   "Medical management with intravenous antibiotics",
+   "Revision of his stump via a median sternotomy",
+   "Revision and reinforcement of his stump via the original thoracotomy",
+   "Perform bronchoscopy"
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q068",
+  "number": 68,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Pulmonary Embolism & Pulmonary Hypertension",
+  "stem": "A 37-year-old woman with chronic progressive dyspnea undergoes right heart catheterization for evaluation of her symptoms. Her mean pulmonary artery pressure is 35 mm Hg, pulmonary vascular resistance is 5 Wood units, pulmonary artery wedge pressure is 12 mm Hg, and cardiac output is 4.5 L/min. She was administered inhaled nitric oxide, after which her mean pulmonary artery pressure decreased to 22 mm Hg while her cardiac output was unchanged. Which of the following is the most appropriate initial treatment for this patient?",
+  "options": [
+   "Phosphodiesterase 5 inhibitor",
+   "Endothelin receptor antagonist",
+   "Calcium channel blockers",
+   "Oxygen treatment"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q069",
+  "number": 69,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Thoracic Trauma",
+  "stem": "A 63-year-old woman is brought into the emergency department after a motor vehicle accident where the patient’s car overturned. Examination shows diffuse ecchymosis in the patient’s chest. The patient’s systolic blood pressure drops from 83 to 55 mm Hg, and she becomes unresponsive. A resuscitative thoracotomy is initiated. Once the thoracic cavity is opened, the resident observes that the pericardium is filled with blood, and hemorrhage is noted from the pulmonary artery and the descending aorta just superior to the diaphragm. Which of the following steps are most strongly indicated and should be ordered appropriately?",
+  "options": [
+   "Clamp the pulmonary artery, cut the pericardium anterior to the phrenic nerve, and perform aortic cross-clamping inferior to the left pulmonary artery.",
+   "Cut the pericardium anterior to the phrenic nerve, clamp the pulmonary artery, and perform aortic cross-clamping inferior to the left pulmonary artery.",
+   "Cut the pericardium posterior to the phrenic nerve, clamp the pulmonary artery, and perform aortic cross-clamping inferior to the left pulmonary artery.",
+   "Cut the pericardium anterior to the phrenic nerve, clamp the pulmonary artery, and perform aortic cross-clamping inferior to the left pulmonary artery."
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q070",
+  "number": 70,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Pleural Effusion & Empyema",
+  "stem": "A 5-year-old girl has a 3-day history of fever and cough. Her temperature is 102.6 °F (39.2 °C), and her respiratory rate is 42 breaths/min. There are decreased breath sounds and dullness to percussion on the right. The chest radiograph shows a meniscus opacity on the right side. Oxygen saturation is 92% on a venturi mask at a FiO₂ of 28%. What is the appropriate initial treatment?",
+  "options": [
+   "Triple antibiotics, including vancomycin",
+   "Tube thoracostomy",
+   "Bronchoscopy",
+   "Nebulized N-acetylcysteine"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q071",
+  "number": 71,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Benign Lung Disease & Infection",
+  "stem": "A 65-year-old man presents to the emergency department after 2 episodes of coughing up bright red blood over the past 24 hours. He denies a preceding fever, prolonged cough, chest pain, or dyspnea. He had a similar episode 1 month ago, which resolved spontaneously. His past medical history is significant for completing 1 year of pulmonary tuberculosis treatment at age 7. Computed chest tomography shows a 4.1 cm x 3.8 cm cavitary lesion in the left upper lobe with a space-occupying lesion. He is admitted to an isolation room to rule out tuberculosis. Three sputum samples are collected to rule out tuberculosis. Bronchoscopy with bronchoalveolar lavage and biopsies provide no specific findings, serologic testing for human immunodeficiency virus is negative, and pulmonary function test results are unremarkable. What is the most appropriate treatment for this patient?",
+  "options": [
+   "Continued surveillance",
+   "Surgical resection of the cavitary lesion",
+   "Systemic voriconazole",
+   "Transcatheter instillation of voriconazole"
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q072",
+  "number": 72,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Thoracic Trauma",
+  "stem": "A 28-year-old is thrown off his motorcycle, and his neck hits a light pole. He immediately becomes dyspneic and is rushed to the emergency department by emergency medical services. The patient presents to the trauma bay with a Glasgow Coma Scale score of 10, and he is in severe respiratory distress with obvious signs of struggle. Initial vital signs are blood pressure 140/68 mmHg, heart rate 110 bpm, respiratory rate 27 breaths/min, oxygen saturation 89% on room air, and temperature 98.6 F (37 C). He is immediately intubated. CT chest, abdomen, and pelvis findings show pneumomediastinum. There is a high concern for an upper airway injury. He undergoes a bronchoscopy and is found to have an injury 1 cm proximal to the left main bronchus. What is the best way to access this injury in the operating room?",
+  "options": [
+   "Left anterolateral thoracotomy",
+   "Median sternotomy",
+   "Right anterolateral thoracotomy",
+   "Right posterolateral thoracotomy"
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q073",
+  "number": 73,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Pleural Effusion & Empyema",
+  "stem": "A 45-year-old woman with a history of non-Hodgkin lymphoma is evaluated in the clinic for a follow-up of left pleural effusion. She initially presented 12 weeks ago with increasing dyspnea on exertion and was found to have a left-sided pleural effusion occupying more than half of the hemithorax on chest radiography. Thoracentesis cell differential showed 65% lymphocytes and was exudative by Light criteria. Cytology results were negative. She had a repeat thoracentesis performed three weeks later with negative culture and cytology results. A repeat chest radiograph shows reaccumulation of the left pleural effusion. Which of the following is the next best step in patient care?",
+  "options": [
+   "Thoracoscopy",
+   "Positron-emission tomography/computed tomography",
+   "Repeat thoracentesis",
+   "No further testing"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q074",
+  "number": 74,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Thoracic Trauma",
+  "stem": "A 17-year-old boy has a stab wound medial to and at the level of the nipple. A left chest tube is placed in the emergency department and drains 400 mL of blood. A chest x-ray confirms that the chest tube is in a good position and shows depression of the left main bronchus and loss of the aortopulmonary window. The patient continues to be tachycardic and hypotensive. What is the most appropriate next step?",
+  "options": [
+   "Resuscitative endovascular balloon occlusion of the aorta",
+   "Emergency department thoracotomy",
+   "Emergent pericardiocentesis",
+   "Second left-sided chest tube"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q075",
+  "number": 75,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Esophageal Motility Disorders & Diverticula",
+  "stem": "A 76-year-old woman presents with regurgitation of recognizable foodstuff and a 17 kg (37 lb) weight loss over the past year. She has diabetes mellitus treated with metformin and insulin and chronic lymphocytic leukemia, which has been stable for several years. On exam, there are no obvious findings besides halitosis. A barium swallow study shows a posterior outpouching of the inferior pharynx at the cricoid level. Given the likely diagnosis, which of the following treatments presents the lowest risk of iatrogenic mediastinitis for this patient’s condition?",
+  "options": [
+   "Transcervical approach with myotomy and stapler diverticulectomy",
+   "Transcervical approach with myotomy and diverticulopexy",
+   "Endoscopic approach with laser marsupialization",
+   "Endoscopic approach with stapler marsupialization"
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q076",
+  "number": 76,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Lung Cancer",
+  "stem": "A 65-year-old woman with a 40-pack-year smoking history and no significant past medical or surgical history presents with a 6-month history of dry cough and weight loss of more than 20 lb in the same interval. She denies any other symptoms. Her vital signs, physical examination findings, and lab results are unremarkable. Computed tomography of the chest shows diffuse mediastinal lymphadenopathy bilaterally. What is the most appropriate next step in evaluation?",
+  "options": [
+   "Perform an excisional biopsy.",
+   "Perform a percutaneous fine-needle aspiration biopsy.",
+   "Perform an endobronchial ultrasound-guided fine-needle aspiration biopsy.",
+   "Perform a fine-needle aspiration biopsy during video-assisted thoracic surgery."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q077",
+  "number": 77,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Pericardial Disease",
+  "stem": "A 38-year-old man with a history of acute pericarditis treated with ibuprofen and colchicine six months ago presents with chest pain that began 48 hours ago. His symptoms had entirely resolved within three weeks of therapy but recurred after ibuprofen was tapered over four weeks with the continuation of colchicine. Ibuprofen was re-initiated at a high dose with a resolution of symptoms and tapered over eight weeks. Currently, his only medication is colchicine. His temperature is 100.4 °F (38.0 °C), pulsus paradoxus of 12 mmHg is noted, and a friction rub is heard at the left sternal border and apex. There is no jugular venous distention, and the lungs are clear to auscultation. ECG findings show widespread ST-segment elevation of 0.5 to 1.0 mm. Echocardiography is notable for a small pericardial effusion with no evidence of tamponade. Given the likely diagnosis, which is the most appropriate treatment for this patient?",
+  "options": [
+   "Anakinra monotherapy",
+   "Colchicine and intravenous immune globulin",
+   "Colchicine, ibuprofen, and prednisone",
+   "Colchicine, ibuprofen, and intravenous immune globulin"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q078",
+  "number": 78,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Thoracic Trauma",
+  "stem": "A 78-year-old man with a past medical history of hypertension and tobacco use disorder presents to the hospital after a motor vehicle collision with an acute onset of chest pain that radiated to his back. Chest radiograph shows that he has a widened mediastinum. Which of the following correctly describes the most likely pathology present?",
+  "options": [
+   "There is a lack of the normal layers of the vessel wall at the site of injury.",
+   "The site of injury is usually proximal to the aortic isthmus.",
+   "The site of the injury is usually the pulmonary artery.",
+   "It will heal with adequate monitoring and blood pressure control."
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q079",
+  "number": 79,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Benign Lung Disease & Infection",
+  "stem": "A 49-year-old man presents to the clinic complaining of productive cough, fatigue, and oral ulcers. He is a sex worker and uses condoms inconsistently. Vital signs reveal a temperature of 39 °C (102.2 °F), blood pressure of 110/80 mm Hg, pulse of 112 beats per minute, respiratory rate of 20 per minute, and oxygen saturation of 84%. He has bilateral upper lobe crackles. Chest radiograph shows bilateral interstitial infiltrate in the upper and middle lobes and air-filled cystic cavities. The 4th generation HIV antibody panel is positive. CD4 count is 160 per cubic milliliter. Viral RNA levels are pending. Which of the following is the most likely organism responsible for cavity formation in the patient’s lungs?",
+  "options": [
+   "Pneumocystis carinii",
+   "Staphylococcus aureus",
+   "Proteus mirabilis",
+   "Escherichia coli"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q080",
+  "number": 80,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Mediastinal Masses",
+  "stem": "An otherwise healthy 62-year-old woman with a body mass index of 25.3 kg/m² presents with a dry cough and dyspnea. The cardiac, abdominal, and neurologic examination findings are unremarkable, but the thyroid gland is bilaterally enlarged, and she demonstrates inspiratory stridor. Thyroid function test results are as follows: free T₄ 1.3 ng/dL (reference 0.8-1.8 ng/dL), free T₃ 3.2 pg/dL (reference 2.8-4.4 pg/dL), and thyroid-stimulating hormone 0.52 IU/L (reference 0.27-4.20 IU/L). Chest computed tomography shows the left thyroid extends 2.4 cm below the thoracic inlet, and the right thyroid extends 5.7 cm below the thoracic inlet, reaching the mid-level of the aortic arch. Additionally, the intrathoracic portion of the right thyroid tissue contains a 2.3 cm round, isodense thyroid nodule. Pulmonary function testing is consistent with impaired inspiratory function. What is the best next step in management?",
+  "options": [
+   "Thyroid uptake scan",
+   "Fine-needle aspiration",
+   "Right thyroid lobectomy",
+   "Extracervical thyroidectomy"
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q081",
+  "number": 81,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Pulmonary Physiology & Preoperative Evaluation",
+  "stem": "Which respiratory parameter predicts successful weaning?",
+  "options": [
+   "Inspiratory pressure of -22 cm H₂O",
+   "PCO₂ of 55 mm Hg",
+   "PEEP of 15 cm H₂O",
+   "PO₂ of 60 mm Hg on FiO₂ 60%"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q082",
+  "number": 82,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Pediatric & Congenital Thoracic",
+  "stem": "A 22-year-old woman presents to the emergency department for chest pain after a motor vehicle collision. She reports a speed of approximately 25 MPH when she rear-ended a stationary vehicle. She was a restrained driver. She denies loss of consciousness or head trauma. She has no significant past medical history. Physical examination demonstrates a small bruise across the anterior chest wall. A mobile chest radiograph is ordered and reveals a right hilar opacity. A subsequent computed tomography of the chest demonstrates a “finger-in-glove” appearance projecting from the hilum with surrounding hyperlucent lung parenchyma. Which of the following is the next best step in the care of this patient?",
+  "options": [
+   "Ibuprofen",
+   "Oral antibiotics",
+   "Video-assisted thoracotomy",
+   "Magnetic resonance imaging"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q083",
+  "number": 83,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Trachea & Airway",
+  "stem": "A 54-year-old man presents with a 10-month history of dyspnea and wheezing that has gradually worsened. Bronchodilators have been an ineffective treatment. He has no significant past medical history. He has never smoked tobacco, and he has no significant family history. A chest CT shows focal circumferential wall thickening of the trachea above the carina. The clinician suspects a primary malignant carcinoma. What is the most common morphologic variant of the cancer in this man who has never smoked?",
+  "options": [
+   "Adenoid cystic carcinoma",
+   "Giant cell carcinoma",
+   "Squamous cell carcinoma",
+   "Adenocarcinoma"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "statpearls-thoracic-2025-q084",
+  "number": 84,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Pneumothorax",
+  "stem": "A 65-year-old man is admitted for acute respiratory failure and intubated. He has a history of congestive heart failure, hypertension, and diabetes mellitus. The hospital course is complicated when a subclavian venous catheter is placed, and the lung collapses. However, appropriate management is done, and the patient has a chest tube placed. The lung has fully expanded, and the positive pressure ventilation has been stopped. When should the chest tube be removed?",
+  "options": [
+   "When the drain output is less than 500 ml in 48 hours, and air bubbling in the chest tube stops",
+   "When the drain output is less than 100 ml in 24 hours, and air bubbling in the chest tube stops",
+   "When the drain output and air bubbling completely stop",
+   "When the air bubbling slows down, and drain output completely stops"
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ }
+]
