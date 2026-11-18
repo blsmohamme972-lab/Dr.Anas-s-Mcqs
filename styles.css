@@ -2848,3 +2848,12 @@ main {
 .exam-timer svg { width: 20px; height: 20px; flex: none; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
 .exam-timer #exam-timer-label { font-family: inherit; font-size: 18px; font-weight: 700; color: inherit; }
 .timer-custom span { text-transform: none; letter-spacing: 0; font-weight: 500; }
+
+.review-list { display: grid; gap: 14px; margin-top: 14px; }
+.review-card { padding: 20px 22px; }
+.review-card h3 { margin: 14px 0; font-size: 18px; line-height: 1.4; }
+.review-card .option-button { cursor: default; }
+.review-card .answer-panel { margin-top: 14px; }
+.review-status { padding: 4px 10px; border-radius: 999px; font-size: 12px; font-weight: 700; }
+.review-status--ok { background: var(--mint-soft); color: var(--mint); }
+.review-status--bad { background: var(--coral-soft); color: var(--coral); }
