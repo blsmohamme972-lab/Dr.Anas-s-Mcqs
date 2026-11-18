@@ -301,7 +301,7 @@
     var revealed = state.quickReview.revealed;
     var saved = state.savedQuestionIds.indexOf(item.id) !== -1;
     var shortExplanation = item.pearl || item.explanation;
-    return '<section aria-labelledby="quick-review-heading"><div class="page-heading"><div><h2 id="quick-review-heading">Quick review</h2><p>Tap the card to reveal the answer, then swipe left or right for the next question.</p></div><div class="page-heading-actions"><button class="button button-secondary" data-action="exit-quick-review" type="button">' + icon("undo") + ' Back to study</button></div></div><div class="quick-review-layout"><article class="card quick-review-card" data-quick-review-card tabindex="0"><div class="quick-review-top"><span class="question-counter">QUESTION ' + (state.quickReview.index % queue.length + 1) + ' / ' + queue.length + '</span><button class="bookmark-button ' + (saved ? "is-saved" : "") + '" data-quick-favorite type="button" aria-label="' + (saved ? "Remove from favorites" : "Add question to Favorites") + '">' + icon("bookmark") + '</button></div><div class="quick-review-tag">' + tag(item.specialty) + '<span>' + esc(item.topic) + '</span></div><h3>' + esc(item.stem) + '</h3>' + (revealed ? '<div class="quick-review-answer"><span class="answer-panel-icon">' + icon("check") + '</span><div><strong>Correct answer · ' + letter(item.answer) + '</strong><p>' + esc(item.options[item.answer]) + '</p><p class="answer-panel-note">' + esc(shortExplanation) + '</p></div></div>' : '<button class="quick-review-reveal" data-quick-reveal type="button">' + icon("spark") + '<strong>Show answer</strong><span>Tap or press Enter</span></button>') + '</article><div class="quick-review-controls"><button class="button button-secondary" data-quick-prev type="button">' + icon("arrowLeft") + ' Previous</button><span>Swipe to move quickly</span><button class="button button-primary" data-quick-next type="button">Next ' + icon("arrow") + '</button></div></div></section>';
+    return '<section aria-labelledby="quick-review-heading"><div class="page-heading"><div><h2 id="quick-review-heading">Quick review</h2><p>Tap the card to reveal the answer, then swipe left or right for the next question.</p></div><div class="page-heading-actions"><button class="button button-secondary" data-action="exit-quick-review" type="button">' + icon("undo") + ' Back to study</button></div></div><div class="quick-review-layout"><article class="card quick-review-card" data-quick-review-card tabindex="0"><div class="quick-review-top"><span class="question-counter">QUESTION ' + (state.quickReview.index % queue.length + 1) + ' / ' + queue.length + '</span><div class="question-meta-actions"><button class="bookmark-button ' + (saved ? "is-saved" : "") + '" data-quick-favorite type="button" aria-label="' + (saved ? "Remove from favorites" : "Add question to Favorites") + '">' + icon("bookmark") + '</button><button class="bookmark-button" data-quick-hide type="button" aria-label="Do not show this question again" title="Do not show this question again">' + icon("x") + '</button></div></div><div class="quick-review-tag">' + tag(item.specialty) + '<span>' + esc(item.topic) + '</span></div><h3>' + esc(item.stem) + '</h3>' + (revealed ? '<div class="quick-review-answer"><span class="answer-panel-icon">' + icon("check") + '</span><div><strong>Correct answer · ' + letter(item.answer) + '</strong><p>' + esc(item.options[item.answer]) + '</p><p class="answer-panel-note">' + esc(shortExplanation) + '</p></div></div>' : '<button class="quick-review-reveal" data-quick-reveal type="button">' + icon("spark") + '<strong>Show answer</strong><span>Tap or press Enter</span></button>') + '</article><div class="quick-review-controls"><button class="button button-secondary" data-quick-prev type="button">' + icon("arrowLeft") + ' Previous</button><span>Swipe to move quickly</span><button class="button button-primary" data-quick-next type="button">Next ' + icon("arrow") + '</button></div></div></section>';
   }
 
   function examOptions() {
@@ -613,7 +613,7 @@
       quickReviewIgnoreClick = false;
       return;
     }
-    if ((event.target.closest("[data-quick-reveal]") || event.target.closest("[data-quick-review-card]")) && !event.target.closest("[data-quick-favorite]")) {
+    if ((event.target.closest("[data-quick-reveal]") || event.target.closest("[data-quick-review-card]")) && !event.target.closest("[data-quick-favorite]") && !event.target.closest("[data-quick-hide]")) {
       state.quickReview.revealed = true;
       render();
       return;
@@ -623,6 +623,11 @@
     if (event.target.closest("[data-quick-favorite]")) {
       var quickItem = quickReviewQueue()[state.quickReview.index];
       if (quickItem) { toggleFavorite(quickItem.id); render(); }
+      return;
+    }
+    if (event.target.closest("[data-quick-hide]")) {
+      var quickHiddenItem = quickReviewQueue()[state.quickReview.index];
+      if (quickHiddenItem) hideQuestion(quickHiddenItem.id);
       return;
     }
     var aiButton = event.target.closest("[data-ask-ai]");
