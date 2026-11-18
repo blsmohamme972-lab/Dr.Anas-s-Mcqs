@@ -2956,8 +2956,3 @@ button.book-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-m
 .option-button.is-missed { border-style: dashed; background: transparent; }
 .missed-label { padding: 2px 8px; border-radius: 999px; background: var(--mint-soft); color: var(--mint); font-size: 11px; font-weight: 700; white-space: nowrap; }
 .option-button.is-missed .option-status-icon { width: auto; }
-.book-notes { padding: 18px 20px; border-color: color-mix(in srgb, var(--amber) 40%, var(--line)); background: color-mix(in srgb, var(--amber-soft) 55%, var(--surface)); }
-.book-notes h3 { display: flex; align-items: center; gap: 8px; margin: 0 0 8px; font-size: 15px; }
-.book-notes h3 svg, .q-note svg { width: 18px; height: 18px; flex: none; fill: none; stroke: var(--amber); stroke-width: 2; }
-.book-notes ul { margin: 0; padding-left: 20px; color: var(--ink-soft); font-size: 13px; line-height: 1.6; }
-.q-note { display: flex; gap: 6px; align-items: flex-start; margin-top: 10px !important; padding: 8px 10px; border-radius: 10px; background: var(--amber-soft); color: var(--ink) !important; font-size: 12px; }
