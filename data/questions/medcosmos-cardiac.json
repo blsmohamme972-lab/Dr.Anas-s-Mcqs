@@ -1,0 +1,3166 @@
+[
+ {
+  "id": "medcosmos-cardiac-q001",
+  "number": 1,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Perioperative Care & Complications",
+  "stem": "Which is not true of cardiopulmonary resuscitation (CPR)?",
+  "options": [
+   "Closed chest massage is as effective as open chest massage.",
+   "The success rate for out-of-hospital resuscitation may be as high as 30% to 60%.",
+   "The most common cause of sudden death is ischemic heart disease.",
+   "Standard chest massage generally provides less than 15% of normal coronary and cerebral blood flow."
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q002",
+  "number": 2,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Perioperative Care & Complications",
+  "stem": "Which maneuver generally is not performed early before chest compression in basic life support outside the hospital?",
+  "options": [
+   "Call for help.",
+   "Obtain airway.",
+   "Electrical cardioversion.",
+   "Ventilation."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q003",
+  "number": 3,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Perioperative Care & Complications",
+  "stem": "Which treatment would be least effective for asystole?",
+  "options": [
+   "External pacemaker.",
+   "Intravenous epinephrine, 10 ml. of 1:10,000.",
+   "Intravenous calcium gluconate, 10 ml. of 10% solution.",
+   "Intravenous atropine, 0.5 mg."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q004",
+  "number": 4,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Cardiac Trauma",
+  "stem": "The most important factor that influences the outcome of penetrating cardiac injuries is:",
+  "options": [
+   "Comminuted tear of a single chamber.",
+   "Multiple-chamber injuries.",
+   "Coronary artery injury.",
+   "Tangential injuries."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q005",
+  "number": 5,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Cardiac Trauma",
+  "stem": "The most useful incision in the operating room for patients with penetrating cardiac injury is:",
+  "options": [
+   "Left anterior thoracotomy.",
+   "Right anterior thoracotomy.",
+   "Bilateral anterior thoracotomy.",
+   "Median sternotomy.",
+   "Subxyphoid."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q006",
+  "number": 6,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Cardiac Trauma",
+  "stem": "In patients who present with a penetrating chest injury, injury to the heart is most likely when the following physical sign(s) is/are present:",
+  "options": [
+   "Hypotension.",
+   "Distended neck veins.",
+   "Decreased heart sound.",
+   "All of the above."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q007",
+  "number": 7,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Acyanotic Congenital Heart Disease",
+  "stem": "Which of the following would be an acceptable method of repair for a neonate with symptomatic isolated coarctation of the aorta?",
+  "options": [
+   "Resection with end-to-end anastomosis.",
+   "Prosthetic patch aortoplasty.",
+   "Subclavian flap aortoplasty.",
+   "Prosthetic tube graft repair."
+  ],
+  "answer": [
+   "A",
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q008",
+  "number": 8,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Acyanotic Congenital Heart Disease",
+  "stem": "Which of the following constitutes a true vascular ring?",
+  "options": [
+   "Pulmonary artery sling.",
+   "Double aortic arch.",
+   "Anomalous origin of right subclavian artery from the descending aorta.",
+   "Cervical aortic arch."
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q009",
+  "number": 9,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Acyanotic Congenital Heart Disease",
+  "stem": "Which of the following may be physical examination findings in a young adult with coarctation of the aorta?",
+  "options": [
+   "Posterior systolic murmur between the scapulas.",
+   "Diminished femoral pulses.",
+   "Elevated blood pressure in left arm as compared with right arm.",
+   "Peripheral cyanosis."
+  ],
+  "answer": [
+   "A",
+   "B",
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q010",
+  "number": 10,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Acyanotic Congenital Heart Disease",
+  "stem": "In a premature infant with hyaline membrane disease and inability to be weaned from mechanical ventilation, which of the following would suggest hemodynamically significant patent ductus arteriosus (PDA)?",
+  "options": [
+   "Continuous murmur.",
+   "Hyperactive precordium with bounding peripheral pulses.",
+   "Jaundice.",
+   "Diminished femoral pulses."
+  ],
+  "answer": [
+   "A",
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q011",
+  "number": 11,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Acyanotic Congenital Heart Disease",
+  "stem": "In an infant with suspected PDA, which of the following would be the optimal method of confirming the diagnosis?",
+  "options": [
+   "Chest film.",
+   "Cardiac catheterization.",
+   "Retrograde aortography via an umbilical artery catheter.",
+   "Two-dimensional echocardiography with continuous-wave and color-flow Doppler echocardiography."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q012",
+  "number": 12,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Acyanotic Congenital Heart Disease",
+  "stem": "Which of the following are potential complications of untreated coarctation of the aorta?",
+  "options": [
+   "Endocarditis.",
+   "Pulmonary vascular disease.",
+   "Cerebrovascular accident.",
+   "Congestive heart failure."
+  ],
+  "answer": [
+   "A",
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q013",
+  "number": 13,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Acyanotic Congenital Heart Disease",
+  "stem": "The atrial septal defect (ASD) most commonly associated with partial anomalous pulmonary venous return (PAPVR) is:",
+  "options": [
+   "Secundum defect.",
+   "Sinus venosus defect.",
+   "Ostium primum defect.",
+   "Complete atrioventricular (AV) canal defect.",
+   "Coronary sinus defect."
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q014",
+  "number": 14,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Acyanotic Congenital Heart Disease",
+  "stem": "The direction of an intracardiac shunt at the atrial level is controlled by:",
+  "options": [
+   "The size of the defect",
+   "The compliance of the right and left ventricles.",
+   "The systemic oxygen saturation.",
+   "Right atrial pressure.",
+   "The presence or absence of an associated ventricular septal defect (VSD)."
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q015",
+  "number": 15,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Acyanotic Congenital Heart Disease",
+  "stem": "The ASD most commonly associated with mitral insufficiency is:",
+  "options": [
+   "Secundum defect",
+   "Sinus venosus defect",
+   "Ostium primum defect.",
+   "Coronary sinus defect."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q016",
+  "number": 16,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Acyanotic Congenital Heart Disease",
+  "stem": "An electrocardiogram (ECG) in a patient with a systolic ejection murmur that shows an incomplete bundle branch block in the precordial lead is most consistent with:",
+  "options": [
+   "A secundum ASD.",
+   "A sinus venosus ASD with PAPVR.",
+   "An ostium primum ASD.",
+   "A complete AV canal defect."
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q017",
+  "number": 17,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Acyanotic Congenital Heart Disease",
+  "stem": "ASDs can all be closed with a pericardial or prosthetic patch. Which of the following ASDs can also be safely closed primarily without the use of a patch?",
+  "options": [
+   "Secundum ASD.",
+   "Sinus venosus ASD with PAPVR.",
+   "An ostium primum ASD.",
+   "A complete AV canal defect."
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q018",
+  "number": 18,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Cyanotic Congenital Heart Disease",
+  "stem": "Obstruction to pulmonary venous return is associated with which of the following anomalies?",
+  "options": [
+   "Partial anomalous pulmonary venous connection (PAPVC) to the superior vena cava.",
+   "Infracardiac (Type III) total anomalous pulmonary venous connection (TAPVC).",
+   "Pulmonary vein stenosis.",
+   "Cor triatriatum.",
+   "Supracardiac (Type I) TAPVC."
+  ],
+  "answer": [
+   "B",
+   "C",
+   "D",
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q019",
+  "number": 19,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Cyanotic Congenital Heart Disease",
+  "stem": "Postoperative complications associated with repair of TAPVC include:",
+  "options": [
+   "Complete heart block.",
+   "Acute pulmonary hypertensive crisis.",
+   "Pleural effusions.",
+   "Pulmonary venous obstruction."
+  ],
+  "answer": [
+   "B",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q020",
+  "number": 20,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Acyanotic Congenital Heart Disease",
+  "stem": "Which of the following statements about VSDs is/are correct?",
+  "options": [
+   "Perimembranous lesions are located in the region of the membranous portion of the interventricular septum near the anteroseptal commissure of the tricuspid valve.",
+   "Muscular VSDs are holes in the interventricular septum that are bordered by muscle on three sides and by the pulmonary and the aortic valve annulus superiorly.",
+   "VSD, in its isolated form, is the most commonly recognized congenital heart defect.",
+   "The conduction bundle runs along the posteroinferior rim of a perimembranous VSD."
+  ],
+  "answer": [
+   "A",
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q021",
+  "number": 21,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Acyanotic Congenital Heart Disease",
+  "stem": "Which of the following statements about VSDs is/are true?",
+  "options": [
+   "When coarctation of the aorta is associated with VSD, it most commonly occurs in infants with large lesions who have to undergo repair before age 3 months.",
+   "In some patients with VSD, aortic valve incompetence develops over time and progresses.",
+   "In the United States doubly committed or juxta-arterial VSDs are most commonly associated with aortic insufficiency.",
+   "PDA is present in approximately one fourth of infants with a VSD and concomitant congestive heart failure."
+  ],
+  "answer": [
+   "A",
+   "B",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q022",
+  "number": 22,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Acyanotic Congenital Heart Disease",
+  "stem": "Which of the following statements about VSD is/are correct?",
+  "options": [
+   "A large VSD is approximately the size of the pulmonary valve orifice or larger.",
+   "Large VSDs associated with high pulmonary blood flow result in an enlarged left atrium on chest x-ray.",
+   "Patients with small (restrictive) VSDs tend to have normal right ventricular and pulmonary arterial pressures with normal pulmonary vascular resistance and no evidence of pulmonary vascular disease.",
+   "A pulmonary vascular resistance greater than 10 to 12 units per sq. m. is considered a contraindication to operation."
+  ],
+  "answer": [
+   "B",
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q023",
+  "number": 23,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Acyanotic Congenital Heart Disease",
+  "stem": "Which of the following statements about VSDs is/are correct?",
+  "options": [
+   "Spontaneous closure of VSDs occurs in 25% to 50% of patients during childhood.",
+   "Tachypnea and failure to thrive are symptoms frequently associated with large VSDs.",
+   "Patients with normal pulmonary vascular resistance and left-to-right shunting across the VSD have Eisenmenger's complex.",
+   "Patients with a large VSD and low pulmonary vascular resistance can present with a middiastolic murmur at the apex."
+  ],
+  "answer": [
+   "A",
+   "B",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q024",
+  "number": 24,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Acyanotic Congenital Heart Disease",
+  "stem": "Which of the following is/are true of the surgical treatment of VSDs?",
+  "options": [
+   "A right ventricular approach is employed for the repair of most perimembranous VSDs.",
+   "Intracardiac repair is advisable for patients with intractable symptoms and for asymptomatic infants with evidence of increasing pulmonary vascular resistance.",
+   "Complete heart block is a common complication.",
+   "Hospital mortality after repair of VSD in infants approaches 20%."
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q025",
+  "number": 25,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Cyanotic Congenital Heart Disease",
+  "stem": "Tetralogy of Fallot consists of all of the following features except:",
+  "options": [
+   "ASD.",
+   "VSD.",
+   "Dextroposition of the aorta.",
+   "Pulmonary stenosis.",
+   "Right ventricular hypertrophy."
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q026",
+  "number": 26,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Cyanotic Congenital Heart Disease",
+  "stem": "Which of the following has the greatest impact on the physiology of tetralogy of Fallot?",
+  "options": [
+   "The size of the ASD.",
+   "The size of the VSD.",
+   "The degree of pulmonary stenosis.",
+   "The amount of aortic overriding."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q027",
+  "number": 27,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Cyanotic Congenital Heart Disease",
+  "stem": "Which of the following anomalies is not associated with tetralogy of Fallot?",
+  "options": [
+   "Absence of the left pulmonary artery.",
+   "A right aortic arch.",
+   "A retroesophageal subclavian artery.",
+   "Anomalous origin of the left anterior descending coronary artery from the right coronary artery.",
+   "Primary pulmonary hypertension."
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q028",
+  "number": 28,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Cyanotic Congenital Heart Disease",
+  "stem": "Surgical treatment of a patient with tetralogy of Fallot can include any of the following except:",
+  "options": [
+   "Maintenance of ductal patency with prostaglandins (PGE 1) to provide pulmonary blood flow while the baby is transferred to an institution equipped to provide more definitive therapy.",
+   "Banding of the pulmonary artery in an acyanotic patient with tetralogy of Fallot to control pulmonary blood flow and prevent the development of pulmonary hypertension.",
+   "Placement of a subclavian-to-pulmonary artery shunt on the side opposite the aortic arch in a 3-day-old infant with severe cyanosis.",
+   "Closure of the VSD and transannular patching of the right ventricle onto the main pulmonary artery in a 2-day-old infant."
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q029",
+  "number": 29,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Cyanotic Congenital Heart Disease",
+  "stem": "The predominant determinant of outcome for patients with pulmonary atresia and an intact ventricular septum revolves around:",
+  "options": [
+   "The size of the ASD.",
+   "The baby's age at presentation.",
+   "The size of the right ventricular cavity and tricuspid valve.",
+   "The presence of a tricuspid—as opposed to a bicuspid—pulmonary valve.",
+   "The level of hypoxemia at presentation."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q030",
+  "number": 30,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Cyanotic Congenital Heart Disease",
+  "stem": "Which of the following statements about double-outlet right ventricle are true?",
+  "options": [
+   "A VSD is usually present.",
+   "In the Taussig-Bing type of double-outlet right ventricle, the VSD is usually noncommitted.",
+   "Patients with double-outlet right ventricle and a subaortic VSD usually have pulmonary stenosis.",
+   "Patients with double-outlet right ventricle with a subpulmonary VSD (Taussig-Bing malformation) tend to mimic patients with transposition of the great arteries and VSD in their presentation and natural history."
+  ],
+  "answer": [
+   "A",
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q031",
+  "number": 31,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Cyanotic Congenital Heart Disease",
+  "stem": "Which of the following statements about the surgical repair of double-outlet right ventricle are true?",
+  "options": [
+   "In double-outlet right ventricle with a subaortic or doubly committed VSD, a tunnel-type repair connecting a committed VSD with its respective great artery is usually employed.",
+   "Repair of the Taussig-Bing malformation can be accomplished using an intraventricular tunnel technique or by performing a straight patch closure of the VSD combined with an arterial switch procedure.",
+   "The hospital mortality rate is highest when a subaortic VSD is present.",
+   "Some hearts with double-outlet right ventricle and a noncommitted VSD must be repaired using a modification of the Fontan procedure."
+  ],
+  "answer": [
+   "A",
+   "B",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q032",
+  "number": 32,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Cyanotic Congenital Heart Disease",
+  "stem": "Management of a patient with tricuspid atresia within the first month of life may include:",
+  "options": [
+   "Creation of a systemic artery–to–pulmonary artery shunt.",
+   "Observation.",
+   "Creation of a bidirectional superior cavopulmonary anastomosis.",
+   "Pulmonary artery banding.",
+   "Fontan procedure."
+  ],
+  "answer": [
+   "A",
+   "B",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q033",
+  "number": 33,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Cyanotic Congenital Heart Disease",
+  "stem": "Which of the following should contraindicate performance of the Fontan procedure?",
+  "options": [
+   "Patient age of 25 years.",
+   "Severe mitral insufficiency.",
+   "Left ventricular end-diastolic pressure of 18 mm. Hg.",
+   "Right pulmonary artery stenosis.",
+   "Pulmonary vascular resistance of 6 Woods units."
+  ],
+  "answer": [
+   "C",
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q034",
+  "number": 34,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Cyanotic Congenital Heart Disease",
+  "stem": "Initial management of a newborn infant with hypoplastic left heart syndrome should include:",
+  "options": [
+   "Intravenous administration of PGE 1.",
+   "Supplemental oxygen.",
+   "Routine intubation and mechanical ventilation to achieve a PCO 2 between 30 and 35 mm. Hg.",
+   "Cardiac catheterization and balloon atrial septostomy."
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q035",
+  "number": 35,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Cyanotic Congenital Heart Disease",
+  "stem": "The performance of a bidirectional superior cavopulmonary (Glenn) anastomosis as the second stage in the reconstructive approach to hypoplastic left heart syndrome:",
+  "options": [
+   "Provides early relief of volume load on the single right ventricle.",
+   "Increases peripheral oxygen saturations to greater than 90%.",
+   "Permits concomitant repair of pulmonary artery or aortic arch stenoses.",
+   "Improves mortality and morbidity of subsequent Fontan procedure."
+  ],
+  "answer": [
+   "A",
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q036",
+  "number": 36,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Cyanotic Congenital Heart Disease",
+  "stem": "Which of the following statements about truncus arteriosus are true?",
+  "options": [
+   "Most infants survive without operations until late childhood.",
+   "Most infants present with cyanosis.",
+   "Most infants present with congestive heart failure.",
+   "Repair requires a conduit from right ventricle to pulmonary arteries."
+  ],
+  "answer": [
+   "B",
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q037",
+  "number": 37,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Cyanotic Congenital Heart Disease",
+  "stem": "Truncus arteriosus is a diagnosis with anatomic components including:",
+  "options": [
+   "VSD.",
+   "Abnormal origin of pulmonary arteries.",
+   "Subaortic stenosis.",
+   "Single ventricular outflow valve."
+  ],
+  "answer": [
+   "A",
+   "B",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q038",
+  "number": 38,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Cyanotic Congenital Heart Disease",
+  "stem": "Optimal treatment for the neonate who presents with transposition of the great arteries {S,D,D}* and intact ventricular septum includes:",
+  "options": [
+   "PGE 1 infusion to maintain duct patency.",
+   "Administration of intravenous fluid to increase intravascular volume.",
+   "Hyperventilation to decrease pulmonary resistance.",
+   "Oxygen administration to increase arterial oxygen tension.",
+   "Atrial balloon septostomy to improve atrial mixing."
+  ],
+  "answer": [
+   "A",
+   "B",
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q039",
+  "number": 39,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Cyanotic Congenital Heart Disease",
+  "stem": "Factors that preclude the use of a single-stage arterial switch reconstruction of dextrotransposition of the great vessels include:",
+  "options": [
+   "Age older than 6 weeks with a left ventricular pressure of less than 50% of systemic pressure.",
+   "Dynamic left ventricular outflow tract obstruction.",
+   "Intramural coronary artery anatomy.",
+   "Valvar pulmonic stenosis.",
+   "Subpulmonary VSD."
+  ],
+  "answer": [
+   "A",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q040",
+  "number": 40,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Cyanotic Congenital Heart Disease",
+  "stem": "Complications commonly associated with the atrial (Senning and Mustard) repairs of transposition of the great arteries include:",
+  "options": [
+   "Atrial arrhythmias.",
+   "Systemic or pulmonary venous obstruction.",
+   "Right ventricular outflow tract obstruction.",
+   "Systemic ventricular failure.",
+   "Progressive elevation of pulmonary vascular resistance."
+  ],
+  "answer": [
+   "A",
+   "B",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q041",
+  "number": 41,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Aortic Valve Disease",
+  "stem": "Critical aortic stenosis in the neonate is characterized by which of the following?",
+  "options": [
+   "It is most often due to commissural fusion of a trileaflet valve.",
+   "It may be associated with coarctation of the aorta, PDA, and mitral stenosis.",
+   "It can be managed medically until the child is large enough to undergo aortic valve replacement.",
+   "Success of valvotomy is determined by the adequacy of the left ventricle."
+  ],
+  "answer": [
+   "B",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q042",
+  "number": 42,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Aortic Valve Disease",
+  "stem": "Surgical management of aortic valve disease in an older child may include:",
+  "options": [
+   "Enlargement of the aortic annulus.",
+   "Incision of fused commissures.",
+   "Insertion of a porcine valve prosthesis.",
+   "Transfer of the pulmonary valve to the aortic position."
+  ],
+  "answer": [
+   "A",
+   "B",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q043",
+  "number": 43,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Aortic Valve Disease",
+  "stem": "Which of the following statements about subvalvular aortic stenosis are true?",
+  "options": [
+   "Most patients present in early infancy with severe congestive heart failure.",
+   "An ejection click is a specific physical sign of subaortic stenosis.",
+   "The subaortic membrane is approached surgically via the aorta and aortic valve.",
+   "A concomitant septal myectomy decreases the incidence of recurrent subaortic stenosis."
+  ],
+  "answer": [
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q044",
+  "number": 44,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Heart Failure & Mechanical Support",
+  "stem": "Management of hypertrophic obstructive cardiomyopathy may include:",
+  "options": [
+   "Propranolol and verapamil.",
+   "Aortic valve replacement.",
+   "Dual-chamber sequential pacing.",
+   "Combined septal myectomy and mitral valve plication."
+  ],
+  "answer": [
+   "A",
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q045",
+  "number": 45,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Aortic Valve Disease",
+  "stem": "Which of the following statements about supravalvular aortic stenosis are true?",
+  "options": [
+   "Surgical repair is indicated only when the systolic gradient exceeds 75 mm. Hg.",
+   "Simple excision of the supravalvular membrane results in satisfactory relief of the stenosis in most patients.",
+   "The diffuse form of supravalvular aortic stenosis may cause obstruction to branches of the aortic arch.",
+   "Reoperation after repair of discrete supravalvular aortic stenosis is rare unless abnormalities of the valve itself also exist."
+  ],
+  "answer": [
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q046",
+  "number": 46,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Coronary Artery Disease & CABG",
+  "stem": "Each year the approximate number of Americans who die from complications of coronary artery disease is:",
+  "options": [
+   "100,000.",
+   "250,000.",
+   "500,000.",
+   "1,000,000.",
+   "Over 2,000,000."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q047",
+  "number": 47,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Coronary Artery Disease & CABG",
+  "stem": "Which of the following arteries is most likely to be involved with serious atherosclerosis?",
+  "options": [
+   "The right coronary artery.",
+   "The left coronary artery.",
+   "The anterior descending coronary artery.",
+   "The circumflex coronary artery."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q048",
+  "number": 48,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Cardiac Anatomy & Physiology",
+  "stem": "Which of the following statements about collaterals in the normal coronary circulation is true?",
+  "options": [
+   "There is a rich and quite effective collateral circulation in the coronary arterial bed.",
+   "The coronary arterial bed has minimal effective collaterals.",
+   "The coronary arterial bed is an absolute example of anatomic end-arteries."
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q049",
+  "number": 49,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Cardiac Anatomy & Physiology",
+  "stem": "If blood entering the normal arterial circulation of the heart is 100% saturated with oxygen, oxygen saturation of blood in the coronary sinus can be expected to be approximately:",
+  "options": [
+   "75%.",
+   "60%.",
+   "50%.",
+   "35%.",
+   "Less than 20%."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q050",
+  "number": 50,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Coronary Artery Disease & CABG",
+  "stem": "Coronary bypass procedures have been demonstrated to:",
+  "options": [
+   "Reduce the incidence of myocardial infarction.",
+   "Significantly relieves angina symptoms.",
+   "Statistically improve the life span.",
+   "Improve the ejection fraction of the left ventricle in many patients in whom it is significantly depressed preoperatively."
+  ],
+  "answer": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q051",
+  "number": 51,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Coronary Artery Disease & CABG",
+  "stem": "The following patients are best treated with coronary artery bypass grafting (CABG):",
+  "options": [
+   "A 60-year-old man with class II angina, 75% proximal right coronary artery lesion, and normal ventricular function.",
+   "A 60-year-old man with unstable angina, three-vessel disease, and an ejection fraction of 35%.",
+   "A 60-year-old nondiabetic man with class III angina symptoms and focal discrete lesions in the mid-right coronary artery and mid-left circumflex artery.",
+   "A 60-year-old man with diabetes, class IV angina, 75% proximal left anterior descending and 75% proximal right coronary artery obstruction, and left ventricular ejection fraction of 60%."
+  ],
+  "answer": [
+   "B",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q052",
+  "number": 52,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Perioperative Care & Complications",
+  "stem": "Sternal wound infections that spread to the mediastinum are associated with a mortality rate of:",
+  "options": [
+   "60%.",
+   "30%.",
+   "25%.",
+   "Less than 15%."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q053",
+  "number": 53,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Coronary Artery Disease & CABG",
+  "stem": "Perioperative myocardial infarction occurs following coronary bypass procedures in approximately:",
+  "options": [
+   "15%.",
+   "10%.",
+   "7%.",
+   "Less than 5%."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q054",
+  "number": 54,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Myocardial Infarction & Its Complications",
+  "stem": "Following acute myocardial infarction, ventricular septal defects occur in:",
+  "options": [
+   "20%.",
+   "10%.",
+   "15%",
+   "2% or less."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q055",
+  "number": 55,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Coronary Artery Disease & CABG",
+  "stem": "Which of the following clinical characteristics is/are associated with a higher mortality after emergency CABG for failed PTCA?",
+  "options": [
+   "Multivessel disease.",
+   "Rescue atherectomy.",
+   "Cardiogenic shock prior to CABG.",
+   "Previous bypass surgery.",
+   "All of the above."
+  ],
+  "answer": [
+   "A",
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q056",
+  "number": 56,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Coronary Artery Disease & CABG",
+  "stem": "Which statement(s) about operative mortality and perioperative incidence of myocardial infarction for elective CABG (X) versus emergency CABG following failed PTCA (Y) is/are accurate?",
+  "options": [
+   "The operative mortality is higher for Y but the incidence of perioperative myocardial infarction is unchanged between X and Y.",
+   "The operative mortality is unchanged between X and Y but the perioperative incidence of myocardial infarction is higher in Y.",
+   "The operative mortality and perioperative incidence is higher in X than in Y.",
+   "The operative mortality and perioperative incidence of myocardial infarction are no different for X and for Y."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q057",
+  "number": 57,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Coronary Artery Disease & CABG",
+  "stem": "Which of the following statements about patients treated by placement of an internal mammary artery (IMA) bypass graft at primary CABG is/are correct?",
+  "options": [
+   "The risk for morbidity and mortality from reoperative coronary bypass grafting is increased.",
+   "Left ventricular function is better preserved at the time of reoperation.",
+   "The risk of sternal wound complications is greatly increased if the contralateral IMA is harvested at the time of reoperation.",
+   "A light clamp should be applied to the IMA pedicle to limit cardiac warming during cardioplegic arrest at the time of reoperation.",
+   "A functional study demonstrating a large portion of myocardium at risk should be obtained before reoperation."
+  ],
+  "answer": [
+   "B",
+   "D",
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q058",
+  "number": 58,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Coronary Artery Disease & CABG",
+  "stem": "Considering the results of coronary reoperation in comparison to primary CABG, choose the incorrect statement:",
+  "options": [
+   "Operative morbidity and mortality are increased over those for primary CABG.",
+   "Mortality most often stems from cardiac causes after reoperation.",
+   "Survival of patients after hospital discharge following coronary reoperation is nearly equivalent to survival after primary CABG.",
+   "Compared to primary CABG, return of anginal symptoms is delayed after reoperative CABG.",
+   "Myocardial protection and the risk of myocardial infarction in reoperation are complicated by increased noncoronary collaterals, patent atherosclerotic saphenous vein grafts, and more diffuse coronary atherosclerosis."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q059",
+  "number": 59,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Cardiac Imaging & Hemodynamics",
+  "stem": "Which statements are correct comparisons of gated equilibrium and initial-transit radionuclide measurements of left ventricular function?",
+  "options": [
+   "Gated equilibrium techniques provide more accurate measurements of ejection fraction than initial-transit methods.",
+   "Left ventricular imaging time for a gated equilibrium study is at least 10 times that of an initial-transit study.",
+   "Both techniques require the same radiopharmaceuticals.",
+   "Both techniques require a bolus injection."
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q060",
+  "number": 60,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Cardiac Imaging & Hemodynamics",
+  "stem": "The radionuclide variable that contains the greatest amount of prognostic information in patients with coronary artery disease is:",
+  "options": [
+   "Exercise ejection fraction.",
+   "Change in regional wall motion from rest to exercise.",
+   "Maximal cardiac output during exercise.",
+   "Change in heart rate during exercise."
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q061",
+  "number": 61,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Myocardial Infarction & Its Complications",
+  "stem": "Which of the following statements about left ventricular aneurysm is/are correct?",
+  "options": [
+   "Ventricular aneurysms are commonly associated with systemic arterial embolization.",
+   "Absent collateral circulation in an area of myocardium supplied by an acutely occluded artery favors aneurysm formation.",
+   "Posterobasal aneurysms are more common than those located in the anteroapical region.",
+   "Aneurysm repair can improve associated cardiac valve dysfunction.",
+   "Persistent ST segment elevation after acute myocardial infarction suggests aneurysm formation."
+  ],
+  "answer": [
+   "B",
+   "D",
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q062",
+  "number": 62,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Myocardial Infarction & Its Complications",
+  "stem": "Which of the following factors does/do not increase early mortality associated with repair of left ventricular aneurysm?",
+  "options": [
+   "Class IV cardiac status.",
+   "Size of aneurysm.",
+   "Presence of left main coronary disease.",
+   "Emergent operation.",
+   "Location of aneurysm."
+  ],
+  "answer": [
+   "B",
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q063",
+  "number": 63,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Coronary Artery Disease & CABG",
+  "stem": "The most effective medical therapy in ameliorating the symptoms of Kawasaki's disease and preventing the development of giant coronary artery aneurysms is administration of:",
+  "options": [
+   "Antibiotics.",
+   "Antiviral agents.",
+   "Aspirin.",
+   "Gamma globulin.",
+   "Glucocorticoids."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q064",
+  "number": 64,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Coronary Artery Disease & CABG",
+  "stem": "Indications for surgical intervention in Kawasaki's disease include which of the following?",
+  "options": [
+   "The presence of multiple coronary artery aneurysms.",
+   "Myocardial infarction and severe left ventricular dysfunction.",
+   "The presence of a 5 mm. aneurysm in the right coronary artery.",
+   "Progressive stenosis in the left anterior descending coronary artery.",
+   "None of the above."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q065",
+  "number": 65,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Cyanotic Congenital Heart Disease",
+  "stem": "Which of the following statements about the pathophysiology of Ebstein's anomaly is/are true?",
+  "options": [
+   "The tricuspid valve is usually insufficient.",
+   "Typically there is a left-to-right shunt across the ASD.",
+   "The redundant anterior leaflet of the tricuspid valve may cause obstruction of the right ventricular outflow tract.",
+   "Pulmonary hypertension is a common late complication.",
+   "High pulmonary vascular resistance in neonates exacerbates tricuspid regurgitation and cyanosis."
+  ],
+  "answer": [
+   "A",
+   "C",
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q066",
+  "number": 66,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Cyanotic Congenital Heart Disease",
+  "stem": "In the surgical treatment of Ebstein's anomaly, which of the following is/are true?",
+  "options": [
+   "In neonates, the tricuspid valve orifice may be oversewn and a systemic-pulmonary shunt created to provide pulmonary blood flow.",
+   "Techniques in repair of the tricuspid valve do not utilize plication of the atrialized right ventricle.",
+   "Closure of the ASD alone is adequate repair of the malformation.",
+   "If tricuspid valve replacement is performed, the valve should be sutured above the coronary sinus to avoid injury to the conduction system.",
+   "Currently, mechanical prostheses are recommended for tricuspid valve replacement because the durability of bioprosthetic valves in the tricuspid position is so poor."
+  ],
+  "answer": [
+   "A",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q067",
+  "number": 67,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Acyanotic Congenital Heart Disease",
+  "stem": "Which of the following congenital lesions of the coronary circulation causes a cardiac murmur that is similar to the murmur produced by a PDA?",
+  "options": [
+   "Origin of the left coronary artery from the pulmonary artery.",
+   "Origin of the right coronary artery from the pulmonary artery.",
+   "Coronary artery fistula.",
+   "Membranous obstruction of the ostium of the left main coronary artery."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q068",
+  "number": 68,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Acyanotic Congenital Heart Disease",
+  "stem": "The congenital coronary lesion most likely to cause death in infancy is:",
+  "options": [
+   "Coronary artery fistula.",
+   "Origin of the left coronary artery from the pulmonary artery.",
+   "Origin of the right coronary artery from the pulmonary artery.",
+   "Congenital coronary aneurysm."
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q069",
+  "number": 69,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Acyanotic Congenital Heart Disease",
+  "stem": "The congenital coronary lesion associated with minimal or absent clinical manifestations and nearly normal life expectancy is:",
+  "options": [
+   "Congenital origin of both coronary arteries from the pulmonary artery.",
+   "Congenital coronary artery fistula.",
+   "Membranous obstruction of the ostium of the left main coronary artery.",
+   "Congenital origin of the right coronary artery from the pulmonary artery."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q070",
+  "number": 70,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Aortic Valve Disease",
+  "stem": "Which of the following is/are indications for aortic valve replacement for aortic stenosis?",
+  "options": [
+   "Syncope.",
+   "Congestive heart failure.",
+   "Angina.",
+   "Transvalvar gradient of 35 mm. Hg without symptoms."
+  ],
+  "answer": [
+   "A",
+   "B",
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q071",
+  "number": 71,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Aortic Valve Disease",
+  "stem": "Under which of the following circumstances is medical management logical?",
+  "options": [
+   "Moderate aortic insufficiency seen on echocardiography with normal left ventricular end-systolic dimensions.",
+   "Moderate to severe aortic insufficiency seen on echocardiography with cardiomegaly on chest roentgenography.",
+   "Moderate aortic insufficiency seen on echocardiography with symptoms of congestive heart failure.",
+   "Moderate aortic insufficiency with an end-systolic left ventricular dimension of 70 mm. as seen on echocardiography."
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q072",
+  "number": 72,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Mitral Valve Disease",
+  "stem": "Which of the following may be indications for operation for mitral stenosis?",
+  "options": [
+   "Systemic embolization.",
+   "Infective endocarditis.",
+   "Onset of atrial fibrillation.",
+   "Worsening pulmonary hypertension."
+  ],
+  "answer": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q073",
+  "number": 73,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Mitral Valve Disease",
+  "stem": "Which of the following is/are not true?",
+  "options": [
+   "Operation improves survival in patients with severe, symptomatic mitral valve disease.",
+   "Left ventricular dilatation with class I or class II heart failure is an indication for operation with mitral regurgitation.",
+   "Tricuspid regurgitation is most commonly caused by abnormalities of the leaflets themselves.",
+   "Mitral valve replacement requires resection of the mitral valve leaflets and chordae."
+  ],
+  "answer": [
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q074",
+  "number": 74,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Tricuspid & Pulmonary Valve Disease",
+  "stem": "Which of the following generally are not symptoms of tricuspid valve disease?",
+  "options": [
+   "Pulmonary edema.",
+   "Hepatic failure.",
+   "Anasarca.",
+   "Hoarseness."
+  ],
+  "answer": [
+   "A",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q075",
+  "number": 75,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Mitral Valve Disease",
+  "stem": "Which of the following are relative indications for mitral valve replacement, as opposed to mitral valve repair?",
+  "options": [
+   "Extensive leaflet calcification.",
+   "Mitral regurgitation.",
+   "Chordal rupture of the anterior mitral leaflet.",
+   "Significant annular dilatation."
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q076",
+  "number": 76,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Prosthetic Valves & Anticoagulation",
+  "stem": "Which of the following are not true?",
+  "options": [
+   "Tricuspid regurgitation due to annular dilatation alone generally does not require valve replacement.",
+   "Mitral valve replacement with either a bioprosthesis or a mechanical valve requires warfarin anticoagulation.",
+   "Tricuspid valve replacement is generally an indication for using a tissue valve.",
+   "Chronic renal failure is a relative indication for tissue valves."
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q077",
+  "number": 77,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Prosthetic Valves & Anticoagulation",
+  "stem": "Which of the following are relative indications for mechanical, as opposed to tissue, valve replacement?",
+  "options": [
+   "Patient younger than 30 years.",
+   "Young female patient who desires children.",
+   "An elderly patient.",
+   "Tricuspid valve replacement."
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q078",
+  "number": 78,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Prosthetic Valves & Anticoagulation",
+  "stem": "Which of the following statements are not true?",
+  "options": [
+   "Bioprosthetic valves have a relatively high incidence of hemolysis.",
+   "Bioprosthetic valves have a lower incidence of postoperative prosthetic valve endocarditis.",
+   "Mechanical valves develop structural failure after an average of 7 to 10 years.",
+   "Mortality attributable to warfarin therapy approaches 5% per patient-year."
+  ],
+  "answer": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q079",
+  "number": 79,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Mitral Valve Disease",
+  "stem": "Which of the following are not generally associated with mitral stenosis without regurgitation?",
+  "options": [
+   "Pulmonary hypertension.",
+   "Pulmonary edema.",
+   "Left ventricular dilatation.",
+   "An opening snap after the second heart sound."
+  ],
+  "answer": [
+   "A",
+   "B",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q080",
+  "number": 80,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Arrhythmias & Surgical Ablation",
+  "stem": "The most common location of accessory pathways in patients with the Wolff-Parkinson-White syndrome is the:",
+  "options": [
+   "Left free wall.",
+   "Right free wall.",
+   "Posterior septum.",
+   "Anterior septum."
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q081",
+  "number": 81,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Arrhythmias & Surgical Ablation",
+  "stem": "The anatomic electrophysiologic basis of AV node re-entry tachycardia is dual AV node conduction pathways. AV node re-entry tachycardia is most likely to occur with which of the following electrophysiologic aberrations?",
+  "options": [
+   "Proximal antegrade block in the slow conduction pathway.",
+   "Proximal retrograde block in the slow conduction pathway.",
+   "Proximal antegrade block in the fast conduction pathway.",
+   "Proximal retrograde block in the fast conduction pathway."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q082",
+  "number": 82,
+  "type": "matching",
+  "specialty": "cardiac",
+  "topic": "Arrhythmias & Surgical Ablation",
+  "stem": "Match the four surgical procedures that have been developed for the treatment of atrial fibrillation with the major detrimental sequela(e) of atrial fibrillation that each corrects.\n1. Patient's sensation of irregular heart rhythm.\n2. Hemodynamic compromise because of loss of AV synchrony.\n3. Increased vulnerability to thromboembolism.",
+  "options": [
+   "His bundle ablation.",
+   "Left atrial isolation procedure.",
+   "Corridor procedure.",
+   "Maze procedure."
+  ],
+  "answer": [],
+  "explanation": "",
+  "images": [],
+  "answerText": "A. His bundle ablation → 1\nB. Left atrial isolation procedure → 1, 2\nC. Corridor procedure → 1\nD. Maze procedure → 1, 2, 3"
+ },
+ {
+  "id": "medcosmos-cardiac-q083",
+  "number": 83,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Arrhythmias & Surgical Ablation",
+  "stem": "All of the following statements about nonischemic ventricular tachyarrhythmias are true except:",
+  "options": [
+   "They usually occur in the right ventricle.",
+   "They are usually associated with a left bundle branch block pattern during the tachycardia.",
+   "They are usually more refractory to medical therapy than ischemic ventricular tachyarrhythmias.",
+   "They usually occur as a result of automaticity rather than re-entry."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q084",
+  "number": 84,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Cardiac Tumors",
+  "stem": "Which of the following statements about left atrial myxoma are true?",
+  "options": [
+   "This lesion, by site and histology, is the most common primary cardiac tumor.",
+   "It is best diagnosed by cardiac catheterization and angiography.",
+   "The symptom complex can mimic collagen vascular disease.",
+   "It has an intracavitary growth pattern.",
+   "It has a multicentric origin in the chamber wall."
+  ],
+  "answer": [
+   "A",
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q085",
+  "number": 85,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Cardiac Tumors",
+  "stem": "Which of the following statements about malignant cardiac tumors are true?",
+  "options": [
+   "Sarcomas are the most frequent primary malignancy.",
+   "Metastatic tumors are usually asymptomatic.",
+   "Adjuvant chemotherapy and irradiation are efficacious in prolonging survival.",
+   "Intra-atrial extension of renal neoplasms is a contraindication for surgical resection.",
+   "Constrictive physiology is an indication for operation."
+  ],
+  "answer": [
+   "A",
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q086",
+  "number": 86,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Arrhythmias & Surgical Ablation",
+  "stem": "Disadvantages of temporary pacing through skin electrodes applied to the anterior chest wall include all of the following except:",
+  "options": [
+   "Skin burns.",
+   "Painful chest wall muscle contractions.",
+   "Ventricular fibrillation.",
+   "Inability to pace."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q087",
+  "number": 87,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Arrhythmias & Surgical Ablation",
+  "stem": "In adults the most common cause of acquired complete heart block is:",
+  "options": [
+   "Ischemic heart disease.",
+   "Sclerodegenerative disease.",
+   "Traumatic injury.",
+   "Cardiomegaly."
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q088",
+  "number": 88,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Arrhythmias & Surgical Ablation",
+  "stem": "The most common indication for permanent pacing is:",
+  "options": [
+   "Complete heart block.",
+   "Second-degree AV block.",
+   "Chronic bifascicular block.",
+   "Sick sinus syndrome."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q089",
+  "number": 89,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Arrhythmias & Surgical Ablation",
+  "stem": "Decreasing pacemaker electrode tip size results in:",
+  "options": [
+   "Lower pacing thresholds.",
+   "Improved electrogram sensing.",
+   "Decreased battery life.",
+   "Less patient discomfort."
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q090",
+  "number": 90,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Arrhythmias & Surgical Ablation",
+  "stem": "At the time of ventricular pacemaker implantation, lead resistance is determined at a voltage near that of the pacemaker's output. The calculated resistance at 5 volts should range from:",
+  "options": [
+   "10 to 100 ohms.",
+   "125 to 250 ohms.",
+   "300 to 800 ohms.",
+   "1000 to 1500 ohms."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q091",
+  "number": 91,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Arrhythmias & Surgical Ablation",
+  "stem": "A ventricular inhibited-demand pacemaker using the Intersociety Commission for Heart Disease Resources (ICHD) code is designated as:",
+  "options": [
+   "DVI.",
+   "VVI.",
+   "VOO.",
+   "VDD."
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q092",
+  "number": 92,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Arrhythmias & Surgical Ablation",
+  "stem": "In rate-modulated pacing, the pacing rate is determined by a physiologic parameter other than atrial rate and is measured by a special sensor in the pacemaker or pacing lead. The most commonly used physiologic parameter in rate-modulated pacemakers is:",
+  "options": [
+   "QT interval.",
+   "Venous blood temperature.",
+   "Mixed venous oxygen saturation.",
+   "Body motion."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q093",
+  "number": 93,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Arrhythmias & Surgical Ablation",
+  "stem": "The most common pacing mode used in patients with symptomatic bradycardia and an underlying sinus rhythm is:",
+  "options": [
+   "AAI.",
+   "DVI.",
+   "DDD.",
+   "VVI."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q094",
+  "number": 94,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Arrhythmias & Surgical Ablation",
+  "stem": "A transvenous pacemaker generator pocket should be placed on the patient's nondominant side over the:",
+  "options": [
+   "Anteromedial chest wall.",
+   "Anterolateral chest wall.",
+   "Inferomedial chest wall.",
+   "Inferolateral chest wall."
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q095",
+  "number": 95,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Arrhythmias & Surgical Ablation",
+  "stem": "Pacemaker-mediated tachycardia is caused by:",
+  "options": [
+   "Pacemaker induction of atrial fibrillation.",
+   "Sensing of retrograde atrial activation.",
+   "Inappropriate ventricular sensing.",
+   "Lead fracture."
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q096",
+  "number": 96,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Perioperative Care & Complications",
+  "stem": "Which cardiovascular pharmacologic agents are safe to use during routine abdominal surgery in a 75-year-old woman with documented hypertension and mild coronary artery disease?",
+  "options": [
+   "Nifedipine.",
+   "Atenolol.",
+   "Hydralazine.",
+   "Captopril.",
+   "Reserpine."
+  ],
+  "answer": [
+   "A",
+   "B",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q097",
+  "number": 97,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Perioperative Care & Complications",
+  "stem": "Which inotropic drugs are safe for use in elderly patients with mild congestive heart failure in the postoperative period?",
+  "options": [
+   "Digitalis compounds.",
+   "Dopamine.",
+   "Amrinone.",
+   "Melrinone.",
+   "Dobutamine."
+  ],
+  "answer": [
+   "B",
+   "C",
+   "D",
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q098",
+  "number": 98,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Prosthetic Valves & Anticoagulation",
+  "stem": "Which anticoagulation treatment plan(s) is/are appropriate for a 72-year-old man with a mechanical heart valve in place who takes Coumadin (warfarin) and now requires elective left colon resection?",
+  "options": [
+   "Discontinuation of Coumadin therapy on the day of the operation.",
+   "Discontinuation of Coumadin therapy on the day of the operation with replacement of clotting factors with fresh frozen plasma (FFP) before the start of the surgical procedure.",
+   "Discontinuation of Coumadin therapy 5 days before operation with no further anticoagulation therapy before surgery.",
+   "Discontinuation of Coumadin therapy 5 days before operation with the institution of intravenous heparin as the prothrombin time normalizes.",
+   "Discontinuation of Coumadin therapy 2 days before operation followed by large doses of aspirin."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q099",
+  "number": 99,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Heart Failure & Mechanical Support",
+  "stem": "Which of the following treatment plans is appropriate for a 68-year-old patient with moderate to severe congestive heart failure following a major abdominal surgical procedure?",
+  "options": [
+   "Aggressive use of inotropic support with epinephrine.",
+   "Aggressive diuresis with furosemide and inotropic support with dopamine.",
+   "Afterload reduction with nitroprusside and inotropic support with dopamine.",
+   "Close perioperative monitoring and inotropic support with melrinone.",
+   "Intravenous digitalis with diuresis using furosemide as needed."
+  ],
+  "answer": [
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q100",
+  "number": 100,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Arrhythmias & Surgical Ablation",
+  "stem": "Which of the following steps is/are appropriate for a 65-year-old woman who develops atrial fibrillation with associated mild hypotension and rapid ventricular response following partial gastric resection?",
+  "options": [
+   "Correction of electrolytes and blood chemistries.",
+   "Evaluation for possible myocardial infarction.",
+   "Treatment with intravenous lidocaine.",
+   "Attempt to limit the ventricular response with digitalis.",
+   "Immediate cardioversion."
+  ],
+  "answer": [
+   "A",
+   "B",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q101",
+  "number": 101,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Cardiopulmonary Bypass & Myocardial Protection",
+  "stem": "The damaging effects of cardiopulmonary bypass are, to a large degree, due to activation of the humoral amplification system. The humoral amplification system includes which of the following?",
+  "options": [
+   "The coagulation cascade.",
+   "The fibrinolytic cascade.",
+   "Complement activation.",
+   "A and C.",
+   "A, B, and C."
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q102",
+  "number": 102,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Cardiopulmonary Bypass & Myocardial Protection",
+  "stem": "Adequate flow during cardiopulmonary bypass is best indicated by:",
+  "options": [
+   "Systemic blood pressure of 90/50 mm. Hg.",
+   "Arterial PO 2 of 230 mm. Hg.",
+   "Mixed venous hemoglobin saturation of 78%.",
+   "Central venous pressure of 1 mm. Hg.",
+   "Plasma lactate value of 6 mg. per dl."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q103",
+  "number": 103,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Cardiopulmonary Bypass & Myocardial Protection",
+  "stem": "Which of the following does not typically occur during the first few minutes of cardiopulmonary bypass?",
+  "options": [
+   "Interstitial fluid increases.",
+   "Blood flow becomes nonpulsatile.",
+   "Platelet count decreases.",
+   "Complement is activated.",
+   "Systemic vascular resistance falls."
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q104",
+  "number": 104,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Heart Failure & Mechanical Support",
+  "stem": "Which of the following are physiologic benefits of intra-aortic balloon counterpulsation to the ischemic ventricle?",
+  "options": [
+   "Preload reduction.",
+   "Afterload reduction.",
+   "Coronary blood flow enhancement.",
+   "Decreased ventricular end-diastolic pressure."
+  ],
+  "answer": [
+   "B",
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q105",
+  "number": 105,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Heart Failure & Mechanical Support",
+  "stem": "Which of the following are the major indications for instituting intra-aortic balloon pumping?",
+  "options": [
+   "Medically refractory angina.",
+   "Acute papillary muscle rupture.",
+   "Left main coronary artery lesion.",
+   "Ventricular failure after cardiac surgery.",
+   "PTCA failure."
+  ],
+  "answer": [
+   "A",
+   "B",
+   "D",
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q106",
+  "number": 106,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Heart Failure & Mechanical Support",
+  "stem": "Which of the following are the most frequent complications of intra-aortic balloon counterpulsation?",
+  "options": [
+   "Stroke.",
+   "Limb ischemia.",
+   "Arrhythmias.",
+   "Aortic thrombosis."
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q107",
+  "number": 107,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Heart Failure & Mechanical Support",
+  "stem": "Permanent artificial hearts are being developed that are electrically powered. Wireless techniques are used to transmit the electrical energy across the body wall using the principle of:",
+  "options": [
+   "Infrared sensor.",
+   "Inductive coupling.",
+   "Thermionic coupling.",
+   "High-pressure liquid chromatography (HPLC).",
+   "Infrared spectroscopy."
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q108",
+  "number": 108,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Heart Failure & Mechanical Support",
+  "stem": "The following statements about the pneumatic artificial heart is/are correct:",
+  "options": [
+   "It can support the circulation for over 1 year.",
+   "It may be complicated by infection or thromboembolism.",
+   "When further developed, it will be an ideal permanent heart substitute.",
+   "It is an ideal “bridge” for transplantation.",
+   "It can be implanted using techniques similar to those used for heart transplantation."
+  ],
+  "answer": [
+   "A",
+   "B",
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q109",
+  "number": 109,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Cyanotic Congenital Heart Disease",
+  "stem": "A cyanotic infant has echocardiographic evidence of a univentricular heart (UVH). The following is/are true:",
+  "options": [
+   "The most common form of the disorder is a double-inlet right ventricle",
+   "To be classified as a ventricle, the chamber must receive at least half of an inlet valve",
+   "This infant is a good candidate for a Blalock-Taussig shunt",
+   "Optimal correction of UVH diverts all vena caval blood flow into the pulmonary arteries (Fontan procedure)",
+   "In the absence of pulmonic stenosis, UVH usually presents as congestive heart failure"
+  ],
+  "answer": [
+   "B",
+   "C",
+   "D",
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q110",
+  "number": 110,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Acyanotic Congenital Heart Disease",
+  "stem": "A 9-year-old boy with hypertension has no palpable femoral pulses. Coarctation of the aorta is suspected. The following is/are true:",
+  "options": [
+   "The most common associated abnormality is a bicuspid aortic valve",
+   "Chest radiograph is likely to show rib notching",
+   "The etiology is felt to be secondary to an inflammatory aortitis",
+   "In infancy, coarctation may present with a pink upper body and cyanotic lower body",
+   "“Paradoxical hypertension” seen after operative repair indicates residual stenosis from incomplete correction"
+  ],
+  "answer": [
+   "A",
+   "B",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q111",
+  "number": 111,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Cardiac Tumors",
+  "stem": "A 48-year-old woman with episodic syncope has echocardiographic evidence of a mass in the left atrium. The following is/are true statement(s):",
+  "options": [
+   "Transseptal puncture should be used for definitive diagnosis",
+   "If this is a primary cardiac tumor it is most likely to be malignant",
+   "If this is a myxoma attached to the atrial septum, the adjacent septum should be removed with it",
+   "In infancy, the most common cardiac tumor is a rhabdomyosarcoma",
+   "The most common primary malignant tumor of the heart is angiosarcoma"
+  ],
+  "answer": [
+   "C",
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q112",
+  "number": 112,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Cyanotic Congenital Heart Disease",
+  "stem": "A 2-month-old boy who appeared normal at birth has become cyanotic and is found to have a systolic ejection murmur over the pulmonic area and a boot-shaped heart on chest radiograph. The following is/are true:",
+  "options": [
+   "Echocardiography alone is sufficient to confirm the diagnosis of Tetralogy of Fallot",
+   "Cyanotic spells may be appropriately treated by propranolol",
+   "The Blalock-Taussig shunt connects the right ventricle to the pulmonary artery",
+   "Increasing cyanotic spells is the most common indication for operation",
+   "Operative repair of right ventricular outflow obstruction is never extended across the pulmonic valve since intolerable pulmonary insufficiency would result"
+  ],
+  "answer": [
+   "A",
+   "B",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q113",
+  "number": 113,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Aortic Valve Disease",
+  "stem": "A 12-year-old boy is found to have an ejection systolic murmur over the aortic region with a precordial thrill and normal cardiac size on chest radiograph. The following is/are true:",
+  "options": [
+   "A systolic ejection click would signify that the stenosis is supravalvar",
+   "In the absence of cardiomegaly, cardiac catheterization to measure the pressure gradient is necessary",
+   "Development of syncope would suggest an intracranial lesion",
+   "In valvar aortic stenosis a pressure gradient of 80 mmHg is an indication for operative repair regardless of symptoms",
+   "In membranous subvalvar aortic stenosis a pressure gradient of 40 mmHg is an indication for operative repair"
+  ],
+  "answer": [
+   "D",
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q114",
+  "number": 114,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Cyanotic Congenital Heart Disease",
+  "stem": "Within 2 hours of birth, a baby girl is obviously cyanotic and chest radiograph shows the heart to appear like “an egg on its side.” The following is/are true:",
+  "options": [
+   "The most common cause of cyanosis this early is transposition of the great vessels (TGV)",
+   "If TGV is present, echocardiography will show that the posterior vessel leaving the left ventricle is a pulmonary artery",
+   "If TGV is confirmed by echocardiography, cardiac catheterization has little to add",
+   "The EKG is helpful in making the diagnosis of TGV since it shows reversed dominance of the ventricles",
+   "To improve mixing of pulmonary and systemic circulations, prostaglandin should be used to increase pulmonary vascular resistance"
+  ],
+  "answer": [
+   "A",
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q115",
+  "number": 115,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Cyanotic Congenital Heart Disease",
+  "stem": "A one-year-old boy thought to have Tetralogy of Fallot is found on cardiac catheterization to have double-outlet right ventricle (DORV). The follow is/are true:",
+  "options": [
+   "Spontaneous closure of the VSD is rare",
+   "Location of the VSD has little effect on the degree of cyanosis",
+   "Double outlet left ventricles do not occur",
+   "Coincidental aortic stenosis with DORV is not compatible with life",
+   "Doubly committed VSD refers to its relationship to the great vessels"
+  ],
+  "answer": [
+   "A",
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q116",
+  "number": 116,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Acyanotic Congenital Heart Disease",
+  "stem": "A 5-year-old girl is found on routine examination to have a pulmonic flow murmur, fixed splitting of P2 and a right ventricular lift. The following is/are true:",
+  "options": [
+   "Cardiac catheterization is indicated if the chest film shows cardiomegaly",
+   "Radiology report of “scimitar syndrome” findings on the chest film would indicate need for an arteriogram",
+   "If the catheterization report is “ostium secondum defect,” at least one pulmonary vein drains anomalously",
+   "Measured pulmonary vascular resistance of 14 Woods units/m2 with an ASD mandates early repair",
+   "An ASD with Qp/Qs of 1.8 can be observed until symptoms occur"
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q117",
+  "number": 117,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Acyanotic Congenital Heart Disease",
+  "stem": "A 2-month-old infant has EKG evidence of myocardial ischemia and echocardiography suggests anomalous origin of the left coronary artery from the pulmonary artery. The following is/are true:",
+  "options": [
+   "Ischemia is due to perfusion of the myocardium with inadequately oxygenated blood",
+   "Selective coronary angiography should not be attempted because of the risk of myocardial infarction",
+   "Conservative treatment is preferred to allow the coronary artery to grow to a size that will allow bypass construction",
+   "If the infant deteriorates, ligation of the coronary at its origin is a viable option",
+   "The severity of the abnormality insures that it will always be detected in the first year of life"
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q118",
+  "number": 118,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Acyanotic Congenital Heart Disease",
+  "stem": "A 2-month-old boy is found to be in congestive heart failure manifested by tachypnea, tachycardia and diaphoresis with poor weight gain. The physical findings suggest a ventricular septal defect (VSD). Management should include:",
+  "options": [
+   "Pulmonary artery banding",
+   "Urgent closure if a VSD is found on echocardiography",
+   "Medical treatment only with digitalis and diuretics",
+   "If a VSD is found, repair is unlikely to be possible because of elevated pulmonary vascular resistance",
+   "If a restrictive VSD is found, spontaneous closure is a possibility and operative repair should be delayed"
+  ],
+  "answer": [
+   "C",
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q119",
+  "number": 119,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Acyanotic Congenital Heart Disease",
+  "stem": "A 1-year-old girl with dyspnea and poor feeding is found to be in congestive heart failure. Echocardiography shows an atrio-ventricular septal defect (AVSD). The following is/are true:",
+  "options": [
+   "The second heart sound will show fixed splitting",
+   "Despite diagnostic echocardiography, cardiac catheterization is indicated to assess pulmonary artery resistance",
+   "Pulmonary artery banding is indicated to limit pulmonary flow and allow the child to grow",
+   "AVSD is classified according to the morphology of the anterior leaflet of the common A-V valve",
+   "Operative repair is best performed after 2 years of age"
+  ],
+  "answer": [
+   "A",
+   "B",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q120",
+  "number": 120,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Acyanotic Congenital Heart Disease",
+  "stem": "The child in the previous question undergoes cardiac catheterization confirming a VSD with Qp/Qs ratio of 2.0 and right ventricular systolic pressure half of systemic pressure. The following is/are true:",
+  "options": [
+   "If aortic insufficiency is detected, the defect is likely to be subpulmonic in location",
+   "Finding aortic stenosis in addition to the VSD would be highly unlikely",
+   "The cath data indicate a restrictive type of VSD",
+   "If pulmonary vascular resistance falls with tolazoline administration, it is safe to close the VSD",
+   "Operative closure of VSDs is possible without ventriculotomy"
+  ],
+  "answer": [
+   "A",
+   "C",
+   "D",
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q121",
+  "number": 121,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Acyanotic Congenital Heart Disease",
+  "stem": "A premature infant in respiratory distress is found to have a continuous “machinery” murmur over the precordium. The following is/are true:",
+  "options": [
+   "The most likely diagnosis is coarctation of the aorta",
+   "If large pulmonary arteries are noted, a patent ductus is likely",
+   "To discriminate between a and b, prostaglandin administration can be used which will constrict the patent ductus arteriosus",
+   "If a ductus if found, operative repair should be delayed until the respiratory symptoms improve to reduce mortality rates",
+   "Normal ductus closure depends on increased oxygen saturation in the pulmonary artery"
+  ],
+  "answer": [
+   "B",
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q122",
+  "number": 122,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Cyanotic Congenital Heart Disease",
+  "stem": "A neonate in congestive heart failure has echocardiographic evidence of a single truncal vessel from which the pulmonary arteries arise, a VSD and truncal valvar stenosis. The following is/are true:",
+  "options": [
+   "Natural history of this anomaly allows only 20% one-year survival",
+   "The most likely configuration of the truncal valve is bicuspid",
+   "Location of the pulmonary arteries minimizes the risk of pulmonary vascular obstructive disease (Eisenmengers)",
+   "Repair of the lesion requires an extracardiac conduit",
+   "Optimal timing of operative repair is at 6–12 months"
+  ],
+  "answer": [
+   "A",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q123",
+  "number": 123,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Cyanotic Congenital Heart Disease",
+  "stem": "A neonate in respiratory distress has echocardiographic evidence of hypoplastic left heart syndrome (HLHS). The following is/are true:",
+  "options": [
+   "Initial management should include prostaglandin infusion",
+   "Ventilatory adjustment should maintain PaCO2 at approximately 40 mmHg",
+   "Survival depends on sustained patency of the ductus arteriosus",
+   "Cardiac transplantation for HLHS requires inclusion of the donor aortic arch",
+   "Reconstruction for HLHS converts the pulmonary artery into the main outlet for a functional single ventricle (Norwood)"
+  ],
+  "answer": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q124",
+  "number": 124,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Aortic Valve Disease",
+  "stem": "A 52-year-old man with known aortic stenosis develops angina pectoris and has a single episode of syncope. The following is/are true:",
+  "options": [
+   "Onset of angina indicates concomitant coronary artery disease independent of valvular lesion",
+   "Percutaneous aortic balloon valvuloplasty should be considered since it has generally favorable results",
+   "Patient is not an operative candidate since heart failure has not occurred",
+   "A measured transvalvular pressure gradiant > 50 mmHg would be an operative indication"
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q125",
+  "number": 125,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Aortic Valve Disease",
+  "stem": "The patient in the previous question with AI progresses to profound heart failure requiring medical management. The following is/are true:",
+  "options": [
+   "Perperal vasdilators are contraindicated",
+   "The inta-aortic balloon pump can be used to improve cardiac output",
+   "Furosemide and nitroglycerin would be appropriate",
+   "Valve replacement is necessary"
+  ],
+  "answer": [
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q126",
+  "number": 126,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Mitral Valve Disease",
+  "stem": "A 42-year-old woman has noted progressive exercise intolerance and fatigability. Examination discloses an opening snap in the mitral area suggestive of mitral stenosis. The following is/are true:",
+  "options": [
+   "Critical mitral stenosis is defined as an orifice area reduced to 2 cm2",
+   "With a fixed mitral orifice, the change from sinus rhythm to atrial fibrillation has little effect on cardiac output",
+   "Mural thrombi and thromboembolism are directly related to the presence of atrial fibrillation",
+   "Depressed cardiac output is usually due to depressed myocardial contractility"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q127",
+  "number": 127,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Mitral Valve Disease",
+  "stem": "Concerning valvular heart disease, the following is/are true:",
+  "options": [
+   "Mitral stenosis is the most common lesion",
+   "Of all cardiac valves, the aortic is the most anterior",
+   "Stenosis is the most common lesion of the aortic valve",
+   "Rheumatic heart disease is the most common cause of valve dysfunction"
+  ],
+  "answer": [
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q128",
+  "number": 128,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Aortic Valve Disease",
+  "stem": "A 47-year-old male with fatigue and cardiac failure has a high-pitched, decrescendo diastolic murmur along the left sternal border and an apical diastolci rumble. His blood pressure is 148/45 mmHg. The following is/are true:",
+  "options": [
+   "Chest radiograph will show cor bovinum",
+   "The apical murmur is due to the Gallavardin phenomenon",
+   "A carotid shudder would be expected",
+   "Abdominal exam will show a pulsatile liver"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q129",
+  "number": 129,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Cardiac Anatomy & Physiology",
+  "stem": "Concerning the adaptation to cardiac valvular dysfunction, the following is/are true:",
+  "options": [
+   "Severe heart failure is more likely from acute than chronic valvular dysfunction",
+   "Valvular dysfunction produces both volume and pressure afterload stress on the heart",
+   "Early cardiac dilation from valve dysfunction shifts the Frank-Starling curve to depress cardiac output",
+   "The LaPlace law predicts that wall stress decreases with increasing ventricular radius"
+  ],
+  "answer": [
+   "A",
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q130",
+  "number": 130,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Infective Endocarditis",
+  "stem": "A 31-year-old male drug abuser presents with fever, chills and multiple bilateral lung abscesses. Right heart endocarditis is suspected. The following is/are true:",
+  "options": [
+   "The organisms most likely responsible are gram-negative and fungal",
+   "The pulmonic valve is most likely to be affected",
+   "A negative echocardiogram is useful to exclude the diagnosis",
+   "Valve replacement is necessary if the native valve is excised to treat infection"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q131",
+  "number": 131,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Myocardial Infarction & Its Complications",
+  "stem": "In the initial management of the patient in the previous question with suspected acute MI, the following is/are true:",
+  "options": [
+   "Oxygen and lidocaine should be administered prophylactically",
+   "If chest pain persists, IV nitroglycerin should be used to limit infarct size",
+   "Ca-channel blockers are also of value to limit infarct size",
+   "Morphine IV can be used but has no therapeutic effect"
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q132",
+  "number": 132,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Cardiac Anatomy & Physiology",
+  "stem": "Concerning the physiology of the coronary circulation, the following is/are true:",
+  "options": [
+   "Under circumstances of increased oxygen demand by the myocardium, O2 extraction from arterial blood can increase",
+   "Coronary flow is maximal during systole",
+   "Adenosine is the most important metabolic regulator of coronary blood flow",
+   "Sympathetic nerve stimulation constricts coronary arteries despite the need for increased cardiac output"
+  ],
+  "answer": [
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q133",
+  "number": 133,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Cardiac Anatomy & Physiology",
+  "stem": "True statement(s) concerning cardiac vascular anatomy include the following:",
+  "options": [
+   "In 80%–85% of cases the posterior descending coronary artery (PDA) arises from the circumflex coronary artery",
+   "The PDA gives off the AV nodal artery",
+   "The great cardiac vein ascends along the right coronary artery to empty into the coronary sinus",
+   "Thebesian veins drain from only left and right ventricles"
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q134",
+  "number": 134,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Coronary Artery Disease & CABG",
+  "stem": "In the medical management of coronary artery disease, the following is/are true:",
+  "options": [
+   "Nitroglycerin primarily dilates coronary arterioles",
+   "b-blocking agents act to reduce myocardial O2 demand",
+   "Ca-channel blocking agents reduce ventricular contractility",
+   "Ca-channel agents should not be used if there is an element of coronary vasospastic disease"
+  ],
+  "answer": [
+   "B",
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q135",
+  "number": 135,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Myocardial Infarction & Its Complications",
+  "stem": "A 67-year-old man with documented acute MI progresses in 24 hours to cardiogenic shock. The following is/are true:",
+  "options": [
+   "The mortality rate for cardiogenic shock after acute MI is increased more than 10 fold in comparison to no shock",
+   "Age, ejection fraction, MI size and previous MI serve as predictors of cardiogenic shock",
+   "Acute loss of more than 20% of myocardium frequently results in cardiogenic shock and death",
+   "Emergency revascularization is contraindicated for the MI patient in cardiogenic shock"
+  ],
+  "answer": [
+   "A",
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q136",
+  "number": 136,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Myocardial Infarction & Its Complications",
+  "stem": "A 52-year-old man with chest pain and tachycardia has ECG evidence of an acute MI. The following is/are true:",
+  "options": [
+   "Thrombolytic therapy should be considered immediately since the benefit is greater the earlier it is given",
+   "Of the drugs available, recombinant tPA produces better results than SK or APSAC although it is more expensive",
+   "Thrombolytic therapy requires catheterization for intracoronary administration",
+   "Addition of heparin and antiplatelet drugs produces no incremental benefit"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q137",
+  "number": 137,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Myocardial Infarction & Its Complications",
+  "stem": "Following repair of an abdominal aortic aneurysm, a 66-year-old man develops severe chest pain, diaphoresis, bradycardia and hypotension. The following is/are true:",
+  "options": [
+   "The electrocardiogram is most likely to show a prominent Q in lead 3 if this is an MI",
+   "If Q wave is present, the infarct is subendocardial rather than transmural",
+   "Creatine kinase measurement alone is diagnostic of MI",
+   "Since bradycardia rarely occurs with MI, another diagnosis should be considered"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q138",
+  "number": 138,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Coronary Artery Disease & CABG",
+  "stem": "A 70-year-old woman with intractable angina pectoris undergoes cardiac catheterization for possible mechanical intervention. She prefers PTCA to open correction. The following is/are true:",
+  "options": [
+   "A long symmetric lesion in the left main coronary artery would be appropriate for PTCA",
+   "Multiple obstructive lesions in the same artery would be a contraindication to PTCA",
+   "A focal lesion in the left anterior descending coronary artery where the vessel is 1 mm in diameter would allow PTCA",
+   "Successful PTCA for a simple lesion carries a recurrent stenosis risk of less than 10%"
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q139",
+  "number": 139,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Coronary Artery Disease & CABG",
+  "stem": "A 78-year-old patient who is a candidate for CABG is concerned about the risks/benefits of the procedure. The following is/are true:",
+  "options": [
+   "Operative mortality in patients > 70 years is more than double that of younger patients",
+   "If the patient is a woman, the risk is higher than it would be for a man",
+   "A previous CABG procedure increases the complexity and complication rate, but does not alter mortality rate",
+   "Results are better if there is ischemic cardiomyopathy than if there is hibernating myocardium"
+  ],
+  "answer": [
+   "A",
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q140",
+  "number": 140,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Myocardial Infarction & Its Complications",
+  "stem": "Four days after a transmural MI, a 74-year-old man develops hypotension and congestive heart failure. The following is/are true:",
+  "options": [
+   "An intra-aortic balloon pump should be used and cardiac catheterization performed",
+   "If the infarct was posterior, this is most likely due to a ventricular septal defect",
+   "Pulmonary wedge pressure tracing of prominent V waves without an O2 step-up suggests papillary muscle rupture",
+   "Operative repair of a post MI VSD should be delayed to allow strengthening of the myocardium to hold sutures"
+  ],
+  "answer": [
+   "A",
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q141",
+  "number": 141,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Coronary Artery Disease & CABG",
+  "stem": "A 52-year-old woman with chest pain is considered for coronary arteriography on the basis of her risk factors. The following is/are true statement(s):",
+  "options": [
+   "All patients with typical anginal symptoms should have coronary arteriography",
+   "Atypical patients with borderline positive stress tests should have arteriography",
+   "Patients who require valve procedures do not require arteriography",
+   "Patients in refractory heart failure awaiting cardiac transplantation should have coronary arteriography"
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q142",
+  "number": 142,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Coronary Artery Disease & CABG",
+  "stem": "The patient in the previous question is found to have disease unsuitable for PTCA. Concerning operative revascularization (CABG) the following is/are true:",
+  "options": [
+   "CABG is more effective than medical treatment for relieving angina and improving physical work capacity",
+   "In CABG for unstable angina, there is no difference in late outcome between stable and unstable cohorts",
+   "For CABG, the most common arterial graft is the left internal mammary artery",
+   "Long term patency is improved when arterial grafts are used but there is no difference in the early mortality rate"
+  ],
+  "answer": [
+   "A",
+   "B",
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q143",
+  "number": 143,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Coronary Artery Disease & CABG",
+  "stem": "In the workup of a 45-year-old man with suspected coronary artery disease, the following is/are true:",
+  "options": [
+   "Thyroid tests are included to rule out hyperthyroidism",
+   "Typically positive stress ECG would show elevated ST segments",
+   "Dipyridamole is a useful adjunct to thallium scanning as it increases coronary perfusion pressure",
+   "Persisting defects on thallium scan indicate reversible myocardial ischemia"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q144",
+  "number": 144,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Myocardial Infarction & Its Complications",
+  "stem": "Following successful thrombolytic treatment of the patient in the previous question, he develops recurrent chest pain in 24 hours. The following is/are true:",
+  "options": [
+   "Rethrombosis is most likely and thrombolytic therapy alone should be repeated",
+   "The problem could have been prevented by early elective catheterization and PTCA",
+   "Patient has an indication for catheterization and PTCA if single vessel disease is found",
+   "Findings of multivessel disease at catheterization would indicate need for operative bypasses",
+   "If operative bypass is deemed necessary, there should be a 30-day delay to allow myocardial healing"
+  ],
+  "answer": [
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q145",
+  "number": 145,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Perioperative Care & Complications",
+  "stem": "A 59-year-old male has undergone successful CABG with 4 grafts constructed but remains in low cardiac output (< 2L/min/m2) postoperatively. The following is/are true:",
+  "options": [
+   "An inotropic drug should be used initially to increase cardiac output",
+   "If low cardiac output persists despite optimal physiological and pharmacological support, a balloon pump (IABP) should be inserted",
+   "Decreased cardiac filling pressures suggest the possibility of cardiac tamponade",
+   "When IABP is used, the balloon is inflated during diastole"
+  ],
+  "answer": [
+   "B",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q146",
+  "number": 146,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Coronary Artery Disease & CABG",
+  "stem": "A 42-year-old asymptomatic attorney undergoes a routine exercise test which is reported positive for myocardial ischemia. The following is/are true:",
+  "options": [
+   "This is a rare event since less than 5% of patients with coronary artery disease (CAD) are asymptomatic with exercise",
+   "Such a patient could progress to heart failure from ischemic cardiomyopathy",
+   "Typical angina pectoris is promptly relieved by rest or relaxation",
+   "Dyspnea on exertion can represent an angina equivalent"
+  ],
+  "answer": [
+   "B",
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q147",
+  "number": 147,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Arrhythmias & Surgical Ablation",
+  "stem": "A 52-year-old man develops postoperative supraventricular tachycardia to a rate of 180/min. and hypotension. The following is/are true:",
+  "options": [
+   "Since a heart rate of 180/min should be tolerated at his age, the hypotension must have another cause",
+   "A vagal maneuver that breaks the tachycardia suggests atrial flutter as the etiology",
+   "Atrial overdrive pacing should be tried for paroxysmal atrial tachycardia (PAT)",
+   "Verapamil IV should be used for rate control",
+   "Cardioversion is preferred for patients on digoxin"
+  ],
+  "answer": [
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q148",
+  "number": 148,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Arrhythmias & Surgical Ablation",
+  "stem": "A 77-year-old man with a healed transmural myocardial infarction has a medically refractory ventricular arrhythmia. The following is/are true:",
+  "options": [
+   "Direct current catheter endocardial ablation has a high likelihood of success.",
+   "If the arrhythmia is inducible at EP study, there is an indication for operative intervention.",
+   "A recent MI would be a contraindication to operation",
+   "Ventricular failure would be a contraindication to operation",
+   "Monomorphic ventricular tachycardia is least amenable to surgical resection."
+  ],
+  "answer": [
+   "B",
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q149",
+  "number": 149,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Perioperative Care & Complications",
+  "stem": "A 68-year-old man suffers sudden cardiac death (SCD) but is resuscitated and brought to the hospital for evaluation and treatment. The following is/are true:",
+  "options": [
+   "The most likely cause of SCD is ventricular arrhythmia",
+   "There is 30–40% chance of recurrent SCD in one year",
+   "Empiric antiarrhythmic drug therapy improves survival",
+   "An inducible ventricular tachyarrhythmia at EP study carries a favorable prognosis",
+   "If a ventricular aneurysm is found with arrhythmia, aneurysm resection is adequate treatment"
+  ],
+  "answer": [
+   "A",
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q150",
+  "number": 150,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Cardiac Anatomy & Physiology",
+  "stem": "The following is/are true concerning the anatomy of the conduction system:",
+  "options": [
+   "There is no special conduction path from the sinoatrial (SA) to the atrioventricular (AV) node",
+   "The blood supply to the AV node is from the anterior descending coronary artery",
+   "The only normal muscular connection between atria and ventricles is the bundle of His",
+   "The aortomitral continuity is the only area where supraventricular accessory pathways cannot occur",
+   "The sinus node artery arises from the right or circumflex coronary artery"
+  ],
+  "answer": [
+   "A",
+   "C",
+   "D",
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q151",
+  "number": 151,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Arrhythmias & Surgical Ablation",
+  "stem": "The following is/are true concerning the physiology of arrhythmias:",
+  "options": [
+   "A physical or electrical stimulus causes sodium fast channels and calcium slow channels to open",
+   "During the effective refractory period, only the slow calcium channels are closed",
+   "Rapid repolarization follows potassium egress from the cell",
+   "Extracellular hypokalemia increases sodium channel size increasing automaticity",
+   "Catecholamines increase outward potassium flow from myocytes"
+  ],
+  "answer": [
+   "A",
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q152",
+  "number": 152,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Arrhythmias & Surgical Ablation",
+  "stem": "A 72-year-old man has had several episodes of ventricular tachycardia and is a candidate for electrophysiological (EP) study. The following is/are true:",
+  "options": [
+   "The goal of the EP study is either sustained or non-sustained ventricular tachycardia",
+   "Patients with less than 5 repetitive complexes in response to stimulation are considered noninducible",
+   "An induced reentry from ventricular stimulation is not necessarily pathological",
+   "Microreentry arrhythmias are typical after myocardial infarction",
+   "Macroreentry arrhythmias are typical of myocardial ischemia"
+  ],
+  "answer": [
+   "A",
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q153",
+  "number": 153,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Arrhythmias & Surgical Ablation",
+  "stem": "A 29-year-old male with supraventricular tachyarrhythmias is suspected to have Wolff-Parkinson-White (WPW) syndrome. The following is/are true:",
+  "options": [
+   "Electrophysiologic studies (EPS) will require catheters in or at the right atrium, His bundle, right ventricle and coronary sinus",
+   "Pacing for EPS uses stimuli twice the diastolic threshold",
+   "The anomalous conducting bundle (Kent) is found in the right free wall if the coronary sinus catheter records the earliest atrial activity during reciprocating tachycardia",
+   "If the atrial catheter records the earliest activity during tachycardia, the bundle of Kent is located in the left free wall",
+   "If neither left or right bundle-branch block prolong the VA interval, the anomalous bundle is in the septum"
+  ],
+  "answer": [
+   "B",
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q154",
+  "number": 154,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Arrhythmias & Surgical Ablation",
+  "stem": "A 62-year-old woman whose arrhythmia is noninducible at EP study has depressed LV function without aneurysm. The following is/are true:",
+  "options": [
+   "If her arrhythmia is ventricular tachycardia, she is not a candidate for an Automatic Implantable Cardiac Defibrillator (AICD) since it only recognizes fibrillation",
+   "If an AICD is appropriate, it offers a 50% improvement in mortality compared to drug therapy",
+   "Poor ventricular function is a contraindication to AICD implantation",
+   "AICD should not be used for patients awaiting cardiac transplantation",
+   "AICD can provide antitachycardia pacing as well as defibrillation"
+  ],
+  "answer": [
+   "B",
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q155",
+  "number": 155,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Arrhythmias & Surgical Ablation",
+  "stem": "A 27-year-old surgery resident has had multiple episodes of supraventricular tachycardia (SVT) and on EP study is felt to have WPW syndrome. The following is/are true:",
+  "options": [
+   "The pathophysiology of WPW is a single bundle of Kent",
+   "Dangerous ventricular responses in WPW are due to the shorter refractory period of the accessory pathway",
+   "Identification of the accessory pathway of WPW is an indication for its interruption",
+   "Approximately half of the patients who have successful division of accessory pathways demonstrate VA block postop",
+   "Both radiofrequency catheter and surgical ablation offer excellent results with low morbidity"
+  ],
+  "answer": [
+   "B",
+   "D",
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-cardiac-q156",
+  "number": 156,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Arrhythmias & Surgical Ablation",
+  "stem": "In the pharmacological management of cardiac arrhythmias, the following is/are true:",
+  "options": [
+   "Membrane-stabilizing local anesthetics (Class 1) act via sodium channel blockage",
+   "Class 1 drugs also shorten the refractory period",
+   "b-blocking drugs (Class 2) block the sympathetic nervous system but not circulating catecholamines",
+   "Bretylium and other Class 3 drugs inhibit potassium influx into cells",
+   "Calcium channel blockers (Class 4) directly affect the SA and AV nodes"
+  ],
+  "answer": [
+   "A",
+   "D",
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ }
+]

@@ -1,0 +1,2787 @@
+[
+ {
+  "id": "medcosmos-vascular-q001",
+  "number": 1,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Chronic Venous Disease & Varicose Veins",
+  "stem": "A 55-year-old woman gives a history of tiredness, aching, and a feeling of heaviness in the left lower leg for the past 3 months. These symptoms are relieved by leg elevation. She is also awakened frequently by calf and foot cramping, which is relieved by leg elevation, walking, or massage. On physical examination there are superficial varicosities, nonpitting edema, and a slightly painful, 2 cm. diameter superficial ulcer 5 cm. above and behind the left medial malleolus. What is the most appropriate diagnosis?",
+  "options": [
+   "Isolated symptomatic varicose veins.",
+   "Superficial lymphatic obstruction.",
+   "Deep venous insufficiency.",
+   "Arterial insufficiency.",
+   "Incompetent perforating veins."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q002",
+  "number": 2,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Chronic Venous Disease & Varicose Veins",
+  "stem": "The best treatment plan for the patient described in the preceding question should include:",
+  "options": [
+   "Varicose vein ligation and stripping as soon as possible.",
+   "Ulcer débridement, vein stripping, and skin grafting.",
+   "Ligation of the medial perforating veins.",
+   "Transposition of saphenous vein valve.",
+   "Leg elevation, external Unna boot support, and ambulation without standing."
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q003",
+  "number": 3,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Venous Thromboembolism",
+  "stem": "In patients who develop a documented episode of deep venous thrombosis (DVT) the most significant long-term sequela is:",
+  "options": [
+   "Claudication.",
+   "Recurrent foot infections.",
+   "Development of stasis ulcer.",
+   "Pulmonary embolization.",
+   "Diminished arterial perfusion."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q004",
+  "number": 4,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Venous Thromboembolism",
+  "stem": "A 28-year-old woman developed a painful thrombosis of a superficial varix in the left upper calf 2 days previously. After spending the 2 days in bed with her leg elevated, she felt better and the tenderness resolved; however, when out of bed she developed a twinge of right-sided chest pain when walking and a feeling of heaviness in the calf. Which treatment is most appropriate?",
+  "options": [
+   "Check for leg swelling, tenderness, and Homan's sign, and obtain a Doppler ultrasound study.",
+   "Begin antibiotics for a probable secondary bacterial infection.",
+   "Order emergency venography, and if it is abnormal, begin heparin administration.",
+   "Begin ambulation and discontinue bed rest that probably caused muscle pain by hyperextension of the knee.",
+   "If there is no pain on dorsiflexion of the left foot reassure her, since a negative Homan's sign precludes the diagnosis of DVT."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q005",
+  "number": 5,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Lymphedema & Vascular Malformations",
+  "stem": "In a 55-year-old grocery store cashier with an 8-month history of leg edema increasing over the course of a work day, associated with moderate to severe lower leg bursting pain, the most appropriate investigative study or studies are:",
+  "options": [
+   "Doppler duplex ultrasound.",
+   "Brodie-Trendelenburg test.",
+   "Ascending and descending phlebography.",
+   "Measurement of ambulatory and resting foot venous pressure.",
+   "Venous reflux plethysmography."
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q006",
+  "number": 6,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Venous Thromboembolism",
+  "stem": "Which of the following statements are true of pulmonary embolism?",
+  "options": [
+   "Most cases occur postoperatively.",
+   "In the majority of patients pulmonary emboli are ultimately lysed in situ without the administration of pharmacologic agents.",
+   "The preferred therapy for most patients is intravenous heparin.",
+   "It is generally safe to give thrombolytic agents as early as 48 hours postoperatively."
+  ],
+  "answer": [
+   "B",
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q007",
+  "number": 7,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Venous Thromboembolism",
+  "stem": "Which of the following can cause a radioactive pulmonary perfusion scan to demonstrate an appearance similar to that of acute pulmonary embolism?",
+  "options": [
+   "Atelectasis.",
+   "Pneumonitis.",
+   "Pleural fluid.",
+   "Emphysematous bullae."
+  ],
+  "answer": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q008",
+  "number": 8,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Venous Thromboembolism",
+  "stem": "In an otherwise healthy male with previously normal pulmonary and cardiac function, how much of the pulmonary vascular bed must usually be occluded to produce an unstable cardiovascular state (shock)?",
+  "options": [
+   "10%.",
+   "20%.",
+   "40%.",
+   "More than 50%."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q009",
+  "number": 9,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Venous Thromboembolism",
+  "stem": "Lytic therapy in pulmonary embolism:",
+  "options": [
+   "Should precede anticoagulation.",
+   "Can be considered for all patients.",
+   "Can be considered for hemodynamically unstable patients.",
+   "Is indicated for the majority of patients with documented pulmonary embolism."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q010",
+  "number": 10,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Venous Thromboembolism",
+  "stem": "The single most important indication for emergency pulmonary embolectomy is:",
+  "options": [
+   "The likelihood of another episode of embolism.",
+   "The inability to determine whether the problem is acute pulmonary embolism or acute myocardial infarction.",
+   "The presence of persistent and intractable hypotension.",
+   "Pulmonary emphysema."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q011",
+  "number": 11,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Vascular Trauma",
+  "stem": "In prevention of the fat emboli syndrome the primary therapy can be accomplished by which of the following?",
+  "options": [
+   "Systemic anticoagulation achieving a partial thromboplastin time greater than 50 seconds.",
+   "Intravenous administration of alcohol.",
+   "Prophylactic administration of methyl prednisolone.",
+   "Maintaining a serum albumin value greater than 3 gm. per 100 ml. in the days immediately following injury."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q012",
+  "number": 12,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Vascular Trauma",
+  "stem": "Significant tachypnea and hypoxia follow development of fat emboli syndrome, and the goal of ventilatory support should be:",
+  "options": [
+   "Keeping the respiratory rate below 30.",
+   "Preventing respiratory alkalosis.",
+   "Reversing pulmonary shunting using positive end-expiratory pressure.",
+   "Maintaining an adequate total volume."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q013",
+  "number": 13,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Vascular Biology & Pharmacology",
+  "stem": "Which of the following statements about the role of the endothelium is/are correct?",
+  "options": [
+   "Endothelial cells only mediate vasorelaxation.",
+   "Endothelial cell–derived nitric oxide (NO) is produced by a constitutive and an inducible NO synthase.",
+   "The anticoagulant properties of the endothelium reside in its barrier function.",
+   "A local renin-angiotensin system is found in the walls of arteries and veins.",
+   "There are no significant differences in the vasomotor characteristic of endothelial cells in the macro- and microcirculation."
+  ],
+  "answer": [
+   "B",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q014",
+  "number": 14,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Vascular Biology & Pharmacology",
+  "stem": "Which of the following statements on smooth muscle cells is/are correct?",
+  "options": [
+   "Smooth muscle cells can undergo pheotypic changes in response to injury.",
+   "Platelet-derived growth factor (PDGF) requires a progression factor to initiate smooth muscle cell growth.",
+   "NO can be produced by smooth muscle cells.",
+   "Changes in the composition of the extracellular matrix modulate smooth muscle cell growth.",
+   "Smooth muscle cells are the principal cell involved in the development of intimal hyperplasia."
+  ],
+  "answer": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q015",
+  "number": 15,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Endovascular Techniques & Graft Complications",
+  "stem": "Which of the following statements correctly characterizes the healing of prosthetic arterial grafts in humans?",
+  "options": [
+   "Complete healing occurs within 3 months of graft implantation.",
+   "Complete healing occurs within 1 year of graft implantation.",
+   "Prosthetic grafts do not heal completely in humans.",
+   "Polytetrafluoroethylene (PTFE) grafts heal completely whereas Dacron grafts do not.",
+   "Dacron grafts heal completely but PTFE grafts do not."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q016",
+  "number": 16,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Infrainguinal Disease & Claudication",
+  "stem": "Which of the following adversely influence the patency of lower extremity autogenous vein grafts?",
+  "options": [
+   "Poor arterial outflow from the distal anastomosis of the graft.",
+   "Diabetes.",
+   "Small-caliber (less than 4 mm. in diameter) veins.",
+   "Use of reverse, rather than in situ, grafting technique.",
+   "Grafts performed for limb salvage indications rather than claudication."
+  ],
+  "answer": [
+   "A",
+   "C",
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q017",
+  "number": 17,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Infrainguinal Disease & Claudication",
+  "stem": "Arterial autografts are:",
+  "options": [
+   "Limited by the length of available artery.",
+   "When available, always appear to function superiorly to venous autografts.",
+   "Are the graft of choice for pediatric renal artery grafting.",
+   "Are performed infrequently.",
+   "Are immune from the fibrointimal hyperplasia that frequently complicates venous autografts and prosthetic grafts."
+  ],
+  "answer": [
+   "A",
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q018",
+  "number": 18,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Endovascular Techniques & Graft Complications",
+  "stem": "PTFE grafts:",
+  "options": [
+   "Are a variant of a woven textile graft.",
+   "Provide patency superior to that with Dacron grafts for suprainguinal revascularization procedures.",
+   "Provide patency equal to that of autogenous saphenous vein for above-knee femoropopliteal bypass.",
+   "May be more resistant than Dacron grafts to pseudoaneurysm formation.",
+   "Are currently the prosthetic graft of choice for hemodialysis access."
+  ],
+  "answer": [
+   "D",
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q019",
+  "number": 19,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Infrainguinal Disease & Claudication",
+  "stem": "Which of the following statements about the evaluation of arterial substitutes are correct?",
+  "options": [
+   "A graft is considered to have continued primary patency, even if it requires revision, as long as it has not actually thrombosed.",
+   "Secondary patency refers only to grafts whose patency has been restored following an episode of thrombosis.",
+   "Patency figures should be derived from life table calculations.",
+   "Primary patency is the best indicator of the natural history of an arterial substitute.",
+   "Secondary patency is the best indicator of the natural history of an arterial substitute."
+  ],
+  "answer": [
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q020",
+  "number": 20,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Thoracic Aortic Aneurysm",
+  "stem": "Which of the following statements about aneurysms of the sinus of Valsalva is/are true?",
+  "options": [
+   "Aneurysms of the sinus of Valsalva are dilatations of the aortic sinuses that eventually rupture into a cardiac chamber, the pulmonary artery, or the pericardium.",
+   "The most common cause of an acquired sinus of Valsalva aneurysm is bacterial endocarditis.",
+   "Congenital aneurysms of the sinus of Valsalva usually cause symptoms long before they rupture.",
+   "The most common defect associated with congenital sinus of Valsalva aneurysms is aortic insufficiency.",
+   "The most common symptoms of sinus of Valsalva aneurysm rupture include symptoms caused by obstruction of the ventricular outflow tract, heart block, and embolization."
+  ],
+  "answer": [
+   "A",
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q021",
+  "number": 21,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Thoracic Aortic Aneurysm",
+  "stem": "Which statements about treatment for sinus of Valsalva aneurysms are correct?",
+  "options": [
+   "Close observation is appropriate for patients who have an asymptomatic sinus of Valsalva aneurysm without rupture.",
+   "Patients with sinus of Valsalva aneurysms that rupture should undergo operative repair because progressive heart failure may well lead to death.",
+   "All patients with suspected sinus of Valsalva aneurysm ruptures need to undergo cardiac catheterization prior to operation.",
+   "The best operative approach for closure of a ruptured sinus of Valsalva aneurysm is a dual approach through the aorta and the chamber of entry of the fistula.",
+   "When a sinus of Valsalva aneurysm ruptures into the pericardium, emergency operation is required."
+  ],
+  "answer": [
+   "A",
+   "B",
+   "D",
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q022",
+  "number": 22,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Vascular Trauma",
+  "stem": "Transection of the thoracic aorta following trauma usually:",
+  "options": [
+   "Is located just distal to the left subclavian artery.",
+   "Produces a false aneurysm.",
+   "Is fatal in 80% of cases."
+  ],
+  "answer": [
+   "A",
+   "B",
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q023",
+  "number": 23,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Vascular Trauma",
+  "stem": "Which of the following confirms the diagnosis of transection of the descending thoracic aorta?",
+  "options": [
+   "Widened mediastinum.",
+   "Fractured first rib.",
+   "Left pleural effusion.",
+   "Positive aortogram.",
+   "All of the above."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q024",
+  "number": 24,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Aortic Dissection",
+  "stem": "The following is/are true of a descending dissecting aortic aneurysm:",
+  "options": [
+   "It originates distal to the subclavian artery.",
+   "It is usually found in hypertensive patients.",
+   "It may extend the entire length of the aorta."
+  ],
+  "answer": [
+   "A",
+   "B",
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q025",
+  "number": 25,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Aortic Dissection",
+  "stem": "The optimal management of Type A or ascending aortic dissection includes:",
+  "options": [
+   "Aortography.",
+   "Hemodynamic monitoring and frequent recording of blood pressure, urinary output, and neurologic status.",
+   "Emergency operation."
+  ],
+  "answer": [
+   "A",
+   "B",
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q026",
+  "number": 26,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Thoracic Aortic Aneurysm",
+  "stem": "Aneurysms of the ascending aorta may be caused by:",
+  "options": [
+   "Type II aortic dissection.",
+   "Atherosclerosis.",
+   "Cystic medial necrosis."
+  ],
+  "answer": [
+   "A",
+   "B",
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q027",
+  "number": 27,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Thoracoabdominal Aortic Disease",
+  "stem": "When complications occur after operating on a descending thoracic aorta, perhaps the most devastating is:",
+  "options": [
+   "Recurrent nerve injury.",
+   "Bleeding with hemothorax.",
+   "Paraplegia.",
+   "Renal insufficiency."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q028",
+  "number": 28,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Carotid & Vertebral Disease",
+  "stem": "The most common risk associated with carotid artery aneurysm is:",
+  "options": [
+   "Thrombosis of the aneurysm.",
+   "Embolization of mural thrombus.",
+   "Rupture of the aneurysm.",
+   "Compression of the hypopharynx."
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q029",
+  "number": 29,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Carotid & Vertebral Disease",
+  "stem": "Risks associated with carotid artery aneurysms are treated most successfully by which of the following?",
+  "options": [
+   "Proximal ligation.",
+   "Observation.",
+   "Resection and graft replacement.",
+   "Resection and reanastomosis."
+  ],
+  "answer": [
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q030",
+  "number": 30,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Carotid & Vertebral Disease",
+  "stem": "Which of the following statements about carotid body tumors are true?",
+  "options": [
+   "Cells from which carotid body tumors arise normally sense changes in systemic blood pressure.",
+   "Most carotid body tumors are malignant and usually metastasize to the ipsilateral cerebral hemisphere.",
+   "Carotid body tumors are extremely vascular.",
+   "Carotid body tumors most frequently present as a palpable, painless mass at the carotid bifurcation."
+  ],
+  "answer": [
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q031",
+  "number": 31,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Carotid & Vertebral Disease",
+  "stem": "Treatment of carotid body tumors most frequently consists of:",
+  "options": [
+   "Radical neck dissection, including the extracranial carotid artery.",
+   "Radiation therapy.",
+   "Resection of the common, internal, and external carotid arteries with interposition grafting.",
+   "Subadventitial dissection of the carotid bifurcation and simple excision of the tumor."
+  ],
+  "answer": [
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q032",
+  "number": 32,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Upper Extremity & Thoracic Outlet",
+  "stem": "The cause of subclavian arterial aneurysms is most often:",
+  "options": [
+   "Sepsis.",
+   "A congenital defect.",
+   "Atherosclerosis.",
+   "Fibromuscular dysplasia."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q033",
+  "number": 33,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Peripheral & Visceral Aneurysms",
+  "stem": "Of the visceral aneurysms, which is the most common?",
+  "options": [
+   "Celiac.",
+   "Superior mesenteric.",
+   "Hepatic.",
+   "Splenic."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q034",
+  "number": 34,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Peripheral & Visceral Aneurysms",
+  "stem": "Aneurysms of the renal artery are most common:",
+  "options": [
+   "At its origin from the aorta.",
+   "In the main renal artery or the bifurcation into the primary branches.",
+   "Within the kidney."
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q035",
+  "number": 35,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Abdominal Aortic Aneurysm",
+  "stem": "An aortic abdominal aneurysm was first successfully resected by:",
+  "options": [
+   "Matas.",
+   "Linton.",
+   "Dubost.",
+   "None of the above."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q036",
+  "number": 36,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Abdominal Aortic Aneurysm",
+  "stem": "Evaluation of the natural history of abdominal aortic aneurysms in patients who are followed without any surgical procedure indicates that:",
+  "options": [
+   "Approximately 20% are alive at the end of 5 years.",
+   "Seventy-five per cent of patients succumb by the end of the first year.",
+   "Aortic rupture is quite common in this group, occurring in more than half by the second year.",
+   "None of the above."
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q037",
+  "number": 37,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Endovascular Techniques & Graft Complications",
+  "stem": "The appropriate treatment in most situations of an aortic abdominal graft that has become infected is:",
+  "options": [
+   "Intravenous antibiotics and observation for future complications.",
+   "Catheter drainage at the site of infection.",
+   "Replacement of the infected graft with another prosthetic graft.",
+   "Excision of the entire graft and insertion of axillobifemoral grafts."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q038",
+  "number": 38,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Abdominal Aortic Aneurysm",
+  "stem": "In a patient with an abdominal aortic aneurysm and a history of several previous abdominal procedures for release of dense peritoneal adhesions causing episodes of intestinal obstruction, consideration should be given to which one of the following at operation?",
+  "options": [
+   "Cardiopulmonary bypass.",
+   "An incision from the xiphoid process to the symphysis pubis.",
+   "Incision in the left flank with a retroperitoneal approach.",
+   "An axillobifemoral graft."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q039",
+  "number": 39,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Abdominal Aortic Aneurysm",
+  "stem": "After emergency correction of an aortic abdominal aneurysm, the two most common causes of mortality are:",
+  "options": [
+   "Acute renal insufficiency.",
+   "Severe hemorrhage from dehiscence of the suture line postoperatively.",
+   "Myocardial infarction.",
+   "Infection of the graft."
+  ],
+  "answer": [
+   "A",
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q040",
+  "number": 40,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Abdominal Aortic Aneurysm",
+  "stem": "The incidence of inflammatory aortic abdominal aneurysms with dense periaortic adhesions and possible involvement of adjacent structures such as the duodenum, renal vein, and ureter is approximately:",
+  "options": [
+   "2%.",
+   "10%.",
+   "25%."
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q041",
+  "number": 41,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Peripheral & Visceral Aneurysms",
+  "stem": "Which of the following statements about true femoral artery aneurysms is/are correct?",
+  "options": [
+   "All three layers of the blood vessel wall are involved in true aneurysms.",
+   "There is a very high association with aortoiliac and popliteal aneurysms.",
+   "Femoral artery aneurysms occur bilaterally in about 10% of cases.",
+   "Type I femoral artery aneurysms involve the orifice of the deep femoral artery.",
+   "The most common complication of femoral aneurysms is rupture."
+  ],
+  "answer": [
+   "A",
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q042",
+  "number": 42,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Peripheral & Visceral Aneurysms",
+  "stem": "Which of the following statements about false aneurysms of the femoral artery is/are correct?",
+  "options": [
+   "The incidence of iatrogenic false aneurysms has increased in recent years.",
+   "Arteriography is the most useful study for diagnosis of iatrogenic femoral aneurysms.",
+   "Ultrasound-guided compression of iatrogenic false aneurysms is usually successful in achieving thrombosis.",
+   "Femoral anastomotic aneurysms usually involve the proximal anastomosis of a prosthetic infrainguinal bypass.",
+   "Rupture is the most common complication associated with femoral anastomotic aneurysms."
+  ],
+  "answer": [
+   "A",
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q043",
+  "number": 43,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Peripheral & Visceral Aneurysms",
+  "stem": "Which of the following statements about popliteal artery aneurysms is/are correct?",
+  "options": [
+   "They are the most common site of peripheral artery aneurysms.",
+   "For a patient with an abdominal aortic aneurysm the risk of a popliteal aneurysm is approximately 50%.",
+   "For a patient with a popliteal artery aneurysm the risk of a contralateral popliteal aneurysm is approximately 50%.",
+   "Popliteal artery aneurysms most commonly present with local symptoms secondary to compression of the adjacent vein or nerve.",
+   "Arteriography is the most accurate test for the diagnosis of popliteal artery aneurysm."
+  ],
+  "answer": [
+   "A",
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q044",
+  "number": 44,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Peripheral & Visceral Aneurysms",
+  "stem": "Which of the following statements about management of popliteal artery aneurysms is/are correct?",
+  "options": [
+   "All symptomatic aneurysms should be treated with surgery.",
+   "The most common operation is excision of the aneurysm with arterial reconstruction.",
+   "Thrombolytic therapy may be useful when there is thrombosis of the aneurysm and the distal runoff vessels.",
+   "The results for surgery for asymptomatic aneurysms are better than those for symptomatic ones.",
+   "The long-term results with prosthetic grafts are equivalent to those of autogenous vein grafts."
+  ],
+  "answer": [
+   "A",
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q045",
+  "number": 45,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Carotid & Vertebral Disease",
+  "stem": "Which of the following statements about thrombo-obliterative disease of the aorta and its branches are correct?",
+  "options": [
+   "The most common cause of obstructive disease is thrombi.",
+   "Atherosclerosis is the most common pathologic cause of arterial obstruction.",
+   "Lesions occur with greater frequency at the origin of vessels from the aorta.",
+   "Obstructive lesions are preferentially managed by endarterectomy."
+  ],
+  "answer": [
+   "B",
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q046",
+  "number": 46,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Vasculitis & Vasospastic Disorders",
+  "stem": "Which of the following statements about Takayasu's disease is/are correct?",
+  "options": [
+   "Atherosclerosis is restricted to the ascending aorta and innominate artery.",
+   "It primarily affects patients of Asian descent.",
+   "It is a nonspecific arteritis affecting the thoracic and abdominal aorta and its major branches.",
+   "The disorder is also characterized by systemic symptoms, including fever, malaise, arthritis, and pericardial pain.",
+   "Surgical bypass of the involved vessel should be undertaken in nearly all patients, since the results are excellent."
+  ],
+  "answer": [
+   "B",
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q047",
+  "number": 47,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Carotid & Vertebral Disease",
+  "stem": "A 65-year-old man complains of having had slurred speech and no motor function or sensation of his right hand for 15 minutes. A left carotid bruit is heard in the neck. Which of the following diagnostic studies should be done?",
+  "options": [
+   "Carotid duplex scan.",
+   "Electroencephalography (EEG).",
+   "Carotid arteriography.",
+   "Computed tomography (CT) of the brain."
+  ],
+  "answer": [
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q048",
+  "number": 48,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Carotid & Vertebral Disease",
+  "stem": "Carotid artery occlusive disease most often produces transient ischemic attacks or stroke by which of the following mechanisms?",
+  "options": [
+   "Reduction of flow to the affected area of the brain through stenotic or occluded vessels.",
+   "Embolization of atheromatous debris and/or clot with occlusion of intracranial branches of the carotid artery.",
+   "Thrombosis and propagation of the clot into the intracranial branches.",
+   "All of the above are equally common."
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q049",
+  "number": 49,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Carotid & Vertebral Disease",
+  "stem": "The majority of patients with “subclavian steal” syndrome have which of the following conditions?",
+  "options": [
+   "Reversed flow in the involved vertebral artery.",
+   "Disabling neurologic symptoms.",
+   "Upper extremity claudication.",
+   "Decreased systolic blood pressure in the ipsilateral arm."
+  ],
+  "answer": [
+   "A",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q050",
+  "number": 50,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Carotid & Vertebral Disease",
+  "stem": "Which of the following treatments is/are appropriate for symptomatic subclavian steal syndrome?",
+  "options": [
+   "Subclavian endarterectomy.",
+   "Carotid-subclavian bypass.",
+   "Subclavian-carotid transposition.",
+   "Intra-arterial streptokinase."
+  ],
+  "answer": [
+   "B",
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q051",
+  "number": 51,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Aortoiliac Occlusive Disease",
+  "stem": "Which statements about thrombo-obliterative disease of the terminal abdominal aorta (Leriche syndrome) are true?",
+  "options": [
+   "It is characterized by a combination of atherosclerotic and thrombotic occlusion of the terminal aorta.",
+   "It is characterized by acute thrombosis of the terminal aorta.",
+   "It requires emergency revascularization when the diagnosis is made.",
+   "It is often associated with distal obstructive lesions.",
+   "Patients often show signs of ischemia in the legs, and males may have difficulty maintaining a stable erection.",
+   "The preferred surgical procedure is bypass with a prosthetic graft."
+  ],
+  "answer": [
+   "A",
+   "B",
+   "E",
+   "F"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q052",
+  "number": 52,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Aortoiliac Occlusive Disease",
+  "stem": "Following surgical correction of Leriche syndrome, which of the following are true?",
+  "options": [
+   "Gangrene is usually prevented, but symptoms of claudication persist.",
+   "The symptoms of claudication are usually improved.",
+   "Sexual function is improved in some patients.",
+   "Patients who continue to smoke following surgical correction have a higher incidence of reocclusion.",
+   "Prevention of damage to the sympathetic and parasympathetic nerves in the periaortic region reduces the postoperative incidence of retrograde ejaculation."
+  ],
+  "answer": [
+   "B",
+   "C",
+   "D",
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q053",
+  "number": 53,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Aortoiliac Occlusive Disease",
+  "stem": "In a patient who has chronic, complete occlusion of a common iliac artery, which of the following are true?",
+  "options": [
+   "The primary symptom is claudication of the calf muscles.",
+   "Symptoms are usually claudication of the thigh and calf.",
+   "The decision as to whether or not to operate can be based on clinical examination findings.",
+   "Collateral iliac arterial vessels are prevalent.",
+   "Balloon angioplasty is appropriate in some patients."
+  ],
+  "answer": [
+   "B",
+   "D",
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q054",
+  "number": 54,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Infrainguinal Disease & Claudication",
+  "stem": "Which of the following does not describe intermittent claudication?",
+  "options": [
+   "Is elicited by reproducible amount of exercise.",
+   "Abates promptly with rest.",
+   "Is often worse at night.",
+   "May be an indication for bypass surgery."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q055",
+  "number": 55,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Infrainguinal Disease & Claudication",
+  "stem": "In terms of long-term graft patency, the best results in the femoral tibial bypass position have been achieved with:",
+  "options": [
+   "A modified human umbilical cord graft.",
+   "Polytetrafluoroethylene (PTFE [Gore-Tex]).",
+   "Saphenous vein allograft.",
+   "Segments of greater and lesser saphenous and cephalic veins spliced together."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q056",
+  "number": 56,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Infrainguinal Disease & Claudication",
+  "stem": "Which of the following statements about femoral popliteal bypass grafting is/are true?",
+  "options": [
+   "Long-term graft surveillance by duplex scanning has no effect on graft patency rates.",
+   "Graft failure and amputation occur in half the patients within 5 years.",
+   "If grafting is successful, long-term mortality is improved.",
+   "Patency rates of 80% to 90% at 1 year currently are expected."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q057",
+  "number": 57,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Renovascular Disease",
+  "stem": "Which of the following statements about percutaneous renal artery transluminal angioplasty (PRTA) are true?",
+  "options": [
+   "Patients with renovascular hypertension are usually cured after successful PRTA.",
+   "Patients with renovascular hypertension due to atherosclerosis are more likely to benefit from PRTA than those in whom it is due to fibromuscular dysplasia.",
+   "PRTA of ostial atherosclerotic lesions is more successful than PRTA of nonostial lesions.",
+   "PRTA is associated with a higher morbidity and mortality than angioplasty for peripheral vascular disease."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q058",
+  "number": 58,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Endovascular Techniques & Graft Complications",
+  "stem": "True statements about percutaneous transluminal angioplasty (PTA) of peripheral vascular lesions include which of the following?",
+  "options": [
+   "PTA of iliac lesions is more often successful than PTA of femoral artery lesions.",
+   "PTA of iliac occlusions produces results similar to PTA of iliac artery stenoses.",
+   "PTA of infrapopliteal occlusive disease is associated with an increased rate of vasospasm, which can cause thrombosis.",
+   "A short, singular arterial stenosis is the optimal situation for a successful angioplasty."
+  ],
+  "answer": [
+   "A",
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q059",
+  "number": 59,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Endovascular Techniques & Graft Complications",
+  "stem": "Advantages of PTA, as compared with surgical revascularization, include which of the following?",
+  "options": [
+   "Decreased initial cost, shorter convalescence, and earlier return to full activity.",
+   "Because PTA is performed under local anesthesia, it is applicable to a greater number of patients with peripheral vascular disease.",
+   "PTA is more durable and requires fewer subsequent procedures.",
+   "Repeat PTA is well-tolerated, morbidity is equivalent to that for the initial procedure, and success rates are comparable to those expected with the initial procedure."
+  ],
+  "answer": [
+   "A",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q060",
+  "number": 60,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Vascular Diagnostics & Imaging",
+  "stem": "Which of the following statements are true?",
+  "options": [
+   "All arterial injuries are associated with absence of a palpable pulse.",
+   "Preoperative arteriography is required to diagnose an arterial injury.",
+   "The presence of Doppler signals indicates that an arterial injury has not occurred.",
+   "Patients with critical limb ischemia have paralysis and paresthesias.",
+   "In all patients with multiple trauma, arterial injuries should be repaired before other injuries are addressed."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q061",
+  "number": 61,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Vascular Trauma",
+  "stem": "A patient presents with a gunshot wound of the mid-neck. Although drunk, he exhibits no lateralizing neurologic signs. After control of his airway is achieved, he is taken directly to the operating room for control of hemorrhage. The common carotid artery has a 2-cm. destroyed segment. There is also a major esophageal injury. The best treatment for this carotid injury is:",
+  "options": [
+   "Vein graft replacement of the common carotid artery.",
+   "Ligation of the common carotid artery.",
+   "Ligation of the common carotid artery proximally with a subclavian carotid bypass.",
+   "Ligation of the common carotid artery with sympathectomy.",
+   "Prosthetic graft replacement of the common carotid artery."
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q062",
+  "number": 62,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Vascular Trauma",
+  "stem": "Which of the following statements about iatrogenic arterial injuries are true?",
+  "options": [
+   "Femoral artery pseudoaneurysms occurring after arteriography require urgent operative intervention.",
+   "Symptomatic axillary sheath hematomas require urgent operative intervention.",
+   "Arterial occlusions after catheterization occur more commonly in the femoral artery than in the brachial artery.",
+   "The Allen test identifies patients with an incomplete palmar arch."
+  ],
+  "answer": [
+   "B",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q063",
+  "number": 63,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Vascular Trauma",
+  "stem": "A 35-year-old man involved in a motor vehicle accident presents with a knee dislocation that is easily reduced. Radiography of the knee shows no fracture. Which of the following statements about his treatment are true?",
+  "options": [
+   "If he has normal pulses he can be discharged.",
+   "If he has normal pulses he requires either close observation or arteriography.",
+   "If he has absent distal pulses and severe ischemia he should undergo arteriography in the radiology suite.",
+   "A popliteal vein injury is best treated with ligation.",
+   "A popliteal artery injury should be repaired with the ipsilateral saphenous vein if available."
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q064",
+  "number": 64,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Vascular Trauma",
+  "stem": "A 24-year-old man is involved in an industrial accident in which he sustains a crushed pelvis. Diagnostic peritoneal lavage is positive. At exploration, a large pelvic hematoma is found. What is the best treatment?",
+  "options": [
+   "Explore all the major arteries and veins of the pelvis and surgically control the bleeding if possible.",
+   "Do not explore the pelvic hematoma. Close the abdomen and apply a MAST suit.",
+   "Do not explore the pelvic hematoma. Apply a pelvic fixator and send the patient to radiology for possible embolization of bleeding pelvic vessels.",
+   "Use sustained hypotensive anesthesia to try to control bleeding.",
+   "Open the pelvic hematoma and apply laparotomy pads with topical hemostatic agents."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q065",
+  "number": 65,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Acute Limb Ischemia & Compartment Syndrome",
+  "stem": "Which of the following statements about acute arterial occlusion today is/are not true?",
+  "options": [
+   "Most arterial emboli originate in the heart as a result of underlying cardiac disease.",
+   "It can be treated under local anesthesia.",
+   "It is usually due to atherosclerotic disease.",
+   "Surgical treatment can usually be avoided if the lesion is diagnosed early."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q066",
+  "number": 66,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Acute Limb Ischemia & Compartment Syndrome",
+  "stem": "Which of the following statements about lytic agents is/are true?",
+  "options": [
+   "They were first introduced well after the advent of balloon embolectomy.",
+   "Streptokinase is nonantigenic.",
+   "Systemic use is the most effective means of delivery.",
+   "The interval to reperfusion limits their utility in the treatment of advanced ischemia."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q067",
+  "number": 67,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Vascular Biology & Pharmacology",
+  "stem": "Which of the following is not an indication for postoperative heparinization?",
+  "options": [
+   "Suspected venous thrombosis.",
+   "Risk of embolism following acute myocardial infarction.",
+   "Advanced ischemia secondary to acute embolic occlusion.",
+   "Dissolution of residual thrombus after balloon thromboembolectomy."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q068",
+  "number": 68,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Acute Limb Ischemia & Compartment Syndrome",
+  "stem": "Which of the following is/are not true of the embolectomy catheter technique?",
+  "options": [
+   "The balloon should be inflated by the same person who withdraws the catheter.",
+   "Distal exploration should be carried out in all major branches of the affected extremity.",
+   "The balloon is designed to dilate as it traverses areas of luminal narrowing.",
+   "Removal of adherent thrombus requires alternate catheter-based therapy in addition to balloon exploration."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q069",
+  "number": 69,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Acute Limb Ischemia & Compartment Syndrome",
+  "stem": "Which of the following is the least reliable indicator of successful thrombectomy?",
+  "options": [
+   "Vigorous back-bleeding after removal of thrombotic material.",
+   "Arteriographically demonstrated patency of all runoff vessels.",
+   "Normal distal pulses.",
+   "Return of normal skin color and temperature."
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q070",
+  "number": 70,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Hemodialysis Access",
+  "stem": "Which of the following statements about arteriovenous fistula are correct?",
+  "options": [
+   "The local features characteristic of an arteriovenous communication are demonstrated by the presence of a thrill and bruit with aneurysmal dilatation.",
+   "An arteriovenous fistula is best managed by ligation of the feeding vessels.",
+   "The most common type of arteriovenous fistula is iatrogenic, created for vascular access.",
+   "Branum's or Nicoladoni's sign is increased heart rate when the fistula is compressed."
+  ],
+  "answer": [
+   "A",
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q071",
+  "number": 71,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Lymphedema & Vascular Malformations",
+  "stem": "Of the following statements about congenital arteriovenous malformations, which are correct?",
+  "options": [
+   "Patients with complex congenital arteriovenous malformations should as early as possible undergo ligation of feeding vessels.",
+   "Embolizing large arteriovenous malformations has not been demonstrated to be beneficial.",
+   "The most common complications of a large arteriovenous fistula are symptoms of congestive heart failure, pain, ulceration, and cosmetic deformity.",
+   "Most congenital arteriovenous malformations are easily managed with simple excision."
+  ],
+  "answer": [
+   "A",
+   "B",
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q072",
+  "number": 72,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Vasculitis & Vasospastic Disorders",
+  "stem": "Thrombosis occurs frequently in thromboangiitis obliterans (Buerger's disease) in which of the following vessels?",
+  "options": [
+   "Superficial femoral artery.",
+   "Radial or ulnar artery.",
+   "Digital arteries.",
+   "Superficial veins."
+  ],
+  "answer": [
+   "B",
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q073",
+  "number": 73,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Vasculitis & Vasospastic Disorders",
+  "stem": "Which of the following statements about thromboangiitis obliterans (Buerger's disease) are true?",
+  "options": [
+   "The disease affects only young men.",
+   "The disease is more common in Asia and the Middle East than in the United States.",
+   "Life expectancy is limited.",
+   "The usual cause is smoking."
+  ],
+  "answer": [
+   "B",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q074",
+  "number": 74,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Chronic Limb-Threatening Ischemia",
+  "stem": "A 52-year-old man presents with sudden onset of profound cyanosis of the second and third digits of the right hand with gangrene of the tip of the second digit. The remaining digits and the other hand are not affected. Which of the following statements are true?",
+  "options": [
+   "This is characteristic of vasospastic Raynaud's syndrome.",
+   "Evaluation should include arteriography.",
+   "A coagulation abnormality may be the cause of this problem.",
+   "Thoracic sympathectomy is the first-line treatment."
+  ],
+  "answer": [
+   "B",
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q075",
+  "number": 75,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Vasculitis & Vasospastic Disorders",
+  "stem": "A 21-year-old woman presents with digital color changes in response to cold stimulation. Physical examination and laboratory data, including an autoimmune disease screen, are normal. She should be advised that:",
+  "options": [
+   "Her condition is characteristic of vasospastic Raynaud's syndrome and, while she may be at a slightly higher risk for developing a connective tissue disease in the future, there is no evidence of one currently.",
+   "Her problem with her fingers will get progressively worse and she will eventually lose fingers.",
+   "She has scleroderma, which will manifest itself at a later date.",
+   "Her problem is “all in her head.”"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q076",
+  "number": 76,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Vasculitis & Vasospastic Disorders",
+  "stem": "Obstructive Raynaud's syndrome can be differentiated from vasospastic Raynaud's syndrome by the:",
+  "options": [
+   "Ice water test.",
+   "Digital hypothermic challenge test.",
+   "Antinuclear antibody levels.",
+   "Digital blood pressure measurement."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q077",
+  "number": 77,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Upper Extremity & Thoracic Outlet",
+  "stem": "Which of the following statements about upper extremity arterial insufficiency is/are true?",
+  "options": [
+   "Symptomatic ischemia is more common in the upper extremity than in the lower extremity.",
+   "Vascular injuries from blunt trauma are more common in the upper extremity arteries than in the lower extremity ones.",
+   "Arteriovenous fistulas frequently follow blunt trauma.",
+   "The inflammatory process of arteries obstructed by an arteritis should be controlled before a bypass graft is inserted."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q078",
+  "number": 78,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Upper Extremity & Thoracic Outlet",
+  "stem": "Which of the following statements about upper extremity edema is/are true?",
+  "options": [
+   "Lymphedema is more common than venous edema.",
+   "Signs and symptoms of venous obstruction include edema, distention of superficial veins, tightness, aching, cyanosis, and pain.",
+   "Distal venous obstructions are more likely than proximal venous obstructions to cause symptoms in the upper extremity.",
+   "All patients with symptomatic upper extremity venous thrombosis should receive fibrinolytic therapy."
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q079",
+  "number": 79,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Mesenteric Ischemia",
+  "stem": "Which of the following statements about chronic mesenteric ischemia due to atherosclerosis is/are correct?",
+  "options": [
+   "Postprandial pain in these patients is due to gastric hyperacidity and in most cases is relieved with H 2 blockers.",
+   "Men are more often affected than women.",
+   "Mesenteric endarterectomy is the surgical treatment of choice, since long-term patency rates are superior to mesenteric bypass.",
+   "Arteriography is no longer necessary in these cases since noninvasive diagnosis can be established using duplex ultrasound scanning.",
+   "Surgical treatment is indicated to prevent intestinal infarction in symptomatic patients."
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q080",
+  "number": 80,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Mesenteric Ischemia",
+  "stem": "In patients with acute mesenteric ischemia due to mesenteric embolism, which of the following statements is/are correct?",
+  "options": [
+   "Patients often have a history of postprandial pain and weight loss.",
+   "The use of digitalis may be a predisposing factor to the acute event.",
+   "Thrombolytic therapy may be attempted in patients without signs of bowel infarction or gastrointestinal bleeding.",
+   "Arteriography usually reveals the embolus lodged at the orifice of the superior mesenteric artery.",
+   "At the time of exploration, the proximal jejunum is often viable and ischemia is most severe in the more distal small bowel and colon."
+  ],
+  "answer": [
+   "C",
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q081",
+  "number": 81,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Renovascular Disease",
+  "stem": "Which of the following statements about angiotensin II is correct?",
+  "options": [
+   "It is a decapeptide.",
+   "It is an enzyme found in high concentration in the pulmonary circulation.",
+   "It is a direct vasoconstrictor and stimulates aldosterone production.",
+   "It is a vasoconstrictor and inhibits aldosterone secretion."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q082",
+  "number": 82,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Renovascular Disease",
+  "stem": "Which of the following statements about atherosclerotic obstruction of the renal arteries is true?",
+  "options": [
+   "Lesions are usually short.",
+   "These lesions are usually found in the distal renal arteries, particularly just beyond branch points.",
+   "Ostial lesions are best treated with balloon angioplasty.",
+   "Lesions of this type are the second most common cause of renal artery stenosis."
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q083",
+  "number": 83,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Renovascular Disease",
+  "stem": "Which of the following statements about the treatment of renal artery stenosis is/are true?",
+  "options": [
+   "Though a significant cause of hypertension, renal artery stenosis seldom results in loss of renal function.",
+   "In patients with medically controlled renovascular hypertension there is no need to consider revascularization.",
+   "Balloon angioplasty is more effective in patients with atherosclerotic disease as compared with those with fibromuscular disease.",
+   "In patients with severe atherosclerosis of the aorta, bypass from the splenic or hepatic arteries should be considered."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q084",
+  "number": 84,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Vascular Trauma",
+  "stem": "Which of the following statements about venous trauma is/are current?",
+  "options": [
+   "All injured veins can be ligated without any immediate or long-term complications.",
+   "Attempted repair of injured veins is associated with increased incidence of thrombophlebitis.",
+   "Attempted repair of injured veins is associated with a high incidence of fatal pulmonary embolism.",
+   "Careful consideration should be made to repair the injured popliteal vein.",
+   "Anatomy of the venous system is more variable than anatomy of the arterial system."
+  ],
+  "answer": [
+   "D",
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q085",
+  "number": 85,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Carotid & Vertebral Disease",
+  "stem": "All but one of the following statements is true. Which is not true?",
+  "options": [
+   "Successful clinical repair of injured veins had been effected by the turn of the twentieth century.",
+   "Initial large experience in managing injured veins came from the battlefields of twentieth-century wars.",
+   "More than 50% of repaired injured veins thrombose.",
+   "Phlebography is useful in evaluating variable venous anatomy.",
+   "Repeated phlebography following attempted venous repair is useful in determining the success rate."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q086",
+  "number": 86,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Vascular Trauma",
+  "stem": "Which of the following statements about injured veins is/are correct?",
+  "options": [
+   "In contrast to the arterial system, it is more difficult to evaluate the patient for suspected venous trauma.",
+   "There is no simple method similar to palpating distal pulses following arterial repair to evaluate the status of attempted venous repair.",
+   "Recanalization of initial thrombosis of attempted venous repair is more common than in the arterial system.",
+   "Doppler ultrasound—and more recently color-flow duplex—have been increasingly helpful in evaluating integrity of the venous system.",
+   "Prevention of venous stasis is important in the immediate postoperative period after attempted venous repair."
+  ],
+  "answer": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q087",
+  "number": 87,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Vascular Biology & Pharmacology",
+  "stem": "Concerning the normal structure of blood vessels, the following is/are true:",
+  "options": [
+   "In utero, hemangioblasts give rise to both vascular conduits and hematopoietic tissue",
+   "In development, smooth muscle tubes precede endothelium",
+   "After birth, growth of large vessels does not change the number of elastic and smooth muscle layers",
+   "Adventitia includes the external elastic lamina"
+  ],
+  "answer": [
+   "A",
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q088",
+  "number": 88,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Atherosclerosis & Medical Therapy",
+  "stem": "Among the theories of atherosclerosis, the following is/are true:",
+  "options": [
+   "Fatty streaks in the aorta of children do not predict atherosclerosis or heart attacks",
+   "Aging induces non-atherosclerotic thickening of the intima",
+   "T-lymphocytes are present in atheromas",
+   "The reaction-to-injury hypothesis serves to explain the characteristic lipid accumulation"
+  ],
+  "answer": [
+   "A",
+   "B",
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q089",
+  "number": 89,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Vascular Biology & Pharmacology",
+  "stem": "Concerning in-vivo regulation of the anticoagulated state by endothelium, the following is/are true:",
+  "options": [
+   "Heparan-ATIII inactivates only thrombin",
+   "Thrombomodulin serves only to bind thrombin",
+   "Production of von Willebrand factor (VWF) inactivates platelets",
+   "Endothelial cells can secrete tissue factor"
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q090",
+  "number": 90,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Vascular Biology & Pharmacology",
+  "stem": "Concerning medial and intimal thickening, the following is/are true:",
+  "options": [
+   "Increase of wall mass is a consequence primarily of smooth muscle cell proliferation",
+   "Smooth muscle cells are normally quiescent at maturity",
+   "Transplanting a vein into the arterial circuit causes both endothelial and smooth muscle proliferation",
+   "Heparin can suppress both proliferation and migration of smooth muscle cells"
+  ],
+  "answer": [
+   "A",
+   "B",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q091",
+  "number": 91,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Vascular Biology & Pharmacology",
+  "stem": "Concerning regulation of arterial luminal area, the following is/are true:",
+  "options": [
+   "The major determinant of arterial diameter is blood pressure",
+   "Compensatory vasodilation occurs until more than 40% of area inside the internal elastic lamina is obstructed in coronary arteries",
+   "Vasodilating nitric oxide is derived from adenosine",
+   "When endothelium is absent, thrombin causes vasoconstriction."
+  ],
+  "answer": [
+   "B",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q092",
+  "number": 92,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Vascular Biology & Pharmacology",
+  "stem": "Concerning regulation of smooth muscle cell growth, the following is/are true:",
+  "options": [
+   "Serum derived from plasma has substantially more growth promoting activity than serum from whole blood.",
+   "Fibroblast growth factor (basic) is responsible for the first wave of proliferation in experimental arterial injury",
+   "The gene for platelet derived growth factor (PDGF) is nearly identical to the oncogene v-sis",
+   "Sympathectomy promotes the increase in DNA in the media of developing arteries and in hypertension"
+  ],
+  "answer": [
+   "B",
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q093",
+  "number": 93,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Atherosclerosis & Medical Therapy",
+  "stem": "A 21-year-old man with premature arteriosclerosis and mental retardation is found to have homocystinuria. The following is/are true:",
+  "options": [
+   "Presence of mental retardation is atypical for homocystinemia",
+   "The specific enzyme deficiency responsible is homocysteine methyl transferase",
+   "Arteriosclerotic plaques in this condition are atypically void of lipid deposition",
+   "Homocysteine exists in plasma in three forms: protein bound, mixed and free"
+  ],
+  "answer": [
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q094",
+  "number": 94,
+  "type": "multi",
+  "specialty": "cardiac",
+  "topic": "Aortic Dissection",
+  "stem": "A 22-year-old male basketball player with back pain is found to have a dissecting aortic aneurysm. the follow is/are true:",
+  "options": [
+   "In Marfan’s syndrome, a disorder of type I collagen underlies the observed cystic medial necrosis",
+   "In type IV Ehlers-Danlos syndrome, little or no type III collagen is produced and arterial rupture is likely",
+   "In pseudoxanthoma elasticum, the medial elastic fibers are replaced by xanthoma cells which calcify",
+   "In arteria magna syndrome, the media is devoid of elastic tissue and coronary artery disease is common"
+  ],
+  "answer": [
+   "A",
+   "B",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q095",
+  "number": 95,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Vascular Diagnostics & Imaging",
+  "stem": "A 38-year-old male smoker with gangrenous changes in the toes of both feet has an arteriogram showing normal vessels to the popliteal trifurcation and multiple occlusions distally in small vessels. The following is/are true:",
+  "options": [
+   "Hyperlipidemia, diabetes, and autoimmune disease must be ruled out to make the diagnosis of Buerger’s disease",
+   "Plethysmographic evidence of digital obstruction in all four extremities with normal proximal vessels is sufficient evidence for Buerger’s disease without arteriography",
+   "The most important treatment for Buerger’s disease is regional surgical sympathectomy",
+   "In contrast to the lower extremities, Buerger’s involvement of the upper extremities rarely leads to amputations"
+  ],
+  "answer": [
+   "A",
+   "B",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q096",
+  "number": 96,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Vasculitis & Vasospastic Disorders",
+  "stem": "A 42-year-old Asian woman with a history of recurrent deep venous thrombosis presents with a pulsatile mass in the abdomen confirmed on ultrasound to be an abdominal aortic aneurysm. The following is/are true:",
+  "options": [
+   "History and findings suggest Kawasaki disease",
+   "History and findings suggest polyarteritis nodosa",
+   "Venous thrombosis is more common than arterial disease in these patients and the presence of an aneurysm portends a high mortality rate",
+   "Replacement of an aneurysm with a graft in Behcet’s disease is associated with recurrent aneurysms and thrombosis"
+  ],
+  "answer": [
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q097",
+  "number": 97,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Renovascular Disease",
+  "stem": "A 32-year-old woman with severe hypertension is found to have renal artery changes as shown in Figue 69-1. The following statement/s/ is/are true:",
+  "options": [
+   "Next to the renal artery, this process affects the carotid and coronary arteries most commonly",
+   "In the most common variant of this disorder, the media is infiltrated with increased collagen, fibrous connective tissue and glycosaminoglycans",
+   "If similar disease is found in the carotid, it should be treated, even if asymptomatic",
+   "Appropriate treatment includes percutaneous transluminal balloon angioplasty"
+  ],
+  "answer": [
+   "B",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q098",
+  "number": 98,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Carotid & Vertebral Disease",
+  "stem": "Ten years after irradiation of the neck for a tonsillar carcinoma, a 59-year-old woman is found to have symptomatic carotid artery disease. Arteriogram shows a 70% irregular stenotic lesion. The following is/are true:",
+  "options": [
+   "Replacement of the artery should be planned due to radiation induced arterial injury",
+   "The pathology is most likely to be an inflammatory reaction with endothelial sloughing and thrombosis",
+   "If atherosclerotic disease is found, the plaque will be no different than nonirradiated plaques",
+   "The patient should be managed medically because of the radiation arterial injury"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q099",
+  "number": 99,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Vasculitis & Vasospastic Disorders",
+  "stem": "A 23-year-old woman with fever, myalgia and anorexia presents with hypertension and a cool, ischemic left arm. Angiography shows multiple stenoses of the subclavian and renal arteries. The following is/are true:",
+  "options": [
+   "Coronary angiography is indicated with high likelihood of finding coronary disease",
+   "Endarterectomy of the lesions would be preferred to transluminal angioplasty",
+   "The presentation is more suggestive of Behcet’s disease than Takayasu arteritis",
+   "Preferred management consists of corticosteroids"
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q100",
+  "number": 100,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Vasculitis & Vasospastic Disorders",
+  "stem": "A 58-year-old woman presents with a history of severe headache, visual field loss and a transient myalgia involving the back and shoulders. The following is/are true:",
+  "options": [
+   "A tender, nodular temporal artery would indicate a picture compatible with temporal arteritis",
+   "The presentation is most compatible with giant cell arteritis",
+   "Steroids should be avoided if an operation is planned",
+   "Angiography is most likely to show irregular surface stenosis"
+  ],
+  "answer": [
+   "A",
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q101",
+  "number": 101,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Vascular Biology & Pharmacology",
+  "stem": "Concerning the fibrinolytic system the following is/are true:",
+  "options": [
+   "Plasminogen is an a-globulin",
+   "Fibrin but not fibrinogen is lysed by plasmin",
+   "The main inhibitor of plasmin is a2-macroglobulin",
+   "TAP is activated during fibrin bonding to plasminogen"
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q102",
+  "number": 102,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Vascular Biology & Pharmacology",
+  "stem": "Concerning platelet function in vascular disease, the following is/are true:",
+  "options": [
+   "Platelet aggregation is the initial step in thrombogenesis when subendothelial structures are exposed.",
+   "Non-homogeneous distribution of platelets towards the vessel wall is enhanced at increasing shear rates",
+   "The platelet glycoprotein (GP) which is the principal collagen receptor is GPIb-IX",
+   "Fibrinogen binding to GPIIb-IIIa is a prerequisite for all platelet aggregation"
+  ],
+  "answer": [
+   "B",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q103",
+  "number": 103,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Vascular Biology & Pharmacology",
+  "stem": "Concerning the inhibition of intravascular coagulation, the following is/are true:",
+  "options": [
+   "Heparin accelerates the effects of ATIII to a greater extent than native heparin sulfate",
+   "Protein C but not protein S is vitamin K dependent",
+   "Protein Ca stimulates the release of TAP from endothelial cells",
+   "ATIII neutralizes factors Xa, IXa and IIa"
+  ],
+  "answer": [
+   "A",
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q104",
+  "number": 104,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Vascular Biology & Pharmacology",
+  "stem": "Concerning hypercoagulable syndromes, the following is/are true:",
+  "options": [
+   "Acquired hypercoagulable states are more common than congenital disorders",
+   "Fatal neonatal thrombosis is associated with severe dysfibrinogenemia",
+   "Heparin associated thrombocytopenia is due to an antibody that attaches to the platelet Fc receptor",
+   "The lupus anticoagulant induces a hemorrhagic diathesis"
+  ],
+  "answer": [
+   "A",
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q105",
+  "number": 105,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Vascular Biology & Pharmacology",
+  "stem": "Concerning the treatment of thrombotic vascular disease, the following is/are true:",
+  "options": [
+   "Aspirin is successful in preventing venous as arterial thromboembolism",
+   "Dipyridamole enhances the ability of aspirin to prevent arterial thrombosis",
+   "Ticlopidine is more effective than aspirin in patients with cerebrovascular disease",
+   "Ticlopidine prevents fibrinogen binding to the GPIIb-IIIa receptor complex"
+  ],
+  "answer": [
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q106",
+  "number": 106,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Acute Limb Ischemia & Compartment Syndrome",
+  "stem": "An 82-year-old man with a long history of coronary and peripheral vascular disease presents with an acutely ischemic right lower extremity. The following is/are true:",
+  "options": [
+   "The first step in management should be an arteriogram",
+   "If intractable congestive heart failure is present, non-operative treatment with heparin would be appropriate",
+   "If prolonged ischemia has occurred, reperfusion should be accompanied by sodium bicarbonate",
+   "Regardless of the period of ischemia, fasciotomy should be based on the findings postoperative"
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q107",
+  "number": 107,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Acute Limb Ischemia & Compartment Syndrome",
+  "stem": "Two days following coronary angiography and angioplasty, a 47-year-old male diabetic develops painful blue toes on both feet. The following is/are true:",
+  "options": [
+   "It is very unlikely that there is any connection between the catheterization and the extremity problem",
+   "The appropriate treatment is vasodilators and an antiplatelet agent",
+   "If both superficial femoral arteries are obstructed, the most likely etiology is in-situ microvascular thrombosis",
+   "If renal failure or pancreatitis develops, the outlook for long term survival is very poor"
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q108",
+  "number": 108,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Acute Limb Ischemia & Compartment Syndrome",
+  "stem": "A 39-year-old woman with embolic occlusion of an iliac artery is subject to an operating room delay before perfusion can be restored. The following is/are true:",
+  "options": [
+   "Ischemia for longer than 3 hours will result in muscle fiber autolysis",
+   "Earliest ultrastructural changes of ischemia in muscle include mitochondrial swelling and loss of glycogen granules",
+   "Phosphocreatine mediated rephosphorylation of ADP occurs for about 3 hours after ischemia",
+   "Capillary thrombosis is the most likely explanation for the “no-reflow” phenomenon"
+  ],
+  "answer": [
+   "B",
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q109",
+  "number": 109,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Acute Limb Ischemia & Compartment Syndrome",
+  "stem": "A 70-year-old man presents with sudden pain and ischemic changes in his left leg. An arterial embolus is suspected. The following is/are true:",
+  "options": [
+   "The most likely source of an arterial embolus is from intracardiac thrombus on a previous MI",
+   "If atrial fibrillation (AF) is present, it is known that chronic AF is less likely to produce embolism than paroxysmal AF",
+   "Currently, the most common cause of AF is ischemic rather than rheumatic heart disease",
+   "Aspirin is more effective than coumadin in AF for reducing risk of stroke and cardiovascular mortality"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q110",
+  "number": 110,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Acute Limb Ischemia & Compartment Syndrome",
+  "stem": "In discussing risk and outcomes of the patient in the previous question, the following is/are true:",
+  "options": [
+   "If renal failure occurs, the mortality rate is about 50%",
+   "If arterial embolism is confirmed, the patient should receive lifelong anticoagulation",
+   "Postoperative amputation is unlikely if the embolectomy is successful",
+   "Postoperative death from pulmonary embolism is unlikely"
+  ],
+  "answer": [
+   "A",
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q111",
+  "number": 111,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Acute Limb Ischemia & Compartment Syndrome",
+  "stem": "The clinical manifestations of the patient in the previous question would include:",
+  "options": [
+   "Loss of sensation to deep pain as one of the earliest signs",
+   "Paresthesia would be noted in a classical dermatome distribution",
+   "Early pallor is due to both diminished skin blood flow and reflex vasoconstriction",
+   "Involuntary muscle contraction indicates that restored flow cannot save the extremity"
+  ],
+  "answer": [
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q112",
+  "number": 112,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Acute Limb Ischemia & Compartment Syndrome",
+  "stem": "A 51-year-old man with a history of transmural MI one month ago presents with sudden occlusion of his abdominal aorta. The following is/are true:",
+  "options": [
+   "Most likely location of the MI is anterolateral",
+   "The vast majority of emboli occur within 6 weeks of the occurrence of the MI",
+   "Occurrence of arterial embolism does not affect the overall mortality",
+   "Heparin can reduce the incidence of embolism after MI"
+  ],
+  "answer": [
+   "A",
+   "B",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q113",
+  "number": 113,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Acute Limb Ischemia & Compartment Syndrome",
+  "stem": "A 67-year-old man with acute popliteal arterial embolism has a negative cardiac echo for source of the thrombus. The following is/are true:",
+  "options": [
+   "Most likely non-cardiac source is a thoracic aortic aneurysm",
+   "Embolism is more common from femoral than popliteal arterial aneurysms",
+   "Emboli from popliteal aneurysms are often clinically silent",
+   "Embolism is rare from subclavian artery aneurysms"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q114",
+  "number": 114,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Acute Limb Ischemia & Compartment Syndrome",
+  "stem": "In regards to the previous case, the following statement(s) concerning the distribution of arterial emboli is/are true:",
+  "options": [
+   "Change in arterial diameter is a more important determinant of embolic site than flow rate",
+   "Aortic valvular disease is more often associated with cerebral embolism than mitral valve disease",
+   "Among embolic sites, renal emboli are least detected clinically",
+   "The most common site for an arterial embolus is the aortic bifurcation"
+  ],
+  "answer": [
+   "A",
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q115",
+  "number": 115,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Acute Limb Ischemia & Compartment Syndrome",
+  "stem": "Concerning cellular metabolism, the following is/are true:",
+  "options": [
+   "Anaerobic metabolism is about half as efficient in energy production as normoxic metabolism.",
+   "Loss of cellular Ca++ as ion pumping fails activates phospholipase",
+   "Cellular swelling serves to protect the cell",
+   "Ketone as an alternative energy source has been shown to be beneficial in ischemia"
+  ],
+  "answer": [
+   "B",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q116",
+  "number": 116,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Acute Limb Ischemia & Compartment Syndrome",
+  "stem": "A 62-year-old woman with embolic femoral artery occlusion is facing a delay before circulation can be restored. To minimize ischemic injury, the following is/are true:",
+  "options": [
+   "Increased oxygen saturation is beneficial",
+   "Injury will continue during reperfusion",
+   "Low collateral flow is more harmful than no flow",
+   "Concern regarding reperfusion injury should not delay revascularization"
+  ],
+  "answer": [
+   "B",
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q117",
+  "number": 117,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Acute Limb Ischemia & Compartment Syndrome",
+  "stem": "Concerning tolerance to tissue ischemia, the following factor(s) are important variables determining organ failure:",
+  "options": [
+   "Resting metabolic rate",
+   "Anaerobic glycolysis",
+   "Autonomic nerve supply",
+   "Efficiency of existing collaterals"
+  ],
+  "answer": [
+   "A",
+   "B",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q118",
+  "number": 118,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Acute Limb Ischemia & Compartment Syndrome",
+  "stem": "Concerning ischemic cellular injury, the following is/are true:",
+  "options": [
+   "Prolonged hypoxic metabolism is inefficient but not harmful to cells",
+   "Microvascular endothelium is a significant source of xanthine oxidase",
+   "The “no-reflow” phenomenon is due to arteriolar spasm",
+   "Endothelial cells lack the defense system for oxidative damage"
+  ],
+  "answer": [
+   "B",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q119",
+  "number": 119,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Acute Limb Ischemia & Compartment Syndrome",
+  "stem": "Concerning remote effects of localized ischemia, the following is/are true:",
+  "options": [
+   "Lower torso and limb ischemia induce pulmonary injury via TXA2 and WBC effects",
+   "ATP degradation produces adenosine which induces systemic hypertension",
+   "Adenosine also causes renal and pulmonary vasoconstriction",
+   "Oxygen radicals are continuously produced by normal metabolic processes"
+  ],
+  "answer": [
+   "A",
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q120",
+  "number": 120,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Vascular Diagnostics & Imaging",
+  "stem": "Which of the following is/are true regarding exercise testing and reactive hyperemia in patients with peripheral vascular occlusive disease?",
+  "options": [
+   "Normal individuals walk on a treadmill at 2 m.p.h. at a 10% grade without experiencing leg pain and ankle pressure remains unchanged after exercise",
+   "In patients with arterial obstruction, pain usually forces cessation of walking after 2–3 minutes and the ankle pressure measured immediately after exercise is diminished",
+   "The time required for pressure to return to baseline is usually 2–3 minutes",
+   "Reactive hyperemia may be used as a substitute for treadmill exercise"
+  ],
+  "answer": [
+   "A",
+   "B",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q121",
+  "number": 121,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Vascular Diagnostics & Imaging",
+  "stem": "Which of the following is/are true with respect to transcutaneous PO2 (TcPO2) measurements?",
+  "options": [
+   "TcPO2 levels provide an index of the adequacy of tissue perfusion and depends on the quantity of oxygen delivered and that extracted to meet metabolic demands",
+   "Extremity TcPO2levels are typically normalized to a well perfused area, such as the infraclavicular skin",
+   "TcPO2levels average about 60 mmHg in normal limbs",
+   "Patients with limb threatening ischemia usually have values less than 20 mmHg and may approach 0"
+  ],
+  "answer": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q122",
+  "number": 122,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Vascular Diagnostics & Imaging",
+  "stem": "Which of the following is/are appropriate candidates for exercise testing?",
+  "options": [
+   "The patient with symptoms of intermittent claudication but normal resting ankle brachial indices",
+   "The patient with rest pain, nonhealing ulcers or gangrene",
+   "If the resting ankle pressure is below 30–40 mmHg",
+   "The patient with blue toe syndrome and readily palpable pedal pulses"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q123",
+  "number": 123,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Vascular Diagnostics & Imaging",
+  "stem": "Which of the following statements is/are true regarding the use of duplex scanning as a means to follow and monitor bypass grafts?",
+  "options": [
+   "Duplex scanning is accurate and cost effective",
+   "A localized increase in systolic velocity greater than 25% compared to adjacent segments in the graft identifies a diameter reduction of at least 50%",
+   "Peak systolic velocities should be less than 40 cm/sec throughout the graft",
+   "Arterial venous fistulas associated with in situ bypass grafts are difficult to detect with a duplex scanner"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q124",
+  "number": 124,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Vascular Diagnostics & Imaging",
+  "stem": "Which of the following is/are true with respect to ankle blood pressure and ankle brachial index (ABI)?",
+  "options": [
+   "An ABI of less than 0.92 almost always indicates hemodynamically significant arterial disease",
+   "Claudicants have a wide range of ABIs with average values of 0.6 +/ – 0.15",
+   "In limbs with rest pain the mean ABI is typically 0.25 +/– 0.13",
+   "In limbs with impending gangrene ABIs seldom exceed 0.25 and average about 0.05 +/– 0.08"
+  ],
+  "answer": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q125",
+  "number": 125,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Vascular Diagnostics & Imaging",
+  "stem": "Which of the following is/are true regarding Doppler assessment?",
+  "options": [
+   "Conventional Dopplers admit an ultrasonic beam in the frequency of 2–10 MHz",
+   "The sound frequency changes in inverse proportion to the velocity of the moving particles (red blood cells) and the cosign of the angle of insonnation",
+   "The frequency shift is not audible",
+   "More information can be obtained by spectral analysis"
+  ],
+  "answer": [
+   "A",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q126",
+  "number": 126,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Carotid & Vertebral Disease",
+  "stem": "Which of the following is/are true with respect to assessment of the carotid circulation?",
+  "options": [
+   "The external carotid artery flow pattern resembles those obtained from peripheral arteries",
+   "The internal carotid artery maintains forward flow throughout the cardiac cycle",
+   "Peak systolic velocity exceeding 200 cm/sec suggests a stenosis greater than 50%",
+   "An end diastolic velocity greater than 120 cm/sec suggests a stenosis greater than 80%"
+  ],
+  "answer": [
+   "A",
+   "B",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q127",
+  "number": 127,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Vascular Diagnostics & Imaging",
+  "stem": "Which of the following is/are true regarding the assessment of renal artery obstruction with duplex scanning?",
+  "options": [
+   "There is no flow reversal in early diastole in the renal artery",
+   "Renal artery to aortic peak systolic velocity ratios that exceed 3.5 indicates the presence of a 60% diameter stenosis",
+   "Duplex scanning regularly identifies accessory renal arteries",
+   "Duplex scanning cannot be recommended as a means for monitoring renal artery reconstruction"
+  ],
+  "answer": [
+   "A",
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q128",
+  "number": 128,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Vascular Diagnostics & Imaging",
+  "stem": "Which of the following is/are true regarding normal peripheral arterial flow waves?",
+  "options": [
+   "Flow is antegrade and rapidly accelerated in early systole",
+   "There is a rapid deceleration phase during which velocities fall to 0",
+   "A short period of flow reversal occurs in early diastole",
+   "Low level forward flow continues throughout the remainder of diastole"
+  ],
+  "answer": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q129",
+  "number": 129,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Atherosclerosis & Medical Therapy",
+  "stem": "Which of the following is/are true with regard to diabetes mellitus as a risk factor for atherosclerosis?",
+  "options": [
+   "Atherosclerosis is the cause of death in approximately 75% of diabetic persons",
+   "Following a myocardial infarction diabetic persons have a higher rate of in-hospital mortality and a higher five year mortality than nondiabetic persons",
+   "The length of time one has diabetes appears to be a factor for the development of atherosclerosis whereas the severity of the diabetes appears to have little relationship to the development of vascular disease",
+   "The impact of diabetes on the development of vascular disease appears greater in women than in men"
+  ],
+  "answer": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q130",
+  "number": 130,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Atherosclerosis & Medical Therapy",
+  "stem": "Which of the following statement(s) is/are correct with regard to Type IV hyperlipoproteinemia?",
+  "options": [
+   "It is the most common lipid abnormality found in peripheral vascular disease",
+   "It is relatively common in diabetic persons",
+   "VLDL accumulation characterizes Type IV hyperlipoproteinemia",
+   "Cholesterol levels are markedly elevated"
+  ],
+  "answer": [
+   "A",
+   "B",
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q131",
+  "number": 131,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Atherosclerosis & Medical Therapy",
+  "stem": "Which of the following is/are true with respect to hypertension?",
+  "options": [
+   "There is a threshold effect of blood pressure on the risk of cardiovascular complications",
+   "The risk of hypertension is essentially confined to stroke",
+   "Common antihypertensive regimens may have adverse effects on a patient’s lipid profile",
+   "Aggressive blood pressure reduction in patients with ischemic heart disease may increase mortality and morbidity"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q132",
+  "number": 132,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Atherosclerosis & Medical Therapy",
+  "stem": "Which of the following is/are true regarding treatment of diabetes?",
+  "options": [
+   "Strict control with insulin but not oral hypoglycemic agents markedly reduces the incidence of cardiovascular complications in diabetic persons",
+   "Vascular complications are directly proportional to the degree of glycemic control",
+   "The effects of diabetes are most marked in individuals with other risk factors",
+   "The impact of diabetes and cardiovascular risk is relatively uniform"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q133",
+  "number": 133,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Atherosclerosis & Medical Therapy",
+  "stem": "Which of the following is/are true regarding cholesterol?",
+  "options": [
+   "Cholesterol ester rich LDLs are removed from the circulation primarily by the liver utilizing the apo B-E receptor",
+   "Receptor mediated clearance reduces de novo cholesterol synthesis",
+   "Elevations of LDL alone constitute Type IIa familial hypercholesterolemia",
+   "Elevated LDLs and VLDLs constitute Type IIb (familial combined)"
+  ],
+  "answer": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q134",
+  "number": 134,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Atherosclerosis & Medical Therapy",
+  "stem": "Which of the following vascular complications are more common in smokers?",
+  "options": [
+   "Coronary artery disease",
+   "Peripheral vascular occlusive disease",
+   "Cerebrovascular disease",
+   "Abdominal aortic aneurysms"
+  ],
+  "answer": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q135",
+  "number": 135,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Infrainguinal Disease & Claudication",
+  "stem": "Which of the following is/are true with respect to exercise training and claudication?",
+  "options": [
+   "The effect is beneficial, real and quantifiable",
+   "It is secondary to increased blood flow due to collateral development",
+   "There is an improved metabolic efficiency after exercise training",
+   "It is associated with significant reduction in blood viscosity and red cell aggregation"
+  ],
+  "answer": [
+   "A",
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q136",
+  "number": 136,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Atherosclerosis & Medical Therapy",
+  "stem": "Which of the following is/are true regarding smoking cessation programs?",
+  "options": [
+   "Since the time of the first Surgeon General’s report the prevalence of smoking among adults decreased from 40% to 29%",
+   "Using smoking cessation strategies initial success rates are approximately 45%, however, recidivism rates average 40–50%",
+   "Pharmacologic interventions combined with behavioral counseling increase the likelihood of long term abstinence from smoking",
+   "Quitting smoking even after prolonged use has beneficial effects on the outcome of peripheral vascular disease"
+  ],
+  "answer": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q137",
+  "number": 137,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Atherosclerosis & Medical Therapy",
+  "stem": "Which of the following statements is/are true regarding diabetic vascular disease?",
+  "options": [
+   "Diabetes increases the risk of atherosclerosis at almost all anatomic sites",
+   "Diabetes affects 1–2% of the population. However, of patients undergoing operation for infrageniculate occlusive disease 65–75% are diabetic",
+   "Diabetic patients are more likely to have an incomplete pedal arch and occlusive involvement of the metatarsal arteries",
+   "Aortic involvement in the atherosclerotic process is less common"
+  ],
+  "answer": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-vascular-q138",
+  "number": 138,
+  "type": "multi",
+  "specialty": "vascular",
+  "topic": "Atherosclerosis & Medical Therapy",
+  "stem": "Which of the following is/are true with respect to risk factors for atherosclerosis?",
+  "options": [
+   "Risk factors are categorized as behavioral or metabolic",
+   "For metabolic risk factors there are threshold effects",
+   "Personal behaviors that increase cardiovascular risk do so by modifying metabolic parameters",
+   "The two primary behaviors that increase risk of atherosclerosis are consuming a diet high in animal fat and smoking cigarettes"
+  ],
+  "answer": [
+   "A",
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ }
+]

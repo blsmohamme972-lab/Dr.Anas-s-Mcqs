@@ -1,0 +1,1105 @@
+[
+ {
+  "id": "medcosmos-esophagus-q001",
+  "number": 1,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "Which of the following statements about the anatomic course of the esophagus is correct?",
+  "options": [
+   "The cervical esophagus passes behind and to the right of the trachea.",
+   "The thoracic esophagus enters the posterior mediastinum anterior to the aortic arch.",
+   "The thoracic esophagus passes behind the right mainstem bronchus and the pericardium.",
+   "The esophagus enters the diaphragmatic hiatus at the level of T8.",
+   "The esophagus deviates anteriorly and to the left as it enters the abdomen."
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-esophagus-q002",
+  "number": 2,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "Which of the following statements about esophageal anatomy is correct?",
+  "options": [
+   "The esophagus has a poor blood supply, which is segmental in distribution and accounts for the high incidence of anastomotic leakage.",
+   "The esophageal serosa consists of a thin layer of fibroareolar tissue.",
+   "The esophagus has two distinct muscle layers, an outer, longitudinal one and an inner, circular one, which are striated in the upper third and smooth in the distal two thirds.",
+   "Injury to the recurrent laryngeal nerve results in vocal cord dysfunction but does not affect swallowing.",
+   "The lymphatic drainage of the esophagus is relatively sparse, localized primarily to adjacent paraesophageal lymph nodes."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-esophagus-q003",
+  "number": 3,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "Which of the following statements about the lower esophageal sphincter (LES) mechanism, or high-pressure zone (HPZ), is true?",
+  "options": [
+   "The LES is a circular smooth muscle ring that is 3 to 5 cm. long.",
+   "In assessing esophageal manometric data, mean HPZ pressure less than 6 mm. Hg or overall length less than 2 cm. is more likely to be associated with incompetence of the LES and gastroesophageal reflux.",
+   "Esophageal manometry and the acid perfusion (Bernstein) test reliably identify the patient with an incompetent LES mechanism.",
+   "Distal HPZ relaxation occurs within 5 to 8 seconds of initiating a swallow.",
+   "Twenty-four–hour distal esophageal pH monitoring is achieved with an intraesophageal pH electrode positioned at the esophagogastric junction."
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-esophagus-q004",
+  "number": 4,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "Which of the following statements about esophageal motility is/are true?",
+  "options": [
+   "The act of swallowing initiates UES relaxation, which persists until the bolus of food passes the LES.",
+   "The primary peristaltic wave normally propels the swallowed bolus through the esophagus in 4 to 8 seconds.",
+   "Normally, a progressive peristaltic contraction (primary wave) follows 50% of all swallows, the remainder being secondary or tertiary contractions.",
+   "Secondary peristalsis is initiated when the entire swallowed bolus of food fails to empty from the esophagus into the stomach.",
+   "Tertiary esophageal contractions are high-amplitude progressive peristaltic contractions that produce the “corkscrew” appearance of esophageal spasm on barium esophagography."
+  ],
+  "answer": [
+   "B",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-esophagus-q005",
+  "number": 5,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "Which of the following statements about UES dysfunction are correct?",
+  "options": [
+   "This condition is diagnosed by the characteristic manometric findings of UES spasm.",
+   "Typical symptoms include cervical dysphagia, expectoration of saliva, and hoarseness.",
+   "The classic finding on barium esophagogram is a posterior cricopharyngeal bar.",
+   "Medical or surgical therapy of gastroesophageal reflux may be curative.",
+   "A cervical esophagomyotomy for UES dysfunction should be limited to 2 to 3 cm. in length so that normal muscle is not damaged."
+  ],
+  "answer": [
+   "B",
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-esophagus-q006",
+  "number": 6,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Esophageal Motility Disorders & Diverticula",
+  "stem": "Which of the following statements about achalasia is/are correct?",
+  "options": [
+   "In most cases in North America the cause is a parasitic infestation by Trypanosoma cruzi.",
+   "Chest pain and regurgitation are the usual symptoms.",
+   "Distal-third esophageal adenocarcinomas may occur in as many as 20% of patients within 10 years of diagnosis.",
+   "Manometry demonstrates failure of LES relaxation on swallowing and absent or weak simultaneous contractions in the esophageal body after swallowing.",
+   "Endoscopic botulinum toxin injection of the LES, pneumatic dilatation, and esophagomyotomy provide highly effective curative therapy for achalasia."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-esophagus-q007",
+  "number": 7,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Esophageal Motility Disorders & Diverticula",
+  "stem": "Which of the following statements about diffuse esophageal spasm is/are true?",
+  "options": [
+   "Chest pain due to esophageal spasm is readily differentiated from angina pectoris of cardiac origin.",
+   "Bouts of esophageal obstruction and regurgitation of food are characteristic.",
+   "Associated psychiatric disorders are common.",
+   "During manometric assessment, unless the patient is having pain there may be no detectable multiphasic, high-amplitude, simultaneous esophageal contractions.",
+   "The treatment of choice is a long esophagomyotomy from the aortic arch to the esophagogastric junction."
+  ],
+  "answer": [
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-esophagus-q008",
+  "number": 8,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Esophageal Motility Disorders & Diverticula",
+  "stem": "Which of the following statements about epiphrenic diverticula of the esophagus is/are correct?",
+  "options": [
+   "They are traction diverticula that arise close to the tracheobronchial tree.",
+   "They characteristically arise proximal to an esophageal reflux stricture.",
+   "The degree of dysphagia correlates with the size of the pouch.",
+   "They are best approached surgically through a right thoracotomy.",
+   "The operation of choice is a stapled diverticulectomy, long esophagomyotomy, and partial fundoplication."
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-esophagus-q009",
+  "number": 9,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Benign Esophageal Tumors & Strictures",
+  "stem": "Which of the following statements about Schatzki's ring is correct?",
+  "options": [
+   "The ring represents a panmural fibrotic stricture resulting from gastroesophageal reflux.",
+   "Dysphagia occurs when the ring diameter is 13 mm. or less.",
+   "The ring occurs within 1 to 2 cm. of the squamocolumnar epithelial junction.",
+   "Schatzki's ring indicates reflux esophagitis.",
+   "Schatzki's ring signifies the need for an antireflux operation."
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-esophagus-q010",
+  "number": 10,
+  "type": "matching",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "Choose the distance in centimeters from the upper incisor teeth at which the following radiographically identified esophageal lesions would be encountered endoscopically:\n1. Zenker's diverticulum\n2. Traction diverticulum\n3. Tumor 10 cm. proximal to the esophagogastric junction",
+  "options": [
+   "10 cm.",
+   "15 cm.",
+   "25 cm.",
+   "30 cm.",
+   "40 cm."
+  ],
+  "answer": [],
+  "explanation": "",
+  "images": [],
+  "answerText": "1. Zenker's diverticulum → B (15 cm)\n2. Traction diverticulum → C (25 cm)\n3. Tumor 10 cm proximal to the esophagogastric junction → D (30 cm)"
+ },
+ {
+  "id": "medcosmos-esophagus-q011",
+  "number": 11,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "Which of the following statements about pathology encountered at esophagoscopy is/are correct?",
+  "options": [
+   "Reflux esophagitis should be graded as mild, moderate, or severe, to promote consistency among different observers.",
+   "An esophageal reflux stricture with a 2-mm. lumen is not dilatable and is best treated with resection.",
+   "A newly diagnosed radiographic distal esophageal stricture warrants dilation and antireflux medical therapy.",
+   "In patients with Barrett's mucosa, the squamocolumnar epithelial junction occurs 3 cm. or more proximal to the anatomic esophagogastric junction.",
+   "After fasting at least 12 hours, a patient with megaesophagus of achalasia can safely undergo flexible fiberoptic esophagoscopy."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-esophagus-q012",
+  "number": 12,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Benign Esophageal Tumors & Strictures",
+  "stem": "Which of the following statements about the diagnosis and treatment of esophageal leiomyomas is/are correct?",
+  "options": [
+   "The majority are diagnosed after they cause dysphagia and chest pain.",
+   "Biopsy is indicated at the time of esophagoscopy, to rule out carcinoma.",
+   "Full-thickness elliptical excision of the esophageal wall is the preferred surgical approach.",
+   "Endoscopic ultrasonography is a reliable means of following leiomyomas conservatively.",
+   "Recurrence of resected leiomyomas is minimized by wide local excision."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-esophagus-q013",
+  "number": 13,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Esophageal Cancer",
+  "stem": "Which of the following statements regarding the pathology of esophageal carcinoma is/are correct?",
+  "options": [
+   "Worldwide, adenocarcinoma is the most common esophageal malignancy.",
+   "Squamous cell carcinoma is most common in the distal esophagus, whereas adenocarcinoma predominates in the middle third.",
+   "Patients with Barrett's metaplasia are 40 times more likely than the general population to develop adenocarcinoma.",
+   "Metastases from esophageal carcinoma are characteristically localized to regional mediastinal lymph nodes adjacent to the tumor.",
+   "Achalasia, radiation esophagitis, caustic esophageal stricture, Barrett's mucosa, and Plummer-Vinson syndrome are all premalignant esophageal lesions that predispose to the development of squamous cell carcinoma."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-esophagus-q014",
+  "number": 14,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Esophageal Cancer",
+  "stem": "Which of the following statements about the surgical treatment of esophageal carcinoma is/are correct?",
+  "options": [
+   "The finding of severe dysphagia in association with Barrett's mucosa is an indication for an antireflux operation to prevent subsequent development of carcinoma.",
+   "Long-term survival is improved by radical en bloc resection of the esophagus with its contained tumor, adjacent mediastinal tissues, and regional lymph nodes.",
+   "The morbidity and mortality rates for cervical esophagogastric anastomotic leak are substantially less than those associated with intrathoracic esophagogastric anastomotic leak.",
+   "The leading complications of transthoracic esophagectomy and intrathoracic esophagogastric anastomosis are bleeding and wound infection.",
+   "Transhiatal esophagectomy without thoracotomy achieves better long-term survival than transthoracic esophagectomy."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-esophagus-q015",
+  "number": 15,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Esophageal Perforation & Caustic Injury",
+  "stem": "The best management for a 48-hour-old distal esophageal perforation is:",
+  "options": [
+   "Antibiotics and drainage.",
+   "Division of the esophagus and exclusion of the perforation.",
+   "Primary repair with buttressing.",
+   "Resection with cervical esophagostomy, gastrostomy, and jejunostomy.",
+   "T-tube fistula and drainage."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-esophagus-q016",
+  "number": 16,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Esophageal Perforation & Caustic Injury",
+  "stem": "A 50-year-old patient develops sudden left lower chest pain and epigastric pain after vomiting. The patient shows diaphoresis, breath sounds are decreased on the left, and there is abdominal guarding. The most appropriate diagnostic test is:",
+  "options": [
+   "Aortography.",
+   "Esophagoscopy.",
+   "Electrocardiogram.",
+   "Film of the chest.",
+   "White blood count."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-esophagus-q017",
+  "number": 17,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "The following statements about the influence of diet and lifestyle on lower esophageal sphincter (LES) function are true except one. Identify the incorrect statement.",
+  "options": [
+   "A high-protein diet increases LES pressure.",
+   "A fat meal results in sustained decrease in LES pressure.",
+   "Chocolate ingestion causes a decrease in LES pressure.",
+   "Peppermint produces a transient decrease in LES values.",
+   "Cigarette smoking produces no significant changes in LES pressures."
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-esophagus-q018",
+  "number": 18,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "GERD & Hiatal Hernia",
+  "stem": "When a stricture is present in association with gastroesophageal reflux, each of the following is an acceptable repair for reflux control except one. Identify the poorest repair.",
+  "options": [
+   "Intrathoracic total fundoplication.",
+   "Lengthening gastroplasty with total fundoplication.",
+   "Total fundoplication.",
+   "Lengthening gastroplasty with partial fundoplication.",
+   "Partial fundoplication."
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-esophagus-q019",
+  "number": 19,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "When assessing gastroesophageal reflux disease by manometry each of the following statements is correct except one. Identify the incorrect one.",
+  "options": [
+   "Absent or extremely low LES pressures have predictive value in identifying more severe reflux.",
+   "Peristaltic dysfunction increases with increasing severity of esophagitis.",
+   "With established reflux disease the UES is hypertensive.",
+   "Esophageal functional changes are worst in patients with a circumferential columnar-lined esophagus.",
+   "Absence of peristalsis may be associated with more severe forms of reflux disease."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-esophagus-q020",
+  "number": 20,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Benign Esophageal Tumors & Strictures",
+  "stem": "The presence of a nonmalignant mid- or upper esophageal stricture always indicates the presence of:",
+  "options": [
+   "Alkaline reflux esophagitis.",
+   "Barrett's esophagus.",
+   "Idiopathic reflux disease.",
+   "Mediastinal fibrosis.",
+   "Scleroderma."
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-esophagus-q021",
+  "number": 21,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Esophageal Perforation & Caustic Injury",
+  "stem": "Which of the following is most reliable for confirming the occurrence of a significant esophageal caustic injury?",
+  "options": [
+   "History of the event.",
+   "Physical examination of the patient.",
+   "Barium esophagraphy.",
+   "Endoscopy."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-esophagus-q022",
+  "number": 22,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Esophageal Perforation & Caustic Injury",
+  "stem": "Indications for surgical reconstruction of the esophagus include which of the following?",
+  "options": [
+   "Continuing requirement for frequent dilation of an extensive esophageal stricture for a minimum of 2 years.",
+   "Failure or refusal of the patient to comply with a treatment regimen of regular dilation.",
+   "Development of a fistula between the esophagus and tracheobronchial tree.",
+   "Iatrogenic perforation of the esophagus during attempted dilation."
+  ],
+  "answer": [
+   "B",
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-esophagus-q023",
+  "number": 23,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "GERD & Hiatal Hernia",
+  "stem": "First-line therapy for routine peptic duodenal ulcer disease includes:",
+  "options": [
+   "Vagotomy and antrectomy.",
+   "Upper endoscopy and biopsy to rule out tumor.",
+   "Evaluation for Helicobacter pylori.",
+   "Serum gastrin determination.",
+   "Cream or milk-based “Sippy” diet."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-esophagus-q054",
+  "number": 54,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "GERD & Hiatal Hernia",
+  "stem": "Which of the following statement(s) concerning the surgical options for an anti-reflux operation is/are true?",
+  "options": [
+   "A patient with normal esophageal length and esophageal body motility is best served by laparoscopic Nissen fundoplication",
+   "A patient with a low peristaltic amplitude of the distal third of the esophagus is a candidate for an open Nissen fundoplication",
+   "A Collis gastroplasty is an additional procedure that can be added in patients with extensive esophageal shortening",
+   "End-stage reflux disease such as an undilatable stricture or Barrett’s esophagus with high grade dysplagia is best managed by a colon interposition"
+  ],
+  "answer": [
+   "A",
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-esophagus-q055",
+  "number": 55,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "GERD & Hiatal Hernia",
+  "stem": "Factors associated with the development of complications of gastroesophageal reflux disease include:",
+  "options": [
+   "The presence of a defective lower esophageal sphincter",
+   "Inadequate esophageal clearance",
+   "The presence of a hiatal hernia",
+   "The presence of an alkaline component of the reflux material"
+  ],
+  "answer": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-esophagus-q056",
+  "number": 56,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "Fundamental to understanding disorders of esophageal function is the measurement of the contractility of the esophageal body and sphincters. Which of the following statement(s) is/are true concerning esophageal manometry in the investigation of benign esophageal disease?",
+  "options": [
+   "A defective sphincter is predictive of poor long-term response to medical therapy, but a good response to surgery",
+   "Esophageal manometry can determine the resting pressure and the overall length of the sphincter but not its abdominal length",
+   "The LES pressure normally drops to gastric baseline immediately after a swallow before the peristaltic wave reaches the lower esophagus",
+   "A Vector Volume below the fifth percentile of normal is the most sensitive measure of mechanical deficiency of the LES",
+   "There is no correlation between defects in LES with the severity of gastroesophageal reflux disease"
+  ],
+  "answer": [
+   "A",
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-esophagus-q057",
+  "number": 57,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "Which of the following statement(s) is/are true concerning the diagnosis and management of the patient whose barium esophogram is shown in Figure 18-29?",
+  "options": [
+   "The condition is due to neuronal generation of the myenteric plexus in the lower esophageal sphincter",
+   "The patient will report symptoms of vomiting of sour or bitter material",
+   "Despite the impressive radiologic picture, passage of the endoscope through the area of narrowing will likely be possible",
+   "Manometry and 24 hour pH monitoring should be performed for confirmation of the diagnosis"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-esophagus-q058",
+  "number": 58,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "GERD & Hiatal Hernia",
+  "stem": "Which of the following statement(s) is/are true concerning other tests available for investigation of esophageal disease?",
+  "options": [
+   "A 24 hour pH monitoring is currently the principal method in making the diagnosis of gastroesophageal reflux disease (GERD)",
+   "Acid reflux episodes are defined as periods when the esophageal pH is less than 2",
+   "Twenty-four pH monitoring is only useful in the detection of acid reflux disease",
+   "The Bernstein test continues to be an important tool in the diagnosis of acid reflux disease",
+   "Delayed gastric emptying may be an important etiologic factor in patients with GERD"
+  ],
+  "answer": [
+   "A",
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-esophagus-q059",
+  "number": 59,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "GERD & Hiatal Hernia",
+  "stem": "The results for anti-reflux surgery are generally good, however, patients who have failed anti-reflux procedures constitute a particularly challenging group. Which of the following statement(s) is/are true concerning failed anti-reflux repairs?",
+  "options": [
+   "A Slipped Nissen is usually the result of an operative technical mistake",
+   "Disruption of a fundoplication is more prone to occur with a Nissen fundoplication because of the use of the gastric wall in the repair",
+   "Postoperative dysphagia in a patient with normal preoperative motility is usually due to a secondary motility disorder",
+   "Colonic replacement, although technically challenging, usually has superior long-term results when compared to esophageal replacement with the stomach"
+  ],
+  "answer": [
+   "A",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-esophagus-q060",
+  "number": 60,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "A number of diagnostic modalities exist for investigation of structural abnormalities of the esophagus. Which of the following statement(s) is/are true concerning the use of these investigative studies?",
+  "options": [
+   "Endoscopy should be the first investigation in any patient with foregut symptoms",
+   "Barrett’s esophagus is suggested when the squamo-columnar junction is more than 2 cm above the gastroesophageal junction on endoscopic examination",
+   "There are three areas of esophageal narrowing which can be noted on both barium esophogram and endoscopy",
+   "The CT appearance of the esophagus is normally a flattened, hollow structure with a thin wall"
+  ],
+  "answer": [
+   "B",
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-esophagus-q061",
+  "number": 61,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "GERD & Hiatal Hernia",
+  "stem": "Which of the following patient scenarios would be best managed with anti-reflux surgery?",
+  "options": [
+   "A patient with heartburn but normal 24 hour pH monitoring and an intact lower esophageal sphincter",
+   "A patient with primarily respiratory manifestations of gastroesophageal reflux",
+   "A patient with increased acid exposure and a mechanically defective sphincter who responds well to medical therapy but requires continued long-term medication for continued relief",
+   "A patient with gastroesophageal reflux but excessive complaints of epigastric pain, nausea, vomiting, and loss of appetite"
+  ],
+  "answer": [
+   "B",
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-esophagus-q062",
+  "number": 62,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Esophageal Motility Disorders & Diverticula",
+  "stem": "Which of the following statement(s) concerning pharyngoesophageal disorders is/are true?",
+  "options": [
+   "In neuromuscular diseases, dysphagia is often worse for liquids than for solids",
+   "Cricomyotomy may be indicated for a wide variety of neuromuscular disorders involving the pharyngoesophageal phase of swallowing",
+   "Excision of a Zenker’s diverticulum is indicated to prevent malignant change in the sac",
+   "Complications of all operations on the cervical esophagus include hematoma formation and recurrent nerve paralysis"
+  ],
+  "answer": [
+   "A",
+   "B",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-esophagus-q063",
+  "number": 63,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Barrett Esophagus",
+  "stem": "Barrett’s esophagus is a complication of gastroesophageal reflux disease. Which of the following statement(s) is/are true concerning this condition?",
+  "options": [
+   "The histologic hallmark is the presence of “specialized” columnar epithelium regardless of how far it extends into the esophagus",
+   "Barrett’s epithelium will frequently regress with medical therapy or anti-reflux surgery",
+   "High grade dysplasia will frequently be associated with foci of invasive carcinoma",
+   "Patients with adenocarcinoma arising in Barrett’s esophagus have a high incidence of p53 gene mutations"
+  ],
+  "answer": [
+   "A",
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-esophagus-q064",
+  "number": 64,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "Which of the following statement(s) is/are true concerning the blood supply and lymphatic drainage of the esophagus?",
+  "options": [
+   "The thoracic esophagus receives no direct branches from the aorta therefore allowing the technique of transhiatal (blunt) esophagectomy",
+   "Bleeding esophageal varices are most prominent in the mid-esophagus",
+   "Lymphatic drainage of the lower third of the esophagus goes entirely to the abdominal lymphatic system",
+   "Nodal involvement in esophageal cancer is quite common even if the tumor is limited to the level of the submucosa"
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-esophagus-q065",
+  "number": 65,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "Which of the following statement(s) is/are true concerning the process of swallowing and esophageal transit of food?",
+  "options": [
+   "Injury to the recurrent laryngeal nerves can cause motility problems of the cervical esophagus and resulting aspiration",
+   "Esophageal reflux does not lead to impaired esophageal motility",
+   "Relaxation of the LES is mediated via inhibitory neurons",
+   "The overall length of the LES is the only factor influencing the pressure gradient of the sphincter",
+   "A mechanically defective sphincter is always associated with increased esophageal acid exposure"
+  ],
+  "answer": [
+   "A",
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-esophagus-q066",
+  "number": 66,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Esophageal Motility Disorders & Diverticula",
+  "stem": "Which of the following statement(s) is/are true concerning the management of this patient?",
+  "options": [
+   "The risk of perforation of the esophagus associated with balloon dilatation may be as high as 10%",
+   "An anti-reflux procedure should be universally performed for any operative myotomy",
+   "Successful relief of dysphagia can be achieved in up to 90% of patients with a single pneumatic dilatation",
+   "Thoracoscopic myotomy is associated with significantly poorer results than the open procedure",
+   "Prospective randomized studies and retrospective data appear to support a surgical approach for achalasia"
+  ],
+  "answer": [
+   "A",
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-esophagus-q068",
+  "number": 68,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "Which of the following statement(s) is/are correct concerning the patient whose barium esophogram is shown below?",
+  "options": [
+   "The patient’s complaint would be primarily chest pain and to a lesser degree dysphagia",
+   "The pathognomic feature of manometry is the presence of prolonged high amplitude waves",
+   "The patient will likely experience nutritional problems",
+   "The first line of treatment for this patient is surgical myotomy"
+  ],
+  "answer": [
+   "A",
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-esophagus-q069",
+  "number": 69,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Pediatric & Congenital Thoracic",
+  "stem": "Which of the following statement(s) is/are true concerning tracheoesophageal fistulas?",
+  "options": [
+   "The majority of acquired tracheoesophageal fistulas are due to malignant disease",
+   "A water-soluble contrast esophogram should be obtained for diagnosis",
+   "Malignant tracheoesophageal fistulas represent one of the few indications for an endoesophageal prosthesis",
+   "A benign tracheoesophageal fistula from an endotracheal intubation injury often requires a thoracotomy for repair"
+  ],
+  "answer": [
+   "A",
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-esophagus-q070",
+  "number": 70,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Benign Esophageal Tumors & Strictures",
+  "stem": "Esophageal cysts arise as outpouchings of the embryonic foregut. Which of the following statement(s) is/are true concerning esophageal cysts?",
+  "options": [
+   "The cyst lining will be lined only by stratified squamous epithelium",
+   "Most esophageal cysts cause symptoms in the first year of life",
+   "An asymptomatic esophageal cyst can be managed conservatively",
+   "The diagnosis of an esophageal cyst is usually made radiographically"
+  ],
+  "answer": [
+   "B",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-esophagus-q071",
+  "number": 71,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "GERD & Hiatal Hernia",
+  "stem": "Which of the following statement(s) is/are true concerning infectious esophagitis?",
+  "options": [
+   "Candida albicans is not normally found in the mouth but results from the overgrowth of this fungus in patients on broad spectrum antibiotics",
+   "Candida esophagitis is usually self-limited and is seldom associated with chronic problems",
+   "Systemic therapy is seldom indicated",
+   "Small ulcers on barium esophogram in a transplant patient complaining of dysphagia and odynophagia are likely due to herpes simplex viral infection"
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-esophagus-q072",
+  "number": 72,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Esophageal Cancer",
+  "stem": "Which of the following statement(s) is/are true concerning the pathology of squamous cell carcinoma of the esophagus?",
+  "options": [
+   "Carcinoma in situ will gradually progress to invasive squamous cell carcinoma over a period of two to four years",
+   "The most common location for squamous cell carcinoma of the esophagus is the upper and mid-thoracic segment",
+   "Esophageal carcinoma tends to be multifocal",
+   "Macroscopically, ulcerative lesions with extensive infiltration of the adjacent esophageal wall are most common",
+   "Lymph node metastases are present in at least 75% of patients at the time of initial diagnosis"
+  ],
+  "answer": [
+   "A",
+   "B",
+   "D",
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-esophagus-q073",
+  "number": 73,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Esophageal Motility Disorders & Diverticula",
+  "stem": "A 54-year-old woman experiences pain in both the anterior and posterior left chest and the epigastrium following balloon dilatation performed for achalasia. Which of the following statement(s) is/are true concerning this patient’s diagnosis and management?",
+  "options": [
+   "A normal chest x-ray will rule out an esophageal perforation",
+   "Barium should never be used in performance of a contrast study with a diagnosis of esophageal perforation",
+   "Conservative, nonoperative treatment may be indicated",
+   "If surgical repair is necessary, the patient should undergo esophagomyotomy and a partial gastric fundoplication"
+  ],
+  "answer": [
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-esophagus-q074",
+  "number": 74,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Esophageal Cancer",
+  "stem": "Which of the following statement(s) is/are correct concerning the diagnostic studies for esophageal carcinoma?",
+  "options": [
+   "A chest and upper abdominal CT scan is useful for both staging and predicting resectability",
+   "A barium swallow is an unnecessary test in a patient with dysphagia",
+   "Bronchoscopy should be performed in all patients with carcinoma of the upper and middle thirds of the esophagus",
+   "Bone and brain scans should be obtained routinely to rule out distant metastasis",
+   "Endoscopic ultrasound is a potentially sensitive examination for the staging of esophageal cancer"
+  ],
+  "answer": [
+   "C",
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-esophagus-q075",
+  "number": 75,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Esophageal Cancer",
+  "stem": "Which of the following conditions are associated with the development of esophageal carcinoma?",
+  "options": [
+   "Caustic esophageal stricture",
+   "Achalasia of the esophagus",
+   "Plummer-Vinson syndrome",
+   "Esophageal diverticula"
+  ],
+  "answer": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-esophagus-q076",
+  "number": 76,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Esophageal Cancer",
+  "stem": "Which of the following statement(s) is/are correct concerning the options for resection of esophageal carcinoma?",
+  "options": [
+   "The development of reflux esophagitis seldom occurs following intrathoracic resection due to the limited life expectancy of these patients",
+   "Transhiatal esophagectomy, although conceptually sound, is not technically possible in most patients with esophageal carcinoma",
+   "Transhiatal resection, although less morbid, has unfavorable survival statistics compared to transthoracic resection",
+   "Radical transthoracic esophagectomy with en bloc dissection of continuous lymph node bearing tissues has not been shown to improve survival over transhiatal esophagectomy"
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-esophagus-q077",
+  "number": 77,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Esophageal Cancer",
+  "stem": "The incidence of adenocarcinoma of the esophagus is increasing at a very rapid rate, which is largely the result of the growing prevalence of adenocarcinoma arising in Barrett’s mucosa. Which of the following statement(s) is/are true concerning adenocarcinoma of the esophagus?",
+  "options": [
+   "Barrett’s mucosa with specialized columnar epithelium characterized by veliform folds, lined by secreting columnar and goblet cells has the highest association with carcinoma of the esophagus",
+   "Less than 5% of patients with Barrett’s mucosa will harbor adenocarcinoma",
+   "Severe dysplasia of Barrett’s mucosa requires frequent reexamination and biopsy",
+   "Adenocarcinoma of the esophagus has a less aggressive behavior than squamous cell carcinoma"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-esophagus-q078",
+  "number": 78,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Esophageal Motility Disorders & Diverticula",
+  "stem": "Which of the following statement(s) is/are true concerning esophageal diverticula?",
+  "options": [
+   "A Zenker’s diverticulum characteristically occurs in older patients",
+   "Mediastinal granulomatous disease usually results in a mid-esophageal traction diverticulum which is usually asymptomatic",
+   "An epiphrenic diverticulum that presents to the right of the esophagus should be managed via left thoracotomy",
+   "Minimally symptomatic epiphrenic diverticula should not be operated upon"
+  ],
+  "answer": [
+   "B",
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-esophagus-q079",
+  "number": 79,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Esophageal Perforation & Caustic Injury",
+  "stem": "Which of the following statement(s) is/are true concerning caustic injury to the esophagus?",
+  "options": [
+   "Alkaline injury is more destructive than acid injury",
+   "Acid ingestion is not injurious to the stomach due to its normal acidic pH",
+   "Ingested caustic agents rapidly pass through the esophagus and stomach into the small intestine",
+   "Unless perforation occurs, clinical manifestations resolve quickly with initial clinical improvement noted",
+   "Children are less likely to form a late esophageal stricture than adults"
+  ],
+  "answer": [
+   "A",
+   "D",
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-esophagus-q080",
+  "number": 80,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Esophageal Cancer",
+  "stem": "Which of the following statement(s) is/are true concerning nonresectional therapy for esophageal carcinoma?",
+  "options": [
+   "Radiation therapy can be associated with five-year survival rates equal to surgery",
+   "Esophageal intubation to provide palliation for esophageal cancer is associated with minimal morbidity and mortality",
+   "Endoscopic laser fulguration is successful in up to 75% of patients",
+   "There is little or no role for surgical bypass for unresectable esophageal carcinoma"
+  ],
+  "answer": [
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-esophagus-q081",
+  "number": 81,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Benign Esophageal Tumors & Strictures",
+  "stem": "Benign tumors of the esophagus are rare constituting less than 1% of esophageal neoplasms. Which of the following statement(s) is/are true concerning benign esophageal neoplasms?",
+  "options": [
+   "Most esophageal polyps are located just above the gastroesophageal junction",
+   "Malignant degeneration of leiomyomas of the esophagus is a frequent occurrence",
+   "An asymptomatic leiomyoma can be safely observed and followed with periodic barium esophograms and endoscopic ultrasonography",
+   "Most leiomyomas of the esophagus require esophagectomy"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-esophagus-q083",
+  "number": 83,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Esophageal Perforation & Caustic Injury",
+  "stem": "Which of the following statement(s) is/are correct concerning the management of a patient with a caustic esophageal or gastric injury?",
+  "options": [
+   "Corticosteroids should be administered immediately",
+   "Complete endoscopic examination of the esophagus and stomach should be completed",
+   "Patients requiring operative intervention are best explored through the abdomen",
+   "If organ resection is indicated, restoration of alimentary continuity should be deferred until the patient has recovered from the acute insult",
+   "In patients with esophageal stricture following second and third degree burns, dilatation therapy should be instituted as soon as possible after the injury"
+  ],
+  "answer": [
+   "B",
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-esophagus-q084",
+  "number": 84,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "In regard to the arterial blood supply to the stomach, which of the following statement(s) is/are true?",
+  "options": [
+   "The right gastric artery, a branch of the superior mesenteric artery, supplies the gastric antrum",
+   "Because of rich intramural collaterals, gastric viability may be preserved after ligation of all but one major artery",
+   "In cases of celiac artery occlusion, gastric viability is maintained collaterally via pancreaticoduodenal arcades",
+   "The left gastroepiploic artery is a branch of the celiac trunk"
+  ],
+  "answer": [
+   "B",
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-esophagus-q085",
+  "number": 85,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "GERD & Hiatal Hernia",
+  "stem": "At a cellular level, the major stimulant(s) of acid secretion by the gastric parietal cell is/are:",
+  "options": [
+   "Histamine",
+   "Prostaglandin E2",
+   "Acetylcholine",
+   "Gastrin",
+   "Norepinephrine"
+  ],
+  "answer": [
+   "A",
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-esophagus-q086",
+  "number": 86,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "Which of the following statement(s) regarding the vagus nerves is/are true?",
+  "options": [
+   "The right and left vagus nerves derive from a nerve plexus inferior to the tracheal bifurcation",
+   "The posterior vagus nerve is closely applied to the intrathoracic esophagus",
+   "The anterior vagus supplies a hepatic division which passes to the right in the lesser omentum",
+   "Approximately 90% of vagal fibers are afferent, transmitting information from the gastrointestinal tract to the central nervous system",
+   "The vagus nerves transmit gastroduodenal pain sensations associated with peptic ulceration"
+  ],
+  "answer": [
+   "A",
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ }
+]

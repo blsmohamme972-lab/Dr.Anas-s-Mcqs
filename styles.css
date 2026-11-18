@@ -2896,3 +2896,63 @@ main {
 .fav-open strong { font-size: 14px; line-height: 1.4; }
 .fav-open span { color: var(--ink-faint); font-size: 12px; }
 .settings-row--stack { flex-wrap: wrap; }
+
+/* ---------- Books from data, chapters, multi-answer, figures ---------- */
+.book-cover--vascular { --book-accent: var(--blue); }
+.book-cover--thoracic { --book-accent: var(--coral); }
+.book-cover--cardiac { --book-accent: var(--mint); }
+.book-cover--big { width: 74px; height: 94px; font-size: 15px; border-radius: 10px 10px 14px 5px; flex: none; }
+button.book-card { width: 100%; border: 1px solid var(--line); color: var(--ink); font: inherit; text-align: left; cursor: pointer; transition: transform 160ms ease, box-shadow 160ms ease; }
+button.book-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); }
+.book-card h3 { max-width: none; font-size: 17px; }
+.book-card p { max-width: none; font-size: 12px; }
+.book-card .book-count { font-size: 12px; }
+.book-card .progress-line { margin-top: 10px; }
+.back-link { display: inline-flex; align-items: center; gap: 6px; margin-bottom: 12px; }
+.back-link svg, .chapter-arrow svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 2; }
+.book-hero { display: flex; gap: 22px; align-items: flex-start; padding: 24px; }
+.book-hero-body { flex: 1; min-width: 0; }
+.book-hero h2 { margin: 0 0 4px; font-size: 24px; letter-spacing: -0.03em; }
+.book-hero p { margin: 0 0 6px; color: var(--ink-soft); font-size: 13px; }
+.book-hero-stats { font-weight: 600; }
+.book-hero .progress-line { margin: 10px 0 16px; }
+.book-hero-actions { display: flex; flex-wrap: wrap; gap: 10px; }
+.chapter-list { display: grid; gap: 10px; }
+.chapter-row { display: flex; align-items: center; gap: 14px; width: 100%; padding: 14px 16px; border: 1px solid var(--line); border-radius: 14px; background: var(--surface); color: var(--ink); font: inherit; text-align: left; cursor: pointer; }
+.chapter-row:hover { border-color: var(--primary); }
+.chapter-num { display: grid; flex: none; width: 34px; height: 34px; place-items: center; border-radius: 10px; background: var(--primary-soft); color: var(--primary); font-weight: 700; }
+.chapter-body { display: grid; flex: 1; min-width: 0; gap: 4px; }
+.chapter-body strong { font-size: 15px; }
+.chapter-body > span { color: var(--ink-soft); font-size: 12px; }
+.chapter-arrow { color: var(--ink-faint); }
+.q-hint { display: flex; align-items: center; gap: 6px; margin: 4px 0 10px; color: var(--primary); font-size: 13px; font-weight: 600; }
+.q-hint svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 2; }
+.option-button.is-multi .option-key { border-radius: 6px; }
+.option-button.is-multi.is-selected .option-key { background: var(--primary); border-color: var(--primary); color: #fff; }
+.q-figures { display: flex; flex-wrap: wrap; gap: 10px; margin: 0 0 14px; }
+.q-figures a { flex: 1 1 260px; max-width: 100%; }
+.q-figures img { display: block; width: 100%; max-height: 420px; object-fit: contain; border: 1px solid var(--line); border-radius: 12px; background: #fff; }
+.answer-panel.is-ok { border-color: color-mix(in srgb, var(--mint) 45%, transparent); }
+.answer-panel p { white-space: normal; }
+.answer-text { font-weight: 600; color: var(--ink) !important; }
+.question-card h3, .exam-question h3, .review-card h3, .quick-card h3 { white-space: normal; }
+.footer-buttons { display: flex; gap: 8px; }
+.question-footer { flex-wrap: wrap; gap: 10px; }
+.question-source { min-width: 0; }
+.question-source span { overflow-wrap: anywhere; }
+.review-card .question-source { margin-top: 12px; }
+.quick-card .question-source { margin-top: 12px; }
+.loading-state { display: grid; place-items: center; gap: 14px; min-height: 50vh; color: var(--ink-soft); }
+.spinner { width: 34px; height: 34px; border: 3px solid var(--line); border-top-color: var(--primary); border-radius: 50%; animation: spin 0.8s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+.center-row { display: flex; justify-content: center; margin-top: 14px; }
+.study-controls { flex-wrap: wrap; }
+.study-controls .select-field { min-width: 180px; flex: 1; }
+.study-controls select { max-width: 100%; }
+@media (max-width: 720px) {
+  .book-hero { flex-direction: column; }
+  .study-controls .select-field { min-width: 100%; }
+}
+.option-button.is-missed { border-style: dashed; background: transparent; }
+.missed-label { padding: 2px 8px; border-radius: 999px; background: var(--mint-soft); color: var(--mint); font-size: 11px; font-weight: 700; white-space: nowrap; }
+.option-button.is-missed .option-status-icon { width: auto; }

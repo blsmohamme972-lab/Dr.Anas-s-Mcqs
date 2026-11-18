@@ -1,0 +1,1033 @@
+[
+ {
+  "id": "accsap10-vascular-q001",
+  "number": 1,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Mesenteric Ischemia",
+  "stem": "A 72-year-old woman with a history of coronary artery disease status/post coronary artery bypass grafting, hypertension, dyslipidemia, diabetes mellitus, and osteoarthritis presents with 6 months of abdominal pain most notable after eating. She has experienced a 5 lb weight loss over the prior 2 months. Her medications include aspirin 81 mg daily, metoprolol succinate 25 mg daily, lisinopril 10 mg daily, rosuvastatin 40 mg daily, and metformin 500 mg twice daily. She smokes 1 pack of cigarettes daily. On examination, her heart rate is 68 bpm and blood pressure is 138/90 mm Hg. Lungs are clear and heart is regular with a II/VI systolic murmur at the base. Abdomen is soft and nontender to palpation with no organomegaly or abdominal bruits. Extremities are warm with no edema. Duplex ultrasonography of the mesenteric vessels reveals a 90% stenosis of the celiac artery and 70% stenosis of the superior mesenteric artery.\nWhich of the following is most likely to alleviate her symptoms?",
+  "options": [
+   "Percutaneous revascularization.",
+   "Cilostazol 100 mg twice daily taken before meals.",
+   "Smoking cessation.",
+   "Graduated refeeding program.",
+   "Clopidogrel 75 mg daily."
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "accsap10-vascular-q002",
+  "number": 2,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Venous Thromboembolism",
+  "stem": "A 65-year-old woman with hyperlipidemia presents to the emergency department with a 2-week history of left leg swelling. Her history is significant for overseas travel 3 weeks prior. She otherwise feels well and denies dyspnea or chest discomfort. On examination, her heart rate is 68 bpm, blood pressure is 126/68 mm Hg, and oximetry is normal. Her left calf appears larger than the right, with associated pitting edema and tenderness to palpation. Duplex ultrasound reveals an occlusive thrombus in the distal popliteal vein.\nWhich one of the following is the most appropriate initial therapy?",
+  "options": [
+   "Dabigatran 150 mg BID.",
+   "Rivaroxaban 20 mg BID for 7 days, then 20 mg daily.",
+   "Warfarin with international normalized ratio goal of 2-3.",
+   "Edoxaban 60 mg daily.",
+   "Apixaban 10 mg BID for 7 days, then 5 mg BID."
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "accsap10-vascular-q003",
+  "number": 3,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Carotid & Vertebral Disease",
+  "stem": "A 58-year-old woman presents to the emergency department with acute onset of left-sided weakness. She has a history of hypertension and dyslipidemia. Her medications include aspirin 81 mg daily, atorvastatin 40 mg daily, chlorthalidone 25 mg daily, and amlodipine 10 mg daily. On examination, she is anxious appearing. Her temperature is 98.6°F, heart rate 90 bpm, and blood pressure 150/80 mm Hg. Her heart is regular, lungs are clear, abdomen is soft and nontender, and extremities are warm without edema. On neurologic examination, she has left arm and leg hemiparesis and paresthesia with expressive aphasia. Electrocardiogram shows normal sinus rhythm with nonspecific ST-T changes. Carotid ultrasound shows a 40-69% right carotid occlusion and 10-39% left carotid occlusion. Echocardiogram shows normal ventricular and valvular function. There is a patent foramen ovale (PFO) noted on color Doppler. This is confirmed on transesophageal echocardiogram, which shows an atrial septal aneurysm with right-to-left shunting on injection of agitated saline contrast. Brain magnetic resonance imaging shows infarction of the M1 branch of the right middle cerebral artery (MCA). What is the best next step?",
+  "options": [
+   "Surgical closure of the patent foramen ovale.",
+   "Right carotid endarterectomy.",
+   "Intravenous unfractionated heparin and warfarin titrated to international normalized ratio 2.5.",
+   "Percutaneous device closure of the patent foramen ovale.",
+   "Prasugrel 10 mg daily."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "accsap10-vascular-q004",
+  "number": 4,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Vasculitis & Vasospastic Disorders",
+  "stem": "A 37-year-old woman presents to your office with a longstanding history of her fingers turning white and becoming painful in cold weather. She has no medical problems. She is on no medications. She reports a history of methamphetamine and heroin use in the past and, at the time of presentation, smokes one pack of cigarettes daily and drinks four to six beers daily. On examination, she is thin and anxious appearing. Her heart rate is 88 bpm and blood pressure is 100/60 mm Hg. Lungs are clear, heart is regular, and abdomen is soft. Her hands are shown in Figure 1.\nWhat is the most likely cause of her presentation?",
+  "options": [
+   "Heroin.",
+   "Methamphetamines.",
+   "Hypothyroidism.",
+   "Carpal tunnel syndrome.",
+   "Cigarette smoking."
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": [
+   "images/accsap10-q004-1.png"
+  ]
+ },
+ {
+  "id": "accsap10-vascular-q005",
+  "number": 5,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Atherosclerosis & Medical Therapy",
+  "stem": "A 55-year-old man with hypertension and obstructive sleep apnea is referred to you for evaluation of peripheral arterial disease (PAD) after undergoing ankle-brachial indices (ABIs). He does not exercise regularly but is able to perform his daily activities without limitations. His medications include aspirin 81 mg daily, amlodipine 5 mg daily, and lisinopril 20 mg daily. On examination, his heart rate is 68 bpm, blood pressure (BP) is 118/70 mm Hg, and body mass index is 32 kg/m2. His heart rate is regular. There are no cardiac murmurs and lungs are clear to auscultation. Extremities are warm without edema. Dorsalis pedis and posterior tibial pulses are 1+ on the right and normal on the left. Femoral and popliteal pulses are 2+ bilaterally. Laboratories include sodium 142 mg/dL, potassium 4.0 mEq/dL, creatinine 1.0 mg/dL, hemoglobin A1c 5.9%, total cholesterol 158 mg/dL, high-density lipoprotein 38 mg/dL, low-density lipoprotein (LDL) 70 mg/dL, triglycerides 250, aspartate aminotransferase 42 U/L, and alanine aminotransferase 56 U/L. ABIs are 1.1 on the left and 0.8 on the right. Addition of which of the following medications is most appropriate in his care?",
+  "options": [
+   "Ticagrelor 90 mg twice daily.",
+   "Atorvastatin 40 mg daily.",
+   "Metformin 500 mg twice daily.",
+   "Chlorthalidone 25 mg daily.",
+   "Pentoxifylline 400 mg twice daily."
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "accsap10-vascular-q006",
+  "number": 6,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Atherosclerosis & Medical Therapy",
+  "stem": "A 65-year-old woman presents with a 2-day history of worsening headache, nausea, and vomiting. Her past medical history is significant for diabetes mellitus, hypertension, and hyperlipidemia. Her medications include metformin 1000 mg twice daily, lisinopril 40 mg, amlodipine 10 mg, chlorthalidone 25 mg, and atorvastatin 40 mg. On examination, she is confused and restless. Her blood pressure is 200/112 mm Hg, her heart rate is 90 bpm, and she is afebrile. Fundoscopic examination is normal. Her carotids are without bruits and neck veins are flat. Her lungs are clear bilaterally and heart has normal S1, S2, and S4. Her extremities are without edema. She undergoes urgent head computed tomography (CT), which shows no evidence of ischemia or hemorrhage. She is treated with intravenous nitroprusside and, over the next few hours, becomes less confused and her headache improves. Which of the following diagnoses is most likely in this patient?",
+  "options": [
+   "Cerebral hemorrhage.",
+   "Hypertensive retinopathy.",
+   "Seizure disorder.",
+   "Atypical migraines.",
+   "Hypertensive encephalopathy."
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "accsap10-vascular-q007",
+  "number": 7,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Endovascular Techniques & Graft Complications",
+  "stem": "You are rounding on a 65-year-old man with type 2 diabetes mellitus, hypertension, peripheral vascular disease, and multivessel coronary artery disease who had undergone a complex percutaneous coronary intervention the day prior. During your rounds, he is oliguric and his creatinine has risen from 0.8 g/dL to 2.8 g/dL over the prior 48 hours. He reports no dysuria and is afebrile on examination. On physical examination, he has livedo reticularis of his feet. A urinalysis and urine chemistries are ordered. Which one of the following would confirm the diagnosis in this patient?",
+  "options": [
+   "Hyaline casts.",
+   "Urine eosinophils.",
+   "Microscopic hematuria.",
+   "Ketonuria.",
+   "Nephrotic range proteinuria."
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "accsap10-vascular-q008",
+  "number": 8,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Thoracic Aortic Aneurysm",
+  "stem": "A 32-year-old man with a history of Marfan syndrome and thoracic aortic aneurysm presents after a recent chest computed tomography (CT) angiogram. He is 6'3\" and weighs 193 lbs. His blood pressure is 130/78 mm Hg and heart rate is 55 bpm. Cardiac examination reveals pectus excavatum, normal S1 and S2, and no murmurs. Lungs are clear. Abdomen is thin with no organomegaly. On CT, his aortic root measures 4.2 cm (compared with 3.9 cm the prior year), ascending aorta 4.5 cm, and aortic arch 3.3 cm.\nWhat is the best next step in his care?",
+  "options": [
+   "Add losartan 25 mg daily.",
+   "Add aspirin 81 mg daily.",
+   "Refer for surgical repair.",
+   "Chest computed tomography angiography in 3 months.",
+   "Transthoracic echocardiogram."
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "accsap10-vascular-q009",
+  "number": 9,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Venous Thromboembolism",
+  "stem": "A 29-year-old woman presents to the emergency department with a painful and tender right calf, which she notices upon waking in the morning. As a result of the pain, she is having difficulty with ambulation. She denies any trauma but had returned the night prior from a long overseas flight. She has no significant past medical history and takes no medications or over-the-counter supplements. Duplex ultrasound demonstrates an occlusive thrombus in the right iliofemoral vein.\nWhat is the most appropriate next step?",
+  "options": [
+   "Warfarin 5 mg daily with goal international normalized ratio 2-3.",
+   "Rivaroxaban 20 mg daily.",
+   "Apixaban 10 mg BID.",
+   "Dabigatran 150 mg BID.",
+   "Catheter-directed thrombolysis."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "accsap10-vascular-q010",
+  "number": 10,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Venous Thromboembolism",
+  "stem": "A 30-year-old woman is referred to your clinic because of a history of deep venous thrombosis (DVT). A year prior, she had been treated for an unprovoked left lower extremity DVT. Her medical history is significant for varicose veins. Her medications include an oral contraceptive. There is no family history of pulmonary embolism or DVT. Her vital signs show temperature 98.1°F, blood pressure 120/80 mm Hg, heart rate 88 bpm, and oxygen saturation 99% on room air. The left lower extremity is mildly swollen to the mid thigh and varicose veins are noted, although the remainder of the examination is unremarkable.\nWhat is the best next step?",
+  "options": [
+   "Contrast venography of the lower extremities.",
+   "No further testing.",
+   "Magnetic resonance venography of the pelvis.",
+   "Transthoracic echocardiography.",
+   "Hypercoagulable panel."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "accsap10-vascular-q011",
+  "number": 11,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Carotid & Vertebral Disease",
+  "stem": "A 65-year-old man presents with transient numbness of his left hand and forearm a few days prior. He has hypertension, hyperlipidemia, and ongoing tobacco abuse. His symptoms resolve within a few hours and he feels well at the time of presentation. He is actively exercising for 30 minutes several times a week without any symptoms. His vital signs are heart rate 70 bpm, blood pressure 132/80 mm Hg, and respirations 12 per minute. His examination is notable for normal carotid upstrokes with no bruits, regular rhythm with no murmurs, and a nonfocal neurologic examination. He is on aspirin 81 mg daily, lisinopril 10 mg daily, hydrochlorothiazide 25 mg daily, and atorvastatin 10 mg daily.\nWhich of the following is the most appropriate next step?",
+  "options": [
+   "Transesophageal echocardiography.",
+   "Ambulatory blood pressure monitor.",
+   "Reassurance.",
+   "Carotid ultrasound.",
+   "Exercise treadmill test."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "accsap10-vascular-q012",
+  "number": 12,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Infrainguinal Disease & Claudication",
+  "stem": "A 65-year-old woman with a history of hypertension, peripheral arterial disease, status/post right superficial femoral artery stenting, active tobacco abuse, and chronic obstructive pulmonary disease presents for further evaluation of dull abdominal pain after meals over the prior year associated with 20 lbs of weight loss. She denies night sweats, hematemesis, melena, or hematochezia. Which of the following is most likely to yield the diagnosis?",
+  "options": [
+   "Right upper quadrant ultrasound.",
+   "Vasodilator myocardial perfusion imaging.",
+   "Colonoscopy.",
+   "Gastric emptying scintigraphy.",
+   "Abdominal computed tomography angiography."
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "accsap10-vascular-q013",
+  "number": 13,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Chronic Limb-Threatening Ischemia",
+  "stem": "A 74-year-old man presents to your office for evaluation. He has had right calf pain on ambulation for the prior year, presently worsening to the point that he has aching pain even at rest, worse when he elevates his leg. He\nhas a history of coronary artery disease status/post bypass surgery 5 years prior, hypertension, dyslipidemia, diabetes mellitus, and osteoarthritis. His medications include aspirin 81 mg daily, atorvastatin 80 mg daily, metoprolol XL 25 mg daily, lisinopril 40 mg daily, and hydrochlorothiazide 25 mg daily. On examination, his heart rate is 74 bpm and blood pressure is 128/70 mm Hg. Lungs are clear, heart is regular without murmurs, and abdomen is soft and nontender. The appearance of his right foot is shown in Figure 1. Ankle-brachial indices (ABIs) are 0.62 on the right and 0.95 on the left.\nWhich of the following is the best next step?",
+  "options": [
+   "Toe-brachial index measurement.",
+   "Iliofemoral invasive angiography with run-off.",
+   "Exercise treadmill ankle-brachial index measurement.",
+   "Transcutaneous oxygen pressure measurement.",
+   "Magnetic resonance angiography of the lower extremities."
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": [
+   "images/accsap10-q013-1.png"
+  ]
+ },
+ {
+  "id": "accsap10-vascular-q014",
+  "number": 14,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Carotid & Vertebral Disease",
+  "stem": "A 75-year-old man presents to the emergency department (ED) with a 30-minute episode of right arm tingling and weakness. By the time he arrives at the ED, his symptoms have resolved. His history includes hypertension and dyslipidemia. His medications include aspirin 81 mg daily, amlodipine 5 mg daily, and atorvastatin 40 mg daily. On examination, he is alert but anxious. His heart rate is 92 bpm and blood pressure is 146/80 mm Hg. There are no carotid bruits. Jugular venous pressure is 4 cm H2O. Lungs are clear, heart is regular with no murmurs, and extremities are warm without edema. His neurologic examination shows no deficits. Laboratories reveal creatinine 1.2 mg/dL and low-density lipoprotein cholesterol (LDL-C) 120 mg/dL. An electrocardiogram shows normal sinus rhythm with no ST-T changes. A carotid ultrasound demonstrates an 80-90% left internal carotid artery stenosis and a 50% right carotid artery stenosis.\nWhat is the best next step?",
+  "options": [
+   "Left carotid to subclavian artery bypass.",
+   "Change atorvastatin to evolocumab.",
+   "Staged left then right carotid endarterectomy.",
+   "Add ticagrelor.",
+   "Left carotid endarterectomy."
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "accsap10-vascular-q015",
+  "number": 15,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Atherosclerosis & Medical Therapy",
+  "stem": "A 66-year-old man presents to your office 1 week after coronary artery stenting for angina. Angiography is performed via the right femoral approach with good results. He has a history of peripheral arterial disease status/post left femoral-popliteal bypass 2 years prior.\nHe reports that his chest discomfort is better, but for the prior 3 days, he has had a low-grade fever and myalgias, as well as has noted a rash on his legs. His medications include aspirin 81 mg daily, clopidogrel 75 mg daily, atorvastatin 80 mg daily, metoprolol XL 25 mg daily, and lisinopril 10 mg daily. On examination, temperature is 100.4°F, heart rate is 68 bpm, and blood pressure is 132/80 mm Hg. Lungs are clear, heart is regular with no murmurs, abdomen is soft, and extremities are warm with a 1+ right posterior tibial pulse and a 2+ left posterior tibial pulse. The right groin has no hematoma, thrill, or bruit. Examination of his legs is shown in Figure 1. Laboratories demonstrate potassium 5.1 mEq/L, creatinine (Cr) 2.3 mg/dL (Cr 1.2 mg/dL prior to angiogram), and white blood cell count 14.6/mcL.\nWhat is the best next step?",
+  "options": [
+   "Order a skin biopsy.",
+   "Continue atorvastatin 80 mg daily.",
+   "Start intravenous unfractionated heparin.",
+   "Check urinalysis.",
+   "Check a right lower extremity arterial ultrasound."
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": [
+   "images/accsap10-q015-1.png"
+  ]
+ },
+ {
+  "id": "accsap10-vascular-q016",
+  "number": 16,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Carotid & Vertebral Disease",
+  "stem": "A 60-year-old man presents for elective surgical revascularization of coronary artery disease with angina. His past medical history includes diabetes mellitus, hypertension, and hyperlipidemia. He is a life-long nonsmoker. His medications include aspirin 81 mg, valsartan 240 mg daily, insulin, atorvastatin 80 mg, metoprolol 200 mg extended release, and isosorbide mononitrate 60 mg daily. His vital signs are pulse 60 bpm, blood pressure 120/60 mm Hg, and respirations 12 per minute. There is no carotid bruit. Cardiac examination reveals regular rhythm; there are no murmurs, rubs, or gallops. Peripheral pulses are 2+ throughout.\nLaboratory evaluation is normal. Coronary angiogram reveals 90% proximal left anterior descending artery, 80% proximal circumflex, and 70% mid right coronary artery stenoses. Left ventricular ejection fraction is normal with mild mitral regurgitation on echocardiogram. Which of the following is most appropriate prior to coronary artery bypass graft (CABG) surgery?",
+  "options": [
+   "Carotid duplex ultrasound.",
+   "Computed tomography angiography of the neck.",
+   "Dental evaluation.",
+   "Ankle-brachial index.",
+   "No further testing."
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "accsap10-vascular-q017",
+  "number": 17,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Aortic Dissection",
+  "stem": "A 75-year-old woman presents to the emergency department with severe substernal chest pain. Her past medical history includes hypertension, dyslipidemia, and prior carotid endarterectomy. Her medications are aspirin 81 mg daily, rosuvastatin 40 mg, carvedilol 6.25 mg BID, and hydrochlorothiazide 25 mg daily. Her vital signs are heart rate 98 bpm and blood pressure 169/102 mm Hg. Her physical examination reveals diaphoresis, a soft ejection systolic murmur, and palpable pedal pulses.\nElectrocardiography reveals sinus rhythm with left ventricular hypertrophy but no acute ischemic changes. Troponins are normal. A chest X-ray is unremarkable.\nA chest computed tomography (CT) demonstrates a crescentic, high attenuation area measuring approximately 3 mm in diameter in the posterior ascending aorta that does not enhance with contrast. There is no involvement of the great vessels or the aortic arch. There is no evidence of an intimal flap or compression of the lumen on this study. There is no pericardial effusion. What is the best next step in this patient's management?",
+  "options": [
+   "Emergent surgical consultation.",
+   "Coronary angiography.",
+   "Urine toxicology.",
+   "Intravenous hydralazine.",
+   "Transesophageal echocardiography."
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "accsap10-vascular-q018",
+  "number": 18,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Chronic Limb-Threatening Ischemia",
+  "stem": "A 68-year-old man with a past medical history of hypertension, hyperlipidemia, insulin-dependent diabetes mellitus (type 2), and tobacco use presents to your office with 3 weeks of right foot and calf pain unresponsive to over-the-counter analgesics. The pain is worse with ambulation. He has had a small sore on his right great toe for the prior 6 months.\nHis medications at the time of presentation include aspirin, lisinopril, atorvastatin, metformin, and insulin. On physical examination, his blood pressure is 128/72 mm Hg, pulse is 76 bpm, and oximetry is normal. Pedal pulses are nonpalpable but Dopplerable in the right leg. The right toe has a dry, black eschar at the tip and a 1 x 1 cm, foul-smelling wound on the dorsum without purulent drainage. Which of the following is the most appropriate next step in his treatment?",
+  "options": [
+   "Referral for revascularization.",
+   "Toe amputation.",
+   "Cilostazol.",
+   "Supervised exercise program.",
+   "Computed tomography angiography."
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "accsap10-vascular-q019",
+  "number": 19,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Vasculitis & Vasospastic Disorders",
+  "stem": "A 38-year-old woman presents to your clinic for evaluation of bilateral arm pain. She describes a feeling of \"heaviness\" in both arms when carrying groceries or picking up her young children. She also reports lightheadedness and neck pain. For the prior few months, she has also had poor appetite, leading to weight loss of 12 lbs and drenching night sweats and fatigue. She has no past medical history and takes no medicines.\nA physical examination reveals blood pressure 106/70 mm Hg in the right arm and 90/66 mm Hg in the left arm. Pulse is 77 bpm. Height is 5'6\" and weight is 118 lbs. There is a bruit audible over the left clavicular fossa. Left brachial and radial pulses are not palpable; right brachial and radial pulses are 1+. Computed tomographic angiography of the chest and neck would most likely show which one of the following?",
+  "options": [
+   "Thoracic aortic aneurysm.",
+   "Atherosclerosis of the left subclavian.",
+   "Thickening of the aortic wall.",
+   "Thoracic aortic dissection.",
+   "Aneurysms of multiple arteries and veins."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "accsap10-vascular-q020",
+  "number": 20,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Vasculitis & Vasospastic Disorders",
+  "stem": "For which of the following patients would temporal artery biopsy be most likely to yield the correct diagnosis?",
+  "options": [
+   "A 45-year-old woman with painless, netlike mottling of the legs and thighs.",
+   "A 64-year-old man with receding hairline and hypothenar atrophy.",
+   "A 78-year-old woman with headaches, jaw fatigability with chewing, and shoulder stiffness.",
+   "A 38-year-old man with history of tobacco use and ulcers on his fingertips.",
+   "A 28-year-old Asian woman with mild fevers and arm fatigue when brushing her hair."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "accsap10-vascular-q021",
+  "number": 21,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Carotid & Vertebral Disease",
+  "stem": "An 80-year-old man is brought to the emergency department due to slurred speech. On physical examination, he has left upper and lower extremity motor weakness with an unsteady gate. National Institutes of Health Stroke Scale (NIHSS) is 3. Head computed tomography reveals a single old lacunar infarct with no evidence of acute infarct or bleed. Electrocardiography shows sinus rhythm at 62 bpm with left ventricular (LV) hypertrophy and nonspecific ST changes. Carotid ultrasound shows <50% stenosis of the bilateral internal carotid arteries. His echocardiogram shows normal LV function, mild LV hypertrophy, aortic sclerosis, and left atrial enlargement. Which of the following is the most appropriate strategy for secondary prevention of stroke in this patient?",
+  "options": [
+   "Clopidogrel.",
+   "Aspirin.",
+   "Rivaroxaban.",
+   "Aspirin and clopidogrel.",
+   "Aspirin and warfarin."
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "accsap10-vascular-q022",
+  "number": 22,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Aortic Dissection",
+  "stem": "A 70-year-old man presents with sudden severe substernal chest pain radiating to his back. His past medical history includes hypertension and hyperlipidemia. He smokes one pack per day. His medications include amlodipine 10 mg daily, lisinopril 20 mg daily, hydrochlorothiazide 25 mg daily, and aspirin 81 mg. His vital signs are temperature 98.6°F, blood pressure 170/90 mm Hg in both arms, and heart rate 110 bpm. Oxygen saturation is 93% on room air. An examination reveals an uncomfortable man in moderate distress. There are bilateral carotid bruits and decreased lower extremity pulses. Which of the following findings on chest computed tomography aortography is associated with the highest mortality in this patient?",
+  "options": [
+   "Partial thrombosis of the false lumen.",
+   "Patency of the false lumen.",
+   "Complete thrombosis of the false lumen.",
+   "Dissection flap involving the sinuses of Valsalva.",
+   "Extent of coronary artery calcifications."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "accsap10-vascular-q023",
+  "number": 23,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Arrhythmias & Surgical Ablation",
+  "stem": "An 82-year-old woman presents with nonvalvular atrial fibrillation, poorly controlled hypertension, diabetes mellitus, history of stroke, stage IV chronic kidney disease (CKD), and a recent subdural hematoma (SDH) resulting from head trauma in the setting of a fall at home 3 months prior. She is accompanied by her daughter, who expresses concern regarding frequent falls at home.\nThe patient was on warfarin at the time of the fall and had an international normalized ratio (INR) of 2.8. Warfarin was discontinued at that time and she had since been started on aspirin (ASA) 325 mg daily. A repeat head computed tomography performed 1 month after her initial fall demonstrated improvement in the size of the hematoma. Which of the following is the most appropriate next step in management?",
+  "options": [
+   "Resume warfarin, goal international normalized ratio 2.",
+   "Continue aspirin 325 mg daily.",
+   "Discuss percutaneous left atrial appendage occlusion.",
+   "Decrease aspirin dose to 81 mg daily.",
+   "Discontinue aspirin, start apixaban."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "accsap10-vascular-q024",
+  "number": 24,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Carotid & Vertebral Disease",
+  "stem": "A 78-year-old man with a history of coronary artery disease, hypertension, and hyperlipidemia is admitted to the intensive care unit with an acute ischemic stroke. He presents with right upper extremity weakness of unknown duration and thus does not receive fibrinolytic therapy. His medications prior to admission include aspirin 81 mg daily, atorvastatin 40 mg daily, amlodipine 5 mg daily, and metoprolol succinate 25 mg daily. His heart rate is 68 bpm and blood pressure is 140/85 mm Hg. On examination, he is alert and oriented, with a persistent focal neurologic deficit in his right upper extremity. Electrocardiogram demonstrates sinus rhythm at a rate of 70 bpm with left ventricular hypertrophy. Which of the following do you recommend?",
+  "options": [
+   "Initiate ticagrelor 90 mg BID.",
+   "Initiate warfarin 5 mg tonight.",
+   "Anticoagulation is not indicated.",
+   "Initiate heparin infusion to goal partial thromboplastin time of 70-90 sec.",
+   "Initiate dabigatran 150 mg BID."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "accsap10-vascular-q025",
+  "number": 25,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Atherosclerosis & Medical Therapy",
+  "stem": "A 78-year-old man with diabetes mellitus, tobacco use, chronic kidney disease (stage III), and atherosclerotic cardiovascular disease (ASCVD) is admitted with a non–ST-segment elevation myocardial infarction and undergoes coronary angiography and stenting to the distal right coronary artery. Following catheterization, he complains of discomfort and discoloration of his feet.\nHis medications include aspirin 81 mg daily, clopidogrel 75 mg daily, atorvastatin 40 mg daily, metoprolol tartrate 25 mg every 6 hours, and lisinopril 5 mg daily.\nOn examination, his pulse is 60 bpm and blood pressure is 132/78 mm Hg. Cardiac auscultation reveals a regular rhythm and no murmur, and lungs are clear. Creatinine has increased to 2.0 from a baseline of 1.5 mg/dL. Figure 1 shows the presentation of his foot.\nWhich of the following is the most appropriate next step in management?",
+  "options": [
+   "No additional medical therapy.",
+   "Toe biopsy.",
+   "Computed tomography angiogram of the legs.",
+   "Unfractionated heparin infusion.",
+   "Apixaban 5 mg BID."
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": [
+   "images/accsap10-q025-1.png"
+  ]
+ },
+ {
+  "id": "accsap10-vascular-q026",
+  "number": 26,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Vascular Diagnostics & Imaging",
+  "stem": "A 62-year-old man with a history of hypertension, hyperlipidemia, type II diabetes mellitus, tobacco abuse, and chronic obstructive pulmonary disease presents with progressive claudication over the previous few months.\nBlood pressures are as follows:\nLeft arm: 140/90 mm Hg Right arm: 150/92 mm Hg Left leg: 120/88 mm Hg\nRight leg: 130/86 mm Hg What is the correct ankle-brachial index (ABI) in this patient?",
+  "options": [
+   "Left leg ankle-brachial index 0.83; right leg ankle-brachial index 0.90.",
+   "Left leg ankle-brachial index 1.2; right leg ankle-brachial index 1.12.",
+   "Left leg ankle-brachial index 0.80; right leg ankle-brachial index 0.87.",
+   "Left leg ankle-brachial index 0.86; right leg ankle-brachial index 0.87.",
+   "Left leg ankle-brachial index 1.17; right leg ankle-brachial index 1.15."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "accsap10-vascular-q027",
+  "number": 27,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Thoracic Aortic Aneurysm",
+  "stem": "A 45-year-old man presents to the cardiology clinic. He reports that his sister recently underwent cardiac surgery for aortic valve replacement and ascending aortic aneurysm repair related to bicuspid aortic valve. He takes no medications.\nHis vital signs include blood pressure 120/78 mm Hg in the right arm and 118/78 mm Hg in the left arm, pulse 74 bpm, and respirations 12 per minute. A physical examination reveals normally split S1 and S2 with no murmurs. Pulses are 2+ throughout.\nA transthoracic echocardiogram is technically difficult. What additional testing would you recommend?",
+  "options": [
+   "Computed tomographic angiography of the brain.",
+   "No additional testing.",
+   "Exercise stress testing.",
+   "Computed tomographic angiography of the chest.",
+   "Transesophageal echocardiogram."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "accsap10-vascular-q028",
+  "number": 28,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Carotid & Vertebral Disease",
+  "stem": "A 40-year-old right-handed woman presents to the emergency department with dysphasia and right-sided hemiparesis after being a restrained passenger in a motor vehicle collision. Her family notes that, prior to the onset of the dysphasia and hemiparesis, she complained of left neck and eye pain. Her vital signs are blood pressure 145/90 mm Hg and heart rate 95 bpm, with normal respiratory rate and oxygen saturation. Her physical examination is notable for left eyelid ptosis and left eye miosis. Given the available history and examination data, which of the following is the most probable diagnosis?",
+  "options": [
+   "Bell's palsy.",
+   "Carotid artery dissection.",
+   "Ruptured berry aneurysm.",
+   "Cerebral artery thrombotic occlusion.",
+   "Hemiplegic migraine."
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "accsap10-vascular-q029",
+  "number": 29,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Acute Limb Ischemia & Compartment Syndrome",
+  "stem": "A 77-year-old man is referred to you because of a recent sudden pain in the toes of his left foot that began 1 week prior. He has coronary artery disease status/post multiple percutaneous coronary interventions. His medications include aspirin 81 mg daily, atorvastatin 80 mg daily, carvedilol 12.5 mg BID, and clopidogrel 75 mg daily. He limps into your office and, on examination, has a cold left foot with no pulses palpated below the knee. He has what appears to be early gangrene on the tips of three of his toes, with discoloration and skin breakdown between the toes. What should be your first diagnostic test?",
+  "options": [
+   "Ankle-brachial index.",
+   "Computed tomography angiography.",
+   "Contrast angiography.",
+   "Magnetic resonance imaging angiography.",
+   "Toe-brachial index."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "accsap10-vascular-q030",
+  "number": 30,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Vascular Diagnostics & Imaging",
+  "stem": "A 64-year-old former smoker with hypertension and diabetes mellitus presents for a routine annual follow-up appointment. He has no symptoms. He admits to being relatively inactive at baseline but has considered starting an exercise regimen.\nHis medications include metformin 1000 mg BID and lisinopril 20 mg daily.\nHis physical examination is notable for a heart rate of 82 bpm and blood pressure of 126/72 mm Hg. Auscultation of the heart reveals a I/VI early peaking systolic murmur at the left upper sternal border without radiation. A lung examination is unremarkable. There is no lower extremity edema. He has 1+ posterior tibial pulses bilaterally.\nAn electrocardiogram (ECG) demonstrates normal sinus rhythm with T-wave inversions in the inferior leads, which is unchanged from an ECG 6 months prior. What is the most appropriate next step?",
+  "options": [
+   "Echocardiogram.",
+   "No further testing indicated.",
+   "Ankle-brachial indices.",
+   "Ambulatory blood pressure monitor.",
+   "Exercise stress echocardiogram."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "accsap10-vascular-q031",
+  "number": 31,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Acute Limb Ischemia & Compartment Syndrome",
+  "stem": "A 67-year-old man presents to the emergency department for evaluation of 3 days of right foot pain. He has not had regular medical care in the past. He has a 50 pack-year history of tobacco use. On examination, his blood pressure is 162/97 mm Hg, heart rate is 88 bpm, heart sounds are regular but distant, and lung sounds are diminished. His right foot is cool and dorsalis pedis and posterior tibialis pulses are nonpalpable. Which of the following findings would prompt emergent revascularization within 6 hours?",
+  "options": [
+   "Audible arterial Doppler, audible venous Doppler, no sensory loss, no muscle weakness.",
+   "Inaudible arterial Doppler, inaudible venous Doppler, sensory loss in foot, no motor function.",
+   "Inaudible arterial Doppler, inaudible venous Doppler, no sensory loss in foot, no muscle weakness.",
+   "Audible arterial Doppler, inaudible venous Doppler, no sensory loss, no muscle weakness.",
+   "Inaudible arterial Doppler, audible venous Doppler, sensory loss to midfoot, mild muscle weakness."
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "accsap10-vascular-q032",
+  "number": 32,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Carotid & Vertebral Disease",
+  "stem": "A 72-year-old woman with a history of hypertension and diabetes mellitus presents with 1 hour of left-sided facial droop and slurred speech. Which of the following is most likely to identify cerebral edema if present in this patient?",
+  "options": [
+   "Computed tomography angiography.",
+   "Cerebral perfusion computed tomography.",
+   "Noncontrast head computed tomography.",
+   "Head magnetic resonance angiography.",
+   "Head magnetic resonance imaging."
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "accsap10-vascular-q033",
+  "number": 33,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Vascular Biology & Pharmacology",
+  "stem": "An 80-year-old man with a history of coronary artery disease, heart failure with preserved ejection fraction, hypertension, and persistent atrial fibrillation presents with altered mental status. His home medications include aspirin 81 mg, metoprolol 100 mg extended release, losartan 50 mg, and warfarin. On examination in the emergency department, he is afebrile, with heart rate 50 bpm and blood pressure 180/100 mm Hg. The Glasgow coma scale is 13/15. Neurologic examination reveals right-sided paralysis with aphasia. International normalized ratio (INR) is 3. Head computed tomography reveals left intracerebral hemorrhage. In addition to reducing blood pressure, what is the best next step?",
+  "options": [
+   "4F-prothrombin concentrate complex 1000 units.",
+   "Six units of fresh frozen plasma.",
+   "Intravenous vitamin K 10 mg.",
+   "4F-prothrombin concentrate complex 1500 units.",
+   "4F-prothrombin concentrate complex 60 units/kg."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "accsap10-vascular-q034",
+  "number": 34,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Atherosclerosis & Medical Therapy",
+  "stem": "A 58-year-old woman comes to your clinic for evaluation of weakness and cramping in her calves when she walks up hills. The pain goes away within minutes if she stops to rest. She has hypertension, hyperlipidemia, type 2 diabetes mellitus, mild (GOLD stage I) chronic obstructive pulmonary disease, and stage 2 chronic kidney disease. Her current medications are aspirin 81, lisinopril 20 mg, hydrochlorothiazide 25 mg, amlodipine 5 mg,\nrosuvastatin 40 mg daily, inhaled albuterol as needed, and insulin. She smoked 45 pack-years before quitting earlier this year.\nVital signs are pulse 72 bpm, respirations 14 per minute, and blood pressure 134/90 mm Hg in the right arm and 130/88 mm Hg in the left arm. There is a right carotid bruit. The chest is clear with a prolonged expiration time. Cardiac examination is regular rhythm with normal S1 and S2. Abdomen is obese and nontender. Dorsalis pedis and posterior tibial pulses are 1+ bilaterally.\nCarotid duplex ultrasound shows a 30-50% stenosis on the right side and <30% stenosis on the left side. Abdominal ultrasound shows a 4.0 cm aneurysm of the infrarenal aorta. Her ankle-brachial index is 1.2 on the right and noncompressible on the left. Based on the information above, which of the following is this patient most likely to experience in the next 5 years?",
+  "options": [
+   "Amputation.",
+   "Ruptured aortic aneurysm.",
+   "Hemodialysis.",
+   "Myocardial infarction.",
+   "Limb revascularization."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "accsap10-vascular-q035",
+  "number": 35,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Chronic Limb-Threatening Ischemia",
+  "stem": "A 75-year-old woman presents to your office with left foot pain. She has a history of coronary artery disease status/post prior percutaneous coronary intervention, diabetes mellitus, hypertension, hyperlipidemia, and recently quitting smoking. Medications include aspirin 81 mg daily, lisinopril 10 mg daily, atorvastatin 80 mg daily, and metformin 500 mg BID. On examination, her left foot is cold with pallor and loss of sensation. There is no tissue breakdown. Her dorsalis pedis and posterior tibialis pulses are difficult to palpate bilaterally.\nAngiography of the left lower extremity shows an abrupt cutoff of flow in the anterior tibial artery and extensive atherosclerotic stenoses of the popliteal and peroneal arteries. Which of the following is the best next step in her management?",
+  "options": [
+   "Amputation.",
+   "Revascularization.",
+   "Warfarin.",
+   "Hyperbaric oxygen.",
+   "Thrombolysis."
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "accsap10-vascular-q036",
+  "number": 36,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Acute Limb Ischemia & Compartment Syndrome",
+  "stem": "A 72-year-old man is admitted with pain in his right calf, ankle, and foot. An hour prior to coming to the hospital, he felt dull aching pain in the calf and ankle while watching television. He had difficulty standing up because the foot felt \"heavy\" and his family brought him to the hospital. His past medical history includes coronary artery disease status/post coronary artery bypass grafting using the right saphenous vein, hypertension, dyslipidemia, type 2 diabetes mellitus, obesity, and sleep apnea. His current medications are aspirin 81 mg, chlorthalidone 50 mg, lisinopril 40 mg, atorvastatin 80 mg, metoprolol 100 mg extended release, and metformin 1000 mg BID.\nHis vital signs are blood pressure 138/92 mm Hg, pulse 90 bpm, and respirations 16 per minute. A physical examination reveals a man in moderate discomfort. The cardiac examination is regular S1 and S2 with a soft, early peaking murmur at the base. There are bilateral carotid bruits. The right lower extremity is edematous and dusky colored from the knee down, with sluggish capillary refill. The shin and calf are tender to the touch, with decreased sensation in the toes up to the mid foot. Plantar flexion and dorsiflexion of the right foot are considerably weaker than the left foot. Right posterior tibial and dorsalis pedis pulses are not palpable and arterial Doppler signals at these sites are inaudible. Venous Doppler signs at the right ankle are audible but difficult to obtain. In addition to anticoagulation, which of the following is the most appropriate next step in his care?",
+  "options": [
+   "Computed tomography angiography.",
+   "Fasciotomy.",
+   "Amputation.",
+   "Duplex venous imaging.",
+   "Catheter-based thrombolysis."
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "accsap10-vascular-q037",
+  "number": 37,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Vasculitis & Vasospastic Disorders",
+  "stem": "A 42-year-old man comes to clinic for evaluation of leg pain. He states that, for the prior few months, he has had bilateral calf pain when walking up stairs. He has no known medical problems except for a 40 pack-year smoking history. He is on no medications. His blood pressure is 132/82 mm Hg with a heart rate of 74 bpm. His examination reveals pale hands with small dark ulcers on the third and fourth digits of his left hand. There is a small ulcer on the big toe of his right foot. Dorsalis pedis pulses are diminished bilaterally. Which of the following would be the most likely diagnosis in this patient?",
+  "options": [
+   "Peripheral arterial disease.",
+   "Thromboangiitis obliterans.",
+   "Cholesterol emboli.",
+   "Behçet's disease.",
+   "Scleroderma."
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "accsap10-vascular-q038",
+  "number": 38,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Vascular Diagnostics & Imaging",
+  "stem": "For which of the following patients would resting ankle-brachial index (ABI) testing be recommended?",
+  "options": [
+   "A 56-year-old man with swelling and tenderness behind the knee, worse with walking.",
+   "A 48-year-old man with a history of hypertension.",
+   "A 52-year-old woman with pale feet when lying in bed, reddish color when standing.",
+   "An 84-year-old woman with a draining ulcer over the medial malleolus.",
+   "A 73-year-old man with pain and tingling in both legs while walking, reduced with bending forward."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "accsap10-vascular-q039",
+  "number": 39,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Carotid & Vertebral Disease",
+  "stem": "A 76-year-old man with atrial fibrillation presents to the emergency department with sudden onset of facial droop and word-finding difficulty. He denies headache. Other medical problems include hypertension, hyperlipidemia, type 2 diabetes mellitus, ischemic heart disease with left ventricular (LV) ejection fraction 40%, and obesity. His current medications are aspirin 81 mg, valsartan 80 mg, indapamide 2.5 mg, atorvastatin 80 mg, metformin 1000 mg BID, metoprolol 100 mg extended release, and warfarin, although he admits that he does not take his medications every day.\nVital signs are blood pressure 150/92 mm Hg, as well as pulse 108 bpm and irregular. His physical examination is remarkable for left-sided facial droop and slurred speech. A cardiac examination reveals irregularly irregular rhythm with no murmurs.\nLaboratory evaluation includes normal electrolytes, international normalized ratio 1.6, and normal blood counts. Which of the following would be the most likely finding on computed tomography (CT) of the head?",
+  "options": [
+   "Multiple small hypodensities in the cerebellum.",
+   "Extravasation along dependent areas of the skull.",
+   "Tumor in the posterior fossa.",
+   "Loss of gray–white matter interface in the parietal lobe.",
+   "Diffuse white matter changes."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "accsap10-vascular-q040",
+  "number": 40,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Vasculitis & Vasospastic Disorders",
+  "stem": "A 43-year-old man is referred to your clinic for consultation by his primary care provider. He states that he has recently noticed pain in the third and fourth fingers of his left hand. He also notes occasional discoloration of the fingers in that same hand. He has a past medical history of type II diabetes mellitus, hypertension, and hyperlipidemia. He has smoked 1.5 packs daily for the prior 25 years. His medications are metformin 500 mg twice daily, lisinopril 20 mg daily, and atorvastatin 20 mg daily.\nHis blood pressure (BP) is 146/84 mm Hg with heart rate 78 bpm. His examination is notable for a small, dark ulcer on the fourth digit of his left hand. An Allen test is abnormal on the left hand.\nHis last hemoglobin A1c level is 6.9%. Which of the following would be the most effective treatment for his presenting condition?",
+  "options": [
+   "Increase statin dose.",
+   "Improve blood pressure control.",
+   "Begin regular aerobic exercise.",
+   "Abstain from smoking.",
+   "Improve diabetes mellitus control."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "accsap10-vascular-q041",
+  "number": 41,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Aortic Dissection",
+  "stem": "A 67-year-old man presents to the emergency department with a sudden onset of tearing back pain. He has a past medical history of hypertension and hyperlipidemia. On examination, his blood pressure is 146/88 mm Hg (left arm) and 142/76 mm Hg (right arm), pulse is 90 bpm, respiratory rate is 20 breaths per minute, and oximetry is normal. He appears distressed. Radial, femoral, and pedal pulses are 2+ and equal. The remainder of his physical examination is normal. Computed tomography angiography (CTA) is performed and reveals a dissection that originates distal to the left subclavian artery and extends to both common iliac arteries. His initial laboratories\nare notable for a creatinine (Cr) level of 2.7 mg/dL (baseline Cr is 0.8 mg/dL). The patient is started on intravenous labetalol with reduction in blood pressure to 108/68 mm Hg. Which of the following is the most appropriate next step in his care?",
+  "options": [
+   "Nephrology consultation.",
+   "Intravenous nitroprusside.",
+   "Urgent revascularization.",
+   "Computed tomography angiography in 24 hours.",
+   "Coronary angiography."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "accsap10-vascular-q042",
+  "number": 42,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Vascular Diagnostics & Imaging",
+  "stem": "A 65-year-old man is evaluated for bilateral calf pain on walking 50 yards that resolves if he stops to rest. He has a past medical history of dyslipidemia and a current 50 pack-year smoking history. He takes no medications. Physical examination reveals a blood pressure of 140/80 mm Hg and heart rate of 70 bpm. Lower extremities are warm and pink. There is no evidence of hair loss or nail changes. Pulses are faintly palpable and are monophasic by Doppler evaluation.\nThe ankle-brachial index (ABI) is 1.1 and 1.0 on the right and left, respectively. Which of the following are the best next steps in this patient?",
+  "options": [
+   "Exercise ankle-brachial index testing.",
+   "No further testing.",
+   "Duplex ultrasound of lower extremities.",
+   "Lower extremity angiography.",
+   "Magnetic resonance imaging of the spine."
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "accsap10-vascular-q043",
+  "number": 43,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Abdominal Aortic Aneurysm",
+  "stem": "A 70-year-old former smoker presents for evaluation of a newly diagnosed, incidentally discovered 5.0 cm abdominal aortic aneurysm (AAA). He feels well. He walks 1-2 miles daily for exercise and plays in a men's basketball league two nights per week. His past medical history is notable for hyperlipidemia and diabetes mellitus. His medications include metformin 1000 mg BID and atorvastatin 20 mg daily.\nOn examination, his heart rate is 72 bpm and blood pressure is 118/68 mm Hg. A pulsatile mass is notable approximately just below the umbilicus. What is the most appropriate next step?",
+  "options": [
+   "Start metoprolol succinate 25 mg daily.",
+   "Start aspirin 81 mg daily.",
+   "Increase atorvastatin to 80 mg daily.",
+   "Repeat imaging in 6 months.",
+   "Referral for aneurysm repair."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "accsap10-vascular-q044",
+  "number": 44,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Carotid & Vertebral Disease",
+  "stem": "A 63-year-old woman with a history of hypertension presents to the emergency department with acute left facial droop without acute abnormalities on a noncontrast head computed tomography (CT) and is treated with intravenous fibrinolytics with resolution of her facial weakness. The remainder of her examination is normal. Electrocardiogram (ECG), inpatient telemetry, head and neck CT angiography, and transesophageal echocardiography (TEE) with bubble study are normal. Which of the following is the best next step?",
+  "options": [
+   "30-day Holter monitor.",
+   "Lower extremity venous Dopplers.",
+   "Electroencephalography.",
+   "Exercise stress testing.",
+   "Cardiac magnetic resonance imaging."
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "accsap10-vascular-q045",
+  "number": 45,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Carotid & Vertebral Disease",
+  "stem": "A 72-year-old woman with a history of hypertension, hyperlipidemia, and tobacco use presents to your office for an initial consultation for an abnormal carotid ultrasound result. Given her cardiovascular risk factors, a friend from work had suggested that she try the local mobile cardiovascular screening unit for a quick check-up, where a carotid artery ultrasound demonstrated 100% right occlusion and a 50-69% left occlusion. She otherwise has been feeling well and is active without any symptoms. Physical examination is notable for heart rate 80 bpm and blood pressure 146/90 mm Hg. There are no cardiac murmurs or carotid bruits on auscultation. Which of the following is the best next step in this patient's management?",
+  "options": [
+   "Carotid artery stenting.",
+   "Medical management.",
+   "Carotid endarterectomy.",
+   "Exercise stress test.",
+   "Carotid angiography."
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "accsap10-vascular-q046",
+  "number": 46,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Infrainguinal Disease & Claudication",
+  "stem": "A 55-year-old man is seen in the office for 6 months of exertional calf pain while walking that resolves with rest. His past medical history includes hypertension, diabetes mellitus, and heart failure with reduced ejected fraction. His medications include aspirin 81 mg daily, metformin 1000 mg twice a day, lisinopril 20 mg daily, and carvedilol 12.5 mg BID. Vital signs are blood pressure 110/70 mm Hg and heart rate 70 bpm. His cardiac examination is unremarkable. There are diminished dorsalis pedis pulses.\nThe right tibial artery blood pressure is 88 mm Hg and the left is 90 mm Hg. Which of the following therapies would you recommend next?",
+  "options": [
+   "Cilostazol.",
+   "Structured exercise program.",
+   "Pentoxifylline. ABI= ankle systolic pressure/brachial systolic pressure",
+   "Chelation therapy.",
+   "Revascularization."
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "accsap10-vascular-q047",
+  "number": 47,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Venous Thromboembolism",
+  "stem": "A 65-year-old woman presents to her primary care clinician's office with right lower extremity pain. The pain has progressively worsened over the prior week. Her past medical history is significant for hypertension. Her current medication is amlodipine 5 mg daily. Her vital signs are blood pressure 128/84 mm Hg, heart rate 75 bpm, and respirations 14 per minute with oxygen saturation 99% on room air. Examination reveals a tender, mildly swollen right leg with erythema of the calf and ankle. Pulses are normal. Her Duplex ultrasound is shown in Figures 1 and 2.\nWhich of the following is the most likely diagnosis?",
+  "options": [
+   "Baker's cyst.",
+   "Arterial stenosis.",
+   "Deep vein thrombosis.",
+   "Polymyalgia rheumatica.",
+   "Polyarteritis nodosa."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": [
+   "images/accsap10-q047-1.png",
+   "images/accsap10-q047-2.png"
+  ]
+ },
+ {
+  "id": "accsap10-vascular-q048",
+  "number": 48,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Chronic Limb-Threatening Ischemia",
+  "stem": "A 67-year-old man with poorly controlled type 2 diabetes mellitus, hypertension, hyperlipidemia, chronic kidney disease, and current tobacco use presents to your clinic with right foot pain. He first noticed the pain several months prior and describes that it typically worsens when walking and improves with rest. More recently, the discomfort has progressed with less exertion; over the prior few weeks, he has noted a burning pain in the foot when lying down to sleep. Physical examination is notable for 1+ posterior tibial and dorsalis pedis pulses on the left, and Dopplerable pulses in the right foot with delayed capillary refill and distal lower extremity hair loss. You order noninvasive arterial tests that demonstrate ankle-brachial index of 0.55 on the right and 0.82 on the left. A lower extremity computed tomography angiogram demonstrates severe right superficial femoral arterial disease with single-vessel runoff to the foot. In addition to smoking cessation and structured exercise, which of the following is the best next step in this patient's management?",
+  "options": [
+   "Intermittent pneumatic compression.",
+   "Aspirin and clopidogrel.",
+   "Pentoxifylline.",
+   "Cilostazol.",
+   "Endovascular stenting."
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "accsap10-vascular-q049",
+  "number": 49,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Acute Limb Ischemia & Compartment Syndrome",
+  "stem": "A 74-year-old man comes to the emergency department because of leg pain. He states that it was uncomfortable when he awoke in the morning that day and had worsened throughout the day. His history is significant for coronary artery disease, status/post coronary artery bypass grafting 10 years prior, hypertension, and hyperlipidemia. His medications include aspirin 81 mg, atorvastatin 40 mg, lisinopril 20 mg, and amlodipine 10 mg daily.\nOn examination, his blood pressure is 158/86 mm Hg, heart rate is 92 bpm and regular, and he appears uncomfortable. Lungs are clear and heart has a normal S1 and S2, as well as a II/VI early peaking systolic murmur. His left dorsalis pedis and posterior tibial pulses are 2+ and the right pulses are not palpable, but venous Doppler signals are appreciated. His right leg is cool and slightly mottled. Decreased pinprick sensation is noted on the right leg below the ankle, and he has 4/5 strength on the right lower extremity and 5/5 on the left. What is the best next step in this patient's care?",
+  "options": [
+   "Urgent revascularization.",
+   "Systemic tissue plasminogen activator.",
+   "Lower extremity angiography.",
+   "Computed tomography angiography.",
+   "Lower extremity magnetic resonance angiography."
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "accsap10-vascular-q050",
+  "number": 50,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Carotid & Vertebral Disease",
+  "stem": "A 78-year-old man with chronic obstructive pulmonary disease and chronic stable coronary disease presents to the emergency department with dysarthria and weakness affecting his right arm that began >6 hours prior. Head computed tomography reveals an acute ischemic stroke involving the left middle cerebral artery. He does not receive thrombolytics and is admitted to the hospital for further management. He is afebrile with a heart rate of 82 bpm and blood pressure (BP) of 190/100 mm Hg. What is the most appropriate management of this patient's BP in the first 24 hours of hospitalization?",
+  "options": [
+   "Antihypertensive therapy is not currently indicated.",
+   "Treat with oral medications; goal blood pressure <185/110 mm Hg.",
+   "Treat with intravenous medications; goal blood pressure <185/110 mm Hg.",
+   "Treat with intravenous medications; goal blood pressure <140/90 mm Hg.",
+   "Treat with oral medications; goal blood pressure <140/90 mm Hg."
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "accsap10-vascular-q051",
+  "number": 51,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Acute Limb Ischemia & Compartment Syndrome",
+  "stem": "A 55-year-old man with a history of smoking, coronary artery disease status/post coronary artery bypass graft, and atrial fibrillation presents to the emergency department with acute-onset pain in his left leg that began suddenly 1 hour prior. In addition to pain, paralysis, and pulse deficit, which of the following is most consistent with a diagnosis of acute limb ischemia?",
+  "options": [
+   "Hypothermia.",
+   "Purple discoloration.",
+   "Pachyderma.",
+   "Poikilothermia.",
+   "Numbness."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ }
+]
