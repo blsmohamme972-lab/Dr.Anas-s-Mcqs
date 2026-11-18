@@ -1,0 +1,17 @@
+{
+  "name": "Dr. Anas MCQs",
+  "short_name": "Dr. Anas MCQs",
+  "description": "A focused surgery MCQ study companion.",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#f7fafc",
+  "theme_color": "#102a43",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
