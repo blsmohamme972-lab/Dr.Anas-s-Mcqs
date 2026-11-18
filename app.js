@@ -51,6 +51,86 @@ const topics = [
   },
 ];
 
+const additionalCurriculumTopics = [
+  ["carotid-disease", "Carotid Occlusive Disease", "Vascular Surgery"],
+  ["acute-limb-ischemia", "Acute Limb Ischaemia", "Vascular Surgery"],
+  ["chronic-venous-disease", "Chronic Venous Disease", "Vascular Surgery"],
+  ["deep-vein-thrombosis", "Deep Vein Thrombosis", "Vascular Surgery"],
+  ["pulmonary-embolism", "Pulmonary Embolism", "Vascular Surgery"],
+  ["aortic-dissection", "Aortic Dissection", "Vascular Surgery"],
+  ["thoracic-outlet", "Thoracic Outlet Syndrome", "Vascular Surgery"],
+  ["renal-artery", "Renal Artery Disease", "Vascular Surgery"],
+  ["mesenteric-ischemia", "Mesenteric Ischaemia", "Vascular Surgery"],
+  ["dialysis-access", "Dialysis Access", "Vascular Surgery"],
+  ["vascular-trauma", "Vascular Trauma", "Vascular Surgery"],
+  ["amputations", "Amputation Principles", "Vascular Surgery"],
+  ["carotid-intervention", "Carotid Intervention", "Vascular Surgery"],
+  ["endovascular", "Endovascular Techniques", "Vascular Surgery"],
+  ["vascular-imaging", "Vascular Imaging", "Vascular Surgery"],
+  ["wound-care", "Ischaemic Wound Care", "Vascular Surgery"],
+  ["vascular-lab", "Vascular Laboratory", "Vascular Surgery"],
+  ["varicose-veins", "Varicose Veins", "Vascular Surgery"],
+  ["venous-ulcer", "Venous Ulcer Care", "Vascular Surgery"],
+  ["lymphatic", "Lymphatic Surgery", "Vascular Surgery"],
+  ["airway", "Airway and Tracheal Surgery", "Thoracic Surgery"],
+  ["pleural-disease", "Pleural Disease", "Thoracic Surgery"],
+  ["empyema", "Empyema and Pleural Infection", "Thoracic Surgery"],
+  ["pneumothorax", "Pneumothorax", "Thoracic Surgery"],
+  ["mediastinal", "Mediastinal Disease", "Thoracic Surgery"],
+  ["esophageal", "Oesophageal Surgery", "Thoracic Surgery"],
+  ["diaphragm", "Diaphragmatic Disorders", "Thoracic Surgery"],
+  ["chest-wall", "Chest Wall Tumours", "Thoracic Surgery"],
+  ["thoracic-infection", "Thoracic Infection", "Thoracic Surgery"],
+  ["lung-resection", "Lung Resection", "Thoracic Surgery"],
+  ["pulmonary-nodules", "Pulmonary Nodules", "Thoracic Surgery"],
+  ["interstitial-lung", "Interstitial Lung Disease", "Thoracic Surgery"],
+  ["sleep-surgery", "Surgical Sleep Medicine", "Thoracic Surgery"],
+  ["thoracic-anesthesia", "Thoracic Anaesthesia", "Thoracic Surgery"],
+  ["thoracoscopy", "Thoracoscopy", "Thoracic Surgery"],
+  ["chylothorax", "Chylothorax", "Thoracic Surgery"],
+  ["tracheostomy", "Tracheostomy Care", "Thoracic Surgery"],
+  ["thoracic-transplant", "Lung Transplantation", "Thoracic Surgery"],
+  ["thoracic-oncology", "Thoracic Oncology", "Thoracic Surgery"],
+  ["congenital-thoracic", "Congenital Thoracic Conditions", "Thoracic Surgery"],
+  ["cardiac-anatomy", "Cardiac Anatomy", "Cardiac Surgery"],
+  ["cardiac-bypass", "Cardiopulmonary Bypass", "Cardiac Surgery"],
+  ["aortic-valve", "Aortic Valve Surgery", "Cardiac Surgery"],
+  ["mitral-valve", "Mitral Valve Surgery", "Cardiac Surgery"],
+  ["tricuspid-valve", "Tricuspid Valve Surgery", "Cardiac Surgery"],
+  ["endocarditis", "Infective Endocarditis", "Cardiac Surgery"],
+  ["heart-failure", "Heart Failure Surgery", "Cardiac Surgery"],
+  ["mechanical-support", "Mechanical Circulatory Support", "Cardiac Surgery"],
+  ["aortic-root", "Aortic Root Surgery", "Cardiac Surgery"],
+  ["thoracic-aorta", "Thoracic Aortic Surgery", "Cardiac Surgery"],
+  ["arrhythmia-surgery", "Arrhythmia Surgery", "Cardiac Surgery"],
+  ["congenital-heart", "Adult Congenital Heart Disease", "Cardiac Surgery"],
+  ["pediatric-cardiac", "Paediatric Cardiac Surgery", "Cardiac Surgery"],
+  ["heart-transplant", "Heart Transplantation", "Cardiac Surgery"],
+  ["pericardial", "Pericardial Disease", "Cardiac Surgery"],
+  ["cardiac-trauma", "Cardiac Trauma", "Cardiac Surgery"],
+  ["minimally-invasive", "Minimally Invasive Cardiac Surgery", "Cardiac Surgery"],
+  ["cardiac-imaging", "Cardiac Imaging", "Cardiac Surgery"],
+  ["postoperative-care", "Postoperative Cardiac Care", "Cardiac Surgery"],
+  ["cardiac-recovery", "Cardiac Rehabilitation", "Cardiac Surgery"],
+];
+
+const topicColorBySpecialty = {
+  "Vascular Surgery": "teal",
+  "Thoracic Surgery": "amber",
+  "Cardiac Surgery": "coral",
+};
+
+additionalCurriculumTopics.forEach(([id, name, specialty], index) => {
+  topics.push({
+    id,
+    name,
+    specialty,
+    count: 10 + (index % 9),
+    progress: 0,
+    color: topicColorBySpecialty[specialty],
+  });
+});
+
 const questions = [
   {
     id: "pad-01",
@@ -162,10 +242,25 @@ const defaultState = {
   answered: 24,
   correct: 19,
   streak: 5,
+  exam: {
+    status: "setup",
+    specialty: "All",
+    size: 5,
+    random: true,
+    questionIds: [],
+    currentIndex: 0,
+    answers: {},
+    marked: [],
+    reviewing: false,
+    remainingSeconds: 300,
+    lastResult: null,
+  },
 };
 
 let state = loadState();
 let toastTimer;
+let examTimerId = null;
+let topicSpecialtyFilter = "All";
 
 const pageContainer = document.querySelector("#pageContainer");
 const topbarPage = document.querySelector("#topbarPage");
@@ -175,7 +270,11 @@ const appShell = document.querySelector("#appShell");
 function loadState() {
   try {
     const stored = JSON.parse(localStorage.getItem(STORAGE_KEY));
-    return { ...defaultState, ...stored };
+    return {
+      ...defaultState,
+      ...stored,
+      exam: { ...defaultState.exam, ...(stored?.exam ?? {}) },
+    };
   } catch {
     return { ...defaultState };
   }
@@ -220,7 +319,26 @@ function getTopic(topicId) {
 
 function getStudyQuestions() {
   const matchingQuestions = questions.filter((question) => question.topicId === state.studyTopicId);
-  return matchingQuestions.length > 0 ? matchingQuestions : questions.filter((question) => question.topicId === "pad");
+  if (matchingQuestions.length > 0) return matchingQuestions;
+
+  const topic = getTopic(state.studyTopicId);
+  return [
+    {
+      id: `${topic.id}-preview`,
+      topicId: topic.id,
+      prompt: `${topic.name} question set is ready for the next content import. What is the best next step?`,
+      options: [
+        "Continue with the reviewed question set when it is published",
+        "Skip the topic permanently",
+        "Remove the topic from the curriculum",
+        "Disable progress tracking",
+      ],
+      answer: 0,
+      explanation:
+        "This topic is already part of the curriculum map. Its reviewed question set will arrive through a future content release.",
+      preview: true,
+    },
+  ];
 }
 
 function render() {
@@ -240,6 +358,7 @@ function render() {
   };
   pageContainer.innerHTML = (views[state.route] ?? renderHome)();
   bindViewEvents();
+  syncExamTimer();
 }
 
 function pageTitle(route) {
@@ -330,12 +449,19 @@ function topicCard(topic) {
 }
 
 function renderTopics() {
+  const filteredTopics = topicSpecialtyFilter === "All"
+    ? topics
+    : topics.filter((topic) => topic.specialty === topicSpecialtyFilter);
+
   return `
     <section class="page-header">
-      <div><p class="eyebrow">Browse the curriculum</p><h1 class="page-title">Choose a topic.</h1><p class="page-intro">Start with one focused set. The full 66-topic curriculum will grow from this foundation.</p></div>
-      <div class="view-toggle" aria-label="Topic view"><button class="active" type="button">All topics</button><button type="button">In progress</button></div>
+      <div><p class="eyebrow">Browse the curriculum</p><h1 class="page-title">Choose a topic.</h1><p class="page-intro">The curriculum map now includes ${topics.length} planned topics across three surgical specialties.</p></div>
+      <div class="topic-catalog-summary"><span class="topic-catalog-number">${filteredTopics.length}</span><span>topics shown</span></div>
     </section>
-    <section class="topic-list" aria-label="Available topics">${topics.map(topicCard).join("")}</section>
+    <section class="topic-filter-bar" aria-label="Filter topics">
+      ${["All", "Vascular Surgery", "Thoracic Surgery", "Cardiac Surgery"].map((specialty) => `<button class="filter-chip ${topicSpecialtyFilter === specialty ? "active" : ""}" data-topic-filter="${specialty}" type="button">${specialty === "All" ? "All specialties" : escapeHtml(specialty)}</button>`).join("")}
+    </section>
+    <section class="topic-list" aria-label="Available topics">${filteredTopics.map(topicCard).join("")}</section>
   `;
 }
 
@@ -380,11 +506,103 @@ function optionButton(option, index, selected, isSubmitted, answer) {
   return `<button class="option-button ${stateClass}" data-option="${index}" type="button" ${isSubmitted ? "disabled" : ""}><span class="option-key">${String.fromCharCode(65 + index)}</span><span>${escapeHtml(option)}</span></button>`;
 }
 
-function renderExam() {
+function getExamQuestionPool(specialty = state.exam.specialty) {
+  if (specialty === "All") return questions;
+  return questions.filter((question) => getTopic(question.topicId).specialty === specialty);
+}
+
+function formatExamTime(seconds) {
+  const safeSeconds = Math.max(0, Number(seconds) || 0);
+  const minutes = Math.floor(safeSeconds / 60).toString().padStart(2, "0");
+  const remainder = (safeSeconds % 60).toString().padStart(2, "0");
+  return `${minutes}:${remainder}`;
+}
+
+function examQuestionById(id) {
+  return questions.find((question) => question.id === id);
+}
+
+function renderExamSetup() {
+  if (state.exam.status === "running") return renderRunningExam();
+  if (state.exam.status === "results") return renderExamResults();
+
+  const poolSize = getExamQuestionPool(state.exam.specialty).length;
+  const lastResult = state.exam.lastResult;
+  const examSizes = [...new Set([Math.min(5, poolSize), poolSize])].filter((size) => size > 0);
+
   return `
-    <section class="page-header"><div><p class="eyebrow">Timed practice</p><h1 class="page-title">Exam mode is taking shape.</h1><p class="page-intro">The first build keeps the learning loop short. Exam configuration, timing, and review analytics are queued next.</p></div></section>
-    <section class="placeholder-card"><div><div class="placeholder-icon">◷</div><h2 class="placeholder-title">Build confidence in Study first.</h2><p class="placeholder-copy">When the question bank grows, this space will support topic selection, a timer, marking for review, and a detailed result breakdown.</p><button class="primary-action" data-route="study" type="button" style="margin-top: 20px">Go to Study <span aria-hidden="true">→</span></button></div></section>
+    <section class="page-header"><div><p class="eyebrow">Timed practice</p><h1 class="page-title">Build an exam from the bank.</h1><p class="page-intro">Choose a specialty, set a short question set, and use the review board to practice under light exam pressure.</p></div><div class="exam-bank-pill"><span class="status-dot"></span>${questions.length} reviewed sample questions</div></section>
+    <section class="exam-setup-grid">
+      <article class="exam-setup-card exam-setup-main">
+        <div class="exam-card-heading"><div><p class="card-label">Exam setup</p><h2 class="section-title">Set your conditions</h2></div><div class="exam-card-icon">◷</div></div>
+        <label class="field-label" for="examSpecialty">Specialty</label>
+        <select class="select-field" id="examSpecialty">
+          ${["All", "Vascular Surgery", "Thoracic Surgery", "Cardiac Surgery"].map((specialty) => `<option value="${specialty}" ${state.exam.specialty === specialty ? "selected" : ""}>${specialty === "All" ? "All specialties" : specialty}</option>`).join("")}
+        </select>
+        <div class="exam-control-row"><div><p class="field-label">Question count</p><p class="helper-text">Up to ${poolSize} sample questions are available for this filter.</p></div><select class="select-field compact" id="examSize">${examSizes.map((size) => `<option value="${size}" ${state.exam.size === size ? "selected" : ""}>${size} questions</option>`).join("")}</select></div>
+        <label class="toggle-row" for="examRandom"><span><strong>Random order</strong><small>Mix the question sequence for each attempt.</small></span><input id="examRandom" type="checkbox" ${state.exam.random ? "checked" : ""}><span class="toggle-switch" aria-hidden="true"></span></label>
+        <button class="primary-action exam-start-button" data-action="start-exam" type="button">Start exam <span aria-hidden="true">→</span></button>
+      </article>
+      <article class="exam-setup-card exam-expect-card"><div class="exam-card-icon soft">✦</div><p class="card-label">What to expect</p><h2 class="section-title">A focused five-minute round.</h2><ul class="exam-expect-list"><li><span>01</span><p>Answer in any order.</p></li><li><span>02</span><p>Mark uncertain questions for review.</p></li><li><span>03</span><p>See your score and specialty breakdown.</p></li></ul></article>
+    </section>
+    ${lastResult ? `<section class="section-block"><div class="section-heading"><div><h2 class="section-title">Last attempt</h2><p class="section-note">${escapeHtml(lastResult.specialty === "All" ? "All specialties" : lastResult.specialty)}</p></div><span class="result-label">${lastResult.score}/${lastResult.total} correct</span></div><div class="last-result-card"><div><p class="result-score-small">${lastResult.accuracy}%</p><p class="book-meta">Accuracy · ${escapeHtml(lastResult.completedAt)}</p></div><button class="secondary-action" data-action="review-last-exam" type="button">Review attempt</button></div></section>` : ""}
   `;
+}
+
+function renderRunningExam() {
+  const examQuestionIds = state.exam.questionIds;
+  if (!examQuestionIds.length) {
+    state.exam.status = "setup";
+    return renderExamSetup();
+  }
+  const currentId = examQuestionIds[state.exam.currentIndex];
+  const question = examQuestionById(currentId) ?? questions[0];
+  const selected = state.exam.answers[question.id];
+  const isMarked = state.exam.marked.includes(question.id);
+  const answeredCount = Object.keys(state.exam.answers).length;
+  const timerWarning = state.exam.remainingSeconds <= 60 ? "timer-warning" : "";
+
+  return `
+    <section class="exam-shell">
+      <div class="exam-running-header"><div><p class="eyebrow">${escapeHtml(state.exam.specialty === "All" ? "All specialties" : state.exam.specialty)}</p><h1 class="page-title">${state.exam.reviewing ? "Reviewing your attempt" : "Exam in progress"}</h1></div><div class="exam-running-actions">${state.exam.reviewing ? `<button class="secondary-action" data-action="back-to-results" type="button">Back to results</button>` : `<div class="exam-timer ${timerWarning}" id="examTimer" aria-label="Time remaining">◷ ${formatExamTime(state.exam.remainingSeconds)}</div><button class="secondary-action" data-action="submit-exam" type="button">Submit exam</button>`}</div></div>
+      <div class="exam-progress-track"><span style="width: ${((state.exam.currentIndex + 1) / examQuestionIds.length) * 100}%"></span></div>
+      <div class="exam-running-grid">
+        <article class="question-card exam-question-card">
+          <div class="question-heading"><div><p class="question-topic">Question ${state.exam.currentIndex + 1} of ${examQuestionIds.length}</p><p class="question-meta">${escapeHtml(getTopic(question.topicId).name)}</p></div><button class="bookmark-button ${isMarked ? "saved" : ""}" data-action="toggle-exam-mark" aria-label="${isMarked ? "Remove review mark" : "Mark for review"}" type="button">${isMarked ? "★" : "☆"}</button></div>
+          <h2 class="question-title">${escapeHtml(question.prompt)}</h2>
+          <div class="options-list" role="radiogroup" aria-label="Exam answer options">${question.options.map((option, index) => examOptionButton(option, index, selected)).join("")}</div>
+          <div class="study-footer"><span class="study-footer-note">${selected === undefined ? "Choose one answer to continue." : "Answer saved for this attempt."}</span><div class="exam-footer-actions"><button class="secondary-action" data-action="previous-exam-question" type="button" ${state.exam.currentIndex === 0 ? "disabled" : ""}>← Previous</button><button class="primary-action" data-action="next-exam-question" type="button">${state.exam.currentIndex === examQuestionIds.length - 1 ? "Review answers" : "Next question →"}</button></div></div>
+        </article>
+        <aside class="exam-question-board"><div class="exam-board-heading"><div><p class="card-label">Question board</p><p class="helper-text">${answeredCount} of ${examQuestionIds.length} answered</p></div><span class="board-mark-key">★ marked</span></div><div class="question-jump-grid">${examQuestionIds.map((id, index) => examJumpButton(id, index)).join("")}</div><div class="exam-board-note"><span class="status-dot"></span> You can submit at any time.</div></aside>
+      </div>
+    </section>
+  `;
+}
+
+function examOptionButton(option, index, selected) {
+  const isSelected = selected === index;
+  return `<button class="option-button ${isSelected ? "selected" : ""}" data-exam-option="${index}" type="button"><span class="option-key">${String.fromCharCode(65 + index)}</span><span>${escapeHtml(option)}</span></button>`;
+}
+
+function examJumpButton(id, index) {
+  const answered = Object.prototype.hasOwnProperty.call(state.exam.answers, id);
+  const marked = state.exam.marked.includes(id);
+  return `<button class="question-jump ${answered ? "answered" : ""} ${marked ? "marked" : ""} ${state.exam.currentIndex === index ? "current" : ""}" data-exam-index="${index}" type="button" aria-label="Go to question ${index + 1}">${index + 1}${marked ? "★" : ""}</button>`;
+}
+
+function renderExamResults() {
+  const result = state.exam.lastResult ?? { score: 0, total: 0, accuracy: 0, specialty: "All", completedAt: "Just now", breakdown: [] };
+  const missed = result.total - result.score;
+
+  return `
+    <section class="page-header"><div><p class="eyebrow">Attempt complete</p><h1 class="page-title">Your exam snapshot.</h1><p class="page-intro">Use the result to decide which topic deserves your next focused study session.</p></div><button class="header-action" data-action="new-exam" type="button">New exam <span aria-hidden="true">→</span></button></section>
+    <section class="exam-result-grid"><article class="exam-result-card"><div class="result-ring" style="--result-angle: ${result.accuracy * 3.6}deg"><div><strong>${result.accuracy}%</strong><span>accuracy</span></div></div><div class="result-summary"><p class="card-label">${escapeHtml(result.specialty === "All" ? "All specialties" : result.specialty)}</p><h2 class="section-title">${result.score} of ${result.total} correct</h2><p class="helper-text">${missed === 0 ? "Clean round. Keep the momentum." : `${missed} question${missed === 1 ? "" : "s"} to revisit in Study.`}</p><p class="result-meta">Completed ${escapeHtml(result.completedAt)}</p></div></article><article class="exam-breakdown-card"><div class="section-heading"><div><h2 class="section-title">Specialty breakdown</h2><p class="section-note">Where the round landed</p></div></div><div class="breakdown-list">${result.breakdown.map((row) => `<div class="breakdown-row"><div><strong>${escapeHtml(row.specialty)}</strong><span>${row.total} question${row.total === 1 ? "" : "s"}</span></div><div class="breakdown-bar"><span style="width: ${row.total ? (row.correct / row.total) * 100 : 0}%"></span></div><b>${row.correct}/${row.total}</b></div>`).join("")}</div></article></section>
+    <section class="section-block"><div class="section-heading"><div><h2 class="section-title">Next move</h2><p class="section-note">Keep the learning loop short</p></div></div><div class="result-actions"><button class="primary-action" data-route="study" type="button">Study a topic <span aria-hidden="true">→</span></button><button class="secondary-action" data-action="review-last-exam" type="button">Review this attempt</button></div></section>
+  `;
+}
+
+function renderExam() {
+  return renderExamSetup();
 }
 
 function renderProgress() {
@@ -401,6 +619,109 @@ function renderSettings() {
     <section class="page-header"><div><p class="eyebrow">Personal workspace</p><h1 class="page-title">Settings stay simple.</h1><p class="page-intro">These controls are intentionally lightweight in the preview. Your study data remains on this device.</p></div></section>
     <section class="book-list"><article class="book-card"><div class="streak-icon" aria-hidden="true">⌁</div><div class="book-info"><p class="book-meta">Storage</p><h2 class="book-title">Local progress</h2><p class="book-meta">Answers and bookmarks are saved in this browser.</p></div><button class="secondary-action" data-action="reset-progress" type="button">Reset</button></article><article class="book-card"><div class="streak-icon" aria-hidden="true">Aa</div><div class="book-info"><p class="book-meta">Language</p><h2 class="book-title">English interface</h2><p class="book-meta">All preview content is presented in English.</p></div><span class="book-status">Active</span></article></section>
   `;
+}
+
+function syncExamTimer() {
+  const shouldRun = state.route === "exam" && state.exam.status === "running" && !state.exam.reviewing;
+  if (!shouldRun) {
+    if (examTimerId !== null) {
+      window.clearInterval(examTimerId);
+      examTimerId = null;
+    }
+    return;
+  }
+
+  if (examTimerId !== null) return;
+  examTimerId = window.setInterval(() => {
+    if (state.exam.status !== "running") {
+      syncExamTimer();
+      return;
+    }
+    state.exam.remainingSeconds = Math.max(0, state.exam.remainingSeconds - 1);
+    saveState();
+    const timer = document.querySelector("#examTimer");
+    if (timer) {
+      timer.textContent = `◷ ${formatExamTime(state.exam.remainingSeconds)}`;
+      timer.classList.toggle("timer-warning", state.exam.remainingSeconds <= 60);
+    }
+    if (state.exam.remainingSeconds === 0) finishExam(true);
+  }, 1000);
+}
+
+function startExam() {
+  const specialty = document.querySelector("#examSpecialty")?.value ?? "All";
+  const requestedSize = Number(document.querySelector("#examSize")?.value ?? 5);
+  const random = document.querySelector("#examRandom")?.checked ?? true;
+  const pool = [...getExamQuestionPool(specialty)];
+  if (random) pool.sort(() => Math.random() - 0.5);
+  const selectedQuestions = pool.slice(0, Math.min(requestedSize, pool.length));
+
+  state.exam = {
+    ...defaultState.exam,
+    status: "running",
+    specialty,
+    size: selectedQuestions.length,
+    random,
+    questionIds: selectedQuestions.map((question) => question.id),
+    currentIndex: 0,
+    answers: {},
+    marked: [],
+    reviewing: false,
+    remainingSeconds: Math.max(60, selectedQuestions.length * 60),
+    lastResult: state.exam.lastResult,
+  };
+  state.route = "exam";
+  saveState();
+  render();
+}
+
+function finishExam(autoSubmitted = false) {
+  if (state.exam.status !== "running") return;
+  const examQuestions = state.exam.questionIds.map(examQuestionById).filter(Boolean);
+  const score = examQuestions.reduce((total, question) => total + (state.exam.answers[question.id] === question.answer ? 1 : 0), 0);
+  const breakdown = ["Vascular Surgery", "Thoracic Surgery", "Cardiac Surgery"]
+    .map((specialty) => {
+      const specialtyQuestions = examQuestions.filter((question) => getTopic(question.topicId).specialty === specialty);
+      return {
+        specialty,
+        total: specialtyQuestions.length,
+        correct: specialtyQuestions.filter((question) => state.exam.answers[question.id] === question.answer).length,
+      };
+    })
+    .filter((row) => row.total > 0);
+
+  const total = examQuestions.length;
+  const accuracy = total ? Math.round((score / total) * 100) : 0;
+  state.exam.lastResult = {
+    score,
+    total,
+    accuracy,
+    specialty: state.exam.specialty,
+    completedAt: new Intl.DateTimeFormat("en-US", { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" }).format(new Date()),
+    breakdown,
+  };
+  state.exam.status = "results";
+  if (!state.exam.reviewing) {
+    state.answered += total;
+    state.correct += score;
+  }
+  saveState();
+  render();
+  if (autoSubmitted) showToast("Time is up. Your exam was submitted.");
+}
+
+function reviewLastExam() {
+  const result = state.exam.lastResult;
+  if (!result || !state.exam.questionIds.length) {
+    showToast("Complete an exam to review it here.");
+    return;
+  }
+  state.exam.status = "running";
+  state.exam.reviewing = true;
+  state.exam.currentIndex = 0;
+  state.exam.remainingSeconds = Math.max(60, state.exam.questionIds.length * 60);
+  saveState();
+  render();
 }
 
 function bindViewEvents() {
@@ -427,6 +748,30 @@ function bindViewEvents() {
     });
   });
 
+  pageContainer.querySelectorAll("[data-exam-option]").forEach((element) => {
+    element.addEventListener("click", () => {
+      const currentQuestion = state.exam.questionIds[state.exam.currentIndex];
+      state.exam.answers[currentQuestion] = Number(element.dataset.examOption);
+      saveState();
+      render();
+    });
+  });
+
+  pageContainer.querySelectorAll("[data-exam-index]").forEach((element) => {
+    element.addEventListener("click", () => {
+      state.exam.currentIndex = Number(element.dataset.examIndex);
+      saveState();
+      render();
+    });
+  });
+
+  pageContainer.querySelectorAll("[data-topic-filter]").forEach((element) => {
+    element.addEventListener("click", () => {
+      topicSpecialtyFilter = element.dataset.topicFilter;
+      render();
+    });
+  });
+
   pageContainer.querySelectorAll("[data-action]").forEach((element) => {
     element.addEventListener("click", () => handleAction(element.dataset.action));
   });
@@ -438,12 +783,71 @@ function handleAction(action) {
     return;
   }
 
+  if (action === "start-exam") {
+    startExam();
+    return;
+  }
+
+  if (action === "submit-exam") {
+    finishExam();
+    return;
+  }
+
+  if (action === "new-exam") {
+    state.exam = { ...defaultState.exam, lastResult: state.exam.lastResult };
+    saveState();
+    render();
+    return;
+  }
+
+  if (action === "review-last-exam") {
+    reviewLastExam();
+    return;
+  }
+
+  if (action === "back-to-results") {
+    state.exam.status = "results";
+    saveState();
+    render();
+    return;
+  }
+
+  if (action === "toggle-exam-mark") {
+    const currentQuestion = state.exam.questionIds[state.exam.currentIndex];
+    state.exam.marked = state.exam.marked.includes(currentQuestion)
+      ? state.exam.marked.filter((id) => id !== currentQuestion)
+      : [...state.exam.marked, currentQuestion];
+    saveState();
+    render();
+    return;
+  }
+
+  if (action === "next-exam-question") {
+    if (state.exam.currentIndex === state.exam.questionIds.length - 1) {
+      showToast("Review the question board, then submit when ready.");
+      return;
+    }
+    state.exam.currentIndex += 1;
+    saveState();
+    render();
+    return;
+  }
+
+  if (action === "previous-exam-question") {
+    state.exam.currentIndex = Math.max(0, state.exam.currentIndex - 1);
+    saveState();
+    render();
+    return;
+  }
+
   if (action === "submit-answer") {
     if (state.selectedOption === null) return;
     const question = getStudyQuestions()[state.questionIndex % getStudyQuestions().length];
     state.submitted = true;
-    state.answered += 1;
-    if (state.selectedOption === question.answer) state.correct += 1;
+    if (!question.preview) {
+      state.answered += 1;
+      if (state.selectedOption === question.answer) state.correct += 1;
+    }
     saveState();
     render();
     return;
