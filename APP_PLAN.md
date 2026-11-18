@@ -158,3 +158,15 @@
 ## معيار اكتمال الخطة
 
 يعتبر النظام جاهزًا عندما يستطيع المستخدم اختيار كتاب أو موضوع، دراسة الأسئلة أو بدء امتحان، قراءة شرح إنجليزي ذكي مع المرئيات الضرورية، متابعة تقدمه على الهاتف أو iPad، واستقبال تحديثات المحتوى والواجهة تلقائيًا دون Key أو Secret.
+
+## Confirmed app preferences
+
+- The app does not require account creation or sign-in.
+- Progress, settings, and personal study data are stored locally on the user's device.
+- The app resumes the latest study session automatically, including the current question, filters, and session state.
+- Add an **Ask GPT AI** button and an **Ask Cloud AI** button to the question screen. Each button passes the question and its options directly to the matching GPT or Cloud AI app while preserving the question format.
+- Add a **Do not show this question again** button. Hidden questions are excluded from later study sessions and can be managed from Settings.
+- Add an **Add question to Favorites** button.
+- Add a **Favorites** screen that presents the book cover, book title, favorite questions, and favorite-question count in a clear layout.
+- Add **Quick Review Mode** for rapid review with swipe gestures, fast transitions, and a rapid display of the correct answer with a short explanatory statement.
+- These features do not depend on an account backend. Use local storage, with export and import backup support as a later optional enhancement.
