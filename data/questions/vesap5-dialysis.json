@@ -1,0 +1,982 @@
+[
+ {
+  "id": "vesap5-dialysis-q001",
+  "number": 1,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Hemodialysis Access",
+  "stem": "Outcomes of a brachiocephalic arteriovenous fistula (AVF) compared to a radiocephalic AVF demonstrate:",
+  "options": [
+   "Similar 1-year primary patency rates",
+   "Brachiocephalic AVFs have superior 1-year primary patency rates",
+   "Radiocephalic AVFs have superior 1-year primary patency rate",
+   "Early patency rates are superior in radiocephalic AVF",
+   "Brachiocephalic and radiocephalic AVFs have equal functional patency rates"
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-dialysis-q002",
+  "number": 2,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Hemodialysis Access",
+  "stem": "A 67-year-old woman with chronic kidney disease stage 4 is sent for evaluation for arteriovenous fistula (AVF) creation. Her vein mapping demonstrates 3-mm cephalic veins bilaterally in her upper and lower arms and an intact palmar arch. She is right-hand dominant and she has a left-sided implantable cardioverter-defibrillator (AICD). The most appropriate arteriovenous access placement would be:",
+  "options": [
+   "Right arm brachiocephalic fistula",
+   "Right arm radiocephalic fistula",
+   "Left arm brachiocephalic fistula",
+   "Left arm radiocephalic fistula",
+   "Venogram to assess for venous patency around the AICD"
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-dialysis-q003",
+  "number": 3,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Hemodialysis Access",
+  "stem": "A 52-year-old dialysis-dependent patient with a left internal jugular vein catheter is referred to you for hemodialysis access evaluation. Previous vein mapping showed no vein greater than 2 mm in either arm. The patient has known bilateral central venous stenosis and has had multiple hemodialysis catheter infections. The patient has a history of significant peripheral arterial disease in both lower extremities. The most appropriate plan for future access is:",
+  "options": [
+   "Placement of a femoral vein tunneled catheter",
+   "Placement of an upper extremity arteriovenous graft",
+   "Convert the existing left internal jugular vein catheter to a hybrid catheter/graft",
+   "Continue using the existing left internal jugular vein catheter",
+   "Re-vein map the patient’s upper extremities and attempt a primary arteriovenous fistula"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-dialysis-q004",
+  "number": 4,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Hemodialysis Access",
+  "stem": "A patient presents to the emergency room with persistent bleeding that started while he was sleeping. On physical examination, the patient has a right brachiocephalic arteriovenous fistula that is ulcerated and bleeding. In addition to compression, the most appropriate management is:",
+  "options": [
+   "Take the patient emergently for open surgical revision",
+   "Correct any coagulopathy and give desmopressin",
+   "Stitch placement and discharge",
+   "Placement of a covered stent",
+   "Admission and angiography on the following day"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-dialysis-q005",
+  "number": 5,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Hemodialysis Access",
+  "stem": "The results of a fistulagram on a patient with a left upper extremity arteriovenous graft reveals a severe outflow venous stenosis. The most appropriate management is:",
+  "options": [
+   "Covered stent placement",
+   "Plain balloon angioplasty of the outflow lesion",
+   "Open revision of the venous anastomosis",
+   "Creation of contralateral access",
+   "Proximalization of the venous outflow above the area of narrowing"
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-dialysis-q006",
+  "number": 6,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Hemodialysis Access",
+  "stem": "A 52-year-old woman has a well-functioning left brachiocephalic arteriovenous fistula for the past 5 years. She has two areas of aneurysmal dilation that have some skin discoloration. She has not had any wounds or bleeding. The next appropriate step is:",
+  "options": [
+   "Place a new arteriovenous access",
+   "Close observation",
+   "Place an interposition graft",
+   "Undertake access plication",
+   "Place a stent-graft"
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-dialysis-q007",
+  "number": 7,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Hemodialysis Access",
+  "stem": "A 52-year-old man has a failed radiocephalic fistula. The upper arm cephalic vein is 3 mm in minimal diameter and the basilic vein is 3 mm through the arm. The next option for access in this patient is:",
+  "options": [
+   "Brachiocephalic fistula",
+   "Loop forearm arteriovenous graft (AVG)",
+   "Upper arm AVG",
+   "Basilic transposition in forearm",
+   "Basilic vein transposition in upper arm"
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-dialysis-q008",
+  "number": 8,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Hemodialysis Access",
+  "stem": "A 38-year-old right-handed woman, who is not yet on dialysis, presents for evaluation for access creation. She has a 2.7-mm basilic vein in the left upper arm with all other veins being 2 mm in the arm. The most appropriate method for access creation in this patient is:",
+  "options": [
+   "Single-stage basilic vein transposition",
+   "First-stage creation of a brachial basilic fistula",
+   "Loop forearm AVG",
+   "Upper arm AVG",
+   "Contralateral arm access"
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-dialysis-q009",
+  "number": 9,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Hemodialysis Access",
+  "stem": "A 58-year-old man is being considered for a brachial plexus block for arteriovenous fistula creation. Regional anesthesia for access creation has been shown to result in:",
+  "options": [
+   "Shorter operative time",
+   "Vasospasm",
+   "Decreased perioperative myocardial infarction",
+   "Higher perioperative mortality",
+   "Improved short-term patency"
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-dialysis-q010",
+  "number": 10,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Hemodialysis Access",
+  "stem": "A 75-year-old man undergoes creation of a left upper arm brachial cephalic arteriovenous fistula under local anesthetic. Immediately following the procedure in the recovery area, he has severe pain and absent radial pulse. Duplex ultrasound shows no arterial stenosis at the anastomosis and patent forearm arteries with reversal of forearm arterial flow into the fistula. The most appropriate form of management includes:",
+  "options": [
+   "Fistula ligation",
+   "Distal revascularization with interval ligation",
+   "Fistula banding",
+   "Observation",
+   "Fistulogram"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-dialysis-q011",
+  "number": 11,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Hemodialysis Access",
+  "stem": "A 78-year-old woman has a long-standing brachiocephalic fistula. She comes to the emergency department after hemodialysis earlier in the day for prolonged bleeding. On examination, bleeding has stopped and she has no ulceration. The next best step in management is:",
+  "options": [
+   "Fistulogram",
+   "Open revision with excision of bleeding area",
+   "Stitch in the emergency room and discharge",
+   "No intervention",
+   "Interposition bypass"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-dialysis-q012",
+  "number": 12,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Hemodialysis Access",
+  "stem": "A patient presents with acute thrombosis of an arteriovenous graft (AVG) placed earlier in the day. The most appropriate management to salvage the graft is:",
+  "options": [
+   "Catheter-directed thrombolysis",
+   "Percutaneous mechanical thrombectomy",
+   "Open thrombectomy and revision",
+   "Over the wire balloon embolectomy",
+   "Balloon sweep angioplasty"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-dialysis-q013",
+  "number": 13,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Hemodialysis Access",
+  "stem": "A contraindication to peritoneal dialysis is:",
+  "options": [
+   "Previous appendectomy",
+   "Previous tunneled line infections",
+   "Age greater than 80 years",
+   "Unstable housing",
+   "Cholelithiasis"
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-dialysis-q014",
+  "number": 14,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Hemodialysis Access",
+  "stem": "A 75-year-old man undergoes an uncomplicated upper extremity brachial artery-to-axillary vein graft placement for dialysis. He presents 2 weeks later with significant arm swelling and pain. He had a prior port on the left for chemotherapy performed several years earlier. Suspecting a central venous cause, a fistulagram is performed and a focal occlusion of the subclavian vein medial to the thoracic outlet is identified. The intervention associated with best durability is:",
+  "options": [
+   "Covered stent placement",
+   "Primary bare metal stent placement",
+   "Balloon angioplasty alone",
+   "Sacrifice access",
+   "Placement of hybrid catheter/graft through internal jugular vein"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-dialysis-q015",
+  "number": 15,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Hemodialysis Access",
+  "stem": "A 38-year-old left-hand dominant man with stage 4 chronic kidney disease presents for access creation. He has a remote history of intravenous drug use. Duplex demonstrates 2.5-mm radial and ulnar arteries bilaterally; however, his cephalic and basilic veins are thickened and measure between 0.5 and 1.5 mm bilaterally. The next best step in management is:",
+  "options": [
+   "Right upper extremity graft placement",
+   "Hybrid catheter/graft",
+   "Leg graft placement",
+   "Right internal jugular catheter",
+   "Defer access creation"
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-dialysis-q016",
+  "number": 16,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Hemodialysis Access",
+  "stem": "A 48-year-old woman has been on dialysis for more than 20 years. She has bilateral central venous occlusion with multiple failed attempts at recanalization. She is being evaluated for lower extremity access creation. The statement that most accurately reflects the considerations in management of thigh grafts is:",
+  "options": [
+   "Synthetic thigh grafts are superior to an autologous conduit",
+   "Femoral vein transpositions have the highest patency rate of all other options",
+   "Lower extremity grafts have high long-term patency",
+   "Synthetic thigh grafts have an infection rate of less than 5%",
+   "Synthetic grafts have a higher patency than saphenous vein transpositions"
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-dialysis-q017",
+  "number": 17,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Hemodialysis Access",
+  "stem": "Compared to other access options, the outcomes of hybrid catheter/graft demonstrate:",
+  "options": [
+   "Better patency rates than autologous upper extremity fistulae",
+   "Acceptable reinfection rates in patients with active infection and positive blood cultures",
+   "Higher infection rates than tunneled dialysis catheters",
+   "Unacceptable patency with prior central venous occlusions",
+   "Inferior patency rates compared to lower extremity femoral vein transpositions"
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-dialysis-q018",
+  "number": 18,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Hemodialysis Access",
+  "stem": "A 54-year-old woman undergoes a brachial artery-to-axillary vein graft placement. On the first postoperative examination, she has an excellent thrill but is found to have an absent radial pulse. Compression of the graft leads to a weakly palpable radial pulse. Her hand is warm and she has no pain. The most appropriate management is:",
+  "options": [
+   "Observation for steal symptoms",
+   "Urgent ligation of the access",
+   "Distal revascularization and interval ligation (DRIL) procedure",
+   "Angioplasty and stenting of a subclavian artery occlusion",
+   "Fistulagram to treat an outflow venous obstruction"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-dialysis-q019",
+  "number": 19,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Hemodialysis Access",
+  "stem": "A 71-year-old right-hand dominant man with diabetes presents for management after developing numbness and pain in his left upper hand. He had a brachial artery-to-axillary vein graft with flows of 1,000 ml/min. Compression of the graft improves hand symptoms. The next best step in management is:",
+  "options": [
+   "Sacrifice the access and place a catheter",
+   "Band the access to achieve a flow of 400 ml/min",
+   "Proximalize the inflow to the axillary artery making an axillary-axillary loop graft",
+   "Perform a fistulagram to assess for central venous stenosis",
+   "Hybrid catheter/graft"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-dialysis-q021",
+  "number": 21,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Hemodialysis Access",
+  "stem": "A 65-year-old woman who underwent left brachiobasilic arteriovenous fistula placement develops numbness in the thumb and index and middle fingers as well as weakness with abduction and grip strength since the procedure. The most likely etiology is:",
+  "options": [
+   "Radial nerve neuropraxia",
+   "Ulnar nerve neuropraxia",
+   "Median nerve neuropraxia",
+   "Musculocutaneous nerve neuropraxia",
+   "Steal syndrome"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-dialysis-q022",
+  "number": 22,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Hemodialysis Access",
+  "stem": "There is much debate around performing a basilic vein transposition as a one-stage or a two-stage procedure. Evidence shows that the only difference between the two procedures relates to:",
+  "options": [
+   "Failure rates",
+   "Infection rates",
+   "Steal syndrome",
+   "Long-term primary patency",
+   "Long-term secondary patency"
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-dialysis-q023",
+  "number": 23,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Hemodialysis Access",
+  "stem": "The patient in whom a hybrid catheter/graft would be a reliable alternative for a catheter-dependent patient is a:",
+  "options": [
+   "75-year-old with a recent tunneled line infection",
+   "80-year-old with severe heart failure",
+   "72-year-old with central venous stenosis",
+   "78-year-old whose systolic blood pressure routinely drops below 100 mm Hg during dialysis",
+   "59-year-old with a mild central venous stenosis"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-dialysis-q024",
+  "number": 24,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Hemodialysis Access",
+  "stem": "A 40-year-old thin, type 1 diabetic patient received a kidney-pancreas transplant 3 years ago. The kidney is failing and it is likely the patient will need to restart dialysis in the near future. The patient has a complex access history with failed arteriovenous fistulas on both arms and a known superior vena cava occlusion. The access option that would be best for this patient is:",
+  "options": [
+   "Saphenous vein transposition",
+   "Femoral vein transposition",
+   "Ankle arteriovenous fistula (saphenous vein to dorsalis pedis artery)",
+   "Femoral artery to great saphenous vein (GSV) loop arteriovenous graft",
+   "Popliteal artery to femoral vein graft"
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-dialysis-q025",
+  "number": 25,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Hemodialysis Access",
+  "stem": "A dialysis patient with a long-standing brachiocephalic fistula is referred to you for new onset of poor clearance with dialysis. An antegrade fistulagram is performed by accessing the cephalic vein just cephalad to the anastomosis. An important step of this procedure is:",
+  "options": [
+   "Direct measure of flow rates",
+   "Angiography with outflow venous compression",
+   "Balloon assisted maturation",
+   "Primary stenting of an outflow venous stenosis",
+   "Pressure gradient measurement"
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-dialysis-q026",
+  "number": 26,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Hemodialysis Access",
+  "stem": "The risk of lower extremity ischemia increases after leg arteriovenous access placement in the presence of:",
+  "options": [
+   "Peripheral arterial disease",
+   "More proximal arterial inflow",
+   "Use of prosthetic material",
+   "A size-matched femoral vein to superficial femoral artery",
+   "Venous outflow stenosis"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-dialysis-q027",
+  "number": 27,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Hemodialysis Access",
+  "stem": "A 72-year-old catheter-dependent dialysis patient presents to the emergency room with pain and redness over the catheter site as well as purulence coming from the exit site of the catheter. After removing the catheter and initiating antibiotic therapy, the most appropriate timing of placement of a new permanent access is:",
+  "options": [
+   "Immediately",
+   "Once cultures are negative",
+   "Once cultures have been negative for at least 24 hours",
+   "Once cultures have been negative for at least 48 hours",
+   "Once cultures have been negative for at least 72 hours"
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-dialysis-q029",
+  "number": 29,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Hemodialysis Access",
+  "stem": "A 47-year-old type 1 diabetic woman with stage 4 chronic kidney disease, not on dialysis, is referred for permanent dialysis access evaluation. On physical examination, right radial and ulnar pulses are normal, while the left radial and ulnar pulses are absent. Systolic blood pressure measurements are noted to be 15 mm Hg lower on the left arm, compared to the right. She has no ischemic symptoms on the left arm or hand. The most appropriate assessment for suitability of left upper extremity access creation is:",
+  "options": [
+   "Arterial duplex ultrasound",
+   "Angiography",
+   "Segmental pressure measurements",
+   "CT angiography",
+   "Magnetic resonance angiography"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-dialysis-q030",
+  "number": 30,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Hemodialysis Access",
+  "stem": "A 52-year-old man has had multiple upper extremity autogenous accesses that have failed as well as multiple failed grafts that have been complicated by infections requiring resection. Venography shows patent central veins. He is being considered for autogenous femoral vein transposition to the arm for new arteriovenous fistula creation. Which of the following is true about this procedure?",
+  "options": [
+   "Primary patency rates are poor",
+   "Perioperative complication rate is low",
+   "Length of stay is short",
+   "Hand ischemia is a common complication",
+   "Obese and non-obese patients have similar complication rates"
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-dialysis-q031",
+  "number": 31,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Hemodialysis Access",
+  "stem": "A 65-year-old woman with end-stage renal disease, who underwent staged brachiobasilic arteriovenous fistula creation 3 months ago, developed worsening symptoms in the ipsilateral hand, including coolness, paresthesias, weakness, and pain. The pain worsens during dialysis sessions. The finding on duplex ultrasound that is most useful in the management of steal syndrome is:",
+  "options": [
+   "Reversal of flow in the artery distal to the anastomosis",
+   "Augmentation of arterial flow distal to the anastomosis with fistula compression",
+   "Elimination of flow reversal in the distal artery with fistula compression",
+   "Fistula flow rate measurements",
+   "Distal artery flow rate measurements"
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-dialysis-q032",
+  "number": 32,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Hemodialysis Access",
+  "stem": "A 65-year-old man underwent a successful left forearm arteriovenous graft placement 1 month ago. On physical examination, a thrill is palpable over the graft. The radial and ulnar pulses are palpable. Access of the fistula during dialysis sessions is easily performed; but there is recirculation during hemodialysis session. The most likely cause of this issue is:",
+  "options": [
+   "Arterial inflow stenosis",
+   "Venous outflow stenosis",
+   "Mid-graft stenosis",
+   "Steal phenomenon",
+   "Poor cannulation technique"
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-dialysis-q033",
+  "number": 33,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Hemodialysis Access",
+  "stem": "A 65-year-old man with stage IV chronic kidney disease underwent the creation of a left arm brachiocephalic arteriovenous fistula (AVF) 3 months earlier. During follow up, the AVF failed to mature, despite the presence of thrill. Upon further work up, the patient was found to have 60% stenosis of the left distal subclavian artery. The patient has no venous outflow stenosis nor does he have a stenosis of the anastomosis. No weakness or numbness of the left arm/hand consistent with subclavian steal syndrome is reported. The most appropriate management is:",
+  "options": [
+   "Proximalization of access",
+   "Conversion to arteriovenous graft",
+   "Angioplasty with stent placement of the left subclavian artery stenosis",
+   "Carotid to subclavian artery bypass",
+   "Abandon the left arm, and assess right arm for access creation"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-dialysis-q034",
+  "number": 34,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Hemodialysis Access",
+  "stem": "A 67-year-old man with end-stage renal disease is scheduled to undergo placement of a brachioaxillary arteriovenous graft due to absence of sufficient autologous veins for a fistula. Compared to a non-tapered (straight) graft, utilization of a tapered graft for the arteriovenous access provides the following advantage:",
+  "options": [
+   "Decreased frequency of steal syndrome",
+   "Decreased frequency of arm swelling",
+   "Decreased requirement for endovascular reinterventions",
+   "Fewer wound complications",
+   "No advantage"
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-dialysis-q035",
+  "number": 35,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Hemodialysis Access",
+  "stem": "A 63-year-old woman on hemodialysis with a left brachiocephalic arteriovenous fistula for the past 3 years begins to experience unilateral left upper extremity arm swelling. The most appropriate next step in management is:",
+  "options": [
+   "Conservative management with arm elevation",
+   "CT scan of the upper extremity",
+   "Fistulogram",
+   "Echocardiogram",
+   "20-30 mmHg arm compression sleeve"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-dialysis-q036",
+  "number": 36,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Hemodialysis Access",
+  "stem": "A 55-year-old man with end-stage renal disease presents with an isolated 2-cm diameter aneurysmal dilatation at the mid-portion of a left arm brachiobasilic fistula. There is an ulceration on the surface of the aneurysm and a recent episode of bleeding at home. The best management option is:",
+  "options": [
+   "Ligate the fistula",
+   "Place a tunneled dialysis catheter",
+   "Plicate and revise the aneurysmal portion",
+   "Construct a new right arm arteriovenous access",
+   "Observe"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-dialysis-q037",
+  "number": 37,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Hemodialysis Access",
+  "stem": "A 60-year-old man presents to the emergency room with a thrombosed right axillo-axillary looped arteriovenous graft. The right axillo-axillary arteriovenous graft was constructed 1 year ago. On physical examination of the right upper extremity, there is no arm swelling and no thrill or bruit in the graft. The most likely cause of arteriovenous graft thrombosis is:",
+  "options": [
+   "Stenosis of the venous anastomosis",
+   "Stenosis of the arterial anastomosis",
+   "Subclavian artery stenosis",
+   "Central venous stenosis",
+   "Clotting disorder"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-dialysis-q038",
+  "number": 38,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Hemodialysis Access",
+  "stem": "A 54-year-old woman is sent to your office with impending renal failure and consultation for dialysis access. She has a history of superior vena cava thrombosis with bilateral arm and bilateral lower extremity rest pain. Vein mapping demonstrates bilateral upper extremity veins measuring 1.5 mm in diameter. The appropriate next step in the management of this patient is:",
+  "options": [
+   "Observation",
+   "Tunneled dialysis catheter",
+   "Peritoneal dialysis catheter",
+   "Upper extremity arteriovenous fistula",
+   "Lower extremity arteriovenous fistula"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-dialysis-q039",
+  "number": 39,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Hemodialysis Access",
+  "stem": "An 85-year-old woman with end-stage renal disease (ESRD) due to diabetes presents with recurrent left arm swelling. She has been on hemodialysis through a left brachiocephalic arteriovenous fistula (AVF) for the last 3 years. The contralateral arm veins are inadequate for a fistula. Over the last several years, she has had several balloon angioplasties of the left subclavian vein for recurrent occlusion at the level of first rib. A recent venogram shows a recurrent occlusion of the left subclavian vein with a prominent patent left external jugular vein. The best strategy to try to restore successful hemodialysis and symptomatic relief in this patient is:",
+  "options": [
+   "Balloon angioplasty of left subclavian vein",
+   "Stenting of the left subclavian vein",
+   "Left external jugular vein to internal jugular vein transposition",
+   "Thrombolysis, resection of left first rib and external venolysis",
+   "Creating an arteriovenous graft (AVG) in her right arm"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-dialysis-q040",
+  "number": 40,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Hemodialysis Access",
+  "stem": "The main advantage of peritoneal dialysis over hemodialysis in patients with end-stage renal disease is:",
+  "options": [
+   "Better clearance and ultrafiltration",
+   "Better blood sugar control",
+   "Better quality of life",
+   "Less time required for dialysis",
+   "Less risk of infection than arteriovenous fistula"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-dialysis-q041",
+  "number": 41,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Hemodialysis Access",
+  "stem": "A 68-year-old right-handed woman with chronic kidney disease is referred by her nephrologist for dialysis access. Vein mapping studies show that the cephalic vein is 2.7 mm in diameter in her upper arm and 2 mm at the forearm and wrist. The basilic vein is 2.3 mm throughout. The ideal surgical option for an arteriovenous fistula (AVF) creation would be:",
+  "options": [
+   "Radiocephalic AVF",
+   "Brachiocephalic AVF",
+   "Basilic vein transposition",
+   "Radial forearm loop graft",
+   "Brachioaxillary loop graft"
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-dialysis-q042",
+  "number": 42,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Hemodialysis Access",
+  "stem": "A 52-year-old patient with end-stage renal disease and recently started on hemodialysis presents to your office and asks to discuss dialysis access. Compared to an autogenous arteriovenous fistula, which of the following is a relative advantage of an arteriovenous graft?",
+  "options": [
+   "Shorter time from surgery to cannulation for dialysis through an arteriovenous graft",
+   "Improved patency",
+   "Decreased risk of infection",
+   "Decreased operative morbidity",
+   "Decreased operative mortality"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-dialysis-q043",
+  "number": 43,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Hemodialysis Access",
+  "stem": "A 67-year-old left-handed woman with stage 4 chronic kidney disease presents for evaluation prior to arteriovenous fistula (AVF) creation. Ultrasound assessment shows the right cephalic vein to be greater than 3 mm and the basilic vein to be greater than 4 mm. The upper extremity pulse examination, including bilateral BP measurements, reveals a discrepancy of 22 mm Hg, with the right arm pressure lower than the left. The left brachial artery was noted to be 3.2 mm. The finding that should prompt further work up prior to creating an AVF is:",
+  "options": [
+   "No guidelines exist for preoperative arterial investigation other than presence of palpable pulses",
+   "Presence of systolic blood pressure differential ≥ 20 mm Hg between arms",
+   "Arterial lumen diameter ≤ 2.5 mm",
+   "Venous luminal diameter ≤ 2.5 mm",
+   "History of mastectomy in the contralateral limb"
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-dialysis-q044",
+  "number": 44,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Hemodialysis Access",
+  "stem": "After performing a brachiocephalic arteriovenous fistula 90 minutes earlier under local anesthesia, you are called to the Recovery Room to examine the patient for a postoperative hematoma. The patient is complaining of moderate pain in the operative arm. There is a small, stable, non-pulsatile hematoma with a palpable thrill. On examination, the patient has brisk capillary refill and radial and ulnar signals, diminished thumb abduction and opposition, an insensate thumb, index, and middle finger, and a soft forearm. The next best step is:",
+  "options": [
+   "CTA to rule out pseudoaneurysm",
+   "Desmopressin to alleviate uremia-based platelet dysfunction",
+   "Arterial duplex to evaluate pseudoaneurysm",
+   "Return to the operating room for hematoma evacuation",
+   "Return to operating room for fistula ligation"
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-dialysis-q045",
+  "number": 45,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Hemodialysis Access",
+  "stem": "A 75-year-old woman with pre-end-stage renal disease with multiple comorbidities presents to your office to discuss the option of endovascular forearm arteriovenous fistula (AVF). The limitation of this approach with the current technology is:",
+  "options": [
+   "Functional usability is not as high as physiologic suitability",
+   "Technical success rate is around 60%",
+   "There is a 25% risk of developing serious procedure-related adverse events",
+   "The flow rate in AVF is not adequate for successful dialysis",
+   "There are no limitations with endovascular creation of an AVF"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-dialysis-q046",
+  "number": 46,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Hemodialysis Access",
+  "stem": "A 65-year-old woman who has been on hemodialysis for more than 10 years presents for creation of a lower extremity access after exhausting all arm access options. She has palpable bilateral femoral pulses and no major leg edema. An upper thigh arteriovenous graft (AVG) is successfully performed between the proximal superficial femoral artery and the saphenous vein in her right lower limb. Five days later, she returns to the emergency room with worsening pain of the right foot at rest and with toe numbness. The condition that can explain her symptoms is:",
+  "options": [
+   "Common femoral vein deep vein thrombosis and outflow obstruction",
+   "Aortoiliac disease and poor arterial inflow",
+   "Distal superficial femoral artery high grade stenosis",
+   "Diabetic neuropathy",
+   "Femoral nerve compression by groin hematoma"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-dialysis-q047",
+  "number": 47,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Hemodialysis Access",
+  "stem": "Compared to wrist radiocephalic arteriovenous (AV) fistulas, snuffbox AV fistulas provide:",
+  "options": [
+   "Equivalent patency rates at 6 months",
+   "Elevated risk of dialysis steal syndrome",
+   "inability to create a wrist radiocephalic AV fistulas",
+   "Higher risk of bleeding complications",
+   "Higher risk of venous outflow stenoses"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-dialysis-q048",
+  "number": 48,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Hemodialysis Access",
+  "stem": "A 45-year-old man with long-standing end-stage renal disease and peripheral arterial disease presents to your office. He has had a failed right brachiocephalic fistula in the past and was found to have bilateral axillo-subclavian venous system occlusions with multiple collaterals and no arm edema. He is currently being dialyzed via a left chest wall tunneled dialysis catheter. The next best step in this case is:",
+  "options": [
+   "Ongoing use of the functioning tunneled dialysis catheter",
+   "Right brachiocephalic arteriovenous fistula creation",
+   "Left brachial to axillary graft placement with polytetrafluoroethylene (PTFE) graft",
+   "Conversion to left hybrid catheter/graft",
+   "Further work up for lower extremity access"
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-dialysis-q049",
+  "number": 49,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Hemodialysis Access",
+  "stem": "A 55-year-old diabetic man with end-stage renal disease presents with palpable femoral pulses bilaterally and normal inflow pulse volume recording (PVR) waveforms. He had a prior left below-knee amputation for diabetic foot infection 1 year ago. He has had multiple failed accesses in both arms and was recently found to have an occluded superior vena cava. He has been receiving dialysis via a right femoral vein tunneled line for the last 3 months. The most appropriate next step in management is:",
+  "options": [
+   "Continue use of the tunneled femoral line",
+   "Left leg venography/venous ultrasound to ensure patency of iliac veins",
+   "Removal of right femoral catheter with simultaneous right femoral loop arteriovenous graft (AVG) placement",
+   "Diagnostic aortogram to confirm inflow patency prior to femoral loop graft placement",
+   "Empirically exchange tunneled femoral hemodialysis catheter in 3 months"
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-dialysis-q051",
+  "number": 51,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Hemodialysis Access",
+  "stem": "A 60-year-old woman presents after left brachiocephalic fistula creation at an outside hospital 6 months ago. She has had progressive pain and weakness in her left hand over the past several months, which becomes worse during dialysis sessions. Duplex reveals 600 ml/min of flow through the fistula with flow reversal in the brachial artery distal to the anastomosis. Fistulagram reveals a widely patent arteriovenous fistula (AVF) throughout, with a chronic-appearing occlusion of the ulnar artery and stenosis in the radial artery in the mid forearm. The best treatment option for this patient is:",
+  "options": [
+   "Conservative management with hand exercises",
+   "Ligation of the fistula",
+   "Banding of the fistula",
+   "Distal revascularization with interval ligation (DRIL)",
+   "Proximalization of arterial inflow to the proximal brachial artery"
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-dialysis-q052",
+  "number": 52,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Hemodialysis Access",
+  "stem": "In complex cases where upper extremity dialysis access options have been exhausted and an alternative means of central venous access is necessary, translumbar inferior vena cava (IVC) catheter placement has been described. Potential shortcomings or complications of translumbar placement of IVC hemodialysis catheters include:",
+  "options": [
+   "Contraindicated in patients with a history of IVC filter",
+   "Higher rate of catheter fragmentation and air embolism than traditional sites",
+   "Higher risk of migration of the catheter into the subcutaneous tissues in obese patients",
+   "Need for anticoagulation",
+   "High risk of major hemorrhage"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ }
+]

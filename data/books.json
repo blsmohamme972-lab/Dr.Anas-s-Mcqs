@@ -61,6 +61,89 @@
    "file": "accsap10-vascular.json",
    "cover": "data/covers/accsap10-vascular.jpg",
    "count": 51
+  },
+  {
+   "id": "vesap5-dialysis",
+   "title": "VESAP 5 – Dialysis Access",
+   "short": "VESAP 5 Dialysis",
+   "code": "DA",
+   "specialty": "vascular",
+   "publisher": "Society for Vascular Surgery",
+   "edition": "VESAP 5",
+   "description": "Dialysis access planning, fistulas and grafts, steal, central venous disease and peritoneal dialysis.",
+   "file": "vesap5-dialysis.json",
+   "count": 49,
+   "cover": "data/covers/vesap5-dialysis.jpg"
+  },
+  {
+   "id": "vesap5-venous",
+   "title": "VESAP 5 – Venous",
+   "short": "VESAP 5 Venous",
+   "code": "VE",
+   "specialty": "vascular",
+   "publisher": "Society for Vascular Surgery",
+   "edition": "VESAP 5",
+   "description": "Venous thromboembolism, venous compression syndromes, chronic venous disease and lymphedema.",
+   "file": "vesap5-venous.json",
+   "count": 41,
+   "cover": "data/covers/vesap5-venous.jpg"
+  },
+  {
+   "id": "vesap5-renal",
+   "title": "VESAP 5 – Renal and Mesenteric",
+   "short": "VESAP 5 Renal",
+   "code": "RM",
+   "specialty": "vascular",
+   "publisher": "Society for Vascular Surgery",
+   "edition": "VESAP 5",
+   "description": "Renovascular and mesenteric disease, visceral aneurysms, malformations and abdominal vascular trauma.",
+   "file": "vesap5-renal.json",
+   "count": 39,
+   "cover": "data/covers/vesap5-renal.jpg"
+  },
+  {
+   "id": "shahzad-2017",
+   "title": "Shahzad 2017 – Cardiothoracic SBAs",
+   "short": "Shahzad 2017",
+   "code": "SR",
+   "specialty": "cardiac",
+   "publisher": "Lambert Academic Publishing",
+   "edition": "2017",
+   "description": "Single best answer questions across cardiac, thoracic and congenital surgery, trials and physiology.",
+   "file": "shahzad-2017.json",
+   "count": 247,
+   "cover": "data/covers/shahzad-2017.jpg"
+  },
+  {
+   "id": "shahzad-2014",
+   "title": "Shahzad 2014 – Cardiothoracic SBAs",
+   "short": "Shahzad 2014",
+   "code": "SN",
+   "specialty": "cardiac",
+   "publisher": "Nova Biomedical",
+   "edition": "2014",
+   "description": "Basic sciences, cardiac, thoracic and paediatric cardiothoracic surgery in four chapters.",
+   "chapters": [
+    {
+     "id": "ch1",
+     "title": "Basic Sciences"
+    },
+    {
+     "id": "ch2",
+     "title": "Cardiac Surgery"
+    },
+    {
+     "id": "ch3",
+     "title": "Thoracic Surgery"
+    },
+    {
+     "id": "ch4",
+     "title": "Paediatric Cardiothoracic Surgery"
+    }
+   ],
+   "file": "shahzad-2014.json",
+   "count": 303,
+   "cover": "data/covers/shahzad-2014.jpg"
   }
  ]
 }
