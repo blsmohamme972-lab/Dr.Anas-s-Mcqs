@@ -1,4 +1,4 @@
-const CACHE_NAME = "atlas-mcqs-shell-v2";
+const CACHE_NAME = "atlas-mcqs-shell-v3";
 const SHELL_ASSETS = [
   "./",
   "./index.html",
@@ -9,7 +9,6 @@ const SHELL_ASSETS = [
 
 self.addEventListener("install", (event) => {
   event.waitUntil(caches.open(CACHE_NAME).then((cache) => cache.addAll(SHELL_ASSETS)));
-  self.skipWaiting();
 });
 
 self.addEventListener("activate", (event) => {
@@ -19,6 +18,10 @@ self.addEventListener("activate", (event) => {
     )
   );
   self.clients.claim();
+});
+
+self.addEventListener("message", (event) => {
+  if (event.data && event.data.type === "SKIP_WAITING") self.skipWaiting();
 });
 
 self.addEventListener("fetch", (event) => {
