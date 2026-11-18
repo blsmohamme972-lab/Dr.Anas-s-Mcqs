@@ -4,7 +4,7 @@
   "number": 1,
   "type": "single",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Chronic Venous Disease & Varicose Veins",
   "stem": "A 55-year-old woman gives a history of tiredness, aching, and a feeling of heaviness in the left lower leg for the past 3 months. These symptoms are relieved by leg elevation. She is also awakened frequently by calf and foot cramping, which is relieved by leg elevation, walking, or massage. On physical examination there are superficial varicosities, nonpitting edema, and a slightly painful, 2 cm. diameter superficial ulcer 5 cm. above and behind the left medial malleolus. What is the most appropriate diagnosis?",
   "options": [
    "Isolated symptomatic varicose veins.",
@@ -24,7 +24,7 @@
   "number": 2,
   "type": "single",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Chronic Venous Disease & Varicose Veins",
   "stem": "The best treatment plan for the patient described in the preceding question should include:",
   "options": [
    "Varicose vein ligation and stripping as soon as possible.",
@@ -44,7 +44,7 @@
   "number": 3,
   "type": "single",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Venous Thromboembolism",
   "stem": "In patients who develop a documented episode of deep venous thrombosis (DVT) the most significant long-term sequela is:",
   "options": [
    "Claudication.",
@@ -64,7 +64,7 @@
   "number": 4,
   "type": "single",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Venous Thromboembolism",
   "stem": "A 28-year-old woman developed a painful thrombosis of a superficial varix in the left upper calf 2 days previously. After spending the 2 days in bed with her leg elevated, she felt better and the tenderness resolved; however, when out of bed she developed a twinge of right-sided chest pain when walking and a feeling of heaviness in the calf. Which treatment is most appropriate?",
   "options": [
    "Check for leg swelling, tenderness, and Homan's sign, and obtain a Doppler ultrasound study.",
@@ -84,7 +84,7 @@
   "number": 5,
   "type": "single",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Lymphedema & Vascular Malformations",
   "stem": "In a 55-year-old grocery store cashier with an 8-month history of leg edema increasing over the course of a work day, associated with moderate to severe lower leg bursting pain, the most appropriate investigative study or studies are:",
   "options": [
    "Doppler duplex ultrasound.",
@@ -104,7 +104,7 @@
   "number": 6,
   "type": "multi",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Venous Thromboembolism",
   "stem": "Which of the following statements are true of pulmonary embolism?",
   "options": [
    "Most cases occur postoperatively.",
@@ -124,7 +124,7 @@
   "number": 7,
   "type": "multi",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Venous Thromboembolism",
   "stem": "Which of the following can cause a radioactive pulmonary perfusion scan to demonstrate an appearance similar to that of acute pulmonary embolism?",
   "options": [
    "Atelectasis.",
@@ -146,7 +146,7 @@
   "number": 8,
   "type": "single",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Venous Thromboembolism",
   "stem": "In an otherwise healthy male with previously normal pulmonary and cardiac function, how much of the pulmonary vascular bed must usually be occluded to produce an unstable cardiovascular state (shock)?",
   "options": [
    "10%.",
@@ -165,7 +165,7 @@
   "number": 9,
   "type": "single",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Venous Thromboembolism",
   "stem": "Lytic therapy in pulmonary embolism:",
   "options": [
    "Should precede anticoagulation.",
@@ -184,7 +184,7 @@
   "number": 10,
   "type": "single",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Venous Thromboembolism",
   "stem": "The single most important indication for emergency pulmonary embolectomy is:",
   "options": [
    "The likelihood of another episode of embolism.",
@@ -203,7 +203,7 @@
   "number": 11,
   "type": "single",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Vascular Trauma",
   "stem": "In prevention of the fat emboli syndrome the primary therapy can be accomplished by which of the following?",
   "options": [
    "Systemic anticoagulation achieving a partial thromboplastin time greater than 50 seconds.",
@@ -222,7 +222,7 @@
   "number": 12,
   "type": "single",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Vascular Trauma",
   "stem": "Significant tachypnea and hypoxia follow development of fat emboli syndrome, and the goal of ventilatory support should be:",
   "options": [
    "Keeping the respiratory rate below 30.",
@@ -286,7 +286,7 @@
   "number": 15,
   "type": "single",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Endovascular Techniques & Graft Complications",
   "stem": "Which of the following statements correctly characterizes the healing of prosthetic arterial grafts in humans?",
   "options": [
    "Complete healing occurs within 3 months of graft implantation.",
@@ -306,7 +306,7 @@
   "number": 16,
   "type": "multi",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Infrainguinal Disease & Claudication",
   "stem": "Which of the following adversely influence the patency of lower extremity autogenous vein grafts?",
   "options": [
    "Poor arterial outflow from the distal anastomosis of the graft.",
@@ -328,7 +328,7 @@
   "number": 17,
   "type": "multi",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Infrainguinal Disease & Claudication",
   "stem": "Arterial autografts are:",
   "options": [
    "Limited by the length of available artery.",
@@ -349,7 +349,7 @@
   "number": 18,
   "type": "multi",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Endovascular Techniques & Graft Complications",
   "stem": "PTFE grafts:",
   "options": [
    "Are a variant of a woven textile graft.",
@@ -370,7 +370,7 @@
   "number": 19,
   "type": "multi",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Infrainguinal Disease & Claudication",
   "stem": "Which of the following statements about the evaluation of arterial substitutes are correct?",
   "options": [
    "A graft is considered to have continued primary patency, even if it requires revision, as long as it has not actually thrombosed.",
@@ -390,8 +390,8 @@
   "id": "medcosmos-vascular-q020",
   "number": 20,
   "type": "multi",
-  "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "specialty": "cardiac",
+  "topic": "Thoracic Aortic Aneurysm",
   "stem": "Which of the following statements about aneurysms of the sinus of Valsalva is/are true?",
   "options": [
    "Aneurysms of the sinus of Valsalva are dilatations of the aortic sinuses that eventually rupture into a cardiac chamber, the pulmonary artery, or the pericardium.",
@@ -411,8 +411,8 @@
   "id": "medcosmos-vascular-q021",
   "number": 21,
   "type": "multi",
-  "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "specialty": "cardiac",
+  "topic": "Thoracic Aortic Aneurysm",
   "stem": "Which statements about treatment for sinus of Valsalva aneurysms are correct?",
   "options": [
    "Close observation is appropriate for patients who have an asymptomatic sinus of Valsalva aneurysm without rupture.",
@@ -435,7 +435,7 @@
   "number": 22,
   "type": "multi",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Vascular Trauma",
   "stem": "Transection of the thoracic aorta following trauma usually:",
   "options": [
    "Is located just distal to the left subclavian artery.",
@@ -455,7 +455,7 @@
   "number": 23,
   "type": "single",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Vascular Trauma",
   "stem": "Which of the following confirms the diagnosis of transection of the descending thoracic aorta?",
   "options": [
    "Widened mediastinum.",
@@ -474,8 +474,8 @@
   "id": "medcosmos-vascular-q024",
   "number": 24,
   "type": "multi",
-  "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "specialty": "cardiac",
+  "topic": "Aortic Dissection",
   "stem": "The following is/are true of a descending dissecting aortic aneurysm:",
   "options": [
    "It originates distal to the subclavian artery.",
@@ -494,8 +494,8 @@
   "id": "medcosmos-vascular-q025",
   "number": 25,
   "type": "multi",
-  "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "specialty": "cardiac",
+  "topic": "Aortic Dissection",
   "stem": "The optimal management of Type A or ascending aortic dissection includes:",
   "options": [
    "Aortography.",
@@ -514,8 +514,8 @@
   "id": "medcosmos-vascular-q026",
   "number": 26,
   "type": "multi",
-  "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "specialty": "cardiac",
+  "topic": "Thoracic Aortic Aneurysm",
   "stem": "Aneurysms of the ascending aorta may be caused by:",
   "options": [
    "Type II aortic dissection.",
@@ -535,7 +535,7 @@
   "number": 27,
   "type": "single",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Thoracoabdominal Aortic Disease",
   "stem": "When complications occur after operating on a descending thoracic aorta, perhaps the most devastating is:",
   "options": [
    "Recurrent nerve injury.",
@@ -554,7 +554,7 @@
   "number": 28,
   "type": "single",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Carotid & Vertebral Disease",
   "stem": "The most common risk associated with carotid artery aneurysm is:",
   "options": [
    "Thrombosis of the aneurysm.",
@@ -573,7 +573,7 @@
   "number": 29,
   "type": "multi",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Carotid & Vertebral Disease",
   "stem": "Risks associated with carotid artery aneurysms are treated most successfully by which of the following?",
   "options": [
    "Proximal ligation.",
@@ -593,7 +593,7 @@
   "number": 30,
   "type": "multi",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Carotid & Vertebral Disease",
   "stem": "Which of the following statements about carotid body tumors are true?",
   "options": [
    "Cells from which carotid body tumors arise normally sense changes in systemic blood pressure.",
@@ -613,7 +613,7 @@
   "number": 31,
   "type": "multi",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Carotid & Vertebral Disease",
   "stem": "Treatment of carotid body tumors most frequently consists of:",
   "options": [
    "Radical neck dissection, including the extracranial carotid artery.",
@@ -633,7 +633,7 @@
   "number": 32,
   "type": "single",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Upper Extremity & Thoracic Outlet",
   "stem": "The cause of subclavian arterial aneurysms is most often:",
   "options": [
    "Sepsis.",
@@ -652,7 +652,7 @@
   "number": 33,
   "type": "single",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Peripheral & Visceral Aneurysms",
   "stem": "Of the visceral aneurysms, which is the most common?",
   "options": [
    "Celiac.",
@@ -671,7 +671,7 @@
   "number": 34,
   "type": "single",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Peripheral & Visceral Aneurysms",
   "stem": "Aneurysms of the renal artery are most common:",
   "options": [
    "At its origin from the aorta.",
@@ -689,7 +689,7 @@
   "number": 35,
   "type": "single",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Abdominal Aortic Aneurysm",
   "stem": "An aortic abdominal aneurysm was first successfully resected by:",
   "options": [
    "Matas.",
@@ -708,7 +708,7 @@
   "number": 36,
   "type": "single",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Abdominal Aortic Aneurysm",
   "stem": "Evaluation of the natural history of abdominal aortic aneurysms in patients who are followed without any surgical procedure indicates that:",
   "options": [
    "Approximately 20% are alive at the end of 5 years.",
@@ -727,7 +727,7 @@
   "number": 37,
   "type": "single",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Endovascular Techniques & Graft Complications",
   "stem": "The appropriate treatment in most situations of an aortic abdominal graft that has become infected is:",
   "options": [
    "Intravenous antibiotics and observation for future complications.",
@@ -746,7 +746,7 @@
   "number": 38,
   "type": "single",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Abdominal Aortic Aneurysm",
   "stem": "In a patient with an abdominal aortic aneurysm and a history of several previous abdominal procedures for release of dense peritoneal adhesions causing episodes of intestinal obstruction, consideration should be given to which one of the following at operation?",
   "options": [
    "Cardiopulmonary bypass.",
@@ -765,7 +765,7 @@
   "number": 39,
   "type": "multi",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Abdominal Aortic Aneurysm",
   "stem": "After emergency correction of an aortic abdominal aneurysm, the two most common causes of mortality are:",
   "options": [
    "Acute renal insufficiency.",
@@ -785,7 +785,7 @@
   "number": 40,
   "type": "single",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Abdominal Aortic Aneurysm",
   "stem": "The incidence of inflammatory aortic abdominal aneurysms with dense periaortic adhesions and possible involvement of adjacent structures such as the duodenum, renal vein, and ureter is approximately:",
   "options": [
    "2%.",
@@ -803,7 +803,7 @@
   "number": 41,
   "type": "multi",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Peripheral & Visceral Aneurysms",
   "stem": "Which of the following statements about true femoral artery aneurysms is/are correct?",
   "options": [
    "All three layers of the blood vessel wall are involved in true aneurysms.",
@@ -824,7 +824,7 @@
   "number": 42,
   "type": "multi",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Peripheral & Visceral Aneurysms",
   "stem": "Which of the following statements about false aneurysms of the femoral artery is/are correct?",
   "options": [
    "The incidence of iatrogenic false aneurysms has increased in recent years.",
@@ -845,7 +845,7 @@
   "number": 43,
   "type": "multi",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Peripheral & Visceral Aneurysms",
   "stem": "Which of the following statements about popliteal artery aneurysms is/are correct?",
   "options": [
    "They are the most common site of peripheral artery aneurysms.",
@@ -866,7 +866,7 @@
   "number": 44,
   "type": "multi",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Peripheral & Visceral Aneurysms",
   "stem": "Which of the following statements about management of popliteal artery aneurysms is/are correct?",
   "options": [
    "All symptomatic aneurysms should be treated with surgery.",
@@ -888,7 +888,7 @@
   "number": 45,
   "type": "multi",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Carotid & Vertebral Disease",
   "stem": "Which of the following statements about thrombo-obliterative disease of the aorta and its branches are correct?",
   "options": [
    "The most common cause of obstructive disease is thrombi.",
@@ -908,7 +908,7 @@
   "number": 46,
   "type": "multi",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Vasculitis & Vasospastic Disorders",
   "stem": "Which of the following statements about Takayasu's disease is/are correct?",
   "options": [
    "Atherosclerosis is restricted to the ascending aorta and innominate artery.",
@@ -930,7 +930,7 @@
   "number": 47,
   "type": "multi",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Carotid & Vertebral Disease",
   "stem": "A 65-year-old man complains of having had slurred speech and no motor function or sensation of his right hand for 15 minutes. A left carotid bruit is heard in the neck. Which of the following diagnostic studies should be done?",
   "options": [
    "Carotid duplex scan.",
@@ -950,7 +950,7 @@
   "number": 48,
   "type": "single",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Carotid & Vertebral Disease",
   "stem": "Carotid artery occlusive disease most often produces transient ischemic attacks or stroke by which of the following mechanisms?",
   "options": [
    "Reduction of flow to the affected area of the brain through stenotic or occluded vessels.",
@@ -969,7 +969,7 @@
   "number": 49,
   "type": "multi",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Carotid & Vertebral Disease",
   "stem": "The majority of patients with “subclavian steal” syndrome have which of the following conditions?",
   "options": [
    "Reversed flow in the involved vertebral artery.",
@@ -989,7 +989,7 @@
   "number": 50,
   "type": "multi",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Carotid & Vertebral Disease",
   "stem": "Which of the following treatments is/are appropriate for symptomatic subclavian steal syndrome?",
   "options": [
    "Subclavian endarterectomy.",
@@ -1009,7 +1009,7 @@
   "number": 51,
   "type": "multi",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Aortoiliac Occlusive Disease",
   "stem": "Which statements about thrombo-obliterative disease of the terminal abdominal aorta (Leriche syndrome) are true?",
   "options": [
    "It is characterized by a combination of atherosclerotic and thrombotic occlusion of the terminal aorta.",
@@ -1033,7 +1033,7 @@
   "number": 52,
   "type": "multi",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Aortoiliac Occlusive Disease",
   "stem": "Following surgical correction of Leriche syndrome, which of the following are true?",
   "options": [
    "Gangrene is usually prevented, but symptoms of claudication persist.",
@@ -1056,7 +1056,7 @@
   "number": 53,
   "type": "multi",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Aortoiliac Occlusive Disease",
   "stem": "In a patient who has chronic, complete occlusion of a common iliac artery, which of the following are true?",
   "options": [
    "The primary symptom is claudication of the calf muscles.",
@@ -1078,7 +1078,7 @@
   "number": 54,
   "type": "single",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Infrainguinal Disease & Claudication",
   "stem": "Which of the following does not describe intermittent claudication?",
   "options": [
    "Is elicited by reproducible amount of exercise.",
@@ -1097,7 +1097,7 @@
   "number": 55,
   "type": "single",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Infrainguinal Disease & Claudication",
   "stem": "In terms of long-term graft patency, the best results in the femoral tibial bypass position have been achieved with:",
   "options": [
    "A modified human umbilical cord graft.",
@@ -1116,7 +1116,7 @@
   "number": 56,
   "type": "single",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Infrainguinal Disease & Claudication",
   "stem": "Which of the following statements about femoral popliteal bypass grafting is/are true?",
   "options": [
    "Long-term graft surveillance by duplex scanning has no effect on graft patency rates.",
@@ -1135,7 +1135,7 @@
   "number": 57,
   "type": "single",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Renovascular Disease",
   "stem": "Which of the following statements about percutaneous renal artery transluminal angioplasty (PRTA) are true?",
   "options": [
    "Patients with renovascular hypertension are usually cured after successful PRTA.",
@@ -1154,7 +1154,7 @@
   "number": 58,
   "type": "multi",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Endovascular Techniques & Graft Complications",
   "stem": "True statements about percutaneous transluminal angioplasty (PTA) of peripheral vascular lesions include which of the following?",
   "options": [
    "PTA of iliac lesions is more often successful than PTA of femoral artery lesions.",
@@ -1175,7 +1175,7 @@
   "number": 59,
   "type": "multi",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Endovascular Techniques & Graft Complications",
   "stem": "Advantages of PTA, as compared with surgical revascularization, include which of the following?",
   "options": [
    "Decreased initial cost, shorter convalescence, and earlier return to full activity.",
@@ -1195,7 +1195,7 @@
   "number": 60,
   "type": "single",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Vascular Diagnostics & Imaging",
   "stem": "Which of the following statements are true?",
   "options": [
    "All arterial injuries are associated with absence of a palpable pulse.",
@@ -1215,7 +1215,7 @@
   "number": 61,
   "type": "single",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Vascular Trauma",
   "stem": "A patient presents with a gunshot wound of the mid-neck. Although drunk, he exhibits no lateralizing neurologic signs. After control of his airway is achieved, he is taken directly to the operating room for control of hemorrhage. The common carotid artery has a 2-cm. destroyed segment. There is also a major esophageal injury. The best treatment for this carotid injury is:",
   "options": [
    "Vein graft replacement of the common carotid artery.",
@@ -1235,7 +1235,7 @@
   "number": 62,
   "type": "multi",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Vascular Trauma",
   "stem": "Which of the following statements about iatrogenic arterial injuries are true?",
   "options": [
    "Femoral artery pseudoaneurysms occurring after arteriography require urgent operative intervention.",
@@ -1255,7 +1255,7 @@
   "number": 63,
   "type": "single",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Vascular Trauma",
   "stem": "A 35-year-old man involved in a motor vehicle accident presents with a knee dislocation that is easily reduced. Radiography of the knee shows no fracture. Which of the following statements about his treatment are true?",
   "options": [
    "If he has normal pulses he can be discharged.",
@@ -1275,7 +1275,7 @@
   "number": 64,
   "type": "single",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Vascular Trauma",
   "stem": "A 24-year-old man is involved in an industrial accident in which he sustains a crushed pelvis. Diagnostic peritoneal lavage is positive. At exploration, a large pelvic hematoma is found. What is the best treatment?",
   "options": [
    "Explore all the major arteries and veins of the pelvis and surgically control the bleeding if possible.",
@@ -1295,7 +1295,7 @@
   "number": 65,
   "type": "single",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Acute Limb Ischemia & Compartment Syndrome",
   "stem": "Which of the following statements about acute arterial occlusion today is/are not true?",
   "options": [
    "Most arterial emboli originate in the heart as a result of underlying cardiac disease.",
@@ -1314,7 +1314,7 @@
   "number": 66,
   "type": "single",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Acute Limb Ischemia & Compartment Syndrome",
   "stem": "Which of the following statements about lytic agents is/are true?",
   "options": [
    "They were first introduced well after the advent of balloon embolectomy.",
@@ -1352,7 +1352,7 @@
   "number": 68,
   "type": "single",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Acute Limb Ischemia & Compartment Syndrome",
   "stem": "Which of the following is/are not true of the embolectomy catheter technique?",
   "options": [
    "The balloon should be inflated by the same person who withdraws the catheter.",
@@ -1371,7 +1371,7 @@
   "number": 69,
   "type": "single",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Acute Limb Ischemia & Compartment Syndrome",
   "stem": "Which of the following is the least reliable indicator of successful thrombectomy?",
   "options": [
    "Vigorous back-bleeding after removal of thrombotic material.",
@@ -1390,7 +1390,7 @@
   "number": 70,
   "type": "multi",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Hemodialysis Access",
   "stem": "Which of the following statements about arteriovenous fistula are correct?",
   "options": [
    "The local features characteristic of an arteriovenous communication are demonstrated by the presence of a thrill and bruit with aneurysmal dilatation.",
@@ -1410,7 +1410,7 @@
   "number": 71,
   "type": "multi",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Lymphedema & Vascular Malformations",
   "stem": "Of the following statements about congenital arteriovenous malformations, which are correct?",
   "options": [
    "Patients with complex congenital arteriovenous malformations should as early as possible undergo ligation of feeding vessels.",
@@ -1431,7 +1431,7 @@
   "number": 72,
   "type": "multi",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Vasculitis & Vasospastic Disorders",
   "stem": "Thrombosis occurs frequently in thromboangiitis obliterans (Buerger's disease) in which of the following vessels?",
   "options": [
    "Superficial femoral artery.",
@@ -1452,7 +1452,7 @@
   "number": 73,
   "type": "multi",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Vasculitis & Vasospastic Disorders",
   "stem": "Which of the following statements about thromboangiitis obliterans (Buerger's disease) are true?",
   "options": [
    "The disease affects only young men.",
@@ -1472,7 +1472,7 @@
   "number": 74,
   "type": "multi",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Chronic Limb-Threatening Ischemia",
   "stem": "A 52-year-old man presents with sudden onset of profound cyanosis of the second and third digits of the right hand with gangrene of the tip of the second digit. The remaining digits and the other hand are not affected. Which of the following statements are true?",
   "options": [
    "This is characteristic of vasospastic Raynaud's syndrome.",
@@ -1492,7 +1492,7 @@
   "number": 75,
   "type": "single",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Vasculitis & Vasospastic Disorders",
   "stem": "A 21-year-old woman presents with digital color changes in response to cold stimulation. Physical examination and laboratory data, including an autoimmune disease screen, are normal. She should be advised that:",
   "options": [
    "Her condition is characteristic of vasospastic Raynaud's syndrome and, while she may be at a slightly higher risk for developing a connective tissue disease in the future, there is no evidence of one currently.",
@@ -1511,7 +1511,7 @@
   "number": 76,
   "type": "single",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Vasculitis & Vasospastic Disorders",
   "stem": "Obstructive Raynaud's syndrome can be differentiated from vasospastic Raynaud's syndrome by the:",
   "options": [
    "Ice water test.",
@@ -1530,7 +1530,7 @@
   "number": 77,
   "type": "single",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Upper Extremity & Thoracic Outlet",
   "stem": "Which of the following statements about upper extremity arterial insufficiency is/are true?",
   "options": [
    "Symptomatic ischemia is more common in the upper extremity than in the lower extremity.",
@@ -1549,7 +1549,7 @@
   "number": 78,
   "type": "single",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Upper Extremity & Thoracic Outlet",
   "stem": "Which of the following statements about upper extremity edema is/are true?",
   "options": [
    "Lymphedema is more common than venous edema.",
@@ -1568,7 +1568,7 @@
   "number": 79,
   "type": "single",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Mesenteric Ischemia",
   "stem": "Which of the following statements about chronic mesenteric ischemia due to atherosclerosis is/are correct?",
   "options": [
    "Postprandial pain in these patients is due to gastric hyperacidity and in most cases is relieved with H 2 blockers.",
@@ -1588,7 +1588,7 @@
   "number": 80,
   "type": "multi",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Mesenteric Ischemia",
   "stem": "In patients with acute mesenteric ischemia due to mesenteric embolism, which of the following statements is/are correct?",
   "options": [
    "Patients often have a history of postprandial pain and weight loss.",
@@ -1609,7 +1609,7 @@
   "number": 81,
   "type": "single",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Renovascular Disease",
   "stem": "Which of the following statements about angiotensin II is correct?",
   "options": [
    "It is a decapeptide.",
@@ -1628,7 +1628,7 @@
   "number": 82,
   "type": "single",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Renovascular Disease",
   "stem": "Which of the following statements about atherosclerotic obstruction of the renal arteries is true?",
   "options": [
    "Lesions are usually short.",
@@ -1647,7 +1647,7 @@
   "number": 83,
   "type": "single",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Renovascular Disease",
   "stem": "Which of the following statements about the treatment of renal artery stenosis is/are true?",
   "options": [
    "Though a significant cause of hypertension, renal artery stenosis seldom results in loss of renal function.",
@@ -1666,7 +1666,7 @@
   "number": 84,
   "type": "multi",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Vascular Trauma",
   "stem": "Which of the following statements about venous trauma is/are current?",
   "options": [
    "All injured veins can be ligated without any immediate or long-term complications.",
@@ -1687,7 +1687,7 @@
   "number": 85,
   "type": "single",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Carotid & Vertebral Disease",
   "stem": "All but one of the following statements is true. Which is not true?",
   "options": [
    "Successful clinical repair of injured veins had been effected by the turn of the twentieth century.",
@@ -1707,7 +1707,7 @@
   "number": 86,
   "type": "multi",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Vascular Trauma",
   "stem": "Which of the following statements about injured veins is/are correct?",
   "options": [
    "In contrast to the arterial system, it is more difficult to evaluate the patient for suspected venous trauma.",
@@ -1751,7 +1751,7 @@
   "number": 88,
   "type": "multi",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Atherosclerosis & Medical Therapy",
   "stem": "Among the theories of atherosclerosis, the following is/are true:",
   "options": [
    "Fatty streaks in the aorta of children do not predict atherosclerosis or heart attacks",
@@ -1852,7 +1852,7 @@
   "number": 93,
   "type": "multi",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Atherosclerosis & Medical Therapy",
   "stem": "A 21-year-old man with premature arteriosclerosis and mental retardation is found to have homocystinuria. The following is/are true:",
   "options": [
    "Presence of mental retardation is atypical for homocystinemia",
@@ -1871,8 +1871,8 @@
   "id": "medcosmos-vascular-q094",
   "number": 94,
   "type": "multi",
-  "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "specialty": "cardiac",
+  "topic": "Aortic Dissection",
   "stem": "A 22-year-old male basketball player with back pain is found to have a dissecting aortic aneurysm. the follow is/are true:",
   "options": [
    "In Marfan’s syndrome, a disorder of type I collagen underlies the observed cystic medial necrosis",
@@ -1893,7 +1893,7 @@
   "number": 95,
   "type": "multi",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Vascular Diagnostics & Imaging",
   "stem": "A 38-year-old male smoker with gangrenous changes in the toes of both feet has an arteriogram showing normal vessels to the popliteal trifurcation and multiple occlusions distally in small vessels. The following is/are true:",
   "options": [
    "Hyperlipidemia, diabetes, and autoimmune disease must be ruled out to make the diagnosis of Buerger’s disease",
@@ -1914,7 +1914,7 @@
   "number": 96,
   "type": "multi",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Vasculitis & Vasospastic Disorders",
   "stem": "A 42-year-old Asian woman with a history of recurrent deep venous thrombosis presents with a pulsatile mass in the abdomen confirmed on ultrasound to be an abdominal aortic aneurysm. The following is/are true:",
   "options": [
    "History and findings suggest Kawasaki disease",
@@ -1934,7 +1934,7 @@
   "number": 97,
   "type": "multi",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Renovascular Disease",
   "stem": "A 32-year-old woman with severe hypertension is found to have renal artery changes as shown in Figue 69-1. The following statement/s/ is/are true:",
   "options": [
    "Next to the renal artery, this process affects the carotid and coronary arteries most commonly",
@@ -1954,7 +1954,7 @@
   "number": 98,
   "type": "single",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Carotid & Vertebral Disease",
   "stem": "Ten years after irradiation of the neck for a tonsillar carcinoma, a 59-year-old woman is found to have symptomatic carotid artery disease. Arteriogram shows a 70% irregular stenotic lesion. The following is/are true:",
   "options": [
    "Replacement of the artery should be planned due to radiation induced arterial injury",
@@ -1973,7 +1973,7 @@
   "number": 99,
   "type": "single",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Vasculitis & Vasospastic Disorders",
   "stem": "A 23-year-old woman with fever, myalgia and anorexia presents with hypertension and a cool, ischemic left arm. Angiography shows multiple stenoses of the subclavian and renal arteries. The following is/are true:",
   "options": [
    "Coronary angiography is indicated with high likelihood of finding coronary disease",
@@ -1992,7 +1992,7 @@
   "number": 100,
   "type": "multi",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Vasculitis & Vasospastic Disorders",
   "stem": "A 58-year-old woman presents with a history of severe headache, visual field loss and a transient myalgia involving the back and shoulders. The following is/are true:",
   "options": [
    "A tender, nodular temporal artery would indicate a picture compatible with temporal arteritis",
@@ -2112,7 +2112,7 @@
   "number": 106,
   "type": "single",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Acute Limb Ischemia & Compartment Syndrome",
   "stem": "An 82-year-old man with a long history of coronary and peripheral vascular disease presents with an acutely ischemic right lower extremity. The following is/are true:",
   "options": [
    "The first step in management should be an arteriogram",
@@ -2131,7 +2131,7 @@
   "number": 107,
   "type": "single",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Acute Limb Ischemia & Compartment Syndrome",
   "stem": "Two days following coronary angiography and angioplasty, a 47-year-old male diabetic develops painful blue toes on both feet. The following is/are true:",
   "options": [
    "It is very unlikely that there is any connection between the catheterization and the extremity problem",
@@ -2150,7 +2150,7 @@
   "number": 108,
   "type": "multi",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Acute Limb Ischemia & Compartment Syndrome",
   "stem": "A 39-year-old woman with embolic occlusion of an iliac artery is subject to an operating room delay before perfusion can be restored. The following is/are true:",
   "options": [
    "Ischemia for longer than 3 hours will result in muscle fiber autolysis",
@@ -2170,7 +2170,7 @@
   "number": 109,
   "type": "single",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Acute Limb Ischemia & Compartment Syndrome",
   "stem": "A 70-year-old man presents with sudden pain and ischemic changes in his left leg. An arterial embolus is suspected. The following is/are true:",
   "options": [
    "The most likely source of an arterial embolus is from intracardiac thrombus on a previous MI",
@@ -2189,7 +2189,7 @@
   "number": 110,
   "type": "multi",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Acute Limb Ischemia & Compartment Syndrome",
   "stem": "In discussing risk and outcomes of the patient in the previous question, the following is/are true:",
   "options": [
    "If renal failure occurs, the mortality rate is about 50%",
@@ -2209,7 +2209,7 @@
   "number": 111,
   "type": "multi",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Acute Limb Ischemia & Compartment Syndrome",
   "stem": "The clinical manifestations of the patient in the previous question would include:",
   "options": [
    "Loss of sensation to deep pain as one of the earliest signs",
@@ -2229,7 +2229,7 @@
   "number": 112,
   "type": "multi",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Acute Limb Ischemia & Compartment Syndrome",
   "stem": "A 51-year-old man with a history of transmural MI one month ago presents with sudden occlusion of his abdominal aorta. The following is/are true:",
   "options": [
    "Most likely location of the MI is anterolateral",
@@ -2250,7 +2250,7 @@
   "number": 113,
   "type": "single",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Acute Limb Ischemia & Compartment Syndrome",
   "stem": "A 67-year-old man with acute popliteal arterial embolism has a negative cardiac echo for source of the thrombus. The following is/are true:",
   "options": [
    "Most likely non-cardiac source is a thoracic aortic aneurysm",
@@ -2269,7 +2269,7 @@
   "number": 114,
   "type": "multi",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Acute Limb Ischemia & Compartment Syndrome",
   "stem": "In regards to the previous case, the following statement(s) concerning the distribution of arterial emboli is/are true:",
   "options": [
    "Change in arterial diameter is a more important determinant of embolic site than flow rate",
@@ -2289,7 +2289,7 @@
   "number": 115,
   "type": "multi",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Acute Limb Ischemia & Compartment Syndrome",
   "stem": "Concerning cellular metabolism, the following is/are true:",
   "options": [
    "Anaerobic metabolism is about half as efficient in energy production as normoxic metabolism.",
@@ -2309,7 +2309,7 @@
   "number": 116,
   "type": "multi",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Acute Limb Ischemia & Compartment Syndrome",
   "stem": "A 62-year-old woman with embolic femoral artery occlusion is facing a delay before circulation can be restored. To minimize ischemic injury, the following is/are true:",
   "options": [
    "Increased oxygen saturation is beneficial",
@@ -2330,7 +2330,7 @@
   "number": 117,
   "type": "multi",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Acute Limb Ischemia & Compartment Syndrome",
   "stem": "Concerning tolerance to tissue ischemia, the following factor(s) are important variables determining organ failure:",
   "options": [
    "Resting metabolic rate",
@@ -2351,7 +2351,7 @@
   "number": 118,
   "type": "multi",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Acute Limb Ischemia & Compartment Syndrome",
   "stem": "Concerning ischemic cellular injury, the following is/are true:",
   "options": [
    "Prolonged hypoxic metabolism is inefficient but not harmful to cells",
@@ -2371,7 +2371,7 @@
   "number": 119,
   "type": "multi",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Acute Limb Ischemia & Compartment Syndrome",
   "stem": "Concerning remote effects of localized ischemia, the following is/are true:",
   "options": [
    "Lower torso and limb ischemia induce pulmonary injury via TXA2 and WBC effects",
@@ -2392,7 +2392,7 @@
   "number": 120,
   "type": "multi",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Vascular Diagnostics & Imaging",
   "stem": "Which of the following is/are true regarding exercise testing and reactive hyperemia in patients with peripheral vascular occlusive disease?",
   "options": [
    "Normal individuals walk on a treadmill at 2 m.p.h. at a 10% grade without experiencing leg pain and ankle pressure remains unchanged after exercise",
@@ -2413,7 +2413,7 @@
   "number": 121,
   "type": "multi",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Vascular Diagnostics & Imaging",
   "stem": "Which of the following is/are true with respect to transcutaneous PO2 (TcPO2) measurements?",
   "options": [
    "TcPO2 levels provide an index of the adequacy of tissue perfusion and depends on the quantity of oxygen delivered and that extracted to meet metabolic demands",
@@ -2435,7 +2435,7 @@
   "number": 122,
   "type": "single",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Vascular Diagnostics & Imaging",
   "stem": "Which of the following is/are appropriate candidates for exercise testing?",
   "options": [
    "The patient with symptoms of intermittent claudication but normal resting ankle brachial indices",
@@ -2454,7 +2454,7 @@
   "number": 123,
   "type": "single",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Vascular Diagnostics & Imaging",
   "stem": "Which of the following statements is/are true regarding the use of duplex scanning as a means to follow and monitor bypass grafts?",
   "options": [
    "Duplex scanning is accurate and cost effective",
@@ -2473,7 +2473,7 @@
   "number": 124,
   "type": "multi",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Vascular Diagnostics & Imaging",
   "stem": "Which of the following is/are true with respect to ankle blood pressure and ankle brachial index (ABI)?",
   "options": [
    "An ABI of less than 0.92 almost always indicates hemodynamically significant arterial disease",
@@ -2495,7 +2495,7 @@
   "number": 125,
   "type": "multi",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Vascular Diagnostics & Imaging",
   "stem": "Which of the following is/are true regarding Doppler assessment?",
   "options": [
    "Conventional Dopplers admit an ultrasonic beam in the frequency of 2–10 MHz",
@@ -2515,7 +2515,7 @@
   "number": 126,
   "type": "multi",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Carotid & Vertebral Disease",
   "stem": "Which of the following is/are true with respect to assessment of the carotid circulation?",
   "options": [
    "The external carotid artery flow pattern resembles those obtained from peripheral arteries",
@@ -2536,7 +2536,7 @@
   "number": 127,
   "type": "multi",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Vascular Diagnostics & Imaging",
   "stem": "Which of the following is/are true regarding the assessment of renal artery obstruction with duplex scanning?",
   "options": [
    "There is no flow reversal in early diastole in the renal artery",
@@ -2556,7 +2556,7 @@
   "number": 128,
   "type": "multi",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Vascular Diagnostics & Imaging",
   "stem": "Which of the following is/are true regarding normal peripheral arterial flow waves?",
   "options": [
    "Flow is antegrade and rapidly accelerated in early systole",
@@ -2578,7 +2578,7 @@
   "number": 129,
   "type": "multi",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Atherosclerosis & Medical Therapy",
   "stem": "Which of the following is/are true with regard to diabetes mellitus as a risk factor for atherosclerosis?",
   "options": [
    "Atherosclerosis is the cause of death in approximately 75% of diabetic persons",
@@ -2600,7 +2600,7 @@
   "number": 130,
   "type": "multi",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Atherosclerosis & Medical Therapy",
   "stem": "Which of the following statement(s) is/are correct with regard to Type IV hyperlipoproteinemia?",
   "options": [
    "It is the most common lipid abnormality found in peripheral vascular disease",
@@ -2621,7 +2621,7 @@
   "number": 131,
   "type": "single",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Atherosclerosis & Medical Therapy",
   "stem": "Which of the following is/are true with respect to hypertension?",
   "options": [
    "There is a threshold effect of blood pressure on the risk of cardiovascular complications",
@@ -2640,7 +2640,7 @@
   "number": 132,
   "type": "single",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Atherosclerosis & Medical Therapy",
   "stem": "Which of the following is/are true regarding treatment of diabetes?",
   "options": [
    "Strict control with insulin but not oral hypoglycemic agents markedly reduces the incidence of cardiovascular complications in diabetic persons",
@@ -2659,7 +2659,7 @@
   "number": 133,
   "type": "multi",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Atherosclerosis & Medical Therapy",
   "stem": "Which of the following is/are true regarding cholesterol?",
   "options": [
    "Cholesterol ester rich LDLs are removed from the circulation primarily by the liver utilizing the apo B-E receptor",
@@ -2681,7 +2681,7 @@
   "number": 134,
   "type": "multi",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Atherosclerosis & Medical Therapy",
   "stem": "Which of the following vascular complications are more common in smokers?",
   "options": [
    "Coronary artery disease",
@@ -2703,7 +2703,7 @@
   "number": 135,
   "type": "multi",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Infrainguinal Disease & Claudication",
   "stem": "Which of the following is/are true with respect to exercise training and claudication?",
   "options": [
    "The effect is beneficial, real and quantifiable",
@@ -2724,7 +2724,7 @@
   "number": 136,
   "type": "multi",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Atherosclerosis & Medical Therapy",
   "stem": "Which of the following is/are true regarding smoking cessation programs?",
   "options": [
    "Since the time of the first Surgeon General’s report the prevalence of smoking among adults decreased from 40% to 29%",
@@ -2746,7 +2746,7 @@
   "number": 137,
   "type": "multi",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Atherosclerosis & Medical Therapy",
   "stem": "Which of the following statements is/are true regarding diabetic vascular disease?",
   "options": [
    "Diabetes increases the risk of atherosclerosis at almost all anatomic sites",
@@ -2768,7 +2768,7 @@
   "number": 138,
   "type": "multi",
   "specialty": "vascular",
-  "topic": "Vascular Biology & Pharmacology",
+  "topic": "Atherosclerosis & Medical Therapy",
   "stem": "Which of the following is/are true with respect to risk factors for atherosclerosis?",
   "options": [
    "Risk factors are categorized as behavioral or metabolic",

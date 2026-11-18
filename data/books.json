@@ -8,7 +8,6 @@
    "code": "ES",
    "specialty": "thoracic",
    "publisher": "MedCosmos",
-   "edition": "Self-assessment",
    "description": "Esophageal anatomy, physiology, motility disorders, reflux, perforation and cancer.",
    "file": "medcosmos-esophagus.json",
    "count": 54
@@ -20,7 +19,6 @@
    "code": "TH",
    "specialty": "thoracic",
    "publisher": "MedCosmos",
-   "edition": "Self-assessment",
    "description": "Lung, pleura, mediastinum, airway, chest wall and thoracic trauma.",
    "file": "medcosmos-thoracic.json",
    "count": 87
@@ -32,7 +30,6 @@
    "code": "CA",
    "specialty": "cardiac",
    "publisher": "MedCosmos",
-   "edition": "Self-assessment",
    "description": "Coronary, valve, aortic, congenital and perioperative cardiac surgery.",
    "file": "medcosmos-cardiac.json",
    "count": 156
@@ -44,7 +41,6 @@
    "code": "VA",
    "specialty": "vascular",
    "publisher": "MedCosmos",
-   "edition": "Self-assessment",
    "description": "Arterial, aortic, venous and endovascular surgery.",
    "file": "medcosmos-vascular.json",
    "count": 138

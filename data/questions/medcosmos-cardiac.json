@@ -4,7 +4,7 @@
   "number": 1,
   "type": "single",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Perioperative Care & Complications",
   "stem": "Which is not true of cardiopulmonary resuscitation (CPR)?",
   "options": [
    "Closed chest massage is as effective as open chest massage.",
@@ -23,7 +23,7 @@
   "number": 2,
   "type": "single",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Perioperative Care & Complications",
   "stem": "Which maneuver generally is not performed early before chest compression in basic life support outside the hospital?",
   "options": [
    "Call for help.",
@@ -42,7 +42,7 @@
   "number": 3,
   "type": "single",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Perioperative Care & Complications",
   "stem": "Which treatment would be least effective for asystole?",
   "options": [
    "External pacemaker.",
@@ -61,7 +61,7 @@
   "number": 4,
   "type": "single",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Cardiac Trauma",
   "stem": "The most important factor that influences the outcome of penetrating cardiac injuries is:",
   "options": [
    "Comminuted tear of a single chamber.",
@@ -80,7 +80,7 @@
   "number": 5,
   "type": "single",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Cardiac Trauma",
   "stem": "The most useful incision in the operating room for patients with penetrating cardiac injury is:",
   "options": [
    "Left anterior thoracotomy.",
@@ -100,7 +100,7 @@
   "number": 6,
   "type": "single",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Cardiac Trauma",
   "stem": "In patients who present with a penetrating chest injury, injury to the heart is most likely when the following physical sign(s) is/are present:",
   "options": [
    "Hypotension.",
@@ -119,7 +119,7 @@
   "number": 7,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Acyanotic Congenital Heart Disease",
   "stem": "Which of the following would be an acceptable method of repair for a neonate with symptomatic isolated coarctation of the aorta?",
   "options": [
    "Resection with end-to-end anastomosis.",
@@ -139,7 +139,7 @@
   "number": 8,
   "type": "single",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Acyanotic Congenital Heart Disease",
   "stem": "Which of the following constitutes a true vascular ring?",
   "options": [
    "Pulmonary artery sling.",
@@ -158,7 +158,7 @@
   "number": 9,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Acyanotic Congenital Heart Disease",
   "stem": "Which of the following may be physical examination findings in a young adult with coarctation of the aorta?",
   "options": [
    "Posterior systolic murmur between the scapulas.",
@@ -179,7 +179,7 @@
   "number": 10,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Acyanotic Congenital Heart Disease",
   "stem": "In a premature infant with hyaline membrane disease and inability to be weaned from mechanical ventilation, which of the following would suggest hemodynamically significant patent ductus arteriosus (PDA)?",
   "options": [
    "Continuous murmur.",
@@ -199,7 +199,7 @@
   "number": 11,
   "type": "single",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Acyanotic Congenital Heart Disease",
   "stem": "In an infant with suspected PDA, which of the following would be the optimal method of confirming the diagnosis?",
   "options": [
    "Chest film.",
@@ -218,7 +218,7 @@
   "number": 12,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Acyanotic Congenital Heart Disease",
   "stem": "Which of the following are potential complications of untreated coarctation of the aorta?",
   "options": [
    "Endocarditis.",
@@ -239,7 +239,7 @@
   "number": 13,
   "type": "single",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Acyanotic Congenital Heart Disease",
   "stem": "The atrial septal defect (ASD) most commonly associated with partial anomalous pulmonary venous return (PAPVR) is:",
   "options": [
    "Secundum defect.",
@@ -259,7 +259,7 @@
   "number": 14,
   "type": "single",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Acyanotic Congenital Heart Disease",
   "stem": "The direction of an intracardiac shunt at the atrial level is controlled by:",
   "options": [
    "The size of the defect",
@@ -279,7 +279,7 @@
   "number": 15,
   "type": "single",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Acyanotic Congenital Heart Disease",
   "stem": "The ASD most commonly associated with mitral insufficiency is:",
   "options": [
    "Secundum defect",
@@ -298,7 +298,7 @@
   "number": 16,
   "type": "single",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Acyanotic Congenital Heart Disease",
   "stem": "An electrocardiogram (ECG) in a patient with a systolic ejection murmur that shows an incomplete bundle branch block in the precordial lead is most consistent with:",
   "options": [
    "A secundum ASD.",
@@ -317,7 +317,7 @@
   "number": 17,
   "type": "single",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Acyanotic Congenital Heart Disease",
   "stem": "ASDs can all be closed with a pericardial or prosthetic patch. Which of the following ASDs can also be safely closed primarily without the use of a patch?",
   "options": [
    "Secundum ASD.",
@@ -336,7 +336,7 @@
   "number": 18,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Cyanotic Congenital Heart Disease",
   "stem": "Obstruction to pulmonary venous return is associated with which of the following anomalies?",
   "options": [
    "Partial anomalous pulmonary venous connection (PAPVC) to the superior vena cava.",
@@ -359,7 +359,7 @@
   "number": 19,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Cyanotic Congenital Heart Disease",
   "stem": "Postoperative complications associated with repair of TAPVC include:",
   "options": [
    "Complete heart block.",
@@ -379,7 +379,7 @@
   "number": 20,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Acyanotic Congenital Heart Disease",
   "stem": "Which of the following statements about VSDs is/are correct?",
   "options": [
    "Perimembranous lesions are located in the region of the membranous portion of the interventricular septum near the anteroseptal commissure of the tricuspid valve.",
@@ -400,7 +400,7 @@
   "number": 21,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Acyanotic Congenital Heart Disease",
   "stem": "Which of the following statements about VSDs is/are true?",
   "options": [
    "When coarctation of the aorta is associated with VSD, it most commonly occurs in infants with large lesions who have to undergo repair before age 3 months.",
@@ -421,7 +421,7 @@
   "number": 22,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Acyanotic Congenital Heart Disease",
   "stem": "Which of the following statements about VSD is/are correct?",
   "options": [
    "A large VSD is approximately the size of the pulmonary valve orifice or larger.",
@@ -442,7 +442,7 @@
   "number": 23,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Acyanotic Congenital Heart Disease",
   "stem": "Which of the following statements about VSDs is/are correct?",
   "options": [
    "Spontaneous closure of VSDs occurs in 25% to 50% of patients during childhood.",
@@ -463,7 +463,7 @@
   "number": 24,
   "type": "single",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Acyanotic Congenital Heart Disease",
   "stem": "Which of the following is/are true of the surgical treatment of VSDs?",
   "options": [
    "A right ventricular approach is employed for the repair of most perimembranous VSDs.",
@@ -482,7 +482,7 @@
   "number": 25,
   "type": "single",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Cyanotic Congenital Heart Disease",
   "stem": "Tetralogy of Fallot consists of all of the following features except:",
   "options": [
    "ASD.",
@@ -502,7 +502,7 @@
   "number": 26,
   "type": "single",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Cyanotic Congenital Heart Disease",
   "stem": "Which of the following has the greatest impact on the physiology of tetralogy of Fallot?",
   "options": [
    "The size of the ASD.",
@@ -521,7 +521,7 @@
   "number": 27,
   "type": "single",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Cyanotic Congenital Heart Disease",
   "stem": "Which of the following anomalies is not associated with tetralogy of Fallot?",
   "options": [
    "Absence of the left pulmonary artery.",
@@ -541,7 +541,7 @@
   "number": 28,
   "type": "single",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Cyanotic Congenital Heart Disease",
   "stem": "Surgical treatment of a patient with tetralogy of Fallot can include any of the following except:",
   "options": [
    "Maintenance of ductal patency with prostaglandins (PGE 1) to provide pulmonary blood flow while the baby is transferred to an institution equipped to provide more definitive therapy.",
@@ -560,7 +560,7 @@
   "number": 29,
   "type": "single",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Cyanotic Congenital Heart Disease",
   "stem": "The predominant determinant of outcome for patients with pulmonary atresia and an intact ventricular septum revolves around:",
   "options": [
    "The size of the ASD.",
@@ -580,7 +580,7 @@
   "number": 30,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Cyanotic Congenital Heart Disease",
   "stem": "Which of the following statements about double-outlet right ventricle are true?",
   "options": [
    "A VSD is usually present.",
@@ -601,7 +601,7 @@
   "number": 31,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Cyanotic Congenital Heart Disease",
   "stem": "Which of the following statements about the surgical repair of double-outlet right ventricle are true?",
   "options": [
    "In double-outlet right ventricle with a subaortic or doubly committed VSD, a tunnel-type repair connecting a committed VSD with its respective great artery is usually employed.",
@@ -622,7 +622,7 @@
   "number": 32,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Cyanotic Congenital Heart Disease",
   "stem": "Management of a patient with tricuspid atresia within the first month of life may include:",
   "options": [
    "Creation of a systemic artery–to–pulmonary artery shunt.",
@@ -644,7 +644,7 @@
   "number": 33,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Cyanotic Congenital Heart Disease",
   "stem": "Which of the following should contraindicate performance of the Fontan procedure?",
   "options": [
    "Patient age of 25 years.",
@@ -665,7 +665,7 @@
   "number": 34,
   "type": "single",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Cyanotic Congenital Heart Disease",
   "stem": "Initial management of a newborn infant with hypoplastic left heart syndrome should include:",
   "options": [
    "Intravenous administration of PGE 1.",
@@ -684,7 +684,7 @@
   "number": 35,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Cyanotic Congenital Heart Disease",
   "stem": "The performance of a bidirectional superior cavopulmonary (Glenn) anastomosis as the second stage in the reconstructive approach to hypoplastic left heart syndrome:",
   "options": [
    "Provides early relief of volume load on the single right ventricle.",
@@ -705,7 +705,7 @@
   "number": 36,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Cyanotic Congenital Heart Disease",
   "stem": "Which of the following statements about truncus arteriosus are true?",
   "options": [
    "Most infants survive without operations until late childhood.",
@@ -726,7 +726,7 @@
   "number": 37,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Cyanotic Congenital Heart Disease",
   "stem": "Truncus arteriosus is a diagnosis with anatomic components including:",
   "options": [
    "VSD.",
@@ -747,7 +747,7 @@
   "number": 38,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Cyanotic Congenital Heart Disease",
   "stem": "Optimal treatment for the neonate who presents with transposition of the great arteries {S,D,D}* and intact ventricular septum includes:",
   "options": [
    "PGE 1 infusion to maintain duct patency.",
@@ -769,7 +769,7 @@
   "number": 39,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Cyanotic Congenital Heart Disease",
   "stem": "Factors that preclude the use of a single-stage arterial switch reconstruction of dextrotransposition of the great vessels include:",
   "options": [
    "Age older than 6 weeks with a left ventricular pressure of less than 50% of systemic pressure.",
@@ -790,7 +790,7 @@
   "number": 40,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Cyanotic Congenital Heart Disease",
   "stem": "Complications commonly associated with the atrial (Senning and Mustard) repairs of transposition of the great arteries include:",
   "options": [
    "Atrial arrhythmias.",
@@ -812,7 +812,7 @@
   "number": 41,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Aortic Valve Disease",
   "stem": "Critical aortic stenosis in the neonate is characterized by which of the following?",
   "options": [
    "It is most often due to commissural fusion of a trileaflet valve.",
@@ -832,7 +832,7 @@
   "number": 42,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Aortic Valve Disease",
   "stem": "Surgical management of aortic valve disease in an older child may include:",
   "options": [
    "Enlargement of the aortic annulus.",
@@ -853,7 +853,7 @@
   "number": 43,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Aortic Valve Disease",
   "stem": "Which of the following statements about subvalvular aortic stenosis are true?",
   "options": [
    "Most patients present in early infancy with severe congestive heart failure.",
@@ -873,7 +873,7 @@
   "number": 44,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Heart Failure & Mechanical Support",
   "stem": "Management of hypertrophic obstructive cardiomyopathy may include:",
   "options": [
    "Propranolol and verapamil.",
@@ -894,7 +894,7 @@
   "number": 45,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Aortic Valve Disease",
   "stem": "Which of the following statements about supravalvular aortic stenosis are true?",
   "options": [
    "Surgical repair is indicated only when the systolic gradient exceeds 75 mm. Hg.",
@@ -914,7 +914,7 @@
   "number": 46,
   "type": "single",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Coronary Artery Disease & CABG",
   "stem": "Each year the approximate number of Americans who die from complications of coronary artery disease is:",
   "options": [
    "100,000.",
@@ -934,7 +934,7 @@
   "number": 47,
   "type": "single",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Coronary Artery Disease & CABG",
   "stem": "Which of the following arteries is most likely to be involved with serious atherosclerosis?",
   "options": [
    "The right coronary artery.",
@@ -991,7 +991,7 @@
   "number": 50,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Coronary Artery Disease & CABG",
   "stem": "Coronary bypass procedures have been demonstrated to:",
   "options": [
    "Reduce the incidence of myocardial infarction.",
@@ -1013,7 +1013,7 @@
   "number": 51,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Coronary Artery Disease & CABG",
   "stem": "The following patients are best treated with coronary artery bypass grafting (CABG):",
   "options": [
    "A 60-year-old man with class II angina, 75% proximal right coronary artery lesion, and normal ventricular function.",
@@ -1033,7 +1033,7 @@
   "number": 52,
   "type": "single",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Perioperative Care & Complications",
   "stem": "Sternal wound infections that spread to the mediastinum are associated with a mortality rate of:",
   "options": [
    "60%.",
@@ -1052,7 +1052,7 @@
   "number": 53,
   "type": "single",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Coronary Artery Disease & CABG",
   "stem": "Perioperative myocardial infarction occurs following coronary bypass procedures in approximately:",
   "options": [
    "15%.",
@@ -1071,7 +1071,7 @@
   "number": 54,
   "type": "single",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Myocardial Infarction & Its Complications",
   "stem": "Following acute myocardial infarction, ventricular septal defects occur in:",
   "options": [
    "20%.",
@@ -1090,7 +1090,7 @@
   "number": 55,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Coronary Artery Disease & CABG",
   "stem": "Which of the following clinical characteristics is/are associated with a higher mortality after emergency CABG for failed PTCA?",
   "options": [
    "Multivessel disease.",
@@ -1112,7 +1112,7 @@
   "number": 56,
   "type": "single",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Coronary Artery Disease & CABG",
   "stem": "Which statement(s) about operative mortality and perioperative incidence of myocardial infarction for elective CABG (X) versus emergency CABG following failed PTCA (Y) is/are accurate?",
   "options": [
    "The operative mortality is higher for Y but the incidence of perioperative myocardial infarction is unchanged between X and Y.",
@@ -1131,7 +1131,7 @@
   "number": 57,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Coronary Artery Disease & CABG",
   "stem": "Which of the following statements about patients treated by placement of an internal mammary artery (IMA) bypass graft at primary CABG is/are correct?",
   "options": [
    "The risk for morbidity and mortality from reoperative coronary bypass grafting is increased.",
@@ -1153,7 +1153,7 @@
   "number": 58,
   "type": "single",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Coronary Artery Disease & CABG",
   "stem": "Considering the results of coronary reoperation in comparison to primary CABG, choose the incorrect statement:",
   "options": [
    "Operative morbidity and mortality are increased over those for primary CABG.",
@@ -1173,7 +1173,7 @@
   "number": 59,
   "type": "single",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Cardiac Imaging & Hemodynamics",
   "stem": "Which statements are correct comparisons of gated equilibrium and initial-transit radionuclide measurements of left ventricular function?",
   "options": [
    "Gated equilibrium techniques provide more accurate measurements of ejection fraction than initial-transit methods.",
@@ -1192,7 +1192,7 @@
   "number": 60,
   "type": "single",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Cardiac Imaging & Hemodynamics",
   "stem": "The radionuclide variable that contains the greatest amount of prognostic information in patients with coronary artery disease is:",
   "options": [
    "Exercise ejection fraction.",
@@ -1211,7 +1211,7 @@
   "number": 61,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Myocardial Infarction & Its Complications",
   "stem": "Which of the following statements about left ventricular aneurysm is/are correct?",
   "options": [
    "Ventricular aneurysms are commonly associated with systemic arterial embolization.",
@@ -1233,7 +1233,7 @@
   "number": 62,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Myocardial Infarction & Its Complications",
   "stem": "Which of the following factors does/do not increase early mortality associated with repair of left ventricular aneurysm?",
   "options": [
    "Class IV cardiac status.",
@@ -1254,7 +1254,7 @@
   "number": 63,
   "type": "single",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Coronary Artery Disease & CABG",
   "stem": "The most effective medical therapy in ameliorating the symptoms of Kawasaki's disease and preventing the development of giant coronary artery aneurysms is administration of:",
   "options": [
    "Antibiotics.",
@@ -1274,7 +1274,7 @@
   "number": 64,
   "type": "single",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Coronary Artery Disease & CABG",
   "stem": "Indications for surgical intervention in Kawasaki's disease include which of the following?",
   "options": [
    "The presence of multiple coronary artery aneurysms.",
@@ -1294,7 +1294,7 @@
   "number": 65,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Cyanotic Congenital Heart Disease",
   "stem": "Which of the following statements about the pathophysiology of Ebstein's anomaly is/are true?",
   "options": [
    "The tricuspid valve is usually insufficient.",
@@ -1316,7 +1316,7 @@
   "number": 66,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Cyanotic Congenital Heart Disease",
   "stem": "In the surgical treatment of Ebstein's anomaly, which of the following is/are true?",
   "options": [
    "In neonates, the tricuspid valve orifice may be oversewn and a systemic-pulmonary shunt created to provide pulmonary blood flow.",
@@ -1337,7 +1337,7 @@
   "number": 67,
   "type": "single",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Acyanotic Congenital Heart Disease",
   "stem": "Which of the following congenital lesions of the coronary circulation causes a cardiac murmur that is similar to the murmur produced by a PDA?",
   "options": [
    "Origin of the left coronary artery from the pulmonary artery.",
@@ -1356,7 +1356,7 @@
   "number": 68,
   "type": "single",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Acyanotic Congenital Heart Disease",
   "stem": "The congenital coronary lesion most likely to cause death in infancy is:",
   "options": [
    "Coronary artery fistula.",
@@ -1375,7 +1375,7 @@
   "number": 69,
   "type": "single",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Acyanotic Congenital Heart Disease",
   "stem": "The congenital coronary lesion associated with minimal or absent clinical manifestations and nearly normal life expectancy is:",
   "options": [
    "Congenital origin of both coronary arteries from the pulmonary artery.",
@@ -1394,7 +1394,7 @@
   "number": 70,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Aortic Valve Disease",
   "stem": "Which of the following is/are indications for aortic valve replacement for aortic stenosis?",
   "options": [
    "Syncope.",
@@ -1415,7 +1415,7 @@
   "number": 71,
   "type": "single",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Aortic Valve Disease",
   "stem": "Under which of the following circumstances is medical management logical?",
   "options": [
    "Moderate aortic insufficiency seen on echocardiography with normal left ventricular end-systolic dimensions.",
@@ -1434,7 +1434,7 @@
   "number": 72,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Mitral Valve Disease",
   "stem": "Which of the following may be indications for operation for mitral stenosis?",
   "options": [
    "Systemic embolization.",
@@ -1456,7 +1456,7 @@
   "number": 73,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Mitral Valve Disease",
   "stem": "Which of the following is/are not true?",
   "options": [
    "Operation improves survival in patients with severe, symptomatic mitral valve disease.",
@@ -1476,7 +1476,7 @@
   "number": 74,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Tricuspid & Pulmonary Valve Disease",
   "stem": "Which of the following generally are not symptoms of tricuspid valve disease?",
   "options": [
    "Pulmonary edema.",
@@ -1496,7 +1496,7 @@
   "number": 75,
   "type": "single",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Mitral Valve Disease",
   "stem": "Which of the following are relative indications for mitral valve replacement, as opposed to mitral valve repair?",
   "options": [
    "Extensive leaflet calcification.",
@@ -1515,7 +1515,7 @@
   "number": 76,
   "type": "single",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Prosthetic Valves & Anticoagulation",
   "stem": "Which of the following are not true?",
   "options": [
    "Tricuspid regurgitation due to annular dilatation alone generally does not require valve replacement.",
@@ -1534,7 +1534,7 @@
   "number": 77,
   "type": "single",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Prosthetic Valves & Anticoagulation",
   "stem": "Which of the following are relative indications for mechanical, as opposed to tissue, valve replacement?",
   "options": [
    "Patient younger than 30 years.",
@@ -1553,7 +1553,7 @@
   "number": 78,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Prosthetic Valves & Anticoagulation",
   "stem": "Which of the following statements are not true?",
   "options": [
    "Bioprosthetic valves have a relatively high incidence of hemolysis.",
@@ -1575,7 +1575,7 @@
   "number": 79,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Mitral Valve Disease",
   "stem": "Which of the following are not generally associated with mitral stenosis without regurgitation?",
   "options": [
    "Pulmonary hypertension.",
@@ -1596,7 +1596,7 @@
   "number": 80,
   "type": "single",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Arrhythmias & Surgical Ablation",
   "stem": "The most common location of accessory pathways in patients with the Wolff-Parkinson-White syndrome is the:",
   "options": [
    "Left free wall.",
@@ -1615,7 +1615,7 @@
   "number": 81,
   "type": "single",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Arrhythmias & Surgical Ablation",
   "stem": "The anatomic electrophysiologic basis of AV node re-entry tachycardia is dual AV node conduction pathways. AV node re-entry tachycardia is most likely to occur with which of the following electrophysiologic aberrations?",
   "options": [
    "Proximal antegrade block in the slow conduction pathway.",
@@ -1634,7 +1634,7 @@
   "number": 82,
   "type": "matching",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Arrhythmias & Surgical Ablation",
   "stem": "Match the four surgical procedures that have been developed for the treatment of atrial fibrillation with the major detrimental sequela(e) of atrial fibrillation that each corrects.\n1. Patient's sensation of irregular heart rhythm.\n2. Hemodynamic compromise because of loss of AV synchrony.\n3. Increased vulnerability to thromboembolism.",
   "options": [
    "His bundle ablation.",
@@ -1645,14 +1645,14 @@
   "answer": [],
   "explanation": "",
   "images": [],
-  "answerText": "A-1. B-1,2. C-1. D1,2,3"
+  "answerText": "A. His bundle ablation → 1\nB. Left atrial isolation procedure → 1, 2\nC. Corridor procedure → 1\nD. Maze procedure → 1, 2, 3"
  },
  {
   "id": "medcosmos-cardiac-q083",
   "number": 83,
   "type": "single",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Arrhythmias & Surgical Ablation",
   "stem": "All of the following statements about nonischemic ventricular tachyarrhythmias are true except:",
   "options": [
    "They usually occur in the right ventricle.",
@@ -1671,7 +1671,7 @@
   "number": 84,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Cardiac Tumors",
   "stem": "Which of the following statements about left atrial myxoma are true?",
   "options": [
    "This lesion, by site and histology, is the most common primary cardiac tumor.",
@@ -1693,7 +1693,7 @@
   "number": 85,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Cardiac Tumors",
   "stem": "Which of the following statements about malignant cardiac tumors are true?",
   "options": [
    "Sarcomas are the most frequent primary malignancy.",
@@ -1714,7 +1714,7 @@
   "number": 86,
   "type": "single",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Arrhythmias & Surgical Ablation",
   "stem": "Disadvantages of temporary pacing through skin electrodes applied to the anterior chest wall include all of the following except:",
   "options": [
    "Skin burns.",
@@ -1733,7 +1733,7 @@
   "number": 87,
   "type": "single",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Arrhythmias & Surgical Ablation",
   "stem": "In adults the most common cause of acquired complete heart block is:",
   "options": [
    "Ischemic heart disease.",
@@ -1752,7 +1752,7 @@
   "number": 88,
   "type": "single",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Arrhythmias & Surgical Ablation",
   "stem": "The most common indication for permanent pacing is:",
   "options": [
    "Complete heart block.",
@@ -1771,7 +1771,7 @@
   "number": 89,
   "type": "single",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Arrhythmias & Surgical Ablation",
   "stem": "Decreasing pacemaker electrode tip size results in:",
   "options": [
    "Lower pacing thresholds.",
@@ -1790,7 +1790,7 @@
   "number": 90,
   "type": "single",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Arrhythmias & Surgical Ablation",
   "stem": "At the time of ventricular pacemaker implantation, lead resistance is determined at a voltage near that of the pacemaker's output. The calculated resistance at 5 volts should range from:",
   "options": [
    "10 to 100 ohms.",
@@ -1809,7 +1809,7 @@
   "number": 91,
   "type": "single",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Arrhythmias & Surgical Ablation",
   "stem": "A ventricular inhibited-demand pacemaker using the Intersociety Commission for Heart Disease Resources (ICHD) code is designated as:",
   "options": [
    "DVI.",
@@ -1828,7 +1828,7 @@
   "number": 92,
   "type": "single",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Arrhythmias & Surgical Ablation",
   "stem": "In rate-modulated pacing, the pacing rate is determined by a physiologic parameter other than atrial rate and is measured by a special sensor in the pacemaker or pacing lead. The most commonly used physiologic parameter in rate-modulated pacemakers is:",
   "options": [
    "QT interval.",
@@ -1847,7 +1847,7 @@
   "number": 93,
   "type": "single",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Arrhythmias & Surgical Ablation",
   "stem": "The most common pacing mode used in patients with symptomatic bradycardia and an underlying sinus rhythm is:",
   "options": [
    "AAI.",
@@ -1866,7 +1866,7 @@
   "number": 94,
   "type": "single",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Arrhythmias & Surgical Ablation",
   "stem": "A transvenous pacemaker generator pocket should be placed on the patient's nondominant side over the:",
   "options": [
    "Anteromedial chest wall.",
@@ -1885,7 +1885,7 @@
   "number": 95,
   "type": "single",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Arrhythmias & Surgical Ablation",
   "stem": "Pacemaker-mediated tachycardia is caused by:",
   "options": [
    "Pacemaker induction of atrial fibrillation.",
@@ -1904,7 +1904,7 @@
   "number": 96,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Perioperative Care & Complications",
   "stem": "Which cardiovascular pharmacologic agents are safe to use during routine abdominal surgery in a 75-year-old woman with documented hypertension and mild coronary artery disease?",
   "options": [
    "Nifedipine.",
@@ -1926,7 +1926,7 @@
   "number": 97,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Perioperative Care & Complications",
   "stem": "Which inotropic drugs are safe for use in elderly patients with mild congestive heart failure in the postoperative period?",
   "options": [
    "Digitalis compounds.",
@@ -1949,7 +1949,7 @@
   "number": 98,
   "type": "single",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Prosthetic Valves & Anticoagulation",
   "stem": "Which anticoagulation treatment plan(s) is/are appropriate for a 72-year-old man with a mechanical heart valve in place who takes Coumadin (warfarin) and now requires elective left colon resection?",
   "options": [
    "Discontinuation of Coumadin therapy on the day of the operation.",
@@ -1969,7 +1969,7 @@
   "number": 99,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Heart Failure & Mechanical Support",
   "stem": "Which of the following treatment plans is appropriate for a 68-year-old patient with moderate to severe congestive heart failure following a major abdominal surgical procedure?",
   "options": [
    "Aggressive use of inotropic support with epinephrine.",
@@ -1990,7 +1990,7 @@
   "number": 100,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Arrhythmias & Surgical Ablation",
   "stem": "Which of the following steps is/are appropriate for a 65-year-old woman who develops atrial fibrillation with associated mild hypotension and rapid ventricular response following partial gastric resection?",
   "options": [
    "Correction of electrolytes and blood chemistries.",
@@ -2012,7 +2012,7 @@
   "number": 101,
   "type": "single",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Cardiopulmonary Bypass & Myocardial Protection",
   "stem": "The damaging effects of cardiopulmonary bypass are, to a large degree, due to activation of the humoral amplification system. The humoral amplification system includes which of the following?",
   "options": [
    "The coagulation cascade.",
@@ -2032,7 +2032,7 @@
   "number": 102,
   "type": "single",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Cardiopulmonary Bypass & Myocardial Protection",
   "stem": "Adequate flow during cardiopulmonary bypass is best indicated by:",
   "options": [
    "Systemic blood pressure of 90/50 mm. Hg.",
@@ -2052,7 +2052,7 @@
   "number": 103,
   "type": "single",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Cardiopulmonary Bypass & Myocardial Protection",
   "stem": "Which of the following does not typically occur during the first few minutes of cardiopulmonary bypass?",
   "options": [
    "Interstitial fluid increases.",
@@ -2072,7 +2072,7 @@
   "number": 104,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Heart Failure & Mechanical Support",
   "stem": "Which of the following are physiologic benefits of intra-aortic balloon counterpulsation to the ischemic ventricle?",
   "options": [
    "Preload reduction.",
@@ -2093,7 +2093,7 @@
   "number": 105,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Heart Failure & Mechanical Support",
   "stem": "Which of the following are the major indications for instituting intra-aortic balloon pumping?",
   "options": [
    "Medically refractory angina.",
@@ -2116,7 +2116,7 @@
   "number": 106,
   "type": "single",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Heart Failure & Mechanical Support",
   "stem": "Which of the following are the most frequent complications of intra-aortic balloon counterpulsation?",
   "options": [
    "Stroke.",
@@ -2135,7 +2135,7 @@
   "number": 107,
   "type": "single",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Heart Failure & Mechanical Support",
   "stem": "Permanent artificial hearts are being developed that are electrically powered. Wireless techniques are used to transmit the electrical energy across the body wall using the principle of:",
   "options": [
    "Infrared sensor.",
@@ -2155,7 +2155,7 @@
   "number": 108,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Heart Failure & Mechanical Support",
   "stem": "The following statements about the pneumatic artificial heart is/are correct:",
   "options": [
    "It can support the circulation for over 1 year.",
@@ -2177,7 +2177,7 @@
   "number": 109,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Cyanotic Congenital Heart Disease",
   "stem": "A cyanotic infant has echocardiographic evidence of a univentricular heart (UVH). The following is/are true:",
   "options": [
    "The most common form of the disorder is a double-inlet right ventricle",
@@ -2200,7 +2200,7 @@
   "number": 110,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Acyanotic Congenital Heart Disease",
   "stem": "A 9-year-old boy with hypertension has no palpable femoral pulses. Coarctation of the aorta is suspected. The following is/are true:",
   "options": [
    "The most common associated abnormality is a bicuspid aortic valve",
@@ -2222,7 +2222,7 @@
   "number": 111,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Cardiac Tumors",
   "stem": "A 48-year-old woman with episodic syncope has echocardiographic evidence of a mass in the left atrium. The following is/are true statement(s):",
   "options": [
    "Transseptal puncture should be used for definitive diagnosis",
@@ -2243,7 +2243,7 @@
   "number": 112,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Cyanotic Congenital Heart Disease",
   "stem": "A 2-month-old boy who appeared normal at birth has become cyanotic and is found to have a systolic ejection murmur over the pulmonic area and a boot-shaped heart on chest radiograph. The following is/are true:",
   "options": [
    "Echocardiography alone is sufficient to confirm the diagnosis of Tetralogy of Fallot",
@@ -2265,7 +2265,7 @@
   "number": 113,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Aortic Valve Disease",
   "stem": "A 12-year-old boy is found to have an ejection systolic murmur over the aortic region with a precordial thrill and normal cardiac size on chest radiograph. The following is/are true:",
   "options": [
    "A systolic ejection click would signify that the stenosis is supravalvar",
@@ -2286,7 +2286,7 @@
   "number": 114,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Cyanotic Congenital Heart Disease",
   "stem": "Within 2 hours of birth, a baby girl is obviously cyanotic and chest radiograph shows the heart to appear like “an egg on its side.” The following is/are true:",
   "options": [
    "The most common cause of cyanosis this early is transposition of the great vessels (TGV)",
@@ -2307,7 +2307,7 @@
   "number": 115,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Cyanotic Congenital Heart Disease",
   "stem": "A one-year-old boy thought to have Tetralogy of Fallot is found on cardiac catheterization to have double-outlet right ventricle (DORV). The follow is/are true:",
   "options": [
    "Spontaneous closure of the VSD is rare",
@@ -2328,7 +2328,7 @@
   "number": 116,
   "type": "single",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Acyanotic Congenital Heart Disease",
   "stem": "A 5-year-old girl is found on routine examination to have a pulmonic flow murmur, fixed splitting of P2 and a right ventricular lift. The following is/are true:",
   "options": [
    "Cardiac catheterization is indicated if the chest film shows cardiomegaly",
@@ -2348,7 +2348,7 @@
   "number": 117,
   "type": "single",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Acyanotic Congenital Heart Disease",
   "stem": "A 2-month-old infant has EKG evidence of myocardial ischemia and echocardiography suggests anomalous origin of the left coronary artery from the pulmonary artery. The following is/are true:",
   "options": [
    "Ischemia is due to perfusion of the myocardium with inadequately oxygenated blood",
@@ -2368,7 +2368,7 @@
   "number": 118,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Acyanotic Congenital Heart Disease",
   "stem": "A 2-month-old boy is found to be in congestive heart failure manifested by tachypnea, tachycardia and diaphoresis with poor weight gain. The physical findings suggest a ventricular septal defect (VSD). Management should include:",
   "options": [
    "Pulmonary artery banding",
@@ -2389,7 +2389,7 @@
   "number": 119,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Acyanotic Congenital Heart Disease",
   "stem": "A 1-year-old girl with dyspnea and poor feeding is found to be in congestive heart failure. Echocardiography shows an atrio-ventricular septal defect (AVSD). The following is/are true:",
   "options": [
    "The second heart sound will show fixed splitting",
@@ -2411,7 +2411,7 @@
   "number": 120,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Acyanotic Congenital Heart Disease",
   "stem": "The child in the previous question undergoes cardiac catheterization confirming a VSD with Qp/Qs ratio of 2.0 and right ventricular systolic pressure half of systemic pressure. The following is/are true:",
   "options": [
    "If aortic insufficiency is detected, the defect is likely to be subpulmonic in location",
@@ -2434,7 +2434,7 @@
   "number": 121,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Acyanotic Congenital Heart Disease",
   "stem": "A premature infant in respiratory distress is found to have a continuous “machinery” murmur over the precordium. The following is/are true:",
   "options": [
    "The most likely diagnosis is coarctation of the aorta",
@@ -2455,7 +2455,7 @@
   "number": 122,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Cyanotic Congenital Heart Disease",
   "stem": "A neonate in congestive heart failure has echocardiographic evidence of a single truncal vessel from which the pulmonary arteries arise, a VSD and truncal valvar stenosis. The following is/are true:",
   "options": [
    "Natural history of this anomaly allows only 20% one-year survival",
@@ -2476,7 +2476,7 @@
   "number": 123,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Cyanotic Congenital Heart Disease",
   "stem": "A neonate in respiratory distress has echocardiographic evidence of hypoplastic left heart syndrome (HLHS). The following is/are true:",
   "options": [
    "Initial management should include prostaglandin infusion",
@@ -2500,7 +2500,7 @@
   "number": 124,
   "type": "single",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Aortic Valve Disease",
   "stem": "A 52-year-old man with known aortic stenosis develops angina pectoris and has a single episode of syncope. The following is/are true:",
   "options": [
    "Onset of angina indicates concomitant coronary artery disease independent of valvular lesion",
@@ -2519,7 +2519,7 @@
   "number": 125,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Aortic Valve Disease",
   "stem": "The patient in the previous question with AI progresses to profound heart failure requiring medical management. The following is/are true:",
   "options": [
    "Perperal vasdilators are contraindicated",
@@ -2539,7 +2539,7 @@
   "number": 126,
   "type": "single",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Mitral Valve Disease",
   "stem": "A 42-year-old woman has noted progressive exercise intolerance and fatigability. Examination discloses an opening snap in the mitral area suggestive of mitral stenosis. The following is/are true:",
   "options": [
    "Critical mitral stenosis is defined as an orifice area reduced to 2 cm2",
@@ -2558,7 +2558,7 @@
   "number": 127,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Mitral Valve Disease",
   "stem": "Concerning valvular heart disease, the following is/are true:",
   "options": [
    "Mitral stenosis is the most common lesion",
@@ -2578,7 +2578,7 @@
   "number": 128,
   "type": "single",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Aortic Valve Disease",
   "stem": "A 47-year-old male with fatigue and cardiac failure has a high-pitched, decrescendo diastolic murmur along the left sternal border and an apical diastolci rumble. His blood pressure is 148/45 mmHg. The following is/are true:",
   "options": [
    "Chest radiograph will show cor bovinum",
@@ -2617,7 +2617,7 @@
   "number": 130,
   "type": "single",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Infective Endocarditis",
   "stem": "A 31-year-old male drug abuser presents with fever, chills and multiple bilateral lung abscesses. Right heart endocarditis is suspected. The following is/are true:",
   "options": [
    "The organisms most likely responsible are gram-negative and fungal",
@@ -2636,7 +2636,7 @@
   "number": 131,
   "type": "single",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Myocardial Infarction & Its Complications",
   "stem": "In the initial management of the patient in the previous question with suspected acute MI, the following is/are true:",
   "options": [
    "Oxygen and lidocaine should be administered prophylactically",
@@ -2694,7 +2694,7 @@
   "number": 134,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Coronary Artery Disease & CABG",
   "stem": "In the medical management of coronary artery disease, the following is/are true:",
   "options": [
    "Nitroglycerin primarily dilates coronary arterioles",
@@ -2714,7 +2714,7 @@
   "number": 135,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Myocardial Infarction & Its Complications",
   "stem": "A 67-year-old man with documented acute MI progresses in 24 hours to cardiogenic shock. The following is/are true:",
   "options": [
    "The mortality rate for cardiogenic shock after acute MI is increased more than 10 fold in comparison to no shock",
@@ -2734,7 +2734,7 @@
   "number": 136,
   "type": "single",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Myocardial Infarction & Its Complications",
   "stem": "A 52-year-old man with chest pain and tachycardia has ECG evidence of an acute MI. The following is/are true:",
   "options": [
    "Thrombolytic therapy should be considered immediately since the benefit is greater the earlier it is given",
@@ -2753,7 +2753,7 @@
   "number": 137,
   "type": "single",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Myocardial Infarction & Its Complications",
   "stem": "Following repair of an abdominal aortic aneurysm, a 66-year-old man develops severe chest pain, diaphoresis, bradycardia and hypotension. The following is/are true:",
   "options": [
    "The electrocardiogram is most likely to show a prominent Q in lead 3 if this is an MI",
@@ -2772,7 +2772,7 @@
   "number": 138,
   "type": "single",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Coronary Artery Disease & CABG",
   "stem": "A 70-year-old woman with intractable angina pectoris undergoes cardiac catheterization for possible mechanical intervention. She prefers PTCA to open correction. The following is/are true:",
   "options": [
    "A long symmetric lesion in the left main coronary artery would be appropriate for PTCA",
@@ -2791,7 +2791,7 @@
   "number": 139,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Coronary Artery Disease & CABG",
   "stem": "A 78-year-old patient who is a candidate for CABG is concerned about the risks/benefits of the procedure. The following is/are true:",
   "options": [
    "Operative mortality in patients > 70 years is more than double that of younger patients",
@@ -2811,7 +2811,7 @@
   "number": 140,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Myocardial Infarction & Its Complications",
   "stem": "Four days after a transmural MI, a 74-year-old man develops hypotension and congestive heart failure. The following is/are true:",
   "options": [
    "An intra-aortic balloon pump should be used and cardiac catheterization performed",
@@ -2831,7 +2831,7 @@
   "number": 141,
   "type": "single",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Coronary Artery Disease & CABG",
   "stem": "A 52-year-old woman with chest pain is considered for coronary arteriography on the basis of her risk factors. The following is/are true statement(s):",
   "options": [
    "All patients with typical anginal symptoms should have coronary arteriography",
@@ -2850,7 +2850,7 @@
   "number": 142,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Coronary Artery Disease & CABG",
   "stem": "The patient in the previous question is found to have disease unsuitable for PTCA. Concerning operative revascularization (CABG) the following is/are true:",
   "options": [
    "CABG is more effective than medical treatment for relieving angina and improving physical work capacity",
@@ -2871,7 +2871,7 @@
   "number": 143,
   "type": "single",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Coronary Artery Disease & CABG",
   "stem": "In the workup of a 45-year-old man with suspected coronary artery disease, the following is/are true:",
   "options": [
    "Thyroid tests are included to rule out hyperthyroidism",
@@ -2890,7 +2890,7 @@
   "number": 144,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Myocardial Infarction & Its Complications",
   "stem": "Following successful thrombolytic treatment of the patient in the previous question, he develops recurrent chest pain in 24 hours. The following is/are true:",
   "options": [
    "Rethrombosis is most likely and thrombolytic therapy alone should be repeated",
@@ -2911,7 +2911,7 @@
   "number": 145,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Perioperative Care & Complications",
   "stem": "A 59-year-old male has undergone successful CABG with 4 grafts constructed but remains in low cardiac output (< 2L/min/m2) postoperatively. The following is/are true:",
   "options": [
    "An inotropic drug should be used initially to increase cardiac output",
@@ -2931,7 +2931,7 @@
   "number": 146,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Coronary Artery Disease & CABG",
   "stem": "A 42-year-old asymptomatic attorney undergoes a routine exercise test which is reported positive for myocardial ischemia. The following is/are true:",
   "options": [
    "This is a rare event since less than 5% of patients with coronary artery disease (CAD) are asymptomatic with exercise",
@@ -2952,7 +2952,7 @@
   "number": 147,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Arrhythmias & Surgical Ablation",
   "stem": "A 52-year-old man develops postoperative supraventricular tachycardia to a rate of 180/min. and hypotension. The following is/are true:",
   "options": [
    "Since a heart rate of 180/min should be tolerated at his age, the hypotension must have another cause",
@@ -2973,7 +2973,7 @@
   "number": 148,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Arrhythmias & Surgical Ablation",
   "stem": "A 77-year-old man with a healed transmural myocardial infarction has a medically refractory ventricular arrhythmia. The following is/are true:",
   "options": [
    "Direct current catheter endocardial ablation has a high likelihood of success.",
@@ -2995,7 +2995,7 @@
   "number": 149,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Perioperative Care & Complications",
   "stem": "A 68-year-old man suffers sudden cardiac death (SCD) but is resuscitated and brought to the hospital for evaluation and treatment. The following is/are true:",
   "options": [
    "The most likely cause of SCD is ventricular arrhythmia",
@@ -3039,7 +3039,7 @@
   "number": 151,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Arrhythmias & Surgical Ablation",
   "stem": "The following is/are true concerning the physiology of arrhythmias:",
   "options": [
    "A physical or electrical stimulus causes sodium fast channels and calcium slow channels to open",
@@ -3061,7 +3061,7 @@
   "number": 152,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Arrhythmias & Surgical Ablation",
   "stem": "A 72-year-old man has had several episodes of ventricular tachycardia and is a candidate for electrophysiological (EP) study. The following is/are true:",
   "options": [
    "The goal of the EP study is either sustained or non-sustained ventricular tachycardia",
@@ -3082,7 +3082,7 @@
   "number": 153,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Arrhythmias & Surgical Ablation",
   "stem": "A 29-year-old male with supraventricular tachyarrhythmias is suspected to have Wolff-Parkinson-White (WPW) syndrome. The following is/are true:",
   "options": [
    "Electrophysiologic studies (EPS) will require catheters in or at the right atrium, His bundle, right ventricle and coronary sinus",
@@ -3103,7 +3103,7 @@
   "number": 154,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Arrhythmias & Surgical Ablation",
   "stem": "A 62-year-old woman whose arrhythmia is noninducible at EP study has depressed LV function without aneurysm. The following is/are true:",
   "options": [
    "If her arrhythmia is ventricular tachycardia, she is not a candidate for an Automatic Implantable Cardiac Defibrillator (AICD) since it only recognizes fibrillation",
@@ -3124,7 +3124,7 @@
   "number": 155,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Arrhythmias & Surgical Ablation",
   "stem": "A 27-year-old surgery resident has had multiple episodes of supraventricular tachycardia (SVT) and on EP study is felt to have WPW syndrome. The following is/are true:",
   "options": [
    "The pathophysiology of WPW is a single bundle of Kent",
@@ -3146,7 +3146,7 @@
   "number": 156,
   "type": "multi",
   "specialty": "cardiac",
-  "topic": "Cardiac Anatomy & Physiology",
+  "topic": "Arrhythmias & Surgical Ablation",
   "stem": "In the pharmacological management of cardiac arrhythmias, the following is/are true:",
   "options": [
    "Membrane-stabilizing local anesthetics (Class 1) act via sodium channel blockage",

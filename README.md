@@ -20,6 +20,8 @@ All content lives in `data/`:
 - `data/questions/<book-id>.json` — one array per book. Each question has `id`, `number`, `type` (`single`, `multi`, `matching`), `specialty`, `topic` (one of the 66 topics in `app.js`), `stem`, `options`, `answer` (letters, for example `["B", "D"]`), `explanation`, `images`, optional `chapter` (a chapter id from `books.json`) and, for matching questions, `answerText`.
 - `data/images/<book-id>/` — figures referenced by `images`.
 
+Each book also has a report in `reports/<book-id>.md` for AI agents and editors (source problems, decisions, typo fixes). Reports are not shown in the app.
+
 To add or correct a book, edit these files and merge to `main`; the app picks up the change on the next open.
 
 ## Run locally

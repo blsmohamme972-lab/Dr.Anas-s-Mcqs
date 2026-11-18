@@ -107,7 +107,7 @@
   "number": 6,
   "type": "single",
   "specialty": "thoracic",
-  "topic": "Esophageal Anatomy & Physiology",
+  "topic": "Esophageal Motility Disorders & Diverticula",
   "stem": "Which of the following statements about achalasia is/are correct?",
   "options": [
    "In most cases in North America the cause is a parasitic infestation by Trypanosoma cruzi.",
@@ -127,7 +127,7 @@
   "number": 7,
   "type": "multi",
   "specialty": "thoracic",
-  "topic": "Esophageal Anatomy & Physiology",
+  "topic": "Esophageal Motility Disorders & Diverticula",
   "stem": "Which of the following statements about diffuse esophageal spasm is/are true?",
   "options": [
    "Chest pain due to esophageal spasm is readily differentiated from angina pectoris of cardiac origin.",
@@ -148,7 +148,7 @@
   "number": 8,
   "type": "single",
   "specialty": "thoracic",
-  "topic": "Esophageal Anatomy & Physiology",
+  "topic": "Esophageal Motility Disorders & Diverticula",
   "stem": "Which of the following statements about epiphrenic diverticula of the esophagus is/are correct?",
   "options": [
    "They are traction diverticula that arise close to the tracheobronchial tree.",
@@ -168,7 +168,7 @@
   "number": 9,
   "type": "single",
   "specialty": "thoracic",
-  "topic": "Esophageal Anatomy & Physiology",
+  "topic": "Benign Esophageal Tumors & Strictures",
   "stem": "Which of the following statements about Schatzki's ring is correct?",
   "options": [
    "The ring represents a panmural fibrotic stricture resulting from gastroesophageal reflux.",
@@ -200,7 +200,7 @@
   "answer": [],
   "explanation": "",
   "images": [],
-  "answerText": "1-B, 2-C, 3-D"
+  "answerText": "1. Zenker's diverticulum → B (15 cm)\n2. Traction diverticulum → C (25 cm)\n3. Tumor 10 cm proximal to the esophagogastric junction → D (30 cm)"
  },
  {
   "id": "medcosmos-esophagus-q011",
@@ -227,7 +227,7 @@
   "number": 12,
   "type": "single",
   "specialty": "thoracic",
-  "topic": "Esophageal Anatomy & Physiology",
+  "topic": "Benign Esophageal Tumors & Strictures",
   "stem": "Which of the following statements about the diagnosis and treatment of esophageal leiomyomas is/are correct?",
   "options": [
    "The majority are diagnosed after they cause dysphagia and chest pain.",
@@ -247,7 +247,7 @@
   "number": 13,
   "type": "single",
   "specialty": "thoracic",
-  "topic": "Esophageal Anatomy & Physiology",
+  "topic": "Esophageal Cancer",
   "stem": "Which of the following statements regarding the pathology of esophageal carcinoma is/are correct?",
   "options": [
    "Worldwide, adenocarcinoma is the most common esophageal malignancy.",
@@ -267,7 +267,7 @@
   "number": 14,
   "type": "single",
   "specialty": "thoracic",
-  "topic": "Esophageal Anatomy & Physiology",
+  "topic": "Esophageal Cancer",
   "stem": "Which of the following statements about the surgical treatment of esophageal carcinoma is/are correct?",
   "options": [
    "The finding of severe dysphagia in association with Barrett's mucosa is an indication for an antireflux operation to prevent subsequent development of carcinoma.",
@@ -287,7 +287,7 @@
   "number": 15,
   "type": "single",
   "specialty": "thoracic",
-  "topic": "Esophageal Anatomy & Physiology",
+  "topic": "Esophageal Perforation & Caustic Injury",
   "stem": "The best management for a 48-hour-old distal esophageal perforation is:",
   "options": [
    "Antibiotics and drainage.",
@@ -307,7 +307,7 @@
   "number": 16,
   "type": "single",
   "specialty": "thoracic",
-  "topic": "Esophageal Anatomy & Physiology",
+  "topic": "Esophageal Perforation & Caustic Injury",
   "stem": "A 50-year-old patient develops sudden left lower chest pain and epigastric pain after vomiting. The patient shows diaphoresis, breath sounds are decreased on the left, and there is abdominal guarding. The most appropriate diagnostic test is:",
   "options": [
    "Aortography.",
@@ -347,7 +347,7 @@
   "number": 18,
   "type": "single",
   "specialty": "thoracic",
-  "topic": "Esophageal Anatomy & Physiology",
+  "topic": "GERD & Hiatal Hernia",
   "stem": "When a stricture is present in association with gastroesophageal reflux, each of the following is an acceptable repair for reflux control except one. Identify the poorest repair.",
   "options": [
    "Intrathoracic total fundoplication.",
@@ -387,7 +387,7 @@
   "number": 20,
   "type": "single",
   "specialty": "thoracic",
-  "topic": "Esophageal Anatomy & Physiology",
+  "topic": "Benign Esophageal Tumors & Strictures",
   "stem": "The presence of a nonmalignant mid- or upper esophageal stricture always indicates the presence of:",
   "options": [
    "Alkaline reflux esophagitis.",
@@ -407,7 +407,7 @@
   "number": 21,
   "type": "single",
   "specialty": "thoracic",
-  "topic": "Esophageal Anatomy & Physiology",
+  "topic": "Esophageal Perforation & Caustic Injury",
   "stem": "Which of the following is most reliable for confirming the occurrence of a significant esophageal caustic injury?",
   "options": [
    "History of the event.",
@@ -426,7 +426,7 @@
   "number": 22,
   "type": "multi",
   "specialty": "thoracic",
-  "topic": "Esophageal Anatomy & Physiology",
+  "topic": "Esophageal Perforation & Caustic Injury",
   "stem": "Indications for surgical reconstruction of the esophagus include which of the following?",
   "options": [
    "Continuing requirement for frequent dilation of an extensive esophageal stricture for a minimum of 2 years.",
@@ -447,7 +447,7 @@
   "number": 23,
   "type": "single",
   "specialty": "thoracic",
-  "topic": "Esophageal Anatomy & Physiology",
+  "topic": "GERD & Hiatal Hernia",
   "stem": "First-line therapy for routine peptic duodenal ulcer disease includes:",
   "options": [
    "Vagotomy and antrectomy.",
@@ -467,7 +467,7 @@
   "number": 54,
   "type": "multi",
   "specialty": "thoracic",
-  "topic": "Esophageal Anatomy & Physiology",
+  "topic": "GERD & Hiatal Hernia",
   "stem": "Which of the following statement(s) concerning the surgical options for an anti-reflux operation is/are true?",
   "options": [
    "A patient with normal esophageal length and esophageal body motility is best served by laparoscopic Nissen fundoplication",
@@ -488,7 +488,7 @@
   "number": 55,
   "type": "multi",
   "specialty": "thoracic",
-  "topic": "Esophageal Anatomy & Physiology",
+  "topic": "GERD & Hiatal Hernia",
   "stem": "Factors associated with the development of complications of gastroesophageal reflux disease include:",
   "options": [
    "The presence of a defective lower esophageal sphincter",
@@ -551,7 +551,7 @@
   "number": 58,
   "type": "multi",
   "specialty": "thoracic",
-  "topic": "Esophageal Anatomy & Physiology",
+  "topic": "GERD & Hiatal Hernia",
   "stem": "Which of the following statement(s) is/are true concerning other tests available for investigation of esophageal disease?",
   "options": [
    "A 24 hour pH monitoring is currently the principal method in making the diagnosis of gastroesophageal reflux disease (GERD)",
@@ -572,7 +572,7 @@
   "number": 59,
   "type": "multi",
   "specialty": "thoracic",
-  "topic": "Esophageal Anatomy & Physiology",
+  "topic": "GERD & Hiatal Hernia",
   "stem": "The results for anti-reflux surgery are generally good, however, patients who have failed anti-reflux procedures constitute a particularly challenging group. Which of the following statement(s) is/are true concerning failed anti-reflux repairs?",
   "options": [
    "A Slipped Nissen is usually the result of an operative technical mistake",
@@ -613,7 +613,7 @@
   "number": 61,
   "type": "multi",
   "specialty": "thoracic",
-  "topic": "Esophageal Anatomy & Physiology",
+  "topic": "GERD & Hiatal Hernia",
   "stem": "Which of the following patient scenarios would be best managed with anti-reflux surgery?",
   "options": [
    "A patient with heartburn but normal 24 hour pH monitoring and an intact lower esophageal sphincter",
@@ -633,7 +633,7 @@
   "number": 62,
   "type": "multi",
   "specialty": "thoracic",
-  "topic": "Esophageal Anatomy & Physiology",
+  "topic": "Esophageal Motility Disorders & Diverticula",
   "stem": "Which of the following statement(s) concerning pharyngoesophageal disorders is/are true?",
   "options": [
    "In neuromuscular diseases, dysphagia is often worse for liquids than for solids",
@@ -654,7 +654,7 @@
   "number": 63,
   "type": "multi",
   "specialty": "thoracic",
-  "topic": "Esophageal Anatomy & Physiology",
+  "topic": "Barrett Esophagus",
   "stem": "Barrett’s esophagus is a complication of gastroesophageal reflux disease. Which of the following statement(s) is/are true concerning this condition?",
   "options": [
    "The histologic hallmark is the presence of “specialized” columnar epithelium regardless of how far it extends into the esophagus",
@@ -715,7 +715,7 @@
   "number": 66,
   "type": "multi",
   "specialty": "thoracic",
-  "topic": "Esophageal Anatomy & Physiology",
+  "topic": "Esophageal Motility Disorders & Diverticula",
   "stem": "Which of the following statement(s) is/are true concerning the management of this patient?",
   "options": [
    "The risk of perforation of the esophagus associated with balloon dilatation may be as high as 10%",
@@ -756,7 +756,7 @@
   "number": 69,
   "type": "multi",
   "specialty": "thoracic",
-  "topic": "Esophageal Anatomy & Physiology",
+  "topic": "Pediatric & Congenital Thoracic",
   "stem": "Which of the following statement(s) is/are true concerning tracheoesophageal fistulas?",
   "options": [
    "The majority of acquired tracheoesophageal fistulas are due to malignant disease",
@@ -776,7 +776,7 @@
   "number": 70,
   "type": "multi",
   "specialty": "thoracic",
-  "topic": "Esophageal Anatomy & Physiology",
+  "topic": "Benign Esophageal Tumors & Strictures",
   "stem": "Esophageal cysts arise as outpouchings of the embryonic foregut. Which of the following statement(s) is/are true concerning esophageal cysts?",
   "options": [
    "The cyst lining will be lined only by stratified squamous epithelium",
@@ -796,7 +796,7 @@
   "number": 71,
   "type": "single",
   "specialty": "thoracic",
-  "topic": "Esophageal Anatomy & Physiology",
+  "topic": "GERD & Hiatal Hernia",
   "stem": "Which of the following statement(s) is/are true concerning infectious esophagitis?",
   "options": [
    "Candida albicans is not normally found in the mouth but results from the overgrowth of this fungus in patients on broad spectrum antibiotics",
@@ -815,7 +815,7 @@
   "number": 72,
   "type": "multi",
   "specialty": "thoracic",
-  "topic": "Esophageal Anatomy & Physiology",
+  "topic": "Esophageal Cancer",
   "stem": "Which of the following statement(s) is/are true concerning the pathology of squamous cell carcinoma of the esophagus?",
   "options": [
    "Carcinoma in situ will gradually progress to invasive squamous cell carcinoma over a period of two to four years",
@@ -838,7 +838,7 @@
   "number": 73,
   "type": "multi",
   "specialty": "thoracic",
-  "topic": "Esophageal Anatomy & Physiology",
+  "topic": "Esophageal Motility Disorders & Diverticula",
   "stem": "A 54-year-old woman experiences pain in both the anterior and posterior left chest and the epigastrium following balloon dilatation performed for achalasia. Which of the following statement(s) is/are true concerning this patient’s diagnosis and management?",
   "options": [
    "A normal chest x-ray will rule out an esophageal perforation",
@@ -858,7 +858,7 @@
   "number": 74,
   "type": "multi",
   "specialty": "thoracic",
-  "topic": "Esophageal Anatomy & Physiology",
+  "topic": "Esophageal Cancer",
   "stem": "Which of the following statement(s) is/are correct concerning the diagnostic studies for esophageal carcinoma?",
   "options": [
    "A chest and upper abdominal CT scan is useful for both staging and predicting resectability",
@@ -879,7 +879,7 @@
   "number": 75,
   "type": "multi",
   "specialty": "thoracic",
-  "topic": "Esophageal Anatomy & Physiology",
+  "topic": "Esophageal Cancer",
   "stem": "Which of the following conditions are associated with the development of esophageal carcinoma?",
   "options": [
    "Caustic esophageal stricture",
@@ -901,7 +901,7 @@
   "number": 76,
   "type": "single",
   "specialty": "thoracic",
-  "topic": "Esophageal Anatomy & Physiology",
+  "topic": "Esophageal Cancer",
   "stem": "Which of the following statement(s) is/are correct concerning the options for resection of esophageal carcinoma?",
   "options": [
    "The development of reflux esophagitis seldom occurs following intrathoracic resection due to the limited life expectancy of these patients",
@@ -920,7 +920,7 @@
   "number": 77,
   "type": "single",
   "specialty": "thoracic",
-  "topic": "Esophageal Anatomy & Physiology",
+  "topic": "Esophageal Cancer",
   "stem": "The incidence of adenocarcinoma of the esophagus is increasing at a very rapid rate, which is largely the result of the growing prevalence of adenocarcinoma arising in Barrett’s mucosa. Which of the following statement(s) is/are true concerning adenocarcinoma of the esophagus?",
   "options": [
    "Barrett’s mucosa with specialized columnar epithelium characterized by veliform folds, lined by secreting columnar and goblet cells has the highest association with carcinoma of the esophagus",
@@ -939,7 +939,7 @@
   "number": 78,
   "type": "multi",
   "specialty": "thoracic",
-  "topic": "Esophageal Anatomy & Physiology",
+  "topic": "Esophageal Motility Disorders & Diverticula",
   "stem": "Which of the following statement(s) is/are true concerning esophageal diverticula?",
   "options": [
    "A Zenker’s diverticulum characteristically occurs in older patients",
@@ -960,7 +960,7 @@
   "number": 79,
   "type": "multi",
   "specialty": "thoracic",
-  "topic": "Esophageal Anatomy & Physiology",
+  "topic": "Esophageal Perforation & Caustic Injury",
   "stem": "Which of the following statement(s) is/are true concerning caustic injury to the esophagus?",
   "options": [
    "Alkaline injury is more destructive than acid injury",
@@ -982,7 +982,7 @@
   "number": 80,
   "type": "multi",
   "specialty": "thoracic",
-  "topic": "Esophageal Anatomy & Physiology",
+  "topic": "Esophageal Cancer",
   "stem": "Which of the following statement(s) is/are true concerning nonresectional therapy for esophageal carcinoma?",
   "options": [
    "Radiation therapy can be associated with five-year survival rates equal to surgery",
@@ -1002,7 +1002,7 @@
   "number": 81,
   "type": "single",
   "specialty": "thoracic",
-  "topic": "Esophageal Anatomy & Physiology",
+  "topic": "Benign Esophageal Tumors & Strictures",
   "stem": "Benign tumors of the esophagus are rare constituting less than 1% of esophageal neoplasms. Which of the following statement(s) is/are true concerning benign esophageal neoplasms?",
   "options": [
    "Most esophageal polyps are located just above the gastroesophageal junction",
@@ -1021,7 +1021,7 @@
   "number": 83,
   "type": "multi",
   "specialty": "thoracic",
-  "topic": "Esophageal Anatomy & Physiology",
+  "topic": "Esophageal Perforation & Caustic Injury",
   "stem": "Which of the following statement(s) is/are correct concerning the management of a patient with a caustic esophageal or gastric injury?",
   "options": [
    "Corticosteroids should be administered immediately",
@@ -1063,7 +1063,7 @@
   "number": 85,
   "type": "multi",
   "specialty": "thoracic",
-  "topic": "Esophageal Anatomy & Physiology",
+  "topic": "GERD & Hiatal Hernia",
   "stem": "At a cellular level, the major stimulant(s) of acid secretion by the gastric parietal cell is/are:",
   "options": [
    "Histamine",
