@@ -81,7 +81,7 @@
       savedQuestionIds: [],
       progress: { answered: 0, correct: 0, bySpecialty: { vascular: 0, thoracic: 0, cardiac: 0 }, correctBySpecialty: { vascular: 0, thoracic: 0, cardiac: 0 } },
       study: { specialty: "all", topic: "all", index: 0, answered: false, selected: null, sessionAnswered: 0, sessionCorrect: 0 },
-      exam: { active: false, submitted: false, specialty: "all", count: 10, randomized: true, timed: false, queue: [], index: 0, answers: {}, reviewed: {}, endsAt: null, result: null }
+      exam: { active: false, submitted: false, specialty: "all", count: 10, topic: "all", randomized: true, timerSeconds: 0, timerCustom: false, queue: [], index: 0, answers: {}, reviewed: {}, qEndsAt: null, result: null }
     };
   }
 
@@ -187,7 +187,7 @@
     renderIcons(document.getElementById("app-view"));
     document.documentElement.dataset.theme = state.theme;
     saveState();
-    if (state.view === "exam" && state.exam.active && state.exam.timed) startExamTimer();
+    if (state.view === "exam" && state.exam.active && state.exam.timerSeconds) startExamTimer();
   }
 
   function navigate(view) {
@@ -265,14 +265,41 @@
     var explanation = answered ? '<div class="answer-panel"><span class="answer-panel-icon">' + icon(selected === item.answer ? "check" : "info") + '</span><div><strong>' + (selected === item.answer ? "Correct" : "Correct answer · " + letter(item.answer)) + '</strong><p>' + esc(item.explanation) + '</p><p class="answer-panel-note">' + esc(item.pearl) + "</p></div></div>" : "";
     return head + '<div class="study-layout"><div class="study-main">' + controls + '<article class="card question-card"><div class="question-meta"><span class="question-counter">QUESTION ' + ((state.study.index % queue.length) + 1) + " / " + queue.length + '</span><button class="bookmark-button ' + (saved ? "is-saved" : "") + '" data-study-bookmark type="button" aria-label="' + (saved ? "Remove from saved" : "Save question") + '">' + icon("bookmark") + '</button></div><h3>' + esc(item.stem) + '</h3><div class="question-options" role="group" aria-label="Answer choices">' + options + '</div>' + explanation + '<div class="question-footer"><div class="question-source">' + icon("bookOpen") + ' ' + esc(item.topic) + '</div><button class="button ' + (answered ? "button-primary" : "button-secondary") + '" data-study-next type="button">' + (answered ? "Next question" : "Show answer") + " " + icon("arrow") + '</button></div></article></div><aside class="study-aside"><article class="card aside-card"><h3>This session</h3><div class="session-progress"><div class="session-progress-line"><span style="width:' + sessionPercent + '%"></span></div><div class="session-progress-meta"><span>' + state.study.sessionAnswered + ' answered</span><span>' + state.study.sessionCorrect + ' correct</span></div></div></article></aside></div></section>';
   }
+  function examScopeItems() {
+    return QUESTIONS.filter(function (item) {
+      return (state.exam.specialty === "all" || item.specialty === state.exam.specialty) && (state.exam.topic === "all" || item.topic === state.exam.topic);
+    });
+  }
+
   function examOptions() {
     return '<option value="all">All specialties</option>' + SPECIALTIES.map(function (item) { return '<option value="' + item.key + '" ' + (state.exam.specialty === item.key ? "selected" : "") + ">" + item.label + "</option>"; }).join("");
   }
 
+  function examTopicOptions() {
+    var items = state.exam.specialty === "all" ? TOPICS : TOPICS.filter(function (t) { return t.specialty === state.exam.specialty; });
+    return '<option value="all">All topics</option>' + items.map(function (t) {
+      var n = topicCount(t.name);
+      return '<option value="' + esc(t.name) + '" ' + (state.exam.topic === t.name ? "selected" : "") + ">" + esc(t.name) + " (" + n + ")</option>";
+    }).join("");
+  }
+
+  var TIMER_CHOICES = [[0, "Off"], [30, "30 sec"], [60, "1 min"], [120, "2 min"], [180, "3 min"]];
+
+  function timerChips() {
+    var chips = TIMER_CHOICES.map(function (c) {
+      var on = !state.exam.timerCustom && state.exam.timerSeconds === c[0];
+      return '<button class="chip' + (on ? " is-active" : "") + '" data-exam-timer="' + c[0] + '" type="button" aria-pressed="' + on + '">' + c[1] + '</button>';
+    }).join("");
+    chips += '<button class="chip' + (state.exam.timerCustom ? " is-active" : "") + '" data-exam-timer="custom" type="button" aria-pressed="' + state.exam.timerCustom + '">Custom</button>';
+    var custom = state.exam.timerCustom ? '<label class="number-field timer-custom"><input id="exam-timer-custom" type="number" min="0.5" max="30" step="0.5" value="' + (state.exam.timerSeconds ? state.exam.timerSeconds / 60 : 1.5) + '" /><span>minutes per question</span></label>' : "";
+    return '<div class="chip-row" role="group" aria-label="Time per question">' + chips + '</div>' + custom;
+  }
   function renderExam() {
     if (state.exam.submitted) return renderExamResult();
     if (state.exam.active) return renderExamActive();
-    return '<section aria-labelledby="exam-heading"><div class="page-heading"><div><h2 id="exam-heading">Exam</h2><p>Choose the scope and the number of questions, then start.</p></div></div><div class="exam-layout"><article class="card exam-setup"><div class="form-grid"><div class="form-field"><label for="exam-specialty">Scope</label><label class="select-field"><select id="exam-specialty">' + examOptions() + '</select></label></div><div class="form-field"><label for="exam-count">Questions</label><label class="number-field"><input id="exam-count" type="number" min="3" max="' + QUESTIONS.length + '" value="' + Math.min(state.exam.count, QUESTIONS.length) + '" /></label></div><div class="form-field"><label>Order</label><div class="toggle-field"><span>Shuffle questions</span><label class="toggle-input"><input id="exam-randomized" type="checkbox" ' + (state.exam.randomized ? "checked" : "") + ' /><span class="toggle-slider"></span></label></div></div><div class="form-field"><label>Timer</label><div class="toggle-field"><span>10-minute timer</span><label class="toggle-input"><input id="exam-timed" type="checkbox" ' + (state.exam.timed ? "checked" : "") + ' /><span class="toggle-slider"></span></label></div></div></div><div class="form-footer"><button class="button button-primary" id="start-exam" type="button">' + icon("exam") + ' Start exam</button></div></article></div></section>';
+    var available = examScopeItems().length;
+    var count = Math.max(1, Math.min(state.exam.count, available || 1));
+    return '<section aria-labelledby="exam-heading"><div class="page-heading"><div><h2 id="exam-heading">Exam</h2><p>Choose what to be tested on, then start.</p></div></div><div class="exam-layout"><article class="card exam-setup"><div class="form-grid"><div class="form-field"><label for="exam-specialty">Specialty</label><label class="select-field"><select id="exam-specialty">' + examOptions() + '</select></label></div><div class="form-field"><label for="exam-topic">Topic</label><label class="select-field"><select id="exam-topic">' + examTopicOptions() + '</select></label></div><div class="form-field"><label for="exam-count">Questions <span class="field-hint">· ' + available + ' available</span></label><label class="number-field"><input id="exam-count" type="number" min="1" max="' + Math.max(available, 1) + '" value="' + count + '" /></label></div><div class="form-field"><label>Order</label><div class="toggle-field"><span>Shuffle questions</span><label class="toggle-input"><input id="exam-randomized" type="checkbox" ' + (state.exam.randomized ? "checked" : "") + ' /><span class="toggle-slider"></span></label></div></div><div class="form-field form-field--wide"><label>Time per question</label>' + timerChips() + '</div></div><div class="form-footer"><button class="button button-primary" id="start-exam" type="button" ' + (available ? "" : "disabled") + '>' + icon("exam") + ' Start exam</button></div></article></div></section>';
   }
   function examQueue() {
     return state.exam.queue.map(question).filter(Boolean);
@@ -287,7 +314,7 @@
     var options = item.options.map(function (option, index) {
       return '<button class="option-button ' + (selected === index ? "is-selected" : "") + '" data-exam-answer="' + index + '" type="button"><span class="option-key">' + letter(index) + '</span><span>' + esc(option) + '</span><span class="option-status-icon"></span></button>';
     }).join("");
-    return '<section aria-labelledby="exam-heading"><div class="page-heading"><div><h2 id="exam-heading">Exam mode</h2><p>Answer the set, mark anything you want to revisit, then submit for a topic breakdown.</p></div></div><div class="exam-active"><div class="card exam-toolbar"><div class="exam-toolbar-left"><strong>' + specialty(item.specialty) .label + '</strong><span>' + (state.exam.index + 1) + " of " + queue.length + '</span></div><div class="exam-toolbar-right">' + (state.exam.timed ? '<span class="exam-timer">' + icon("clock") + ' <span id="exam-timer-label">' + formatTimer(state.exam.endsAt - Date.now()) + "</span></span>" : "") + '<button class="button button-quiet" id="exit-exam" type="button">Exit exam</button></div></div><div class="progress-line"><span style="width:' + Math.round(((state.exam.index + 1) / queue.length) * 100) + '%"></span></div><article class="card exam-question"><div class="question-meta"><span class="question-counter">' + (marked ? "MARKED FOR REVIEW" : "QUESTION IN PROGRESS") + '</span><button class="bookmark-button ' + (marked ? "is-saved" : "") + '" id="toggle-review" type="button" aria-label="Mark for review">' + icon("bookmark") + '</button></div><h3>' + esc(item.stem) + '</h3><div class="question-options" role="group" aria-label="Answer choices">' + options + '</div><div class="exam-question-footer"><button class="button button-secondary" id="exam-prev" type="button" ' + (state.exam.index === 0 ? "disabled" : "") + '>' + icon("arrowLeft") + ' Previous</button><button class="button button-primary" id="exam-next" type="button">' + (state.exam.index === queue.length - 1 ? "Review submission" : "Next question") + " " + icon("arrow") + '</button></div></article><div class="exam-submit-footer"><button class="button button-secondary" id="submit-exam" type="button">Submit exam</button></div></div></section>';
+    return '<section aria-labelledby="exam-heading"><div class="page-heading"><div><h2 id="exam-heading">Exam mode</h2><p>Answer the set, mark anything you want to revisit, then submit for a topic breakdown.</p></div></div><div class="exam-active"><div class="card exam-toolbar"><div class="exam-toolbar-left"><strong>' + specialty(item.specialty) .label + '</strong><span>' + (state.exam.index + 1) + " of " + queue.length + '</span></div><div class="exam-toolbar-right">' + (state.exam.timerSeconds ? '<span class="exam-timer" id="exam-timer">' + icon("clock") + ' <span id="exam-timer-label">' + formatTimer(state.exam.qEndsAt - Date.now()) + "</span></span>" : "") + '<button class="button button-quiet" id="exit-exam" type="button">Exit exam</button></div></div><div class="progress-line"><span style="width:' + Math.round(((state.exam.index + 1) / queue.length) * 100) + '%"></span></div>' + (state.exam.timerSeconds ? '<div class="exam-timebar" aria-hidden="true"><span id="exam-timebar-fill"></span></div>' : "") + '<article class="card exam-question"><div class="question-meta"><span class="question-counter">' + (marked ? "MARKED FOR REVIEW" : "QUESTION IN PROGRESS") + '</span><button class="bookmark-button ' + (marked ? "is-saved" : "") + '" id="toggle-review" type="button" aria-label="Mark for review">' + icon("bookmark") + '</button></div><h3>' + esc(item.stem) + '</h3><div class="question-options" role="group" aria-label="Answer choices">' + options + '</div><div class="exam-question-footer"><button class="button button-secondary" id="exam-prev" type="button" ' + (state.exam.index === 0 ? "disabled" : "") + '>' + icon("arrowLeft") + ' Previous</button><button class="button button-primary" id="exam-next" type="button">' + (state.exam.index === queue.length - 1 ? "Review submission" : "Next question") + " " + icon("arrow") + '</button></div></article><div class="exam-submit-footer"><button class="button button-secondary" id="submit-exam" type="button">Submit exam</button></div></div></section>';
   }
 
   function renderExamResult() {
@@ -330,18 +357,20 @@
   }
 
   function startExam() {
-    var scope = document.getElementById("exam-specialty").value;
-    var count = Number(document.getElementById("exam-count").value || QUESTIONS.length);
-    var randomized = document.getElementById("exam-randomized").checked;
-    var timed = document.getElementById("exam-timed").checked;
-    var items = QUESTIONS.filter(function (item) { return scope === "all" || item.specialty === scope; }).slice();
-    if (randomized) items.sort(function () { return Math.random() - 0.5; });
-    state.exam = { active: true, submitted: false, specialty: scope, count: Math.min(Math.max(count, 3), items.length), randomized: randomized, timed: timed, queue: items.slice(0, Math.min(Math.max(count, 3), items.length)).map(function (item) { return item.id; }), index: 0, answers: {}, reviewed: {}, endsAt: timed ? Date.now() + 600000 : null, result: null };
+    var items = examScopeItems();
+    if (!items.length) return;
+    var count = Math.min(Math.max(Number(document.getElementById("exam-count").value) || items.length, 1), items.length);
+    if (state.exam.randomized) items.sort(function () { return Math.random() - 0.5; });
+    state.exam = Object.assign({}, state.exam, { active: true, submitted: false, count: count, queue: items.slice(0, count).map(function (item) { return item.id; }), index: 0, answers: {}, reviewed: {}, qEndsAt: null, result: null });
+    goToQuestion(0);
     clearInterval(examTimer);
-    showToast("Exam started.");
     render();
   }
 
+  function goToQuestion(index) {
+    state.exam.index = index;
+    state.exam.qEndsAt = state.exam.timerSeconds ? Date.now() + state.exam.timerSeconds * 1000 : null;
+  }
   function formatTimer(milliseconds) {
     var seconds = Math.max(0, Math.ceil(milliseconds / 1000));
     return String(Math.floor(seconds / 60)).padStart(2, "0") + ":" + String(seconds % 60).padStart(2, "0");
@@ -349,17 +378,25 @@
 
   function startExamTimer() {
     clearInterval(examTimer);
-    if (!state.exam.active || !state.exam.timed || !state.exam.endsAt) return;
-    examTimer = setInterval(function () {
-      if (Date.now() >= state.exam.endsAt) {
-        submitExam();
+    if (!state.exam.active || !state.exam.timerSeconds || !state.exam.qEndsAt) return;
+    function tick() {
+      var left = state.exam.qEndsAt - Date.now();
+      if (left <= 0) {
+        clearInterval(examTimer);
+        if (state.exam.index >= examQueue().length - 1) { showToast("Time is up. Exam submitted."); submitExam(); }
+        else { showToast("Time is up. Next question."); goToQuestion(state.exam.index + 1); render(); }
         return;
       }
       var label = document.getElementById("exam-timer-label");
-      if (label) label.textContent = formatTimer(state.exam.endsAt - Date.now());
-    }, 1000);
+      if (label) label.textContent = formatTimer(left);
+      var pill = document.getElementById("exam-timer");
+      if (pill) pill.classList.toggle("is-urgent", left <= 10000);
+      var fill = document.getElementById("exam-timebar-fill");
+      if (fill) fill.style.width = Math.max(0, (left / (state.exam.timerSeconds * 1000)) * 100) + "%";
+    }
+    tick();
+    examTimer = setInterval(tick, 250);
   }
-
   function submitExam() {
     var queue = examQueue();
     var result = { score: 0, total: queue.length, bySpecialty: {} };
@@ -457,6 +494,14 @@
       return;
     }
     if (event.target.closest("#start-exam")) { startExam(); return; }
+    var timerChip = event.target.closest("[data-exam-timer]");
+    if (timerChip) {
+      var v = timerChip.dataset.examTimer;
+      if (v === "custom") { state.exam.timerCustom = true; state.exam.timerSeconds = state.exam.timerSeconds || 90; }
+      else { state.exam.timerCustom = false; state.exam.timerSeconds = Number(v); }
+      render();
+      return;
+    }
     var examOption = event.target.closest("[data-exam-answer]");
     if (examOption) {
       var examItem = examQueue()[state.exam.index];
@@ -464,11 +509,11 @@
       return;
     }
     if (event.target.closest("#exam-next")) {
-      if (state.exam.index < examQueue().length - 1) state.exam.index += 1; else showToast("Review your answers or submit when you are ready.");
+      if (state.exam.index < examQueue().length - 1) goToQuestion(state.exam.index + 1); else showToast("Review your answers or submit when you are ready.");
       render();
       return;
     }
-    if (event.target.closest("#exam-prev")) { state.exam.index = Math.max(0, state.exam.index - 1); render(); return; }
+    if (event.target.closest("#exam-prev")) { goToQuestion(Math.max(0, state.exam.index - 1)); render(); return; }
     if (event.target.closest("#toggle-review")) {
       var reviewItem = examQueue()[state.exam.index];
       if (reviewItem) state.exam.reviewed[reviewItem.id] = !state.exam.reviewed[reviewItem.id];
@@ -494,6 +539,23 @@
       state.study.index = 0;
       state.study.answered = false;
       state.study.selected = null;
+      render();
+    } else if (event.target.id === "exam-specialty") {
+      state.exam.specialty = event.target.value;
+      state.exam.topic = "all";
+      render();
+    } else if (event.target.id === "exam-topic") {
+      state.exam.topic = event.target.value;
+      render();
+    } else if (event.target.id === "exam-count") {
+      state.exam.count = Math.max(1, Number(event.target.value) || 1);
+      saveState();
+    } else if (event.target.id === "exam-randomized") {
+      state.exam.randomized = event.target.checked;
+      saveState();
+    } else if (event.target.id === "exam-timer-custom") {
+      var mins = Math.min(30, Math.max(0.5, Number(event.target.value) || 1));
+      state.exam.timerSeconds = Math.round(mins * 60);
       render();
     } else if (event.target.id === "theme-toggle") {
       state.theme = event.target.checked ? "dark" : "light";
