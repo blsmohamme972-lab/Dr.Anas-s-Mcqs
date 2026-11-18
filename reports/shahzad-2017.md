@@ -3,14 +3,14 @@
 For AI agents and editors who maintain this book. Not shown in the app.
 
 - Data file: `data/questions/shahzad-2017.json`
-- Questions in the app: 247
+- Questions in the app: 249
 
 ## Book-level notes
 
 - Not yet medically reviewed: no explanations; answer keys are as in the source; topics were assigned by keywords and then a manual pass over every question stem, and should be confirmed during medical review.
 - Source text was recovered by glyph decoding plus OCR (the PDF text layer is unusable); see the extraction report in the Drive folder.
 - Source gap: Q207 is not printed in the question section (numbering jumps from 206 to 208), although the answer section has '207. Answer: D'. It could not be added.
-- Removed: Q88 and Q131 have no answer in the source answer section. They are not in the app.
+- Q88 and Q131 have no answer in the source answer section. They are kept in the app with a key added by the editor (see the question notes); these keys must be confirmed during medical review.
 - This is a mixed cardiothoracic book: questions are filed under cardiac, thoracic or (a few) vascular topics according to what each stem tests; the book's own specialty is set to cardiac only for the cover colour.
 - Q65 and Q130: the tables were rewritten as labelled text so they read correctly on a phone; no value was changed.
 - Q89 and Q224 are near-duplicates in the source (bioprosthetic AVR with Candida endocarditis, 5 months vs 3 months); both are kept as printed.
@@ -18,7 +18,14 @@ For AI agents and editors who maintain this book. Not shown in the app.
 
 ## Questions with answer or content notes
 
-- None.
+### Q88 (`shahzad-2017-q088`)
+- Answer in the app: C
+- Decision: No answer key in the source. Key C was added by the editor (recurrent pulmonary embolism with haemoptysis in a transplant candidate with iliofemoral DVT); it is not from the book and must be confirmed during medical review.
+
+### Q131 (`shahzad-2017-q131`)
+- Answer in the app: A
+- Decision: No answer key in the source. Key A was added by the editor (metabolic rate, cardiac output and arterial O2 content are unchanged); it is not from the book and must be confirmed during medical review.
+
 
 ## Typo and format fixes
 

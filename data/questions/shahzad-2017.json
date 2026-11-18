@@ -1767,6 +1767,26 @@
   "images": []
  },
  {
+  "id": "shahzad-2017-q088",
+  "number": 88,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Pulmonary Embolism & Pulmonary Hypertension",
+  "stem": "A 54-year-old man with ischaemic cardiomyopathy who is awaiting transplantation is dyspnoeic several hours later he has recurrent haemoptysis. X-rays of the chest show cardiomegaly and vascular congestion. Venous doppler studies show thrombosis of iliofemoral veins. Which of the following is the most appropriate management?",
+  "options": [
+   "heparinisation",
+   "ligation of the inferior vena cava (IVC)",
+   "percutaneous placement of an IVC filter",
+   "thrombolytic therapy",
+   "venous thrombectomy"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
   "id": "shahzad-2017-q089",
   "number": 89,
   "type": "single",
@@ -2602,6 +2622,26 @@
   ],
   "answer": [
    "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2017-q131",
+  "number": 131,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Pulmonary Physiology & Preoperative Evaluation",
+  "stem": "A lightly anaesthetised man who is breathing spontaneously has a cardiac output of 6 L/min, a heart rate of 75 beats/min, an O2 consumption of 240 ml/min, and a mixed venous O2 tension of 40 mm Hg. He is ventilated for 10 minutes at his normal tidal volume but at twice the normal frequency with a gas mixture that is 20% O2 and 80% N2. The airway pressure at the end of inspiration is 5 cm H2O. On cessation of artificial ventilation, the patient does not breathe for 1 minute. During the artificial ventilation, the mixed venous O2 tension in this patient would be",
+  "options": [
+   "equal to 40 mm Hg because the metabolic rate was unchanged",
+   "greater than 40 mm Hg because the hyperventilation would cause vasoconstriction and less gas exchange with the tissues",
+   "greater than 40 mm Hg because of the significant increase in P50 of hemoglobin",
+   "less than 40 mm Hg because of the hypoxia that would occur from breathing this gas mixture",
+   "less than 40 mm Hg because of a decrease in cardiac output"
+  ],
+  "answer": [
+   "A"
   ],
   "explanation": "",
   "images": []

@@ -98,7 +98,7 @@
    "edition": "VESAP 5",
    "description": "Renovascular and mesenteric disease, visceral aneurysms, malformations and abdominal vascular trauma.",
    "file": "vesap5-renal.json",
-   "count": 39,
+   "count": 41,
    "cover": "data/covers/vesap5-renal.jpg"
   },
   {
@@ -111,7 +111,7 @@
    "edition": "2017",
    "description": "Single best answer questions across cardiac, thoracic and congenital surgery, trials and physiology.",
    "file": "shahzad-2017.json",
-   "count": 247,
+   "count": 249,
    "cover": "data/covers/shahzad-2017.jpg"
   },
   {

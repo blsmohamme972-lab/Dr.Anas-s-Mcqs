@@ -40,6 +40,26 @@
   "images": []
  },
  {
+  "id": "vesap5-renal-q005",
+  "number": 5,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Vascular Diagnostics & Imaging",
+  "stem": "A 64-year-old woman with hypertension on four medications is referred for renal artery duplex imaging. The ultrasound technician captures velocities of 225 cm/sec and a renal aortic ratio of 2.9 in the mid-section of the right renal artery. The most appropriate characterization of the ultrasound findings is:",
+  "options": [
+   "No evidence of right renal artery stenosis",
+   "<60% stenosis of the right renal artery",
+   ">60% stenosis of the right renal artery",
+   "Indeterminate stenosis- velocity criteria are not valid in the mid portion of the renal artery",
+   "Renal parenchymal disease based on the elevated renal aortic ratio"
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
   "id": "vesap5-renal-q006",
   "number": 6,
   "type": "single",
@@ -614,6 +634,26 @@
   ],
   "answer": [
    "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-renal-q043",
+  "number": 43,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Vascular Trauma",
+  "stem": "After sustaining a gunshot wound to the lower abdomen, a 28-year-old woman is hemodynamically unstable and is taken to the operating room immediately for exploratory laparotomy. She is found to have a large zone 3 hematoma with free intraperitoneal bleeding and a large cecal injury. During exploration a large amount of blood continues to well up from the pelvis despite packing. The patient continues to deteriorate hemodynamically. The common iliac and external iliac arteries do not appear to be injured. The best method to identify the source of bleeding is:",
+  "options": [
+   "Transect the common iliac artery in order to better visualize the vein and primarily repair the venous injury",
+   "Ligate the internal iliac artery and mobilize the overlying iliac artery to visualize the vein and primarily repair the venous injury",
+   "Obtain endovascular venous access and perform coil embolization",
+   "Ligate the external iliac and common iliac veins and pack the pelvis",
+   "Place a resuscitative balloon occlusion of the aorta (REBOA) catheter and attempt to identify the area of injury"
+  ],
+  "answer": [
+   "A"
   ],
   "explanation": "",
   "images": []
