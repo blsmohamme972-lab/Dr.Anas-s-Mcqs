@@ -1,4 +1,4 @@
-const CACHE_NAME = "atlas-mcqs-__BUILD__";
+const CACHE_NAME = "dranas-mcqs-__BUILD__";
 const SHELL_ASSETS = [
   "./",
   "./index.html",
