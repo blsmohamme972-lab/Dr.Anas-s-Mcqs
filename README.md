@@ -8,7 +8,7 @@ This repository contains the first 20% product slice described in `APP_PLAN.md`:
 
 - Responsive app shell for desktop, mobile, and tablet widths.
 - Home dashboard with resume state, streak, statistics, and focus topics.
-- Topic browser with the first six topic cards from the planned curriculum.
+- Topic browser with the complete 66-topic curriculum map and specialty filters.
 - Study flow with sample questions, answer checking, concise explanations, bookmarking, and local progress persistence.
 - Exam flow with specialty selection, question count, random order, a countdown timer, answer board, review marks, submission, and result breakdown.
 - A 66-topic curriculum map with Vascular, Thoracic, and Cardiac specialty filters.
