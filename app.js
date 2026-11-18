@@ -81,7 +81,7 @@
       savedQuestionIds: [],
       progress: { answered: 0, correct: 0, bySpecialty: { vascular: 0, thoracic: 0, cardiac: 0 }, correctBySpecialty: { vascular: 0, thoracic: 0, cardiac: 0 } },
       study: { specialty: "all", topic: "all", index: 0, answered: false, selected: null, sessionAnswered: 0, sessionCorrect: 0 },
-      exam: { active: false, submitted: false, specialty: "all", count: 10, topic: "all", randomized: true, timerSeconds: 0, timerCustom: false, queue: [], index: 0, answers: {}, reviewed: {}, qEndsAt: null, result: null }
+      exam: { active: false, submitted: false, specialty: "all", count: 10, topic: "all", feedback: "end", reviewFilter: "wrong", randomized: true, timerSeconds: 0, timerCustom: false, queue: [], index: 0, answers: {}, reviewed: {}, qEndsAt: null, result: null }
     };
   }
 
@@ -285,6 +285,13 @@
 
   var TIMER_CHOICES = [[0, "Off"], [30, "30 sec"], [60, "1 min"], [120, "2 min"], [180, "3 min"]];
 
+  function feedbackChips() {
+    return '<div class="chip-row" role="group" aria-label="When to show the correct answer">' + [["during", "After each question"], ["end", "At the end of the exam"]].map(function (c) {
+      var on = state.exam.feedback === c[0];
+      return '<button class="chip' + (on ? " is-active" : "") + '" data-exam-feedback="' + c[0] + '" type="button" aria-pressed="' + on + '">' + c[1] + '</button>';
+    }).join("") + '</div>';
+  }
+
   function timerChips() {
     var chips = TIMER_CHOICES.map(function (c) {
       var on = !state.exam.timerCustom && state.exam.timerSeconds === c[0];
@@ -299,7 +306,7 @@
     if (state.exam.active) return renderExamActive();
     var available = examScopeItems().length;
     var count = Math.max(1, Math.min(state.exam.count, available || 1));
-    return '<section aria-labelledby="exam-heading"><div class="page-heading"><div><h2 id="exam-heading">Exam</h2><p>Choose what to be tested on, then start.</p></div></div><div class="exam-layout"><article class="card exam-setup"><div class="form-grid"><div class="form-field"><label for="exam-specialty">Specialty</label><label class="select-field"><select id="exam-specialty">' + examOptions() + '</select></label></div><div class="form-field"><label for="exam-topic">Topic</label><label class="select-field"><select id="exam-topic">' + examTopicOptions() + '</select></label></div><div class="form-field"><label for="exam-count">Questions <span class="field-hint">· ' + available + ' available</span></label><label class="number-field"><input id="exam-count" type="number" min="1" max="' + Math.max(available, 1) + '" value="' + count + '" /></label></div><div class="form-field"><label>Order</label><div class="toggle-field"><span>Shuffle questions</span><label class="toggle-input"><input id="exam-randomized" type="checkbox" ' + (state.exam.randomized ? "checked" : "") + ' /><span class="toggle-slider"></span></label></div></div><div class="form-field form-field--wide"><label>Time per question</label>' + timerChips() + '</div></div><div class="form-footer"><button class="button button-primary" id="start-exam" type="button" ' + (available ? "" : "disabled") + '>' + icon("exam") + ' Start exam</button></div></article></div></section>';
+    return '<section aria-labelledby="exam-heading"><div class="page-heading"><div><h2 id="exam-heading">Exam</h2><p>Choose what to be tested on, then start.</p></div></div><div class="exam-layout"><article class="card exam-setup"><div class="form-grid"><div class="form-field"><label for="exam-specialty">Specialty</label><label class="select-field"><select id="exam-specialty">' + examOptions() + '</select></label></div><div class="form-field"><label for="exam-topic">Topic</label><label class="select-field"><select id="exam-topic">' + examTopicOptions() + '</select></label></div><div class="form-field"><label for="exam-count">Questions <span class="field-hint">· ' + available + ' available</span></label><label class="number-field"><input id="exam-count" type="number" min="1" max="' + Math.max(available, 1) + '" value="' + count + '" /></label></div><div class="form-field"><label>Order</label><div class="toggle-field"><span>Shuffle questions</span><label class="toggle-input"><input id="exam-randomized" type="checkbox" ' + (state.exam.randomized ? "checked" : "") + ' /><span class="toggle-slider"></span></label></div></div><div class="form-field form-field--wide"><label>Time per question</label>' + timerChips() + '</div><div class="form-field form-field--wide"><label>Show correct answer</label>' + feedbackChips() + '</div></div><div class="form-footer"><button class="button button-primary" id="start-exam" type="button" ' + (available ? "" : "disabled") + '>' + icon("exam") + ' Start exam</button></div></article></div></section>';
   }
   function examQueue() {
     return state.exam.queue.map(question).filter(Boolean);
@@ -311,17 +318,50 @@
     if (!item) return renderExam();
     var selected = state.exam.answers[item.id];
     var marked = Boolean(state.exam.reviewed[item.id]);
+    var locked = state.exam.feedback === "during" && selected !== undefined;
     var options = item.options.map(function (option, index) {
-      return '<button class="option-button ' + (selected === index ? "is-selected" : "") + '" data-exam-answer="' + index + '" type="button"><span class="option-key">' + letter(index) + '</span><span>' + esc(option) + '</span><span class="option-status-icon"></span></button>';
+      var correct = locked && index === item.answer;
+      var wrong = locked && index === selected && index !== item.answer;
+      return '<button class="option-button ' + (correct ? "is-correct " : "") + (wrong ? "is-wrong " : "") + (!locked && selected === index ? "is-selected" : "") + '" data-exam-answer="' + index + '" type="button" ' + (locked ? "disabled" : "") + '><span class="option-key">' + letter(index) + '</span><span>' + esc(option) + '</span><span class="option-status-icon">' + (correct ? icon("check") : wrong ? icon("x") : "") + '</span></button>';
     }).join("");
-    return '<section aria-labelledby="exam-heading"><div class="page-heading"><div><h2 id="exam-heading">Exam mode</h2><p>Answer the set, mark anything you want to revisit, then submit for a topic breakdown.</p></div></div><div class="exam-active"><div class="card exam-toolbar"><div class="exam-toolbar-left"><strong>' + specialty(item.specialty) .label + '</strong><span>' + (state.exam.index + 1) + " of " + queue.length + '</span></div><div class="exam-toolbar-right">' + (state.exam.timerSeconds ? '<span class="exam-timer" id="exam-timer">' + icon("clock") + ' <span id="exam-timer-label">' + formatTimer(state.exam.qEndsAt - Date.now()) + "</span></span>" : "") + '<button class="button button-quiet" id="exit-exam" type="button">Exit exam</button></div></div><div class="progress-line"><span style="width:' + Math.round(((state.exam.index + 1) / queue.length) * 100) + '%"></span></div>' + (state.exam.timerSeconds ? '<div class="exam-timebar" aria-hidden="true"><span id="exam-timebar-fill"></span></div>' : "") + '<article class="card exam-question"><div class="question-meta"><span class="question-counter">' + (marked ? "MARKED FOR REVIEW" : "QUESTION IN PROGRESS") + '</span><button class="bookmark-button ' + (marked ? "is-saved" : "") + '" id="toggle-review" type="button" aria-label="Mark for review">' + icon("bookmark") + '</button></div><h3>' + esc(item.stem) + '</h3><div class="question-options" role="group" aria-label="Answer choices">' + options + '</div><div class="exam-question-footer"><button class="button button-secondary" id="exam-prev" type="button" ' + (state.exam.index === 0 ? "disabled" : "") + '>' + icon("arrowLeft") + ' Previous</button><button class="button button-primary" id="exam-next" type="button">' + (state.exam.index === queue.length - 1 ? "Review submission" : "Next question") + " " + icon("arrow") + '</button></div></article><div class="exam-submit-footer"><button class="button button-secondary" id="submit-exam" type="button">Submit exam</button></div></div></section>';
+    var feedback = locked ? '<div class="answer-panel"><span class="answer-panel-icon">' + icon(selected === item.answer ? "check" : "info") + '</span><div><strong>' + (selected === item.answer ? "Correct" : "Correct answer · " + letter(item.answer)) + '</strong><p>' + esc(item.explanation) + '</p></div></div>' : "";
+    var showTimer = state.exam.timerSeconds && state.exam.qEndsAt;
+    return '<section aria-labelledby="exam-heading"><div class="page-heading"><div><h2 id="exam-heading">Exam mode</h2><p>Answer the set, mark anything you want to revisit, then submit for a topic breakdown.</p></div></div><div class="exam-active"><div class="card exam-toolbar"><div class="exam-toolbar-left"><strong>' + specialty(item.specialty) .label + '</strong><span>' + (state.exam.index + 1) + " of " + queue.length + '</span></div><div class="exam-toolbar-right">' + (showTimer ? '<span class="exam-timer" id="exam-timer">' + icon("clock") + ' <span id="exam-timer-label">' + formatTimer(state.exam.qEndsAt - Date.now()) + "</span></span>" : "") + '<button class="button button-quiet" id="exit-exam" type="button">Exit exam</button></div></div><div class="progress-line"><span style="width:' + Math.round(((state.exam.index + 1) / queue.length) * 100) + '%"></span></div>' + (showTimer ? '<div class="exam-timebar" aria-hidden="true"><span id="exam-timebar-fill"></span></div>' : "") + '<article class="card exam-question"><div class="question-meta"><span class="question-counter">' + (marked ? "MARKED FOR REVIEW" : "QUESTION IN PROGRESS") + '</span><button class="bookmark-button ' + (marked ? "is-saved" : "") + '" id="toggle-review" type="button" aria-label="Mark for review">' + icon("bookmark") + '</button></div><h3>' + esc(item.stem) + '</h3><div class="question-options" role="group" aria-label="Answer choices">' + options + '</div>' + feedback + '<div class="exam-question-footer"><button class="button button-secondary" id="exam-prev" type="button" ' + (state.exam.index === 0 ? "disabled" : "") + '>' + icon("arrowLeft") + ' Previous</button><button class="button button-primary" id="exam-next" type="button">' + (state.exam.index === queue.length - 1 ? "Review submission" : "Next question") + " " + icon("arrow") + '</button></div></article><div class="exam-submit-footer"><button class="button button-secondary" id="submit-exam" type="button">Submit exam</button></div></div></section>';
   }
 
   function renderExamResult() {
-    var result = state.exam.result || { score: 0, total: 0, bySpecialty: {} };
+    var result = state.exam.result || { score: 0, total: 0, bySpecialty: {}, items: [] };
     var percent = result.total ? Math.round((result.score / result.total) * 100) : 0;
     var breakdown = Object.keys(result.bySpecialty).map(function (key) { return '<div class="result-breakdown-row"><span>' + specialty(key).label + '</span><strong>' + result.bySpecialty[key].score + " / " + result.bySpecialty[key].total + "</strong></div>"; }).join("");
-    return '<section aria-labelledby="exam-heading"><div class="page-heading"><div><h2 id="exam-heading">Exam result</h2></div></div><div class="exam-layout"><article class="card exam-result"><div class="score-ring" style="--score:' + percent + '%" data-score="' + percent + '%"></div><div><h3>Exam complete</h3><div class="result-breakdown"><div class="result-breakdown-row"><span>Correct</span><strong>' + result.score + " / " + result.total + "</strong></div>" + breakdown + '</div><div class="page-heading-actions" style="justify-content:flex-start;margin-top:20px"><button class="button button-primary" id="restart-exam" type="button">New exam ' + icon("arrow") + '</button><button class="button button-secondary" data-nav="home" type="button">Home</button></div></div></article></div></section>';
+    var wrongItems = result.items.filter(function (r) { return !r.correct; });
+    var filter = state.exam.reviewFilter === "all" ? "all" : "wrong";
+    var shown = filter === "all" ? result.items : wrongItems;
+    var cards = shown.map(function (r) {
+      var q = question(r.id);
+      if (!q) return "";
+      var n = result.items.indexOf(r) + 1;
+      var status = r.selected === undefined ? "Not answered" : r.correct ? "Correct" : "Wrong";
+      var opts = q.options.map(function (option, index) {
+        var correct = index === q.answer;
+        var wrong = index === r.selected && !r.correct;
+        return '<div class="option-button ' + (correct ? "is-correct " : "") + (wrong ? "is-wrong" : "") + '"><span class="option-key">' + letter(index) + '</span><span>' + esc(option) + '</span><span class="option-status-icon">' + (correct ? icon("check") : wrong ? icon("x") : "") + '</span></div>';
+      }).join("");
+      return '<article class="card review-card"><div class="question-meta"><span class="question-counter">QUESTION ' + n + ' · ' + esc(q.topic) + '</span><span class="review-status review-status--' + (r.correct ? "ok" : "bad") + '">' + status + '</span></div><h3>' + esc(q.stem) + '</h3><div class="question-options">' + opts + '</div><div class="answer-panel"><span class="answer-panel-icon">' + icon("info") + '</span><div><strong>Correct answer · ' + letter(q.answer) + '</strong><p>' + esc(q.explanation) + '</p></div></div></article>';
+    }).join("");
+    var empty = !shown.length ? '<div class="empty-state">' + icon("check") + '<h3>No mistakes</h3><p>Every question was answered correctly.</p></div>' : "";
+    return '<section aria-labelledby="exam-heading"><div class="page-heading"><div><h2 id="exam-heading">Exam result</h2></div></div><div class="exam-layout"><article class="card exam-result"><div class="score-ring" style="--score:' + percent + '%" data-score="' + percent + '%"></div><div><h3>Exam complete</h3><div class="result-breakdown"><div class="result-breakdown-row"><span>Correct</span><strong>' + result.score + " / " + result.total + "</strong></div>" + breakdown + '</div><div class="page-heading-actions" style="justify-content:flex-start;margin-top:20px">' + (wrongItems.length ? '<button class="button button-primary" id="retry-wrong" type="button">Retry ' + wrongItems.length + ' missed ' + icon("arrow") + '</button>' : "") + '<button class="button button-secondary" id="restart-exam" type="button">New exam</button><button class="button button-secondary" data-nav="home" type="button">Home</button></div></div></article></div><div class="section-block"><div class="section-title-row"><h3>Review your answers</h3><div class="chip-row"><button class="chip' + (filter === "wrong" ? " is-active" : "") + '" data-review-filter="wrong" type="button">Wrong (' + wrongItems.length + ')</button><button class="chip' + (filter === "all" ? " is-active" : "") + '" data-review-filter="all" type="button">All (' + result.items.length + ')</button></div></div><div class="review-list">' + cards + empty + '</div></div></section>';
+  }
+
+  function retryWrong() {
+    var result = state.exam.result;
+    if (!result) return;
+    var ids = result.items.filter(function (r) { return !r.correct; }).map(function (r) { return r.id; });
+    if (!ids.length) return;
+    state.exam = Object.assign({}, state.exam, { active: true, submitted: false, count: ids.length, queue: ids, index: 0, answers: {}, reviewed: {}, qEndsAt: null, result: null });
+    goToQuestion(0);
+    clearInterval(examTimer);
+    window.scrollTo(0, 0);
+    render();
   }
   function renderProgress() {
     var rows = SPECIALTIES.map(function (sp) {
@@ -369,7 +409,9 @@
 
   function goToQuestion(index) {
     state.exam.index = index;
-    state.exam.qEndsAt = state.exam.timerSeconds ? Date.now() + state.exam.timerSeconds * 1000 : null;
+    var id = state.exam.queue[index];
+    var locked = state.exam.feedback === "during" && state.exam.answers[id] !== undefined;
+    state.exam.qEndsAt = state.exam.timerSeconds && !locked ? Date.now() + state.exam.timerSeconds * 1000 : null;
   }
   function formatTimer(milliseconds) {
     var seconds = Math.max(0, Math.ceil(milliseconds / 1000));
@@ -399,9 +441,10 @@
   }
   function submitExam() {
     var queue = examQueue();
-    var result = { score: 0, total: queue.length, bySpecialty: {} };
+    var result = { score: 0, total: queue.length, bySpecialty: {}, items: [] };
     queue.forEach(function (item) {
       var correct = state.exam.answers[item.id] === item.answer;
+      result.items.push({ id: item.id, selected: state.exam.answers[item.id], correct: correct });
       if (correct) result.score += 1;
       if (!result.bySpecialty[item.specialty]) result.bySpecialty[item.specialty] = { score: 0, total: 0 };
       result.bySpecialty[item.specialty].total += 1;
@@ -494,6 +537,11 @@
       return;
     }
     if (event.target.closest("#start-exam")) { startExam(); return; }
+    var feedbackChip = event.target.closest("[data-exam-feedback]");
+    if (feedbackChip) { state.exam.feedback = feedbackChip.dataset.examFeedback; render(); return; }
+    var reviewChip = event.target.closest("[data-review-filter]");
+    if (reviewChip) { state.exam.reviewFilter = reviewChip.dataset.reviewFilter; render(); return; }
+    if (event.target.closest("#retry-wrong")) { retryWrong(); return; }
     var timerChip = event.target.closest("[data-exam-timer]");
     if (timerChip) {
       var v = timerChip.dataset.examTimer;
@@ -505,7 +553,12 @@
     var examOption = event.target.closest("[data-exam-answer]");
     if (examOption) {
       var examItem = examQueue()[state.exam.index];
-      if (examItem) { state.exam.answers[examItem.id] = Number(examOption.dataset.examAnswer); render(); }
+      if (examItem) {
+        if (state.exam.feedback === "during" && state.exam.answers[examItem.id] !== undefined) return;
+        state.exam.answers[examItem.id] = Number(examOption.dataset.examAnswer);
+        if (state.exam.feedback === "during") state.exam.qEndsAt = null;
+        render();
+      }
       return;
     }
     if (event.target.closest("#exam-next")) {
