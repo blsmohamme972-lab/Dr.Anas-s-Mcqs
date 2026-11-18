@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#102a43" />
+    <meta
+      name="description"
+      content="Dr. Anas MCQs is a focused study companion for vascular, thoracic, and cardiac surgery."
+    />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Dr. Anas MCQs</title>
+  </head>
+  <body>
+    <div class="app-shell" id="appShell">
+      <aside class="sidebar" aria-label="Primary navigation">
+        <div class="brand-lockup">
+          <div class="brand-mark" aria-hidden="true">DA</div>
+          <div>
+            <p class="brand-name">Dr. Anas</p>
+            <p class="brand-caption">Surgery MCQs</p>
+          </div>
+        </div>
+
+        <div class="preview-badge"><span class="status-dot"></span> Preview build · 10%</div>
+
+        <nav class="sidebar-nav">
+          <p class="nav-label">Workspace</p>
+          <button class="nav-item active" data-route="home" type="button">
+            <span class="nav-icon" aria-hidden="true">⌂</span>
+            <span>Home</span>
+          </button>
+          <button class="nav-item" data-route="topics" type="button">
+            <span class="nav-icon" aria-hidden="true">◈</span>
+            <span>Topics</span>
+          </button>
+          <button class="nav-item" data-route="books" type="button">
+            <span class="nav-icon" aria-hidden="true">▤</span>
+            <span>Books</span>
+          </button>
+          <button class="nav-item" data-route="study" type="button">
+            <span class="nav-icon" aria-hidden="true">↗</span>
+            <span>Study</span>
+          </button>
+          <button class="nav-item" data-route="exam" type="button">
+            <span class="nav-icon" aria-hidden="true">◷</span>
+            <span>Exam</span>
+          </button>
+          <button class="nav-item" data-route="progress" type="button">
+            <span class="nav-icon" aria-hidden="true">▥</span>
+            <span>Progress</span>
+          </button>
+
+          <p class="nav-label nav-label-secondary">Account</p>
+          <button class="nav-item" data-route="settings" type="button">
+            <span class="nav-icon" aria-hidden="true">⚙</span>
+            <span>Settings</span>
+          </button>
+        </nav>
+
+        <div class="sidebar-footer">
+          <div class="avatar">MA</div>
+          <div>
+            <p class="profile-name">Medical learner</p>
+            <p class="profile-meta">Local profile</p>
+          </div>
+          <button class="icon-button" aria-label="Open profile menu" type="button">•••</button>
+        </div>
+      </aside>
+
+      <main class="main-content">
+        <header class="topbar">
+          <button class="mobile-menu icon-button" aria-label="Open navigation" type="button">☰</button>
+          <div class="topbar-context">
+            <span class="context-kicker">Surgery learning workspace</span>
+            <span class="context-divider"></span>
+            <span id="topbarPage">Home</span>
+          </div>
+          <div class="topbar-actions">
+            <button class="icon-button notification-button" aria-label="Notifications" type="button">
+              ♧
+              <span class="notification-dot"></span>
+            </button>
+            <div class="topbar-avatar">MA</div>
+          </div>
+        </header>
+
+        <div class="page-container" id="pageContainer"></div>
+      </main>
+    </div>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <script src="app.js" type="module"></script>
+  </body>
+</html>
