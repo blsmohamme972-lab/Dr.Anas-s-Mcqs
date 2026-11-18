@@ -7,7 +7,7 @@
     <meta name="description" content="A focused MCQ study workspace for vascular, thoracic, and cardiac surgery." />
     <link rel="manifest" href="manifest.webmanifest" />
     <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%234f46e5'/%3E%3Cpath d='M19 32h26M32 19v26' stroke='white' stroke-width='7' stroke-linecap='round'/%3E%3C/svg%3E" />
-    <title>Atlas MCQs · Surgery study workspace</title>
+    <title>Atlas MCQs</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -20,7 +20,7 @@
           </div>
           <div class="brand-copy">
             <strong>Atlas MCQs</strong>
-            <small>Surgery study workspace</small>
+            <small>Surgery MCQs</small>
           </div>
         </div>
 
@@ -59,17 +59,6 @@
             <span>Settings</span>
           </button>
         </nav>
-
-        <div class="sidebar-footer">
-          <div class="sync-card">
-            <div class="sync-card-icon" data-icon="cloud" aria-hidden="true"></div>
-            <div>
-              <strong>Local workspace</strong>
-              <span id="sidebar-sync-status">Ready to sync</span>
-            </div>
-          </div>
-          <div class="sidebar-version">Atlas MCQs <span>v0.1 preview</span></div>
-        </div>
       </aside>
 
       <div class="app-frame">
@@ -79,19 +68,14 @@
               <span data-icon="menu" aria-hidden="true"></span>
             </button>
             <div>
-              <p class="eyebrow" id="topbar-eyebrow">Study workspace</p>
-              <h1 id="topbar-title">Good morning, Doctor</h1>
+              <p class="eyebrow" id="topbar-eyebrow">Atlas MCQs</p>
+              <h1 id="topbar-title">Home</h1>
             </div>
           </div>
           <div class="topbar-actions">
-            <div class="connection-pill is-online" id="connection-pill">
-              <span class="connection-dot" aria-hidden="true"></span>
-              <span id="connection-label">Online</span>
-            </div>
             <button class="icon-button" data-nav="settings" type="button" aria-label="Open settings">
               <span data-icon="settings" aria-hidden="true"></span>
             </button>
-            <button class="avatar-button" data-nav="settings" type="button" aria-label="Open profile settings">MA</button>
           </div>
         </header>
 
@@ -105,6 +89,10 @@
           <span data-icon="home" aria-hidden="true"></span>
           <span>Home</span>
         </button>
+        <button class="mobile-nav-item" data-nav="books" type="button">
+          <span data-icon="book" aria-hidden="true"></span>
+          <span>Books</span>
+        </button>
         <button class="mobile-nav-item" data-nav="topics" type="button">
           <span data-icon="grid" aria-hidden="true"></span>
           <span>Topics</span>
@@ -117,10 +105,7 @@
           <span data-icon="exam" aria-hidden="true"></span>
           <span>Exam</span>
         </button>
-        <button class="mobile-nav-item" data-nav="progress" type="button">
-          <span data-icon="chart" aria-hidden="true"></span>
-          <span>Progress</span>
-        </button>
+
       </nav>
     </div>
 

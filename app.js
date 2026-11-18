@@ -58,16 +58,16 @@
   ];
 
   var PAGE_COPY = {
-    home: ["Study workspace", "Good morning, Doctor"],
-    books: ["Your library", "Books & question banks"],
-    topics: ["66-topic index", "Choose a topic"],
-    study: ["Study mode", "Learn one question at a time"],
-    exam: ["Exam mode", "Build a focused exam"],
-    progress: ["Your insights", "Progress that compounds"],
-    settings: ["Workspace", "Settings"]
+    home: ["Atlas MCQs", "Home"],
+    books: ["Open a whole book", "Books"],
+    topics: ["66 topics", "Topics"],
+    study: ["Study mode", "Study"],
+    exam: ["Exam mode", "Exam"],
+    progress: ["Your results", "Progress"],
+    settings: ["Preferences", "Settings"]
   };
 
-  var STORAGE_KEY = "atlas-mcqs-local-state-v1";
+  var STORAGE_KEY = "atlas-mcqs-local-state-v2";
   var state = loadState();
   var toastTimer = null;
   var examTimer = null;
@@ -78,15 +78,10 @@
       topicFilter: "all",
       topicSearch: "",
       theme: "light",
-      savedQuestionIds: ["v-002", "c-001"],
-      progress: { answered: 24, correct: 19, streak: 4, bySpecialty: { vascular: 11, thoracic: 7, cardiac: 6 }, correctBySpecialty: { vascular: 9, thoracic: 5, cardiac: 5 } },
+      savedQuestionIds: [],
+      progress: { answered: 0, correct: 0, bySpecialty: { vascular: 0, thoracic: 0, cardiac: 0 }, correctBySpecialty: { vascular: 0, thoracic: 0, cardiac: 0 } },
       study: { specialty: "all", topic: "all", index: 0, answered: false, selected: null, sessionAnswered: 0, sessionCorrect: 0 },
-      exam: { active: false, submitted: false, specialty: "all", count: 10, randomized: true, timed: false, queue: [], index: 0, answers: {}, reviewed: {}, endsAt: null, result: null },
-      activity: [
-        { initials: "VS", text: "Completed a vascular review set", time: "Today · 08:40", result: "8 / 10" },
-        { initials: "TS", text: "Saved a thoracic surgery question", time: "Yesterday · 17:15", result: "Saved" },
-        { initials: "CS", text: "Reviewed cardiac valve disease", time: "Mon · 12:20", result: "6 / 8" }
-      ]
+      exam: { active: false, submitted: false, specialty: "all", count: 10, randomized: true, timed: false, queue: [], index: 0, answers: {}, reviewed: {}, endsAt: null, result: null }
     };
   }
 
@@ -105,7 +100,6 @@
       base.progress.correctBySpecialty = Object.assign({}, initialState().progress.correctBySpecialty, (stored.progress || {}).correctBySpecialty || {});
       base.study = Object.assign({}, base.study, stored.study || {});
       base.exam = Object.assign({}, base.exam, stored.exam || {}, { active: false, submitted: false, queue: [], answers: {}, reviewed: {}, result: null });
-      base.activity = Array.isArray(stored.activity) ? stored.activity : base.activity;
       return base;
     } catch (error) {
       return base;
@@ -156,7 +150,7 @@
 
   function currentStudyQuestion() {
     var queue = studyQueue();
-    return queue[state.study.index % Math.max(queue.length, 1)] || QUESTIONS[0];
+    return queue.length ? queue[state.study.index % queue.length] : null;
   }
 
   function filteredTopics() {
@@ -192,7 +186,6 @@
     document.getElementById("app-view").innerHTML = '<div class="view">' + (renderers[state.view] || renderHome)() + "</div>";
     renderIcons(document.getElementById("app-view"));
     document.documentElement.dataset.theme = state.theme;
-    updateConnection();
     saveState();
     if (state.view === "exam" && state.exam.active && state.exam.timed) startExamTimer();
   }
@@ -206,49 +199,44 @@
     window.requestAnimationFrame(function () { document.getElementById("main-content").focus({ preventScroll: true }); });
   }
 
-  function renderHome() {
-    var accuracy = Math.round((state.progress.correct / Math.max(state.progress.answered, 1)) * 100);
-    var recent = [
-      { name: "Peripheral Arterial Disease", specialty: "vascular", progress: 68, count: "18 questions" },
-      { name: "Pleural Effusion", specialty: "thoracic", progress: 42, count: "12 questions" },
-      { name: "Coronary Artery Disease", specialty: "cardiac", progress: 76, count: "24 questions" }
-    ];
-    return '<section aria-labelledby="home-heading"><div class="dashboard-grid">' +
-      '<article class="hero-card"><div class="hero-content"><p class="hero-kicker">Your next best step</p><h2 id="home-heading">Turn a few minutes into a sharper recall.</h2><p>Pick up where you left off with a focused study session across vascular, thoracic, and cardiac surgery.</p><button class="button" data-action="continue-study" type="button">' + icon("study") + ' Continue studying</button></div></article>' +
-      '<article class="card streak-card"><div><div class="card-heading"><div><h3>Study streak</h3><p>Small sessions add up.</p></div><span class="section-heading-icon">' + icon("flame") + '</span></div><div class="streak-number"><strong>' + state.progress.streak + '</strong><span>days</span></div></div><div class="streak-days" aria-label="Study streak for the last seven days">' +
-      ["M", "T", "W", "T", "F", "S", "S"].map(function (day, index) { return '<div class="streak-day ' + (index < 4 ? "is-complete " : "") + (index === 4 ? "is-today" : "") + '"><span class="streak-day-dot"></span><span>' + day + "</span></div>"; }).join("") +
-      '</div></article></div>' +
-      '<div class="stats-row" aria-label="Study summary"><article class="card stat-card"><span class="stat-icon stat-icon--purple">' + icon("target") + '</span><div><p>Questions answered</p><strong>' + state.progress.answered + '</strong></div></article><article class="card stat-card"><span class="stat-icon stat-icon--mint">' + icon("check") + '</span><div><p>Correct answers</p><strong>' + accuracy + '%</strong></div></article><article class="card stat-card"><span class="stat-icon stat-icon--blue">' + icon("grid") + '</span><div><p>Topics explored</p><strong>' + Math.min(18, Math.max(3, state.progress.answered - 6)) + '</strong></div></article><article class="card stat-card"><span class="stat-icon stat-icon--amber">' + icon("bookmark") + '</span><div><p>Saved for review</p><strong>' + state.savedQuestionIds.length + '</strong></div></article></div>' +
-      '<div class="section-block"><div class="section-title-row"><h3>Recent topics</h3><button class="text-button" data-nav="topics" type="button">View all ' + icon("arrow") + '</button></div><div class="recent-grid">' +
-      recent.map(function (item) { return '<button class="card recent-card" data-topic-select="' + esc(item.name) + '" type="button"><div class="recent-card-top">' + tag(item.specialty) + '<span class="bookmark-button" aria-hidden="true">' + icon("arrow") + '</span></div><h4>' + esc(item.name) + '</h4><p>' + item.count + " · " + item.progress + '% reviewed</p><div class="progress-line"><span style="width:' + item.progress + '%"></span></div><div class="recent-card-footer"><span>Continue session</span><span>' + icon("arrow") + "</span></div></button>"; }).join("") +
-      '</div></div><div class="section-block"><div class="section-title-row"><h3>Recent activity</h3><span class="eyebrow">Local preview</span></div><div class="card activity-card"><div class="activity-list">' +
-      state.activity.map(function (item) { return '<div class="activity-item"><span class="activity-avatar">' + esc(item.initials) + '</span><div><p>' + esc(item.text) + '</p><span>' + esc(item.time) + '</span></div><span class="activity-result">' + esc(item.result) + "</span></div>"; }).join("") +
-      '</div><div class="activity-summary"><h4>Keep your review balanced</h4><p>You have touched all three specialties this week. A short thoracic session is the next gap to close.</p><div class="mini-bar-chart" aria-label="Weekly study activity"><span style="height:38%"></span><span style="height:64%"></span><span style="height:51%"></span><span style="height:76%"></span><span style="height:90%"></span><span style="height:59%"></span><span style="height:42%"></span></div></div></div></div></section>';
-  }
+  function pct(a, b) { return b ? Math.round((a / b) * 100) + "%" : "—"; }
 
+  function topicCount(name) { return QUESTIONS.filter(function (q) { return q.topic === name; }).length; }
+
+  function bookCount(key) { return QUESTIONS.filter(function (q) { return q.specialty === key; }).length; }
+
+  function renderHome() {
+    var resume = state.study.sessionAnswered > 0 ? '<button class="button" data-nav="study" type="button">' + icon("study") + ' Continue where you left off</button>' : "";
+    function path(nav, ic, title, text) {
+      return '<button class="card recent-card" data-nav="' + nav + '" type="button"><div class="recent-card-top"><span class="section-heading-icon">' + icon(ic) + '</span><span class="bookmark-button" aria-hidden="true">' + icon("arrow") + '</span></div><h4>' + title + '</h4><p>' + text + '</p></button>';
+    }
+    return '<section aria-labelledby="home-heading"><article class="hero-card"><div class="hero-content"><p class="hero-kicker">Vascular · Thoracic · Cardiac</p><h2 id="home-heading">How do you want to study?</h2><p>Open a whole book, or choose one of the 66 topics.</p>' + resume + '</div></article>' +
+      '<div class="section-block"><div class="recent-grid">' +
+      path("books", "book", "By book", "Study or take an exam from one full book.") +
+      path("topics", "grid", "By topic", "Pick one of the 66 topics.") +
+      path("exam", "exam", "Exam", "Timed or untimed, with a score at the end.") +
+      '</div></div><div class="stats-row" aria-label="Your numbers"><article class="card stat-card"><span class="stat-icon stat-icon--purple">' + icon("target") + '</span><div><p>Answered</p><strong>' + state.progress.answered + '</strong></div></article><article class="card stat-card"><span class="stat-icon stat-icon--mint">' + icon("check") + '</span><div><p>Accuracy</p><strong>' + pct(state.progress.correct, state.progress.answered) + '</strong></div></article><article class="card stat-card"><span class="stat-icon stat-icon--amber">' + icon("bookmark") + '</span><div><p>Saved</p><strong>' + state.savedQuestionIds.length + '</strong></div></article></div></section>';
+  }
   function renderBooks() {
     var books = BOOKS.map(function (book) {
-      return '<article class="card book-card book-card--' + book.specialty + '"><div><div class="book-card-top"><span class="book-cover">' + book.code + '</span><small>' + esc(book.edition) + '</small></div><h3>' + esc(book.title) + '</h3><p>' + esc(book.description) + '</p></div><div class="book-card-footer"><span class="book-count"><strong>' + book.questions + '</strong> demo slots</span><button class="button button-quiet" data-book-specialty="' + book.specialty + '" type="button">Open bank ' + icon("arrow") + '</button></div></article>';
+      return '<article class="card book-card book-card--' + book.specialty + '"><div><div class="book-card-top"><span class="book-cover">' + book.code + '</span><small>' + esc(book.edition) + '</small></div><h3>' + esc(book.title) + '</h3><p>' + esc(book.description) + '</p></div><div class="book-card-footer"><span class="book-count"><strong>' + bookCount(book.specialty) + '</strong> questions</span><button class="button button-quiet" data-book-specialty="' + book.specialty + '" type="button">Open book ' + icon("arrow") + '</button></div></article>';
     }).join("");
-    return '<section aria-labelledby="books-heading"><div class="page-heading"><div><h2 id="books-heading">Your library</h2><p>Three focused banks are ready for the first pass. Books will become versioned, reviewable imports as the content pipeline lands.</p></div><div class="page-heading-actions"><button class="button button-primary" data-nav="study" type="button">' + icon("study") + ' Start a study set</button></div></div><div class="book-grid">' + books + '</div><div class="section-block"><div class="section-title-row"><h3>Import status</h3><span class="eyebrow">Pipeline preview</span></div><div class="card activity-card"><div class="activity-list"><div class="activity-item"><span class="activity-avatar">' + icon("check") + '</span><div><p><strong>Book metadata</strong> · Ready for the first upload</p><span>Content pipeline milestone</span></div><span class="activity-result">Done</span></div><div class="activity-item"><span class="activity-avatar">' + icon("bookOpen") + '</span><div><p><strong>Question extraction</strong> · Parser and OCR worker to be connected</p><span>Content pipeline milestone</span></div><span class="activity-result">Next</span></div><div class="activity-item"><span class="activity-avatar">' + icon("target") + '</span><div><p><strong>Medical review</strong> · Approval queue will follow extraction</p><span>Content pipeline milestone</span></div><span class="activity-result">Planned</span></div></div><div class="activity-summary"><h4>Versioned content is next</h4><p>The preview keeps the study experience useful while the backend import, review, and publishing workflow is added.</p><span class="settings-badge">No keys required in the client</span></div></div></div></section>';
+    return '<section aria-labelledby="books-heading"><div class="page-heading"><div><h2 id="books-heading">Books</h2><p>Open a book to study all of its questions.</p></div></div><div class="book-grid">' + books + '</div></section>';
   }
-
   function topicResults() {
     var items = filteredTopics();
     if (!items.length) return '<div class="empty-state">' + icon("search") + '<h3>No matching topics</h3><p>Try a broader search or choose another specialty.</p></div>';
-    return '<div class="topic-summary"><strong>' + items.length + ' topics</strong><span>·</span><span>Tap a topic to start a focused study set.</span></div><div class="topic-grid">' + items.map(function (item) {
-      var percent = Math.min(92, Math.max(4, ((state.progress.bySpecialty[item.specialty] || 0) * 4) + ((item.name.length * 7) % 17)));
-      return '<button class="topic-card" data-topic-select="' + esc(item.name) + '" type="button"><span class="topic-card-marker topic-card-marker--' + item.specialty + '"></span><span><h4>' + esc(item.name) + '</h4><p>' + specialty(item.specialty).label + '</p></span><span class="topic-card-progress"><strong>' + percent + '%</strong><span class="topic-card-progress-line"><span style="width:' + percent + '%"></span></span></span></button>';
+    return '<div class="topic-summary"><strong>' + items.length + ' topics</strong><span>·</span><span>Tap a topic to study it.</span></div><div class="topic-grid">' + items.map(function (item) {
+      var n = topicCount(item.name);
+      return '<button class="topic-card" data-topic-select="' + esc(item.name) + '" type="button"><span class="topic-card-marker topic-card-marker--' + item.specialty + '"></span><span><h4>' + esc(item.name) + '</h4><p>' + specialty(item.specialty).label + '</p></span><span class="topic-card-progress"><strong>' + n + '</strong><span>' + (n === 1 ? "question" : "questions") + '</span></span></button>';
     }).join("") + "</div>";
   }
-
   function renderTopics() {
-    var pills = '<button class="filter-pill ' + (state.topicFilter === "all" ? "is-active" : "") + '" data-topic-filter="all" type="button">All topics</button>' + SPECIALTIES.map(function (item) {
-      return '<button class="filter-pill ' + (state.topicFilter === item.key ? "is-active" : "") + '" data-topic-filter="' + item.key + '" type="button">' + item.label + "</button>";
+    var pills = '<button class="filter-pill ' + (state.topicFilter === "all" ? "is-active" : "") + '" data-topic-filter="all" type="button">All</button>' + SPECIALTIES.map(function (item) {
+      return '<button class="filter-pill ' + (state.topicFilter === item.key ? "is-active" : "") + '" data-topic-filter="' + item.key + '" type="button">' + item.short + "</button>";
     }).join("");
-    return '<section aria-labelledby="topics-heading"><div class="page-heading"><div><h2 id="topics-heading">The 66-topic index</h2><p>Choose a specialty or search the full catalog. Every topic is fixed in the foundation so the question bank can grow without changing the learner mental map.</p></div><div class="page-heading-actions"><button class="button button-secondary" data-nav="study" type="button">' + icon("study") + ' Quick study</button></div></div><div class="filter-bar"><label class="search-field" aria-label="Search topics">' + icon("search") + '<input id="topic-search" type="search" placeholder="Search topics..." value="' + esc(state.topicSearch) + '" autocomplete="off" /></label><div class="filter-pills" role="group" aria-label="Filter topics">' + pills + '</div></div><div id="topic-results">' + topicResults() + "</div></section>";
+    return '<section aria-labelledby="topics-heading"><div class="page-heading"><div><h2 id="topics-heading">Topics</h2><p>22 topics each in vascular, thoracic, and cardiac surgery.</p></div></div><div class="filter-bar"><label class="search-field" aria-label="Search topics">' + icon("search") + '<input id="topic-search" type="search" placeholder="Search topics..." value="' + esc(state.topicSearch) + '" autocomplete="off" /></label><div class="filter-pills" role="group" aria-label="Filter topics">' + pills + '</div></div><div id="topic-results">' + topicResults() + "</div></section>";
   }
-
   function specialtyOptions(selected) {
     return '<option value="all">All specialties</option>' + SPECIALTIES.map(function (item) { return '<option value="' + item.key + '" ' + (selected === item.key ? "selected" : "") + ">" + item.label + "</option>"; }).join("");
   }
@@ -261,20 +249,22 @@
   function renderStudy() {
     var queue = studyQueue();
     var item = currentStudyQuestion();
+    var controls = '<div class="card study-control-card"><div class="study-control-info"><span class="section-heading-icon">' + icon("target") + '</span><div><strong>' + queue.length + (queue.length === 1 ? ' question' : ' questions') + '</strong><span>in this selection</span></div></div><div class="study-controls"><label class="select-field"><span class="sr-only">Specialty</span><select id="study-specialty" aria-label="Study specialty">' + specialtyOptions(state.study.specialty) + '</select></label><label class="select-field"><span class="sr-only">Topic</span><select id="study-topic" aria-label="Study topic">' + topicOptions() + '</select></label></div></div>';
+    var head = '<section aria-labelledby="study-heading"><div class="page-heading"><div><h2 id="study-heading">Study</h2><p>Answer, read the reasoning, move on.</p></div><div class="page-heading-actions">' + (item ? tag(item.specialty) : "") + '</div></div>';
+    if (!item) return head + '<div class="study-layout"><div class="study-main">' + controls + '<div class="empty-state">' + icon("search") + '<h3>No questions here yet</h3><p>Choose another topic or specialty.</p></div></div></div></section>';
     var selected = state.study.selected;
     var answered = state.study.answered;
     var saved = state.savedQuestionIds.indexOf(item.id) !== -1;
-    var sessionPercent = Math.min(100, Math.round((state.study.sessionAnswered / Math.max(queue.length, 1)) * 100));
+    var sessionPercent = Math.min(100, Math.round((state.study.sessionAnswered / queue.length) * 100));
     var options = item.options.map(function (option, index) {
       var correct = answered && index === item.answer;
       var wrong = answered && index === selected && index !== item.answer;
       var chosen = answered && index === selected;
       return '<button class="option-button ' + (correct ? "is-correct " : "") + (wrong ? "is-wrong " : "") + (chosen && !correct ? "is-selected" : "") + '" data-study-answer="' + index + '" type="button" ' + (answered ? "disabled" : "") + '><span class="option-key">' + letter(index) + '</span><span>' + esc(option) + '</span><span class="option-status-icon">' + (correct ? icon("check") : wrong ? icon("x") : "") + "</span></button>";
     }).join("");
-    var explanation = answered ? '<div class="answer-panel"><span class="answer-panel-icon">' + icon(selected === item.answer ? "check" : "info") + '</span><div><strong>' + (selected === item.answer ? "Correct answer" : "Correct answer · " + letter(item.answer)) + '</strong><p>' + esc(item.explanation) + '</p><p class="answer-panel-note">' + esc(item.pearl) + "</p></div></div>" : "";
-    return '<section aria-labelledby="study-heading"><div class="page-heading"><div><h2 id="study-heading">Study mode</h2><p>Answer, read the reasoning, and keep the questions worth revisiting. Your local session is ready while the content pipeline is being built.</p></div><div class="page-heading-actions">' + tag(item.specialty) + '</div></div><div class="study-layout"><div class="study-main"><div class="card study-control-card"><div class="study-control-info"><span class="section-heading-icon">' + icon("target") + '</span><div><strong>Focused review</strong><span>' + queue.length + ' preview questions in this session</span></div></div><div class="study-controls"><label class="select-field"><span class="sr-only">Specialty</span><select id="study-specialty" aria-label="Study specialty">' + specialtyOptions(state.study.specialty) + '</select></label><label class="select-field"><span class="sr-only">Topic</span><select id="study-topic" aria-label="Study topic">' + topicOptions() + '</select></label></div></div><article class="card question-card"><div class="question-meta"><span class="question-counter">QUESTION ' + ((state.study.index % Math.max(queue.length, 1)) + 1) + " / " + queue.length + '</span><button class="bookmark-button ' + (saved ? "is-saved" : "") + '" data-study-bookmark type="button" aria-label="' + (saved ? "Remove bookmark" : "Save question") + '">' + icon("bookmark") + '</button></div><h3>' + esc(item.stem) + '</h3><div class="question-options" role="group" aria-label="Answer choices">' + options + '</div>' + explanation + '<div class="question-footer"><div class="question-source">' + icon("bookOpen") + ' Preview question · source page pending</div><button class="button ' + (answered ? "button-primary" : "button-secondary") + '" data-study-next type="button">' + (answered ? "Next question" : "Reveal answer") + " " + icon("arrow") + '</button></div></article></div><aside class="study-aside"><article class="card aside-card"><h3>Session progress</h3><p>Keep the loop small and consistent.</p><div class="session-progress"><div class="session-progress-line"><span style="width:' + sessionPercent + '%"></span></div><div class="session-progress-meta"><span>' + state.study.sessionAnswered + ' answered</span><span>' + state.study.sessionCorrect + ' correct</span></div></div></article><article class="card aside-card"><h3>Confidence by specialty</h3><p>Your recent answers, grouped by the fixed catalog.</p><div class="confidence-list">' + SPECIALTIES.map(function (sp) { var total = state.progress.bySpecialty[sp.key] || 0; var correct = state.progress.correctBySpecialty[sp.key] || 0; var confidence = Math.round((correct / Math.max(total, 1)) * 100); return '<div class="confidence-row"><div class="confidence-label"><span>' + sp.short + '</span><strong>' + confidence + '%</strong></div><div class="confidence-bar"><span style="width:' + confidence + '%"></span></div></div>'; }).join("") + "</div></article></aside></div></section>";
+    var explanation = answered ? '<div class="answer-panel"><span class="answer-panel-icon">' + icon(selected === item.answer ? "check" : "info") + '</span><div><strong>' + (selected === item.answer ? "Correct" : "Correct answer · " + letter(item.answer)) + '</strong><p>' + esc(item.explanation) + '</p><p class="answer-panel-note">' + esc(item.pearl) + "</p></div></div>" : "";
+    return head + '<div class="study-layout"><div class="study-main">' + controls + '<article class="card question-card"><div class="question-meta"><span class="question-counter">QUESTION ' + ((state.study.index % queue.length) + 1) + " / " + queue.length + '</span><button class="bookmark-button ' + (saved ? "is-saved" : "") + '" data-study-bookmark type="button" aria-label="' + (saved ? "Remove from saved" : "Save question") + '">' + icon("bookmark") + '</button></div><h3>' + esc(item.stem) + '</h3><div class="question-options" role="group" aria-label="Answer choices">' + options + '</div>' + explanation + '<div class="question-footer"><div class="question-source">' + icon("bookOpen") + ' ' + esc(item.topic) + '</div><button class="button ' + (answered ? "button-primary" : "button-secondary") + '" data-study-next type="button">' + (answered ? "Next question" : "Show answer") + " " + icon("arrow") + '</button></div></article></div><aside class="study-aside"><article class="card aside-card"><h3>This session</h3><div class="session-progress"><div class="session-progress-line"><span style="width:' + sessionPercent + '%"></span></div><div class="session-progress-meta"><span>' + state.study.sessionAnswered + ' answered</span><span>' + state.study.sessionCorrect + ' correct</span></div></div></article></aside></div></section>';
   }
-
   function examOptions() {
     return '<option value="all">All specialties</option>' + SPECIALTIES.map(function (item) { return '<option value="' + item.key + '" ' + (state.exam.specialty === item.key ? "selected" : "") + ">" + item.label + "</option>"; }).join("");
   }
@@ -282,9 +272,8 @@
   function renderExam() {
     if (state.exam.submitted) return renderExamResult();
     if (state.exam.active) return renderExamActive();
-    return '<section aria-labelledby="exam-heading"><div class="page-heading"><div><h2 id="exam-heading">Exam mode</h2><p>Create a short assessment with the same fixed topics, then review the result while the question bank grows toward the full content model.</p></div><div class="page-heading-actions"><span class="status-tag specialty-tag--cardiac">Ready when you are</span></div></div><div class="exam-layout"><article class="card exam-setup"><h3>Build your exam</h3><p>Choose a scope, set the pace, and use this preview loop to validate the exam experience before the backend question bank arrives.</p><div class="form-grid"><div class="form-field"><label for="exam-specialty">Scope</label><label class="select-field"><select id="exam-specialty">' + examOptions() + '</select></label></div><div class="form-field"><label for="exam-count">Questions</label><label class="number-field"><input id="exam-count" type="number" min="3" max="' + QUESTIONS.length + '" value="' + Math.min(state.exam.count, QUESTIONS.length) + '" /></label></div><div class="form-field"><label>Order</label><div class="toggle-field"><span>Shuffle questions</span><label class="toggle-input"><input id="exam-randomized" type="checkbox" ' + (state.exam.randomized ? "checked" : "") + ' /><span class="toggle-slider"></span></label></div></div><div class="form-field"><label>Timer</label><div class="toggle-field"><span>10-minute timer</span><label class="toggle-input"><input id="exam-timed" type="checkbox" ' + (state.exam.timed ? "checked" : "") + ' /><span class="toggle-slider"></span></label></div></div></div><div class="form-footer"><button class="button button-primary" id="start-exam" type="button">' + icon("exam") + ' Start exam</button></div></article><aside class="card exam-side-card"><h3>What is included</h3><div class="exam-side-list"><div class="exam-side-item"><span>01</span><span>Mark a question for review and return before submitting.</span></div><div class="exam-side-item"><span>02</span><span>See a topic-level score breakdown after submission.</span></div><div class="exam-side-item"><span>03</span><span>Keep your attempt in this browser while offline.</span></div></div></aside></div></section>';
+    return '<section aria-labelledby="exam-heading"><div class="page-heading"><div><h2 id="exam-heading">Exam</h2><p>Choose the scope and the number of questions, then start.</p></div></div><div class="exam-layout"><article class="card exam-setup"><div class="form-grid"><div class="form-field"><label for="exam-specialty">Scope</label><label class="select-field"><select id="exam-specialty">' + examOptions() + '</select></label></div><div class="form-field"><label for="exam-count">Questions</label><label class="number-field"><input id="exam-count" type="number" min="3" max="' + QUESTIONS.length + '" value="' + Math.min(state.exam.count, QUESTIONS.length) + '" /></label></div><div class="form-field"><label>Order</label><div class="toggle-field"><span>Shuffle questions</span><label class="toggle-input"><input id="exam-randomized" type="checkbox" ' + (state.exam.randomized ? "checked" : "") + ' /><span class="toggle-slider"></span></label></div></div><div class="form-field"><label>Timer</label><div class="toggle-field"><span>10-minute timer</span><label class="toggle-input"><input id="exam-timed" type="checkbox" ' + (state.exam.timed ? "checked" : "") + ' /><span class="toggle-slider"></span></label></div></div></div><div class="form-footer"><button class="button button-primary" id="start-exam" type="button">' + icon("exam") + ' Start exam</button></div></article></div></section>';
   }
-
   function examQueue() {
     return state.exam.queue.map(question).filter(Boolean);
   }
@@ -305,20 +294,20 @@
     var result = state.exam.result || { score: 0, total: 0, bySpecialty: {} };
     var percent = result.total ? Math.round((result.score / result.total) * 100) : 0;
     var breakdown = Object.keys(result.bySpecialty).map(function (key) { return '<div class="result-breakdown-row"><span>' + specialty(key).label + '</span><strong>' + result.bySpecialty[key].score + " / " + result.bySpecialty[key].total + "</strong></div>"; }).join("");
-    return '<section aria-labelledby="exam-heading"><div class="page-heading"><div><h2 id="exam-heading">Exam mode</h2><p>Review the result and use the breakdown to choose your next study set.</p></div></div><div class="exam-layout"><article class="card exam-result"><div class="score-ring" style="--score:' + percent + '%" data-score="' + percent + '%"></div><div><h3>Exam complete</h3><p>' + (percent >= 80 ? "Strong recall across the set." : percent >= 60 ? "Good foundation. Review the misses once more." : "Use the breakdown to target your next short session.") + '</p><div class="result-breakdown"><div class="result-breakdown-row"><span>Correct</span><strong>' + result.score + " / " + result.total + "</strong></div>" + breakdown + '</div><div class="page-heading-actions" style="justify-content:flex-start;margin-top:20px"><button class="button button-primary" id="restart-exam" type="button">Try another set ' + icon("arrow") + '</button><button class="button button-secondary" data-nav="study" type="button">Study misses</button></div></div></article><aside class="card exam-side-card"><h3>Keep the momentum</h3><div class="exam-side-list"><div class="exam-side-item"><span>' + icon("bookmark") + '</span><span>Missed questions remain available in Study mode.</span></div><div class="exam-side-item"><span>' + icon("chart") + '</span><span>Your local progress counters were updated at submission.</span></div></div></aside></div></section>';
+    return '<section aria-labelledby="exam-heading"><div class="page-heading"><div><h2 id="exam-heading">Exam result</h2></div></div><div class="exam-layout"><article class="card exam-result"><div class="score-ring" style="--score:' + percent + '%" data-score="' + percent + '%"></div><div><h3>Exam complete</h3><div class="result-breakdown"><div class="result-breakdown-row"><span>Correct</span><strong>' + result.score + " / " + result.total + "</strong></div>" + breakdown + '</div><div class="page-heading-actions" style="justify-content:flex-start;margin-top:20px"><button class="button button-primary" id="restart-exam" type="button">New exam ' + icon("arrow") + '</button><button class="button button-secondary" data-nav="home" type="button">Home</button></div></div></article></div></section>';
   }
-
   function renderProgress() {
-    var accuracy = Math.round((state.progress.correct / Math.max(state.progress.answered, 1)) * 100);
-    var bars = [34, 54, 43, 67, 48, 76, 58];
-    var topics = [["Peripheral Arterial Disease", "vascular", 68], ["Pleural Effusion", "thoracic", 42], ["Coronary Artery Disease", "cardiac", 76], ["Carotid Artery Disease", "vascular", 31], ["Valve Disease", "cardiac", 55]];
-    return '<section aria-labelledby="progress-heading"><div class="page-heading"><div><h2 id="progress-heading">Progress that compounds</h2><p>Track recall across the catalog and let the next session follow the gaps. The figures below are stored locally in this preview.</p></div><div class="page-heading-actions"><button class="button button-primary" data-nav="study" type="button">' + icon("study") + ' Practice now</button></div></div><div class="progress-layout"><div><div class="progress-overview"><article class="card progress-overview-card"><p>Overall accuracy</p><strong>' + accuracy + '%</strong><small>+6% this week</small></article><article class="card progress-overview-card"><p>Questions answered</p><strong>' + state.progress.answered + '</strong><small>+8 this week</small></article><article class="card progress-overview-card"><p>Active streak</p><strong>' + state.progress.streak + 'd</strong><small>Keep it going</small></article></div><article class="card chart-card"><h3>Weekly study activity</h3><p class="chart-subtitle">Questions reviewed per day</p><div class="large-bar-chart" aria-label="Weekly study activity bar chart">' + bars.map(function (value, index) { return '<div class="large-bar"><span style="height:' + value + '%"></span><small>' + ["M", "T", "W", "T", "F", "S", "S"][index] + "</small></div>"; }).join("") + '</div></article></div><article class="card progress-topic-card"><h3>Topic momentum</h3><div class="progress-topic-list">' + topics.map(function (row) { return '<div class="progress-topic-row"><div class="progress-topic-row-top"><span>' + row[0] + '</span><strong>' + row[2] + '%</strong></div><div class="progress-topic-bar progress-topic-bar--' + row[1] + '"><span style="width:' + row[2] + '%"></span></div></div>'; }).join("") + "</div></article></div></section>";
+    var rows = SPECIALTIES.map(function (sp) {
+      var total = state.progress.bySpecialty[sp.key] || 0;
+      var correct = state.progress.correctBySpecialty[sp.key] || 0;
+      var width = total ? Math.round((correct / total) * 100) : 0;
+      return '<div class="progress-topic-row"><div class="progress-topic-row-top"><span>' + sp.label + ' · ' + total + ' answered</span><strong>' + pct(correct, total) + '</strong></div><div class="progress-topic-bar progress-topic-bar--' + sp.key + '"><span style="width:' + width + '%"></span></div></div>';
+    }).join("");
+    return '<section aria-labelledby="progress-heading"><div class="page-heading"><div><h2 id="progress-heading">Progress</h2><p>Saved on this device only.</p></div><div class="page-heading-actions"><button class="button button-primary" data-nav="study" type="button">' + icon("study") + ' Study</button></div></div><div class="progress-layout"><div><div class="progress-overview"><article class="card progress-overview-card"><p>Accuracy</p><strong>' + pct(state.progress.correct, state.progress.answered) + '</strong></article><article class="card progress-overview-card"><p>Answered</p><strong>' + state.progress.answered + '</strong></article><article class="card progress-overview-card"><p>Saved</p><strong>' + state.savedQuestionIds.length + '</strong></article></div></div><article class="card progress-topic-card"><h3>By specialty</h3><div class="progress-topic-list">' + rows + '</div></article></div></section>';
   }
-
   function renderSettings() {
-    return '<section aria-labelledby="settings-heading"><div class="page-heading"><div><h2 id="settings-heading">Settings</h2><p>Keep the study workspace comfortable on a phone, tablet, or desktop. These preferences stay in this browser for now.</p></div></div><div class="settings-layout"><article class="card settings-card"><h3>Workspace preferences</h3><p>Everything in this preview is English-only, matching the product foundation.</p><div class="settings-row"><div class="settings-label"><h4>Appearance</h4><p>Choose a light or dark reading surface.</p></div><label class="toggle-input theme-toggle"><input id="theme-toggle" type="checkbox" ' + (state.theme === "dark" ? "checked" : "") + ' /><span class="toggle-slider"></span></label></div><div class="settings-row"><div class="settings-label"><h4>Content language</h4><p>Questions, explanations, and controls use one consistent language.</p></div><div class="settings-select select-field"><select aria-label="Content language" disabled><option>English</option></select></div></div><div class="settings-row"><div class="settings-label"><h4>Local progress</h4><p>Clear the preview answers and return to the starting counters.</p></div><button class="button button-secondary" id="reset-progress" type="button">Reset local progress</button></div></article><aside class="settings-side"><article class="card aside-card"><h3>Connection</h3><p>Study remains available with the cached preview. Results are ready to sync when the backend is connected.</p><span class="settings-badge" id="settings-connection-badge">' + (navigator.onLine ? "Online · ready to sync" : "Offline · local only") + '</span></article><article class="card aside-card"><h3>Release channel</h3><p>Central updates are enabled through the PWA service worker, with a safe cache boundary for the shell.</p><span class="settings-badge">v0.1 preview</span></article></aside></div></section>';
+    return '<section aria-labelledby="settings-heading"><div class="page-heading"><div><h2 id="settings-heading">Settings</h2></div></div><div class="settings-layout"><article class="card settings-card"><div class="settings-row"><div class="settings-label"><h4>Dark mode</h4><p>Easier on the eyes at night.</p></div><label class="toggle-input theme-toggle"><input id="theme-toggle" type="checkbox" ' + (state.theme === "dark" ? "checked" : "") + ' /><span class="toggle-slider"></span></label></div><div class="settings-row"><div class="settings-label"><h4>Reset progress</h4><p>Clears your answers and saved questions on this device.</p></div><button class="button button-secondary" id="reset-progress" type="button">Reset</button></div></article></div></section>';
   }
-
   function recordAnswer(item, correct) {
     state.progress.answered += 1;
     state.progress.bySpecialty[item.specialty] = (state.progress.bySpecialty[item.specialty] || 0) + 1;
@@ -337,8 +326,6 @@
     state.study.sessionAnswered += 1;
     if (correct) state.study.sessionCorrect += 1;
     recordAnswer(item, correct);
-    state.activity.unshift({ initials: specialty(item.specialty).short.slice(0, 2).toUpperCase(), text: (correct ? "Answered" : "Reviewed") + " a " + specialty(item.specialty).short.toLowerCase() + " question", time: "Just now", result: correct ? "Correct" : "Review" });
-    state.activity = state.activity.slice(0, 4);
     render();
   }
 
@@ -351,7 +338,7 @@
     if (randomized) items.sort(function () { return Math.random() - 0.5; });
     state.exam = { active: true, submitted: false, specialty: scope, count: Math.min(Math.max(count, 3), items.length), randomized: randomized, timed: timed, queue: items.slice(0, Math.min(Math.max(count, 3), items.length)).map(function (item) { return item.id; }), index: 0, answers: {}, reviewed: {}, endsAt: timed ? Date.now() + 600000 : null, result: null };
     clearInterval(examTimer);
-    showToast("Exam started. You can mark questions and return before submitting.");
+    showToast("Exam started.");
     render();
   }
 
@@ -388,26 +375,10 @@
     state.exam.active = false;
     state.exam.submitted = true;
     state.exam.result = result;
-    state.activity.unshift({ initials: "EX", text: "Completed a focused exam", time: "Just now", result: result.score + " / " + result.total });
-    state.activity = state.activity.slice(0, 4);
-    showToast("Exam submitted. Your topic breakdown is ready.");
+    showToast("Exam submitted.");
     render();
   }
 
-  function updateConnection() {
-    var online = navigator.onLine;
-    var pill = document.getElementById("connection-pill");
-    var label = document.getElementById("connection-label");
-    var sidebarStatus = document.getElementById("sidebar-sync-status");
-    if (pill) {
-      pill.classList.toggle("is-online", online);
-      pill.classList.toggle("is-offline", !online);
-    }
-    if (label) label.textContent = online ? "Online" : "Offline";
-    if (sidebarStatus) sidebarStatus.textContent = online ? "Ready to sync" : "Local mode";
-    var badge = document.getElementById("settings-connection-badge");
-    if (badge) badge.textContent = online ? "Online · ready to sync" : "Offline · local only";
-  }
 
   function showToast(message) {
     clearTimeout(toastTimer);
@@ -425,8 +396,7 @@
     state.savedQuestionIds = fresh.savedQuestionIds;
     state.progress = fresh.progress;
     state.study = fresh.study;
-    state.activity = fresh.activity;
-    showToast("Local preview progress reset.");
+    showToast("Progress reset.");
     render();
   }
 
@@ -475,14 +445,14 @@
     var studyOption = event.target.closest("[data-study-answer]");
     if (studyOption) { studyAnswer(studyOption.dataset.studyAnswer); return; }
     if (event.target.closest("[data-study-bookmark]")) {
-      var current = currentStudyQuestion().id;
+      var cur = currentStudyQuestion(); if (!cur) return; var current = cur.id;
       var position = state.savedQuestionIds.indexOf(current);
-      if (position === -1) { state.savedQuestionIds.push(current); showToast("Question saved for review."); } else { state.savedQuestionIds.splice(position, 1); showToast("Question removed from saved review."); }
+      if (position === -1) { state.savedQuestionIds.push(current); showToast("Question saved."); } else { state.savedQuestionIds.splice(position, 1); showToast("Removed from saved."); }
       render();
       return;
     }
     if (event.target.closest("[data-study-next]")) {
-      if (!state.study.answered) { state.study.answered = true; state.study.selected = currentStudyQuestion().answer; } else { state.study.index += 1; state.study.answered = false; state.study.selected = null; }
+      var curQ = currentStudyQuestion(); if (!curQ) return; if (!state.study.answered) { state.study.answered = true; state.study.selected = curQ.answer; } else { state.study.index += 1; state.study.answered = false; state.study.selected = null; }
       render();
       return;
     }
@@ -506,7 +476,7 @@
       return;
     }
     if (event.target.closest("#submit-exam")) { submitExam(); return; }
-    if (event.target.closest("#exit-exam")) { state.exam.active = false; clearInterval(examTimer); showToast("Exam paused. Your answers are kept in this browser."); render(); return; }
+    if (event.target.closest("#exit-exam")) { state.exam.active = false; clearInterval(examTimer); showToast("Exam closed."); render(); return; }
     if (event.target.closest("#restart-exam")) { state.exam.submitted = false; state.exam.result = null; navigate("exam"); return; }
     if (event.target.closest("#reset-progress")) resetProgress();
   });
@@ -543,8 +513,6 @@
     });
   });
 
-  window.addEventListener("online", updateConnection);
-  window.addEventListener("offline", updateConnection);
   document.documentElement.dataset.theme = state.theme;
   renderIcons(document);
   render();
