@@ -1,0 +1,18 @@
+{
+  "name": "Atlas MCQs",
+  "short_name": "Atlas MCQs",
+  "description": "A focused MCQ study workspace for vascular, thoracic, and cardiac surgery.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f4f6fb",
+  "theme_color": "#101a34",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%234f46e5'/%3E%3Cpath d='M19 32h26M32 19v26' stroke='white' stroke-width='7' stroke-linecap='round'/%3E%3C/svg%3E",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
