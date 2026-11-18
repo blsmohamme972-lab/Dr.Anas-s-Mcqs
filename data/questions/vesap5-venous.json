@@ -1,0 +1,822 @@
+[
+ {
+  "id": "vesap5-venous-q001",
+  "number": 1,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Venous Thromboembolism",
+  "stem": "A 76-year-old female smoker with a history of lupus anticoagulant presents after a motor vehicle crash resulting in a pelvic fracture and rectal injury requiring a diverting colostomy. Seven days after surgery she develops calf pain. Venous duplex study is obtained and reveals an acute, non-occlusive popliteal vein deep vein thrombosis (DVT). Her Caprini score is greater than 10. The preventive strategy that would have most significantly reduced her risk of developing an acute DVT after surgery is:",
+  "options": [
+   "Early ambulation",
+   "Prophylactic low molecular weight heparin and sequential compression device",
+   "Sequential compression device alone",
+   "Smoking cessation",
+   "Inferior vena cava filter placement"
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-venous-q002",
+  "number": 2,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Venous Thromboembolism",
+  "stem": "In a 65-year-old man who presents with an acute left iliofemoral deep vein thrombosis, the risk that he will have a recurrent deep vein thrombosis (DVT) in the next 10 years is:",
+  "options": [
+   "10%",
+   "50%",
+   "1%",
+   "30%",
+   "70%"
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-venous-q003",
+  "number": 3,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Venous Thromboembolism",
+  "stem": "A 39-year-old male non-smoker returned from a trans-Atlantic flight 3 days ago now complains of left lower extremity swelling, heaviness, and pain since his return. He denies chest pain, dyspnea, or cough. On examination, the left leg is 3 cm larger in circumference, compared to the right leg, and is mildly tender in the calf. The D-dimer is elevated. The next most appropriate study is:",
+  "options": [
+   "CT chest, pulmonary embolism protocol",
+   "MR venogram of the pelvis",
+   "Lower extremity venous duplex",
+   "Ankle brachial index",
+   "C-reactive protein"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-venous-q004",
+  "number": 4,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Venous Thromboembolism",
+  "stem": "A 35-year-old woman with a history of Factor V Leiden presents to the emergency room with right leg swelling after driving cross country. A venous duplex will likely show:",
+  "options": [
+   "Enlarged vein with a compressible lumen",
+   "Contracted vein with a compressible lumen",
+   "Enlarged vein with a noncompressible lumen",
+   "Echogenic thrombus with a compressible lumen",
+   "Echogenic thrombus with an enhanced venous wall"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-venous-q005",
+  "number": 5,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Venous Thromboembolism",
+  "stem": "A 72-year-old woman with lung cancer presents with swelling of the right leg. Venous duplex demonstrates evidence of acute nonocclusive popliteal venous thrombosis. The most appropriate management of this patient is:",
+  "options": [
+   "Redo duplex in 1 week",
+   "Lifelong antiplatelet therapy",
+   "Intravenous heparin bridge to 3-month course of warfarin",
+   "Low molecular weight heparin bridge to 3-month course of warfarin",
+   "Low molecular weight heparin for 3-month course"
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-venous-q006",
+  "number": 6,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Vascular Biology & Pharmacology",
+  "stem": "A 32-year-old woman with a history of left lower extremity deep venous thrombosis (DVT) on dabigatran presents to the emergency room after a motor vehicle crash and requires a laparotomy with splenectomy. The FDA-approved specific reversal agent for dabigatran is:",
+  "options": [
+   "Vitamin K",
+   "Prothrombin complex concentrate (PCC)",
+   "Factor 7",
+   "Idarucizumab",
+   "Andexanet alfa"
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-venous-q007",
+  "number": 7,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Venous Thromboembolism",
+  "stem": "A 27-year-old woman is 34 weeks pregnant and is on bedrest with placenta previa. She develops a left leg deep venous thrombosis up to the level of her mid femoral vein. The most appropriate treatment strategy for this patient during her pregnancy is:",
+  "options": [
+   "Anticoagulation with low molecular weight heparin, with pause planned for C-section",
+   "Anticoagulation with low molecular weight heparin and retrievable infrarenal vena cava filter placement, with pause planned for C-section",
+   "Permanent infrarenal vena cava filter placement",
+   "Retrievable infrarenal vena cava filter placement",
+   "Retrievable suprarenal vena cava filter placement"
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-venous-q008",
+  "number": 8,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Venous Thromboembolism",
+  "stem": "A 45-year-old man with a history of deep vein thrombosis while on anticoagulation had a retrievable inferior vena cava (IVC) filter placed prior to hip surgery. The filter is no longer required and has been in place for just over 7 months. The factor that is most associated with retrieval failure is:",
+  "options": [
+   "Type of retrievable filter",
+   "The filter tilting greater than 30 degrees",
+   "Time since filter placement",
+   "Filter struts protruding through the IVC",
+   "Position above or below the renal veins"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-venous-q011",
+  "number": 11,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Venous Thromboembolism",
+  "stem": "A 56-year-old patient is admitted for intravenous antibiotics for infective endocarditis. The patient has a right-sided peripherally inserted central catheter line with a right arm that is notably edematous from the shoulder distally. A venous duplex shows basilic vein clot extending into the axillary vein. The most appropriate management is:",
+  "options": [
+   "Warm packs and non-steroidal anti-inflammatory drugs (NSAIDS)",
+   "Compression bandage and arm elevation",
+   "Aspirin",
+   "Removal of catheter and anticoagulation",
+   "Diuresis"
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-venous-q012",
+  "number": 12,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Upper Extremity & Thoracic Outlet",
+  "stem": "A 21-year-old collegiate volleyball player develops a painful, cyanotic, swollen right upper extremity. He undergoes duplex ultrasound imaging, which shows evidence of acute deep venous thrombosis (DVT) involving the axillary and subclavian veins. Venography and thrombolytic therapy are performed with good result. No significant narrowing of the subclavian-axillary vein segment is seen on completion venography. The maneuver during venography that will best elicit the presence of extrinsic compression of the vein is:",
+  "options": [
+   "Full arm adduction, hand pronated",
+   "Full arm adduction, hand supinated",
+   "Repetitive fist clenching",
+   "90° arm abduction with external rotation",
+   "Arm folded over chest"
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-venous-q013",
+  "number": 13,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Venous Thromboembolism",
+  "stem": "A 67-year-old woman presents to the emergency department with significant shortness of breath following colectomy for colon cancer 3 weeks prior and has had difficulty being compliant with her physical therapy postoperatively. Her systolic blood pressure is 130 mm Hg, heart rate is 120 beats per minute, and oxygen saturation on room air 88%. Chest x-ray is clear. The next most appropriate test to clearly define her diagnosis is:",
+  "options": [
+   "Ventilation perfusion scan",
+   "Bilateral lower extremity venous ultrasound",
+   "Electrocardiogram",
+   "D-dimer",
+   "Computerized tomography pulmonary angiography (CTPA)"
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-venous-q015",
+  "number": 15,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Venous Thromboembolism",
+  "stem": "A 55-year-old man presents with the acute onset of shortness of breath and chest pain. His systolic blood pressure is 100 mm Hg, heart rate is 120 beats per minute, and oxygen saturation is 94% on 4 L/min. Chest CT scan shows a saddle embolus. Heparin is initiated. The circumstance under which catheter-based thrombus removal should be considered is:",
+  "options": [
+   "Clinical improvement with anticoagulation alone",
+   "Development of hypotension and evidence of right ventricular dilation and hypokinesis on echocardiogram",
+   "Clinical deterioration despite administration of systemic thrombolytics",
+   "Cardiac arrest",
+   "Worsening hypoxia without hypotension following heparin administration"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-venous-q016",
+  "number": 16,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Venous Thromboembolism",
+  "stem": "A 44-year-old man who sustained trauma to his cervical spine and multiple organs is currently intubated in the intensive care unit. The strongest argument for venous thromboembolism (VTE) pharmacologic prophylaxis is:",
+  "options": [
+   "Prolonged immobility",
+   "Young age",
+   "Active intracranial hemorrhage",
+   "Thrombocytopenia",
+   "Grade IV splenic laceration"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-venous-q018",
+  "number": 18,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Venous Thromboembolism",
+  "stem": "A 34-year-old woman with longstanding varicose veins and a past history of deep venous thrombosis 10 years prior presents with a painful throbbing left leg varicose vein in the great saphenous vein (GSV) distribution. Ultrasound confirms acute thrombosis of varicose vein tributaries extending into the thigh GSV, 10 cm in length and 5 cm from the saphenofemoral junction. The best treatment for this patient is:",
+  "options": [
+   "Hot compresses",
+   "Nonsteroidal anti-inflammatory drugs",
+   "Repeat ultrasound in 4 weeks",
+   "Therapeutic anticoagulation",
+   "Elastic compression stockings"
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-venous-q019",
+  "number": 19,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Venous Thromboembolism",
+  "stem": "A 45-year-old woman with no past medical history presents with an indurated painful medial thigh. She is not on any medications. Duplex ultrasound confirms superficial thrombophlebitis of the great saphenous vein 10 cm in length. The clot starts 2 cm distal to the saphenofemoral junction. The best initial treatment for this patient is:",
+  "options": [
+   "Leg elevation, warm compressions and acetaminophen 650 mg every 6 as needed for symptomatic relief",
+   "Warm compressions and Ibuprofen 600 mg every 6 hours as needed for 14 days",
+   "Subcutaneous fondaparinux 2.5 mg daily for 45 days",
+   "Oral rivaroxaban 2.5 mg daily for 45 days",
+   "Surgical ligation of the saphenofemoral junction"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-venous-q021",
+  "number": 21,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Mediastinitis & SVC Syndrome",
+  "stem": "A 64-year-old man with a history of multiple hemodialysis catheters presents with fullness of the head that is worse with bending over, dyspnea on exertion, and right upper extremity swelling 3 weeks after right radiocephalic arteriovenous fistula creation. The most likely diagnosis is:",
+  "options": [
+   "Intracranial tumor",
+   "Pulmonary embolism",
+   "Deep vein thrombosis",
+   "Superior vena cava syndrome",
+   "Congestive heart failure"
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-venous-q022",
+  "number": 22,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Mediastinitis & SVC Syndrome",
+  "stem": "A 55-year-old man with a 40-pack-year smoking history presents with head and neck swelling that has been worsening over the past 8 weeks. The symptoms are not debilitating. He underwent an evaluation consisting of a CT chest, bronchial washings, and a lymph node biopsy that demonstrated superior vena cava (SVC) compression related to lung cancer (bronchogenic carcinoma). Venous duplex does not demonstrate evidence of upper extremity deep vein thrombosis (DVT). The mainstay of treatment is:",
+  "options": [
+   "Radiotherapy",
+   "Balloon angioplasty and stenting of SVC",
+   "Lymphedema pump",
+   "Enoxaparin",
+   "Open venous reconstruction"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-venous-q023",
+  "number": 23,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Venous Thromboembolism",
+  "stem": "A 30-year-old woman is referred by another vascular surgeon who believes she may have May-Thurner syndrome (MTS). Findings most consistent with this syndrome include:",
+  "options": [
+   "Right leg pain and swelling with ambulation",
+   "Bilateral leg swelling and pain with ambulation",
+   "Bilateral buttock claudication with ambulation",
+   "Left leg swelling below the knee and pain with ambulation",
+   "Left leg swelling from the inguinal ligament distally, pain with standing that is relieved by elevation"
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-venous-q024",
+  "number": 24,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Venous Thromboembolism",
+  "stem": "The clinical examination and imaging findings that would best establish a diagnosis of May-Thurner syndrome (MTS) are:",
+  "options": [
+   "Asymptomatic patient with more than 50% left common iliac vein compression",
+   "Bilateral lower extremity swelling with more than 50% left common iliac vein compression",
+   "Left lower extremity swelling with left iliofemoral deep venous thrombosis and more than 50% left iliac vein compression on intravascular ultrasound",
+   "Left lower extremity swelling with femoral and popliteal deep venous thrombosis",
+   "Bilateral lower extremity swelling with bilateral iliofemoral and distal vena cava deep venous thrombosis"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-venous-q027",
+  "number": 27,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Chronic Venous Disease & Varicose Veins",
+  "stem": "A 38-year-old woman presents with abdominal pain. She has had 3 full-term pregnancies and has no history of deep vein thrombosis (DVT) or lower extremity venous varicosities. On examination, she has vulvar varicose veins. Which of the following would be most suggestive of the nutcracker syndrome (NCS)?",
+  "options": [
+   "Dysuria",
+   "Hematuria",
+   "Right flank pain",
+   "Dysmenorrhea",
+   "Hot flashes"
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-venous-q028",
+  "number": 28,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Chronic Venous Disease & Varicose Veins",
+  "stem": "A 28-year-old woman presents with hematuria for the past 6 months with severe lifestyle-limiting abdominal pain after 2 years of conservative treatment modalities. She has a prior CT venogram with compression of the left renal vein beneath the proximal superior mesenteric artery. She has had a prior trauma splenectomy after a motor vehicle accident 7 years ago. The definitive surgical management of her syndrome would require a:",
+  "options": [
+   "Splenorenal bypass",
+   "Renal vein embolization",
+   "Left renal vein transposition to the inferior vena cava (IVC)",
+   "Left nephrectomy",
+   "Laparoscopic duodenal bypass (duodenojejunostomy)"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-venous-q029",
+  "number": 29,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Chronic Venous Disease & Varicose Veins",
+  "stem": "In a patient who presents with leg swelling, the history or physical examination finding that should raise suspicion for deep venous obstruction proximal to the inguinal ligament is:",
+  "options": [
+   "History of tibial level deep venous thrombosis",
+   "Varicose veins along the medial thigh",
+   "History of superficial thrombophlebitis in the lower leg",
+   "Varicose veins over the mons pubis",
+   "Multiple spider veins"
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-venous-q030",
+  "number": 30,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Chronic Venous Disease & Varicose Veins",
+  "stem": "A 55-year-old woman presents with left lower extremity heaviness, aching, swelling, throbbing, itching, and pigmentation in the medial malleolar region. The symptoms have been progressive over the past 15 years. She underwent a preliminary venous duplex, and there was no evidence of superficial venous reflux or of deep vein thrombosis. The study that would provide the most definitive diagnosis is:",
+  "options": [
+   "CT venogram",
+   "MR venogram",
+   "Multiplanar venogram",
+   "Transvaginal ultrasound",
+   "Intravascular ultrasound"
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-venous-q031",
+  "number": 31,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Venous Thromboembolism",
+  "stem": "A 35-year-old woman underwent a venous duplex for severe left lower extremity swelling, which reveals acute deep venous thrombosis (DVT) from the femoral vein distally. A CT venogram is performed and is highly suggestive of May-Thurner syndrome. After discussing the risks and benefits to the patient, she decides to proceed with endovascular therapy. The optimal management strategy for this patient is:",
+  "options": [
+   "Systemic thrombolysis",
+   "Heparinization and conversion to oral anticoagulants",
+   "Pharmacomechanical thrombectomy followed by stenting of the left iliac vein",
+   "Catheter directed thrombolysis",
+   "IVUS-guided mechanical thrombectomy"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-venous-q032",
+  "number": 32,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Venous Thromboembolism",
+  "stem": "A 78-year-old woman with breast cancer and brain metastases presents with a moderately swollen left lower extremity. She undergoes venous duplex, which demonstrates evidence of acute thrombosis of the left common femoral, femoral, popliteal, soleal, and gastrocnemius veins. In addition to therapeutic anticoagulation, the management should include:",
+  "options": [
+   "Catheter-directed thrombolytic therapy",
+   "Systemic thrombolytic therapy",
+   "Strict bedrest",
+   "Compression therapy",
+   "Venous stenting"
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-venous-q034",
+  "number": 34,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Chronic Venous Disease & Varicose Veins",
+  "stem": "A 57-year-old man with a history of deep venous thrombosis presents to the vascular clinic with a 2-month history of a right leg venous ulcer. Ultrasound demonstrates femoral and popliteal venous reflux, and chronic changes that are consistent with a history of deep vein thrombosis. Arterial pulses and ABI are normal. The superficial and perforator, as well as the common femoral and iliac veins are all normal. The most appropriate initial treatment that would be most effective in healing the leg ulcer would be:",
+  "options": [
+   "Compression",
+   "Horse chestnut seed extract",
+   "Vein valve auto-transplant",
+   "Biologic dressing to the ulcer",
+   "Antibiotics"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-venous-q035",
+  "number": 35,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Chronic Venous Disease & Varicose Veins",
+  "stem": "A 65-year-old man with chronic venous insufficiency presents with a recurrent ulcer around his right ankle. Both the greater and small saphenous veins on the right were ablated 2 years ago. Recent duplex shows no obstruction and no pathologic perforators. The popliteal and femoral veins are patent with severe reflux. His valves appear severely damaged and scarred from old deep vein thromboses (DVTs). The acceptable surgical option includes:",
+  "options": [
+   "External banding",
+   "External valvuloplasty",
+   "Internal valvuloplasty",
+   "Valve transplantation of a competent valve",
+   "Valve substitutes using autogenous tissue"
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-venous-q038",
+  "number": 38,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Chronic Venous Disease & Varicose Veins",
+  "stem": "A 67-year-old man presents with post-thrombotic syndrome following a left lower extremity deep vein thrombosis (DVT) that occurred 25 years earlier. He presents with a recurrent ulceration to his left lower extremity after being recently discharged from the hospital. The wound has a granulation tissue base, and there is no evidence of erythema, fluctuance, or appreciable drainage. A venous duplex demonstrates evidence of chronic femoral vein DVT but no evidence of superficial vein reflux. The most appropriate treatment is:",
+  "options": [
+   "Leg elevation",
+   "Antibiotics",
+   "Compression stockings 30-40 mm Hg",
+   "Weekly Unna boot changes",
+   "Greater saphenous vein endothermal ablation"
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-venous-q039",
+  "number": 39,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Chronic Venous Disease & Varicose Veins",
+  "stem": "A 45-year-old woman presents to the office with large varicose veins in the greater saphenous distribution extending from the upper medial thigh down to the distal calf. She has no leg swelling. She has hemosiderin staining at the medial malleolus and excoriated skin with active ulceration. A venous duplex is negative for deep venous thrombosis, but reveals reflux greater than 3 sec throughout the greater saphenous vein as well as perforator reflux greater than 3 seconds at the distal calf. There is no lesser saphenous vein reflux. Optimal therapy for ulcer healing includes:",
+  "options": [
+   "Unna boot",
+   "Radiofrequency ablation of the greater saphenous vein",
+   "Radiofrequency ablation of the lesser saphenous vein",
+   "Iliac vein stenting",
+   "Compression therapy"
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-venous-q040",
+  "number": 40,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Chronic Venous Disease & Varicose Veins",
+  "stem": "A 57-year-old woman with a history of multiple prior lower extremity deep venous thromboses has developed chronic swelling and hyperpigmentation over both ankles with a 3-cm superficial ulceration on the right medial ankle. This has been present for 14 months without any significant evidence of healing. The ulcer base appears clean without any evidence of surrounding cellulitis. In addition to compression therapy, the management option that should be considered is:",
+  "options": [
+   "Cadexomer iodine",
+   "Therapeutic ultrasound",
+   "Hyperbaric oxygen",
+   "Systemic antibiotics",
+   "Electromagnetic therapy"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-venous-q041",
+  "number": 41,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Chronic Venous Disease & Varicose Veins",
+  "stem": "In longitudinal epidemiologic analysis, the factor that is most associated with progression to a more advanced clinical, etiology, anatomy, pathology (CEAP) clinical class in a population of patients with varicose veins and chronic venous insufficiency is:",
+  "options": [
+   "Female gender",
+   "History of smoking",
+   "Multiparity",
+   "Obesity",
+   "Prior deep vein thrombosis"
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-venous-q042",
+  "number": 42,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Chronic Venous Disease & Varicose Veins",
+  "stem": "A 55-year-old man presents to clinic with a 2-year history of progressively worsening varicose veins with pain and swelling. There are no skin changes or ulcers. The history most consistent with superficial venous disease is:",
+  "options": [
+   "Pain is worse in the morning when the patient wakes up",
+   "Swelling is worse in the morning and improves with walking and standing",
+   "Swelling involves the entire lower extremity including the foot",
+   "Leg elevation alleviates symptoms of pain and swelling",
+   "Pain is limited to the foot and ankle"
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-venous-q043",
+  "number": 43,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Chronic Venous Disease & Varicose Veins",
+  "stem": "A 25-year-old woman presents for evaluation of varicose veins. A venous reflux study is performed. According to the Society for Vascular Surgery/American Venous Forum guidelines for duplex scanning for venous incompetence, reflux should be:",
+  "options": [
+   "Evaluated in the supine position",
+   "Elicited by manual compression and release of the limb proximal to the point of examination",
+   "Performed with a Valsalva maneuver to demonstrate incompetence of the saphenofemoral junction",
+   "Less than 500 ms in the saphenous, tibial, femoral, popliteal, and deep femoral veins",
+   "Less than 300 ms in perforating veins"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-venous-q045",
+  "number": 45,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Chronic Venous Disease & Varicose Veins",
+  "stem": "A 54-year-old woman presents with painful varicose veins on the medial aspect of her thigh and lower leg. She has worn compression stockings for years. Duplex ultrasound demonstrates reversal of flow for 0.75 seconds within the great saphenous vein (GSV) in the thigh. The GSV measures 10 mm in diameter and is located below the fascia until the distal two thirds of the thigh, where it is noted to become superficial to the fascia and tortuous. The GSV in the proximal portion of the leg is located 8 mm below the skin surface and is noted to have a 3-cm segment of acute superficial thrombophlebitis approximately 10 cm from the saphenofemoral junction. A contraindication to radiofrequency ablation would be the:",
+  "options": [
+   "Diameter of the vein",
+   "Depth of the vein from the skin surface",
+   "Tortuosity of the vein in the distal thigh",
+   "3 cm segment of acute superficial thrombophlebitis",
+   "Duration of reversal of flow"
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-venous-q048",
+  "number": 48,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Chronic Venous Disease & Varicose Veins",
+  "stem": "A 23-year-old woman, who is planning on undergoing sclerotherapy for 3-mm telangiectasias, asks to be told the risks of the procedure. The most common risk of sclerotherapy for telangiectasias is:",
+  "options": [
+   "Short-term hyperpigmentation",
+   "Telangiectatic matting",
+   "Cutaneous nerve injury",
+   "Cutaneous necrosis",
+   "Deep venous thrombosis"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-venous-q049",
+  "number": 49,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Lymphedema & Vascular Malformations",
+  "stem": "A 50-year-old man presents after recently moving from South America. He is referred due to lymphedema with clear clinical features but with no comorbidities or other medical history. Symptoms developed in the last 5 years with normal appearing legs prior to that time period. The most likely etiology for disease based on his geographic place of origin is:",
+  "options": [
+   "Malignant obstruction",
+   "Primary lymphedema",
+   "Entamoeba histolytica",
+   "Mordor’s disease",
+   "Filariasis"
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-venous-q050",
+  "number": 50,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Lymphedema & Vascular Malformations",
+  "stem": "The best imaging modality to confirm the diagnosis of lymphedema is:",
+  "options": [
+   "Ultrasound",
+   "Computed tomography",
+   "Magnetic resonance imaging",
+   "Lymphoscintigraphy",
+   "Lymphangiography"
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-venous-q051",
+  "number": 51,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Lymphedema & Vascular Malformations",
+  "stem": "A 23-year-old woman has noticed left foot and toe swelling that have been progressive since her early teenage years. She is concerned because she is having a difficult time fitting into her shoes. She does endorse one episode of cellulitis 3 years prior, which resolved with a limited course of antibiotics. Physical examination confirms the presence of a Stemmer’s sign and swelling, which is not improved by leg elevation. A venous duplex does not demonstrate evidence of superficial truncal reflux. The best initial course of management is:",
+  "options": [
+   "Left GSV endothermal ablation",
+   "Left GSV mechanicochemical ablation",
+   "Lymphovenous bypass",
+   "Combined decongestive therapy",
+   "Microphlebectomy"
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-venous-q052",
+  "number": 52,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Lymphedema & Vascular Malformations",
+  "stem": "A 71-year-old man with coronary artery disease, congestive heart failure, and an ejection fraction of 20% is starting his first day of complete decongestive therapy (CDT), including manual lymphatic drainage for bilateral lower extremity severe lymphedema. He does not have any deep venous thromboses or diabetes. A potential complication of CDT, given his history, is:",
+  "options": [
+   "Angina",
+   "Shortness of breath due to volume overload",
+   "Neuropathy",
+   "Renal failure",
+   "Infection"
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-venous-q053",
+  "number": 53,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Lymphedema & Vascular Malformations",
+  "stem": "A 60-year-old woman with lymphedema of the lower left extremity presents for discussion of surgical treatment options. A relative contraindication to proceeding with autologous lymphatic grafting would be:",
+  "options": [
+   "Noncompliance with compression therapy",
+   "History of radiation to the pelvis for a gynecologic malignancy",
+   "History of ipsilateral pelvic and inguinal lymph node excision.",
+   "Primary lymphedema associated with lymphatic atresia",
+   "Malignant hyperthermia"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-venous-q054",
+  "number": 54,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Lymphedema & Vascular Malformations",
+  "stem": "A 39-year-old woman presents to the office following an emergency room visit for cellulitis, where she was started on antibiotics. Her past medical history is significant for multiple hospitalizations for lymphangitis and cellulitis. The feature most consistent with a diagnosis of lymphedema is:",
+  "options": [
+   "Port wine stain",
+   "Discrepancy in limb length",
+   "Lipodermatosclerosis",
+   "Stemmer’s sign",
+   "Thigh bruit on auscultation"
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ }
+]

@@ -1,0 +1,781 @@
+[
+ {
+  "id": "vesap5-renal-q001",
+  "number": 1,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Renovascular Disease",
+  "stem": "The pathophysiology of ischemic nephropathy is primarily due to:",
+  "options": [
+   "Obstructive nephropathy",
+   "Isolated thickening of basement membrane",
+   "Chronic hypoperfusion",
+   "Acute renal artery occlusion",
+   "Decreased filtering in the loop of Henle"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-renal-q003",
+  "number": 3,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Renovascular Disease",
+  "stem": "A 73-year-old man is referred for recalcitrant hypertension and chronic kidney disease. Blood pressure is 180/95, despite a 4-drug regimen. Renal duplex notes an atrophic right kidney and peak systolic velocities of 220 cm/s through the proximal left main renal artery. The next best step in the management of this patient is:",
+  "options": [
+   "Diagnostic arteriogram",
+   "Computed tomography arteriogram (CTA)",
+   "Magnetic resonance arteriogram (MRA)",
+   "Captopril scintigraphy",
+   "Renal biopsy"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-renal-q006",
+  "number": 6,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Vascular Diagnostics & Imaging",
+  "stem": "A 63-year-old woman with uncontrolled hypertension on two medications undergoes MR angiography to evaluate for renal artery stenosis, interpreted as an indeterminant stenosis of the left renal artery. A significant limitation of renal artery imaging by MR angiography:",
+  "options": [
+   "Delivers more ionizing radiation to the patient than CT imaging",
+   "Has higher contrast requirements than CT imaging",
+   "More susceptible to respiratory movement of the kidney and can overestimate stenosis",
+   "Heavy ostial calcification makes it difficult to quantify stenoses",
+   "Is unable to detect small distal renal artery variations"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-renal-q007",
+  "number": 7,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Vascular Diagnostics & Imaging",
+  "stem": "A 62-year-old man with high-grade renal stenosis is undergoing angiography prior to endovascular imaging. The technique recommended to improve imaging quality during renal artery angiography is:",
+  "options": [
+   "Placement of the patient’s arm tucked by the patient’s side and use of steep oblique (>60%) imaging",
+   "Instructing the patient to take multiple deep breaths during the contrast injection",
+   "Large volume contrast injection through an end hole catheter directed towards the side of the stenosis",
+   "Using a non-subtracted image mode with placement of a flush catheter just above the renal arteries",
+   "Decreasing the frame rate to a low frame mode such as 2 frames/sec"
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-renal-q008",
+  "number": 8,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Renovascular Disease",
+  "stem": "A 65-year-old man with hypertension who has been on angiotensin-converting enzyme (ACE) inhibitor for the past 6 months presents with worsening renal dysfunction and a serum creatinine of 2.1 mg/dL. Examination demonstrates an abdominal bruit. Renal artery duplex demonstrates a right renal artery peak systolic velocity (PSV) of 220 cm/sec and left renal artery PSV of 230 cm/sec. The most likely cause of his worsening renal function is:",
+  "options": [
+   "Renal artery dissection",
+   "Bilateral renal artery stenosis",
+   "Takayasu arteritis",
+   "Left renal artery stenosis",
+   "ACE inhibitor toxicity"
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-renal-q010",
+  "number": 10,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Renovascular Disease",
+  "stem": "A 72-year-old man with ischemic cardiomyopathy (ejection fraction of 35%) and a single left kidney undergoes endovascular aneurysm repair for a 6.4-cm infrarenal abdominal aortic aneurysm. During the procedure the left renal artery is inadvertently covered. Attempts at endovascular salvage are unsuccessful. The next most appropriate step in management is:",
+  "options": [
+   "Iliorenal bypass",
+   "Splenorenal bypass",
+   "Hepatorenal bypass",
+   "Aortorenal bypass from the supra-celiac aorta",
+   "Renal auto-transplantation"
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-renal-q011",
+  "number": 11,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Renovascular Disease",
+  "stem": "A 55-year-old man with bilateral atherosclerotic ostial renal artery stenosis and hypertension managed with 4 medications, presents for surgical consultation. He has no significant cardiovascular comorbidity. He has single renal arteries bilaterally, no notable celiac or superior mesenteric arterial disease, and a normal caliber aorta without transmural calcification. The most appropriate surgical option for revascularization is:",
+  "options": [
+   "Transaortic aortorenal thrombendarterectomy via a transverse incision",
+   "Bilateral aortorenal bypass with hypogastric arterial conduit",
+   "Direct aortic reimplantation of bilateral renal arteries",
+   "Extra-anatomic renal artery bypass",
+   "Ex-vivo renal artery revascularization"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-renal-q012",
+  "number": 12,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Renovascular Disease",
+  "stem": "Both the Angioplasty and Stenting for Renal Artery Lesions (ASTRAL) and the Cardiovascular in Renal Atherosclerotic Lesions (CORAL) trials reported outcomes for renal artery stenting for renovascular hypertension. The statement that is most consistent with those outcomes is:",
+  "options": [
+   "Artery stenting is only beneficial for blood pressure reduction in female patients",
+   "Artery stenting is not medically necessary in patients with adequate blood pressure control and stable renal function",
+   "Artery stenting is more likely to prevent the need for hemodialysis than in patients without intervention",
+   "Artery stenting is associated with better long-term blood pressure control than medical treatment alone",
+   "Artery stenting is likely to result in a pooled decrease in death, stroke, and myocardial infarction compared to patients receiving medications alone."
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-renal-q013",
+  "number": 13,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Renovascular Disease",
+  "stem": "A 54-year-old man presents with evidence of bilateral atherosclerotic renal artery stenosis and a decreased glomerular filtration rate (GFR). The following factor has been shown to be most important in predicting preservation of renal function if renal angioplasty and stenting is performed in this setting:",
+  "options": [
+   "Degree of stenosis of the renal arteries to be treated",
+   "Preprocedural degree of renal dysfunction as measured by GFR",
+   "Patient age",
+   "Preprocedural blood pressure control",
+   "Number of preprocedural anti-hypertensive agents patient requires"
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-renal-q015",
+  "number": 15,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Renovascular Disease",
+  "stem": "A 68-year-old man is incidentally noted to have a 70% right renal artery stenosis on an otherwise negative CT scan performed for evaluation of abdominal pain that has now resolved. He is referred to vascular surgery for evaluation and potential intervention. He is taking 1 anti-hypertensive medication with a blood pressure of 130/70 mm Hg and a serum creatinine of 1.2 mg/dL. The best management of this patient is:",
+  "options": [
+   "No intervention and annual CT angiography surveillance but no intervention",
+   "Angioplasty and stenting of the lesion as a potential first line therapy rather than the initiation of blood pressure medication if needed",
+   "No intervention is required",
+   "Intervention in the absence of congestive heart failure or flash pulmonary edema",
+   "Catheter-based angiography to verify the CT findings"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-renal-q017",
+  "number": 17,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Peripheral & Visceral Aneurysms",
+  "stem": "A 77-year-old woman presents with an incidentally discovered 2-cm main renal artery aneurysm (RAA). She is otherwise healthy without hypertension. The most appropriate option for management is:",
+  "options": [
+   "Aneurysm excision with primary re-anastomosis",
+   "Endovascular exclusion of the renal aneurysm with a covered stent",
+   "Routine surveillance with annual MR angiogram",
+   "Aneurysm repair via ex-vivo reconstruction"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-renal-q019",
+  "number": 19,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Renovascular Disease",
+  "stem": "The diagnosis of renal vein thrombosis in a non-transplanted patient is most accurately determined by:",
+  "options": [
+   "Color Doppler",
+   "MRI",
+   "CT with intravenous contrast",
+   "Intravenous urogram",
+   "Catheter venography"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-renal-q020",
+  "number": 20,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Renovascular Disease",
+  "stem": "Initial management of renal vein thrombosis is:",
+  "options": [
+   "Anticoagulation",
+   "Intra-arterial thrombolysis",
+   "Intravenous thrombolysis",
+   "Nephrectomy",
+   "Operative thrombectomy"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-renal-q021",
+  "number": 21,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Renovascular Disease",
+  "stem": "A 45-year-old man with no prior history of hypertension presents with severe uncontrolled right flank pain and hematuria. His right arm blood pressure is 180/100 mm Hg. A computed tomographic angiography of the abdomen demonstrates an isolated right renal artery dissection with extension into the branch vessels and cortical infarction. Renal artery angiogram shows arterial dissection into the cortical branches. The optimal treatment for this patient is:",
+  "options": [
+   "Renal artery angioplasty with a drug coated balloon.",
+   "Renal artery balloon expandable stent placement",
+   "Right nephrectomy",
+   "Renal artery bypass with PTFE",
+   "Observation and initiating antihypertensive medication"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-renal-q022",
+  "number": 22,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Renovascular Disease",
+  "stem": "A 39-year-old man is evaluated after a new onset of renal insufficiency and hypertension following a renal biopsy for a suspicious mass on the kidney. On examination, his abdomen is soft with a bruit on the left flank and noticeable varicoceles on the scrotum. The most likely diagnosis is:",
+  "options": [
+   "Renal carcinoma",
+   "Arteriovenous malformation",
+   "Diabetic nephropathy",
+   "Renal arteriovenous fistula (AVF)",
+   "May-Thurner syndrome"
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-renal-q023",
+  "number": 23,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Renovascular Disease",
+  "stem": "A 42-year-old patient with a renal transplant undergoes a transplant biopsy due to worsening renal function. Three months later, a renal duplex is performed for persistent decline in renal function. The transplant renal duplex reveals an arteriovenous fistula (AVF). An indication for intervention is:",
+  "options": [
+   "Persistent hypertension, even if controlled with medication",
+   "Intermittent microscopic hematuria, that does not require transfusion",
+   "Persistence at 9 months, even without symptoms",
+   "Intermittent lumbar pain, controlled with oral analgesics",
+   "Persistent worsening creatinine"
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-renal-q024",
+  "number": 24,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Lymphedema & Vascular Malformations",
+  "stem": "A 25-year-old woman presents with recurrent hematuria and flank pain. On physical examination, she has a right abdominal bruit. A duplex ultrasound is ordered. The duplex finding that is most consistent with a renal arteriovenous malformation is:",
+  "options": [
+   "Decreased peak systolic velocity with low end-diastolic flow",
+   "Decreased peak systolic velocity with high end-diastolic flow",
+   "Increased peak systolic velocity with low end diastolic flow",
+   "Increased peak systolic velocity with high end diastolic flow",
+   "Increased peak systolic velocity with reversal of diastolic flow"
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-renal-q025",
+  "number": 25,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Lymphedema & Vascular Malformations",
+  "stem": "A 38-year-old woman with a newly diagnosed right renal congenital arteriovenous malformation is referred for possible intervention due to recurrent episodes of hematuria requiring blood transfusions. The most appropriate technique for endovascular treatment of renal arteriovenous malformations (AVMs) is:",
+  "options": [
+   "Gelatin sponge is best used in the treatment of smaller AVMs",
+   "Direct puncture with alcohol injection",
+   "Micro-coils are favored over glues and alcohols",
+   "Large AVMs should initially be treated by radiofrequency ablation",
+   "Covered stents should not be used to treat AVMs"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-renal-q026",
+  "number": 26,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Mesenteric Ischemia",
+  "stem": "The key visceral artery involved in chronic mesenteric ischemia is:",
+  "options": [
+   "Inferior mesenteric artery",
+   "Superior mesenteric artery",
+   "Gastroduodenal artery",
+   "Celiac artery",
+   "Arc of Riolan"
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-renal-q027",
+  "number": 27,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Mesenteric Ischemia",
+  "stem": "A key historic factor in a patient presenting with acute mesenteric ischemia due to an embolic event would be:",
+  "options": [
+   "Atrial fibrillation",
+   "Diabetes",
+   "Peripheral arterial disease",
+   "Hypertension",
+   "Hypercoagulability"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-renal-q028",
+  "number": 28,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Mesenteric Ischemia",
+  "stem": "A 75-year-old woman has a 6-month history of weight loss and recent post-prandial abdominal pain with food fear. A mesenteric arterial duplex demonstrates severe stenosis of the celiac artery, focal occlusion of the superior mesenteric artery (SMA) and a patent inferior mesenteric artery (IMA) without stenosis. The main collateral pathway that is providing blood flow to the SMA is:",
+  "options": [
+   "Gastroduodenal artery",
+   "Pancreaticoduodenal artery",
+   "Hemorrhoidal branches from the internal iliac artery",
+   "Epigastric artery",
+   "Arc of Riolan"
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-renal-q029",
+  "number": 29,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Mesenteric Ischemia",
+  "stem": "A 21-year-old lean woman presents with painless post-prandial bilious emesis after intentionally losing 20 pounds. Gastrointestinal work up has ruled out intrinsic gastric pathology, a motility disorder, as well as an eating disorder. Despite aggressive work up, the patient continues to lose weight and has a nasojejunal tube placed which allows her to begin to gain weight. The anatomic finding that is the most likely cause of her symptoms is:",
+  "options": [
+   "Superior mesenteric artery critical stenosis",
+   "J-hook configuration of the celiac artery",
+   "Replaced right hepatic artery",
+   "Narrowed aorto-mesenteric angle",
+   "Left renal vein stenosis"
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-renal-q031",
+  "number": 31,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Mesenteric Ischemia",
+  "stem": "An 85-year-old woman with history of atrial fibrillation held her anticoagulation for one week for a dental procedure. She now presents to the emergency department with acute onset of abdominal pain. Her laboratory panel demonstrates moderate leukocytosis and a high anion gap acidosis. The next step in determining the diagnosis for this patient is:",
+  "options": [
+   "Abdominal plain radiograph",
+   "Mesenteric duplex ultrasonography",
+   "Magnetic resonance angiography (MRA)",
+   "CT angiography (CTA)",
+   "Diagnostic laparoscopy"
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-renal-q033",
+  "number": 33,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Mesenteric Ischemia",
+  "stem": "A duplex ultrasound is ordered to evaluate a 59-year-old woman with chronic abdominal pain. The duplex criterion that would be suggestive of a diagnosis of chronic mesenteric ischemia is:",
+  "options": [
+   "A peak systolic velocity (PSV) in the celiac artery of 190 cm/sec and in the superior mesenteric artery of 260 cm/sec",
+   "A PSV in the celiac artery of 210 cm/sec and in the superior mesenteric artery of 260 cm/sec",
+   "Retrograde flow in the hepatic and splenic artery with a superior mesenteric artery PSV of 260 cm/sec",
+   "Retrograde flow in the hepatic and splenic artery with a superior mesenteric artery PSV of 290 cm/sec",
+   "Heavy shadowing of the celiac and superior mesenteric artery origin with an elevated end diastolic velocity (EDV) of 43 cm/seconds."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-renal-q035",
+  "number": 35,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Mesenteric Ischemia",
+  "stem": "The key imaging angle for the origin of the superior mesenteric artery is:",
+  "options": [
+   "Anteroposterior",
+   "Posteroanterior",
+   "Right anterior oblique",
+   "Left anterior oblique",
+   "Lateral"
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-renal-q036",
+  "number": 36,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Mesenteric Ischemia",
+  "stem": "For endovascular management of an orificial lesion of the superior mesenteric artery, proper stent placement would be:",
+  "options": [
+   "Immediately flush with the edge of the aorta",
+   "3 mm beyond the origin of the superior mesenteric artery to avoid encroaching upon the aorta",
+   "Centered over the lesion but not extending into the aorta",
+   "Covering the lesion while extending several mm into the aorta",
+   "Extending at least one cm into the aorta"
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-renal-q037",
+  "number": 37,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Mesenteric Ischemia",
+  "stem": "An 85-year-old woman with a history of atrial fibrillation held her anticoagulation for 1 week for a dental procedure. She now presents to the emergency department with acute onset of severe abdominal pain. Her laboratory panel demonstrates moderate leukocytosis and a high anion gap acidosis. A CT angiogram shows an embolus to the proximal portion of the superior mesenteric artery (SMA). The most appropriate management is:",
+  "options": [
+   "Retrograde SMA bypass from the left common iliac artery",
+   "Embolectomy via a transverse SMA arteriotomy",
+   "Embolectomy via a longitudinal SMA arteriotomy",
+   "Mesenteric angiography with SMA stent placement",
+   "Antegrade SMA bypass using synthetic graft"
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-renal-q038",
+  "number": 38,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Mesenteric Ischemia",
+  "stem": "A 75-year-old woman with chronic obstructive pulmonary disease (COPD) and compensated congestive heart failure has a 1-month history of weight loss and recently has had food fear with abdominal pain. She had a prior superior mesenteric artery (SMA) stent placement 6 weeks ago. CT angiography demonstrates severe stenosis of the celiac artery, occlusion of a stent at the SMA and stenosis of the inferior mesenteric artery (IMA). There is minimal calcification at the bilateral common iliac arteries. Of the following, the most appropriate next step for this patient is:",
+  "options": [
+   "Mechanical thrombolysis with balloon angioplasty of the SMA",
+   "Antegrade prosthetic bypass to the celiac and IMA",
+   "Retrograde prosthetic bypass from the left common iliac artery to the SMA",
+   "Retrograde prosthetic bypass from the right internal iliac artery to the SMA and IMA",
+   "Open thrombectomy of the SMA"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-renal-q040",
+  "number": 40,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Mesenteric Ischemia",
+  "stem": "A 12-year-old girl who had recent spine surgery was recently diagnosed with superior mesenteric artery (SMA) syndrome. The most appropriate treatment initial option for this patient is:",
+  "options": [
+   "Naso-jejunal feeding tube",
+   "Total parenteral nutrition (TPN)",
+   "Division of the ligament of Treitz",
+   "Duodenojejunostomy",
+   "Aorto-SMA bypass"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-renal-q041",
+  "number": 41,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Peripheral & Visceral Aneurysms",
+  "stem": "A 75-year-old man with a history of endocarditis presents with increasing abdominal pain, low-grade fever, 15-lb weight loss, and nausea. His abdomen is tender but there is no guarding. A CT angiography demonstrates a 3-cm superior mesenteric artery (SMA) aneurysm with associated inflammation. Antibiotics are initiated. The most appropriate next step for this patient is:",
+  "options": [
+   "Aneurysmectomy with interposition greater saphenous vein bypass",
+   "Antegrade SMA bypass with prosthetic",
+   "Endovascular covered stent placement",
+   "Ligation of the SMA",
+   "Retrograde prosthetic bypass from the left common iliac artery to the SMA"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-renal-q042",
+  "number": 42,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Peripheral & Visceral Aneurysms",
+  "stem": "Upon arrival to the recovery room following coil embolization of a 3-cm splenic artery aneurysm, the patient complains of left flank pain and pleuritic chest pain. The most likely diagnosis is:",
+  "options": [
+   "Splenic rupture",
+   "Splenic infarction",
+   "Pancreatitis",
+   "Retroperitoneal hematoma",
+   "Myocardial infarction"
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-renal-q044",
+  "number": 44,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Endovascular Techniques & Graft Complications",
+  "stem": "A 61-year-old woman presents with persistently symptomatic uterine fibroids that failed conservative management. The most appropriate management is:",
+  "options": [
+   "Surgical hysterectomy",
+   "Uterine artery embolization for fibroids <5 cm in maximum dimension",
+   "Uterine artery embolization with administration of embolic agents to the bilateral uterine arteries",
+   "Uterine myomectomy to include the fibroid",
+   "Surgical ligation of the bilateral uterine arteries"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-renal-q045",
+  "number": 45,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Chronic Venous Disease & Varicose Veins",
+  "stem": "A 27-year-old woman presents with pelvic pain, flank pain, and hematuria. The CT finding most consistent with an etiology for these symptoms is:",
+  "options": [
+   "Widening of the left renal vein at the aortomesenteric portion",
+   "Right ovarian vein drainage into the inferior vena cava",
+   "Decreased angle between the superior mesenteric artery and aorta (less than 40 degrees)",
+   "Non-visualization of the left ovarian vein",
+   "The presence of a horseshoe kidney"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-renal-q047",
+  "number": 47,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Endovascular Techniques & Graft Complications",
+  "stem": "A 43-year-old woman presents with severe post-chemotherapeutic thrombocytopenia related to autoimmune hemolytic anemia. Past medical history includes multiple abdominal operations for ischemic bowel during treatment of her malignancy and the presence of a stoma. The most appropriate role for splenic artery embolization in this case is:",
+  "options": [
+   "There is no role for splenic artery embolization in this case",
+   "Preoperative splenic artery embolization should be performed in preparation for splenectomy",
+   "Splenic embolization can be performed as a primary therapy with the goal of complete hematologic response of her autoimmune hemolytic anemia",
+   "Splenic artery embolization should be performed only if liquid embolization agents are available",
+   "Splenic artery embolization should be performed as a test to determine if the thrombocytopenia is autoimmune in origin"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-renal-q049",
+  "number": 49,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Mesenteric Ischemia",
+  "stem": "A 64-year-old patient with acute mesenteric ischemia from a cardiac embolic source is taken to the operating room for an embolectomy of the superior mesenteric artery (SMA). Exposure of the SMA is accomplished by:",
+  "options": [
+   "Mobilizing the spleen and splenic flexure of the left colon and rotating the viscera towards the patient’s right (medial visceral rotation)",
+   "Mobilizing the proximal duodenum and pancreatic head toward the patient’s left (Kocher maneuver)",
+   "Identification of a jejunal branch of the SMA in the small bowel mesentery and performing a retrograde thrombectomy",
+   "Elevation of the transverse mesocolon and rotating the small bowel toward the patient’s right and identification of the SMA at the inferior pancreatic border",
+   "Mobilization of the gastrohepatic ligament and inferior retraction of the stomach"
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-renal-q050",
+  "number": 50,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Mesenteric Ischemia",
+  "stem": "A 38-year-old moderately obese man presents to the emergency room with worsening abdominal pain over the last week. The patient’s past medical history is significant for factor V Leiden mutation identified due to a family history of deep venous thrombosis. His laboratory data and plain x-rays are negative. A diagnosis of mesenteric venous thrombosis is considered. The optimal imaging study for this patient is:",
+  "options": [
+   "Duplex ultrasonography",
+   "CT scan with intravenous and oral contrast",
+   "CT scan with intravenous contrast and imaging in the portal venous phase",
+   "Arteriogram of the superior mesenteric artery with delayed imaging",
+   "Diagnostic laparoscopy with identification of dilated and congested appearing bowel"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-renal-q052",
+  "number": 52,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Vascular Trauma",
+  "stem": "A 38-year-old man was involved in a motor vehicle crash 8 hours ago. He is hemodynamically stable and his injuries include multiple rib fractures, a grade 2 liver injury, pneumothorax, and non-enhancement of his left kidney on CT scan consistent with intimal left renal artery injury. The most appropriate next step in his management is:",
+  "options": [
+   "Treatment of other injuries as necessary and non-operative management of his left renal artery injury",
+   "Immediate exploratory laparotomy and open thrombectomy and repair of the left renal artery",
+   "Arteriogram and endovascular treatment of the left renal artery",
+   "Exploratory laparotomy and aortorenal bypass of the renal artery",
+   "Exploratory laparotomy and nephrectomy"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-renal-q053",
+  "number": 53,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Vascular Trauma",
+  "stem": "A 32-year-old man was involved in a high-speed motorcycle crash and has a pelvic fracture and CT scan reveals a pelvic hematoma with contrast extravasation from a branch of the internal iliac artery. The most appropriate next step in the management of this patient is:",
+  "options": [
+   "Proceed to the operating room with exploration of the pelvic hematoma",
+   "Orthopedic fixation of the fracture and observation of the patient in the intensive care unit",
+   "Arteriogram and identification and embolization of the bleeding vessel",
+   "Attempt at CT-guided embolization of the bleeding vessel",
+   "Arteriogram and coil embolization of the proximal internal iliac artery"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "vesap5-renal-q054",
+  "number": 54,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Chronic Venous Disease & Varicose Veins",
+  "stem": "A 42-year-old woman with symptomatic nutcracker syndrome underwent a left renal vein angioplasty and stent. The following is a potential adverse outcome or consequence with this procedure:",
+  "options": [
+   "Need for anticoagulation",
+   "Need for dual antiplatelet therapy",
+   "Poor patency",
+   "Reduction in renal-caval pressure gradient",
+   "Risk of stent fracture"
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ }
+]
