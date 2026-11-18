@@ -10,6 +10,7 @@
    "publisher": "MedCosmos",
    "description": "Esophageal anatomy, physiology, motility disorders, reflux, perforation and cancer.",
    "file": "medcosmos-esophagus.json",
+   "cover": "data/covers/medcosmos-esophagus.jpg",
    "count": 54
   },
   {
@@ -21,6 +22,7 @@
    "publisher": "MedCosmos",
    "description": "Lung, pleura, mediastinum, airway, chest wall and thoracic trauma.",
    "file": "medcosmos-thoracic.json",
+   "cover": "data/covers/medcosmos-thoracic.jpg",
    "count": 87
   },
   {
@@ -32,6 +34,7 @@
    "publisher": "MedCosmos",
    "description": "Coronary, valve, aortic, congenital and perioperative cardiac surgery.",
    "file": "medcosmos-cardiac.json",
+   "cover": "data/covers/medcosmos-cardiac.jpg",
    "count": 156
   },
   {
@@ -43,6 +46,7 @@
    "publisher": "MedCosmos",
    "description": "Arterial, aortic, venous and endovascular surgery.",
    "file": "medcosmos-vascular.json",
+   "cover": "data/covers/medcosmos-vascular.jpg",
    "count": 138
   },
   {
@@ -55,6 +59,7 @@
    "edition": "ACCSAP 10",
    "description": "Case-based vascular medicine: PAD, aorta, carotid, venous disease and vasculitis.",
    "file": "accsap10-vascular.json",
+   "cover": "data/covers/accsap10-vascular.jpg",
    "count": 51
   }
  ]
