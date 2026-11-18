@@ -790,7 +790,7 @@ main {
 
 .stats-row {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 12px;
   margin-top: 18px;
 }
@@ -1272,10 +1272,15 @@ main {
   gap: 5px;
 }
 
-.topic-card-progress strong {
+.topic-card-progress {
+  text-align: right;
   color: var(--ink-soft);
-  font-family: "Space Mono", monospace;
-  font-size: 8px;
+  font-size: 11px;
+}
+
+.topic-card-progress strong {
+  color: var(--ink);
+  font-size: 16px;
 }
 
 .topic-card-progress-line {
@@ -2635,6 +2640,10 @@ main {
     z-index: 1;
   }
 
+  .mobile-nav-item--primary [data-icon] {
+    color: #fff;
+  }
+
   .mobile-nav-item--primary span:last-child {
     margin-top: 38px;
     color: var(--primary);
@@ -2798,4 +2807,9 @@ main {
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
   }
+}
+
+.recent-card h4,
+.recent-card p {
+  text-align: left;
 }

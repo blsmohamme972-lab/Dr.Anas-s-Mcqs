@@ -15,7 +15,7 @@ This repository now contains the first usable frontend slice from the app plan:
 - PWA manifest and service worker for a cached offline shell.
 - Local browser persistence for the preview state.
 
-The question bank currently contains nine educational preview questions. The import, OCR, medical review, publishing, account, and sync services are intentionally left for the next backend milestone.
+The question bank currently contains nine sample questions only. Progress starts at zero and is saved on the device. The import, OCR, medical review, publishing, account, and sync services are intentionally left for the next backend milestone.
 
 ## Run locally
 
