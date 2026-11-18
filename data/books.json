@@ -1,0 +1,65 @@
+{
+ "version": 1,
+ "books": [
+  {
+   "id": "medcosmos-esophagus",
+   "title": "MedCosmos – Esophagus",
+   "short": "MedCosmos Esophagus",
+   "code": "ES",
+   "specialty": "thoracic",
+   "publisher": "MedCosmos",
+   "edition": "Self-assessment",
+   "description": "Esophageal anatomy, physiology, motility disorders, reflux, perforation and cancer.",
+   "file": "medcosmos-esophagus.json",
+   "count": 54
+  },
+  {
+   "id": "medcosmos-thoracic",
+   "title": "MedCosmos – Thoracic",
+   "short": "MedCosmos Thoracic",
+   "code": "TH",
+   "specialty": "thoracic",
+   "publisher": "MedCosmos",
+   "edition": "Self-assessment",
+   "description": "Lung, pleura, mediastinum, airway, chest wall and thoracic trauma.",
+   "file": "medcosmos-thoracic.json",
+   "count": 87
+  },
+  {
+   "id": "medcosmos-cardiac",
+   "title": "MedCosmos – Cardiac",
+   "short": "MedCosmos Cardiac",
+   "code": "CA",
+   "specialty": "cardiac",
+   "publisher": "MedCosmos",
+   "edition": "Self-assessment",
+   "description": "Coronary, valve, aortic, congenital and perioperative cardiac surgery.",
+   "file": "medcosmos-cardiac.json",
+   "count": 156
+  },
+  {
+   "id": "medcosmos-vascular",
+   "title": "MedCosmos – Vascular",
+   "short": "MedCosmos Vascular",
+   "code": "VA",
+   "specialty": "vascular",
+   "publisher": "MedCosmos",
+   "edition": "Self-assessment",
+   "description": "Arterial, aortic, venous and endovascular surgery.",
+   "file": "medcosmos-vascular.json",
+   "count": 138
+  },
+  {
+   "id": "accsap10-vascular",
+   "title": "ACCSAP 10 – Vascular Medicine",
+   "short": "ACCSAP 10 Vascular",
+   "code": "AC",
+   "specialty": "vascular",
+   "publisher": "American College of Cardiology",
+   "edition": "ACCSAP 10",
+   "description": "Case-based vascular medicine: PAD, aorta, carotid, venous disease and vasculitis.",
+   "file": "accsap10-vascular.json",
+   "count": 51
+  }
+ ]
+}

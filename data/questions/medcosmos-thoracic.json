@@ -1,0 +1,1813 @@
+[
+ {
+  "id": "medcosmos-thoracic-q001",
+  "number": 1,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "The bronchial circulation:",
+  "options": [
+   "Is the blood supply to the conducting airways.",
+   "Drains into a peribronchial venous network that may expand considerably with conditions such as bronchiectasis and chronic obstructive pulmonary disease.",
+   "Is an especially important consideration in pulmonary transplantation.",
+   "All of the above."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q002",
+  "number": 2,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "Clearance of mucus produced in the tracheobronchial tree in chronic bronchitis secondary to smoking may:",
+  "options": [
+   "Be hampered by the fact that the amount of mucus is increased by the number of mucus-producing cells at the expense of ciliated cells.",
+   "Be slowed if patients have decreased lung volume and are therefore unable to generate a vigorous cough that would cause an inflammatory process.",
+   "Cause a decrease in diffusion capacity and associated hypoxemia.",
+   "All of the above."
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q003",
+  "number": 3,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "The pulmonary circulation:",
+  "options": [
+   "Is the only vascular system in which the veins do not have the same course as the arteries.",
+   "Has a direct connection of vein to adjacent lung tissue by connective tissue fibers, making the diameter of the tissue fibers dependent upon lung volume.",
+   "Supplies the metabolic needs of the alveoli.",
+   "All of the above."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q004",
+  "number": 4,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "Which of the following screening tests are important for preoperative evaluation of pulmonary function?",
+  "options": [
+   "History and physical examination.",
+   "Room air arterial blood gases.",
+   "Chest film.",
+   "Vital capacity and forced expiratory volume in 1 second (FEV 1).",
+   "Cardiopulmonary exercise testing."
+  ],
+  "answer": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q005",
+  "number": 5,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "Carbon monoxide diffusion capacity (DLCO) has been shown to correlate with:",
+  "options": [
+   "The thickness of the alveolar lining membrane.",
+   "The permeability of the erythrocyte to carbon dioxide.",
+   "Pulmonary emboli.",
+   "Total alveolar-capillary capacity."
+  ],
+  "answer": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q006",
+  "number": 6,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "The closing volume is:",
+  "options": [
+   "The volume remaining in the lung at the end of expiration below which alveolar collapse begins to occur, resulting in physiologic shunting.",
+   "Higher in young persons.",
+   "Not changed during surgery.",
+   "Relative to the oxygen content of mixed venous blood."
+  ],
+  "answer": [
+   "A",
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q007",
+  "number": 7,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "The effect of high positive end-expiratory pressures (PEEP) on cardiac output is:",
+  "options": [
+   "None.",
+   "Increased cardiac output.",
+   "Decreased cardiac output because of increased afterload to the left ventricle.",
+   "Decreased cardiac output because of decreased effective preload to the left ventricle."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q008",
+  "number": 8,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "Weaning patients from maximum ventilator support usually involves:",
+  "options": [
+   "Weaning PEEP first, tidal volume second, and the fraction of inspired oxygen (FIO 2) third.",
+   "Weaning FIO 2 first, ventilator rate second, and PEEP third.",
+   "Weaning FIO2 first, PEEP second, and tidal volume third.",
+   "Weaning FIO 2 first, PEEP second, and ventilator rate third."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q009",
+  "number": 9,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "Which of the following statements about bronchoscopy is false?",
+  "options": [
+   "The morbidity and mortality are approximately 0.2% and 0.08%, respectively.",
+   "The most common complications of bronchoscopy are related to premedication of patients.",
+   "Adjunctive cancer therapy such as laser treatment and brachytherapy may be administered via this route.",
+   "A chronic cough and unilateral wheezing are accepted indications for bronchoscopy.",
+   "Early postoperative bronchoscopy for atelectasis is contraindicated following pulmonary resection."
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q010",
+  "number": 10,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "Flexible bronchoscopy is preferred over rigid bronchoscopy for all of the following except:",
+  "options": [
+   "Patients with cervical spine injuries requiring intubation.",
+   "The evaluation of a smoke inhalation injury.",
+   "Transcarinal needle aspiration of an enlarged subcarinal lymph node.",
+   "The removal of a bronchus intermedius foreign body from an infant.",
+   "A cost-effective evaluation of mild hemoptysis."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q011",
+  "number": 11,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "Which of the following approaches is/are currently acceptable for the management of spontaneous pneumothorax?",
+  "options": [
+   "Chest tube replacement alone for the patient with a first episode.",
+   "Operation on presentation for any patient with a first episode.",
+   "Video-assisted thoracic surgery (VATS) bleb excision and pleurodesis for recurrent pneumothorax on the same side.",
+   "Thoracotomy with bleb excision and pleurodesis for unilateral recurrent pneumothorax.",
+   "Operation after a first episode in an airline pilot."
+  ],
+  "answer": [
+   "A",
+   "C",
+   "D",
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q012",
+  "number": 12,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "For which patient(s) with a pulmonary infiltrate of uncertain cause would you favor VATS over open wedge excision?",
+  "options": [
+   "An AIDS patient with a diffuse infiltrate who is ambulatory but requires supplemental oxygen. Bronchoalveolar lavage is negative.",
+   "A 64-year-old previously healthy man with increasing shortness of breath, a diffuse infiltrate, and restrictive lung disease as shown by pulmonary function studies.",
+   "A 74-year-old diabetic woman with a rapidly progressing process throughout the right lung who is ventilator- and pressor-dependent.",
+   "A 44-year-old man with fever, left-sided infiltrate, and shortness of breath.",
+   "A 79-year-old man on a ventilator for right lower and middle lobe pneumonia which has been culture negative."
+  ],
+  "answer": [
+   "A",
+   "B",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q013",
+  "number": 13,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "Which of the following statements about the cause and prevention of postintubation tracheal stenosis are correct?",
+  "options": [
+   "Postintubation airway stenosis can largely be avoided by providing assisted ventilation via endotracheal tube rather than tracheostomy tube.",
+   "Postintubation tracheal stenosis at the cuff level results, more or less equally, from low blood pressure, advanced age, steroids, high intracuff pressure, sensitivity to tube materials, gas sterilization elution products, and systemic disease.",
+   "In women and smaller men large endotracheal tubes can produce lesions of the glottis and subglottis that can progress to stenosis.",
+   "Stomal stenosis is due principally to cicatricial closure of large stomas resulting from removal of a disk or segment of tracheal wall during tracheostomy.",
+   "A large-volume tracheostomy tube cuff such as that now used on most available tubes can become a high-pressure cuff if filled beyond its resting maximal volume."
+  ],
+  "answer": [
+   "C",
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q014",
+  "number": 14,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "Which of the following statements about the treatment of postintubation airway stenosis are correct?",
+  "options": [
+   "Emergency management of airway obstruction due to stenosis at the level of a prior tracheal stoma is best accomplished by establishing a new tracheostomy in normal tracheal tissue just below the scar of the old stoma.",
+   "Radial lasering and dilatation usually leads to permanent resolution of postintubation tracheal stenosis.",
+   "Splinting of a cervical trachea with a silicone T-tube for 6 to 8 months generally leads to permanent resolution of stricture.",
+   "Postintubation tracheal stenosis that extends into the subglottic larynx is treated by resection of a cylindrical sleeve of stenotic airway and end-to-end reconstruction.",
+   "Acquired tracheoesophageal fistula due to intubation injury is corrected by surgical closure of the fistula concurrent with resection and reconstruction of the damaged trachea."
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q015",
+  "number": 15,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "Which of the following statements are true?",
+  "options": [
+   "Pyogenic lung abscess occurs most frequently in the lower lobe of the left lung.",
+   "Anaerobic bacteria are commonly present in pyogenic lung abscess.",
+   "Operation is usually required to eradicate a pyogenic lung abscess.",
+   "Penicillin is the treatment of choice for lung abscess."
+  ],
+  "answer": [
+   "B",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q016",
+  "number": 16,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "Amphotericin B is effective for the following lung infections:",
+  "options": [
+   "Histoplasmosis.",
+   "North American blastomycosis.",
+   "Aspergillosis.",
+   "Mucormycosis.",
+   "Sporotrichosis."
+  ],
+  "answer": [
+   "A",
+   "B",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q017",
+  "number": 17,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "The following statements are true.",
+  "options": [
+   "A distinguishing roentgenographic appearance of lung abscess, the air-fluid level can be seen only on roentgenograms obtained in the upright or lateral decubitus position.",
+   "The fungus ball characteristic of aspergillosis can be seen roentgenographically in either the upright or recumbent position.",
+   "Actinomycosis and nocardiosis are both fungal diseases of the lung that respond to treatment with the newer azole antifungal agents.",
+   "The commonest fungal lung infection in the United States is due to Histoplasma capsulatum."
+  ],
+  "answer": [
+   "A",
+   "B",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q018",
+  "number": 18,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "Pneumocystis pneumonia is an opportunistic infection caused by Pneumocystis carinii. Which of the following statements are true?",
+  "options": [
+   "P. carinii is a fungus.",
+   "Pneumocystis pneumonia is the most common opportunistic infection in patients with AIDS.",
+   "The diagnosis of Pneumocystis pneumonia depends on the demonstration of P. carinii organisms in lung tissue.",
+   "There is no effective treatment for Pneumocystis pneumonia."
+  ],
+  "answer": [
+   "B",
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q019",
+  "number": 19,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "Which of the following statements are true?",
+  "options": [
+   "The pleural space does not extend into the neck.",
+   "Positive intrapleural pressures as high as 40 cm. H 2O and negative pressures as low as -40 cm. H 2O are possible.",
+   "The pleural cavities cannot absorb more than 500 ml. of fluid per day.",
+   "All pleural effusions are of clinical significance and should be investigated."
+  ],
+  "answer": [
+   "B",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q020",
+  "number": 20,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "Which of the following statements are true?",
+  "options": [
+   "Chylothorax, or chyle in the pleural cavity, usually is not a serious condition.",
+   "Chyle is easily identified by its milky appearance, which looks like no other kind of pleural effusion.",
+   "The commonest causes of chylothorax are trauma and tumor.",
+   "The thoracic duct can be ligated with impunity."
+  ],
+  "answer": [
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q021",
+  "number": 21,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "Which of these statements about pleural tumors is/are true?",
+  "options": [
+   "The commonest type of pleural tumor is primary pleural mesothelioma.",
+   "Exposure to asbestos dust is causally related to the development of malignant mesothelioma.",
+   "Localized benign mesotheliomas are asymptomatic.",
+   "Complete pleurectomy for malignant mesothelioma usually results in cure."
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q022",
+  "number": 22,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "Which of the following correctly describe a patient with spontaneous pneumothorax?",
+  "options": [
+   "The patient is almost always elderly and debilitated.",
+   "An unsuspected primary or metastatic lung tumor may be present.",
+   "The administration of supplemental oxygen is of little benefit to the patient.",
+   "The patient should always be treated with an intercostal tube and closed pleural drainage.",
+   "Video-assisted thoracic surgery (VATS) should be considered for persistent air leak in patients with secondary spontaneous pneumothorax."
+  ],
+  "answer": [
+   "B",
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q023",
+  "number": 23,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "Which of the following statements about spontaneous pneumothorax (PSP) is/are correct?",
+  "options": [
+   "The risk of recurrence after resolution of the first episode of PSP or secondary spontaneous pneumothorax (SSP) is 35% to 45%.",
+   "Patients with PSP are typically tall, thin, young adult males with a history of smoking.",
+   "Secondary spontaneous pneumothorax is associated with family history in 10% of cases.",
+   "For bleb resection and pleurodesis thoracoscopic thoracotomy and open thoracotomy provide similar cure rates for patients with primary spontaneous pneumothorax.",
+   "Causes of secondary pneumothorax include trauma and iatrogenic needle puncture."
+  ],
+  "answer": [
+   "A",
+   "B",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q024",
+  "number": 24,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "Which of the following are relative contraindications for surgical management of emphysema?",
+  "options": [
+   "Rapidly progressive dyspnea.",
+   "Bullae occupying less than one third of a hemithorax on plain chest radiography.",
+   "Elevated room air PCO 2.",
+   "“Pink puffer” patients.",
+   "FEV 1 less than 35% of predicted value."
+  ],
+  "answer": [
+   "B",
+   "C",
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q025",
+  "number": 25,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "Which of the following treatments would be appropriate therapy for symptoms that persist on medical therapy and bronchiectasis involving, in order of decreasing severity, the left lower lobe, the right middle lobe, and the left upper lobe?",
+  "options": [
+   "Left pneumonectomy.",
+   "Wedge resection of the left lower lobe.",
+   "Left lower lobectomy.",
+   "Simultaneous left lower lobectomy and right middle lobectomy."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q026",
+  "number": 26,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "Which of the following would not be acceptable sequences of preoperative studies in a patient being prepared for lingulectomy for bronchiectasis?",
+  "options": [
+   "CT alone.",
+   "CT, bronchoscopy, bronchography.",
+   "Bronchoscopy alone.",
+   "Bronchoscopy, bronchography."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q027",
+  "number": 27,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "Which of the following statements about pulmonary mycobacterial infection is/are correct?",
+  "options": [
+   "Worldwide, tuberculosis no longer represents a significant public health problem.",
+   "Mycobacterium tuberculosis is responsible for the majority of cases of pulmonary mycobacterial disease.",
+   "Mycobacterium kansasii pulmonary infection almost always requires surgical treatment.",
+   "Atypical mycobacteria are never primary pulmonary pathogens in humans.",
+   "Mycobacterium avium-intracellulare is generally resistant to most antimycobacterial drugs in vitro."
+  ],
+  "answer": [
+   "B",
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q028",
+  "number": 28,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "Which of the following chemotherapeutic regimens are currently recommended for the treatment of pulmonary infection caused by M. tuberculosis?",
+  "options": [
+   "Isoniazid, rifampin, pyrazinamide, and streptomycin for 24 months.",
+   "Isoniazid for 9 months with ethambutol for the first 3 months.",
+   "Isoniazid and rifampin for 6 months with pyrazinamide added for the first two months.",
+   "Isoniazid alternating with rifampin at 3-month intervals for 12 months.",
+   "Isoniazid and rifampin for 9 months."
+  ],
+  "answer": [
+   "C",
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q029",
+  "number": 29,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "Which of the following are appropriate indications for pulmonary resection for mycobacterial disease?",
+  "options": [
+   "Localized pulmonary disease caused by M. avium-intracellulare.",
+   "Advanced lobar tuberculous pneumonia with massive hilar lymphadenopathy and bronchial obstruction in a young child.",
+   "Localized pulmonary disease due to multiple drug–resistant M. tuberculosis.",
+   "An asymptomatic tuberculous cavity greater than 12 cm. in diameter.",
+   "Massive hemoptysis from a right upper lobe cavity occurring during an appropriate course of chemotherapy for pulmonary tuberculosis in a sputum-negative patient."
+  ],
+  "answer": [
+   "A",
+   "C",
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q030",
+  "number": 30,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "Which statements about squamous papillomatosis of the trachea is/are correct?",
+  "options": [
+   "It is the most common type of benign tracheal tumor in adults.",
+   "It is the most common type of benign tracheal tumor in children.",
+   "Most are treated with segmental tracheal resection.",
+   "There is no risk of malignant degeneration.",
+   "It is associated with a herpesvirus."
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q031",
+  "number": 31,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "Which of the following statements about pulmonary hamartomas is/are true?",
+  "options": [
+   "Hamartomas are benign chondromas.",
+   "Most are located in the conducting airways.",
+   "Wedge resection is curative.",
+   "A lobectomy is necessary to obtain draining hilar lymph nodes.",
+   "Hemoptysis is common."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q032",
+  "number": 32,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "Which of the following statements about typical carcinoid tumors are true?",
+  "options": [
+   "They make up the majority of bronchial adenomas.",
+   "They frequently have lymph node metastases.",
+   "The carcinoid syndrome is observed in 33%.",
+   "Overall survival at 5 years is 90%.",
+   "Overall survival at 5 years is 50%."
+  ],
+  "answer": [
+   "A",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q033",
+  "number": 33,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "Which is/are true of adenoid cystic carcinoma?",
+  "options": [
+   "It is a common type of salivary gland tumor.",
+   "Another name is cylindroma.",
+   "Most patients are completely resected for cure.",
+   "Different histological types have different prognoses.",
+   "Tissue invasion is rare."
+  ],
+  "answer": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q034",
+  "number": 34,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "A solitary pulmonary nodule is discovered in an asymptomatic 55-year-old smoker with no evidence of extrathoracic dissemination. The most appropriate management would be to:",
+  "options": [
+   "Obtain serial chest films every 3 months to determine the growth potential of the nodule.",
+   "Perform transthoracic needle aspiration (TTNA) before considering pulmonary resection to confirm malignancy.",
+   "Conduct an extensive systematic evaluation to exclude the possibility that the nodule represents a metastatic lesion.",
+   "Proceed with pulmonary resection after ascertaining that the patient would tolerate removal of the requisite amount of lung.",
+   "Obtain baseline serum levels of carcinoembryonic antigen and p53."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q035",
+  "number": 35,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "After thoracotomy, pulmonary resection, and mediastinal lymph node dissection, a patient is determined to have a squamous cell carcinoma 2 cm. in diameter, located 1 cm. from the carina along the right mainstem bronchus. Three peribronchial lymph nodes are positive for cancer, and all other lymph node stations are negative. The correct stage, according to the TNM system, is:",
+  "options": [
+   "T1N0M0 Stage I.",
+   "T1N1M0 Stage II.",
+   "T2N1M0 Stage II.",
+   "T3N1M0 Stage IIIa.",
+   "T2N3M0 Stage IIIb."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q036",
+  "number": 36,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "After complete resection of Stage I non-small cell lung cancer (NSCLC), the role of adjuvant therapy is best summarized thus as:",
+  "options": [
+   "Postoperative radiation therapy improves disease-free survival.",
+   "Postoperative radiation therapy improves overall survival.",
+   "Postoperative chemotherapy improves disease-free survival.",
+   "Postoperative chemotherapy improves overall survival.",
+   "Adjuvant therapy is not indicated after complete resection of Stage I NSCLC."
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q037",
+  "number": 37,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "Compared to segmentectomy or wedge resection, lobectomy for NSCLC is associated with:",
+  "options": [
+   "Similar operative morbidity but higher operative mortality.",
+   "Similar operative mortality but higher operative morbidity.",
+   "More severe postoperative pulmonary dysfunction.",
+   "Lower incidence of locoregional recurrence.",
+   "Equivalent locoregional recurrence."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q038",
+  "number": 38,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "In contrast to NSCLC, small cell lung cancer (SCLC) is characterized by:",
+  "options": [
+   "Greater response rate to chemotherapy.",
+   "Inability to achieve surgical cure.",
+   "Less frequent association with paraneoplastic syndromes at the time of diagnosis.",
+   "Lower likelihood of metastases present at the time of diagnosis.",
+   "Slower growth."
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q039",
+  "number": 39,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "Which of the following statements about the diagnosis and staging of mesothelioma is/are correct?",
+  "options": [
+   "Fluid obtained by thoracentesis is usually adequate for accurate diagnosis.",
+   "Open biopsy or thoracoscopy should be performed to obtain tissue for diagnosis.",
+   "Immunohistochemistry should be performed in all cases of suspected mesothelioma.",
+   "Chest CT and/or magnetic resonance imaging (MRI) are useful in the staging of mesothelioma.",
+   "Head CT and bone scans are useful in the staging of mesothelioma."
+  ],
+  "answer": [
+   "B",
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q040",
+  "number": 40,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "Which of the following statements about therapy for malignant pleural mesothelioma is/are correct?",
+  "options": [
+   "The role of surgery is confined to biopsy for diagnosis and pleurodesis for palliation of effusion.",
+   "Extrapleural pneumonectomy involves resection en bloc of the lung, visceral and parietal pleura, pericardium, and diaphragm.",
+   "If a lesion is unresectable by extrapleural pneumonectomy, pleurectomy/decortication is contraindicated.",
+   "Neither surgery, chemotherapy, nor radiation therapy as a single therapy improves survival.",
+   "Multimodality therapy, combining surgery, chemotherapy, and radiation therapy may improve survival in select patients."
+  ],
+  "answer": [
+   "B",
+   "D",
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q041",
+  "number": 41,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "All of the following may be acceptable operative approaches to management of the thoracic outlet syndrome except:",
+  "options": [
+   "Scalenectomy.",
+   "Excision of a cervical rib.",
+   "Thoracoplasty.",
+   "First rib resection.",
+   "Division of anomalous fibromuscular bands."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q042",
+  "number": 42,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "Initial conservative (nonsurgical) management of the thoracic outlet syndrome may include all of the following except:",
+  "options": [
+   "Weight reduction.",
+   "Improvement of posture.",
+   "Exercises to strengthen the muscles of the shoulder girdle.",
+   "Pentoxifylline.",
+   "Avoiding hyperabduction."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q043",
+  "number": 43,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "Which of the following statements about pectus excavatum are correct?",
+  "options": [
+   "It is the most common congenital malformation of the chest wall.",
+   "The most frequent presenting complaint is the cosmetic deformity.",
+   "The manubrium and first and second costal cartilages typically are involved in the deformity.",
+   "It may be associated with cardiac defects and other skeletal defects such as scoliosis.",
+   "Restrictive alterations in chest wall mechanics and abnormalities in pulmonary function tests have been documented."
+  ],
+  "answer": [
+   "A",
+   "B",
+   "D",
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q044",
+  "number": 44,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "Surgical correction of pectus excavatum is characterized by which of the following?",
+  "options": [
+   "Significant cosmetic improvement initially but a high incidence of recurrence of the defect on late follow-up.",
+   "An increase in exercise tolerance and respiratory reserve postoperatively.",
+   "Improvement in FEV 1, vital capacity, and total lung capacity.",
+   "Improvement in maximal ventilatory volume, total progressive exercise time, and maximal exercise capacity.",
+   "Prevention of the development of “thoracogenic scoliosis.”"
+  ],
+  "answer": [
+   "B",
+   "D",
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q045",
+  "number": 45,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "Which of the following statements about the diagnosis of chest wall tumors is/are correct?",
+  "options": [
+   "Pain is a common presenting symptom.",
+   "Firmness and fixation to underlying bone and muscle are important to note in the physical examination as aids to diagnosis.",
+   "In general, chest wall tumors are slow growing and produce symptoms late in their course.",
+   "CT is the most useful imaging study for making the diagnosis and for planning surgical resection of chest wall tumors.",
+   "Angiography should be performed routinely."
+  ],
+  "answer": [
+   "B",
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q046",
+  "number": 46,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "Which of the following statements about chest wall resection and reconstruction is/are correct?",
+  "options": [
+   "Most tumors of soft tissue and bone require 4-cm. margins to be adequately resected.",
+   "At least one normal rib above and below the primary tumor should be included in the resection.",
+   "Techniques of chest wall reconstruction are directed at the prevention of paradoxical chest wall movement with respiration.",
+   "Soft tissue defects are most conveniently addressed by stretching the existing skin over the defect under tension.",
+   "Chest wall defects that are covered by the scapula require no special reconstructive procedures, even if the defects are quite large."
+  ],
+  "answer": [
+   "A",
+   "B",
+   "C",
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q047",
+  "number": 47,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "Prolonged extracorporeal membrane oxygenation (ECMO):",
+  "options": [
+   "Is highly successful in the treatment of severe respiratory failure in newborn infants.",
+   "Is contraindicated in adult respiratory distress syndrome (ARDS).",
+   "Causes hemolysis and renal failure.",
+   "Requires total systemic heparinization (activated clotting time longer than 500 seconds).",
+   "Is identical to heart/lung bypass for cardiac surgery."
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q048",
+  "number": 48,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "Indications for ECMO include:",
+  "options": [
+   "Newborn infants with pulmonary hypoplasia secondary to congenital diaphragmatic hernia.",
+   "Meconium aspiration syndrome in full-term babies (at least 35 weeks).",
+   "Children with pulmonary infection after bone marrow transplantation.",
+   "Adults with acute viral pneumonia.",
+   "Adults requiring mechanical ventilation and 100% oxygen for 2 weeks or longer."
+  ],
+  "answer": [
+   "B",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q049",
+  "number": 49,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "Venovenous ECMO:",
+  "options": [
+   "Avoids major arterial access.",
+   "Provides cardiac and pulmonary support.",
+   "Can be accomplished via cannulation at separate venous sites or at a single venous site using a double-lumen catheter.",
+   "Provides greater venous drainage than venoarterial ECMO.",
+   "Maintains the normal pulsatile blood flow to the systemic circulation."
+  ],
+  "answer": [
+   "A",
+   "C",
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q050",
+  "number": 50,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "As compared with venovenous ECMO, venoarterial ECMO:",
+  "options": [
+   "Requires cannulation of a major artery and vein.",
+   "Provides both cardiac and respiratory support.",
+   "Can be performed with less anticoagulation.",
+   "Usually maintains a normal pulse pressure."
+  ],
+  "answer": [
+   "A",
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q051",
+  "number": 51,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "A 24-year-old male has new onset of chest pain. Chest films demonstrate a large anterosuperior mass. Appropriate evaluation should include:",
+  "options": [
+   "CT of the chest.",
+   "Measurement of serum alpha-fetoprotein and beta–human chorionic gonadotropin.",
+   "A barium swallow.",
+   "A myelogram."
+  ],
+  "answer": [
+   "A",
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q052",
+  "number": 52,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "Systemic syndromes frequently associated with mediastinal tumors include:",
+  "options": [
+   "Myasthenia gravis.",
+   "Hypercalcemia.",
+   "Malignant hypertension.",
+   "Carcinoid syndrome."
+  ],
+  "answer": [
+   "A",
+   "B",
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q053",
+  "number": 53,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "A 36-year-old female developed dyspnea on exertion that has progressed over 3 months. Chest film reveals a left anterior mediastinal mass with evidence of elevated left hemidiaphragm. CT indicates probable invasion of the pericardium. Paratracheal or subcarinal adenopathy is not identified. Appropriate intervention in this patient would include:",
+  "options": [
+   "A median sternotomy with radical resection of the tumor, sacrificing the left phrenic nerve and excising the involved pericardium.",
+   "A mediastinoscopy with biopsy.",
+   "A left anterolateral thoracotomy or median sternotomy with generous biopsy of the tumor.",
+   "Observation with repeat chest radiography in 3 months."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q054",
+  "number": 54,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "An 18-year-old male presents with a history of increasing shortness of breath that worsens in the recumbent position. On physical examination, the neck veins are noted to be distended, with facial plethora that is accentuated by lying the patient down. A 2.5-cm. left supraclavicular lymph node is palpable. Chest film reveals an extensive right anterosuperior mediastinal mass. Appropriate intervention may include:",
+  "options": [
+   "An urgent biopsy of the mediastinal mass under general anesthesia with subsequent initiation of therapy.",
+   "CT.",
+   "Pulmonary function testing in the sitting and supine positions.",
+   "A biopsy of the right supraclavicular lymph node under general anesthesia.",
+   "A biopsy of the supraclavicular lymph node under local anesthesia."
+  ],
+  "answer": [
+   "B",
+   "C",
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q055",
+  "number": 55,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "A 42-year-old male who is scheduled to undergo elective knee surgery has a preoperative chest film that demonstrates a 5-cm. posterior mediastinal mass. The patient denies any neurologic symptoms and physical examination fails to elucidate any neurologic deficit. CT confirms the presence of a 5-cm. mediastinal mass in the left costovertebral gutter with minimal enlargement of the seventh thoracic foramen. Appropriate intervention includes:",
+  "options": [
+   "Resection of the posterior mediastinal mass using a standard posterolateral incision.",
+   "A CT with myelography or magnetic resonance (MR) imaging.",
+   "Two-stage removal of the tumor, performing the resection of the thoracic component first with subsequent removal of the spinal column component at a later date.",
+   "One-stage removal of the dumb-bell tumor, excising the intraspinal component prior to resection of the thoracic component."
+  ],
+  "answer": [
+   "B",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q056",
+  "number": 56,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "True statements regarding patients with a mediastinal mass include:",
+  "options": [
+   "Asymptomatic patients have a benign mass in over 75% of cases.",
+   "Symptomatic patients are more likely to have a malignant lesion than a benign lesion.",
+   "In a patient with a chest film demonstrating a mediastinal mass, a Tru-cut needle biopsy is a safe procedure.",
+   "Seminomas usually produce alpha-fetoprotein."
+  ],
+  "answer": [
+   "A",
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q057",
+  "number": 57,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "Which of the following would be the least appropriate in the management of acute suppurative mediastinitis?",
+  "options": [
+   "Wide débridement.",
+   "Irrigation under pressure.",
+   "Topical antibacterials.",
+   "Long-term systemic antibacterials.",
+   "Closure with muscle flaps."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q058",
+  "number": 58,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "Each of the following is appropriate for managing acute suppurative mediastinitis except:",
+  "options": [
+   "Alloplastic material and skin flaps.",
+   "Rectus abdominis muscle flaps.",
+   "Omentum.",
+   "Pectoralis major muscle flaps.",
+   "Rigid internal fixation."
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q059",
+  "number": 59,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "Clinical features suggestive of myasthenia gravis include all of the following except:",
+  "options": [
+   "Proximal muscle weakness.",
+   "Diplopia.",
+   "Sensory deficits of the extremities.",
+   "Dysphagia."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q060",
+  "number": 60,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "The diagnosis of myasthenia gravis can be confirmed most reliably using:",
+  "options": [
+   "Anti–acetylcholine receptor antibody titers.",
+   "The Tensilon test.",
+   "Electromyography (EMG).",
+   "Single-fiber EMG.",
+   "Physical examination."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q061",
+  "number": 61,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "All of the following statements are true about the pathogenesis of myasthenia gravis except:",
+  "options": [
+   "The number of functional acetylcholine receptors at the motor end plate is reduced.",
+   "An autoimmune mechanism involving antibodies to the acetylcholine receptor has been proposed.",
+   "Complement system involvement has been demonstrated.",
+   "A nonspecific “thymitis” may initiate the autoimmune response.",
+   "Clinical improvement following thymectomy is correlated with decreased acetylcholine receptor antibody titers."
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q062",
+  "number": 62,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "Which of the following statements about the relationship of the thymus and myasthenia gravis is/are true?",
+  "options": [
+   "Thymic abnormalities are present in up to 80% of patients with myasthenia gravis.",
+   "Thymoma is present in up to 20% of patients with myasthenia gravis.",
+   "Myasthenia gravis will occur in up to 60% of patients with thymomas.",
+   "Myasthenia patients with thymoma respond more favorably to thymectomy.",
+   "Thymoma is the most common abnormality of the thymus in patients with myasthenia gravis."
+  ],
+  "answer": [
+   "A",
+   "B",
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q063",
+  "number": 63,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "Which of the following statements about the results of thymectomy for myasthenia gravis are true?",
+  "options": [
+   "Patients with ocular symptoms experience clinical improvement in 90% of cases.",
+   "Clinical remission can be expected in 90% of cases.",
+   "The response rate to thymectomy for patients with generalized symptoms is 90%.",
+   "Patients with thymoma experience improvement in 75%.",
+   "Continued medical therapy is required in 75%."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q064",
+  "number": 64,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "All of the following are true of the treatment of myasthenia gravis except:",
+  "options": [
+   "The transcervical approach to surgical thymectomy is less likely to benefit the patient with myasthenia gravis.",
+   "Corticosteroids result in improvement in 80% of patients.",
+   "Plasma exchange is associated with improvement in up to 90% of patients.",
+   "Medical therapy with Mestinon (pyridostigmine) is associated with remission in approximately 10% of patients.",
+   "Surgical thymectomy, regardless of the approach, is associated with improved remission and response rates as compared with medical therapy."
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q065",
+  "number": 65,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "Which of the following is/are acceptable alternatives in the management of malignant pericardial effusion?",
+  "options": [
+   "Pericardiocentesis.",
+   "Subxiphoid pericardiotomy (“pericardial window”).",
+   "Thoracotomy with pericardiectomy.",
+   "Instillation of tetracycline or bleomycin into the pericardial space.",
+   "Treatment of the underlying malignancy."
+  ],
+  "answer": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q066",
+  "number": 66,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "Which of the following statements about cardiac tamponade is/are correct?",
+  "options": [
+   "At least 500 ml. of fluid must be present in the pericardium of an adult to cause symptoms of tamponade.",
+   "A drop in systemic blood pressure of greater than 20 mm. Hg during inspiration (pulsus paradoxus) is a finding specific to cardiac tamponade.",
+   "The vast majority of patients with cardiac tamponade demonstrate a low QRS voltage, nonspecific ST T-wave abnormalities, and electrical alternans (alternation of QRS amplitude) on the electrocardiogram.",
+   "In trauma victims with cardiac tamponade, the three components of “Beck's triad” (hypotension, elevated jugular venous pressure (JVP), and muffled heart sounds) are almost always present.",
+   "When the diagnosis is made, treatment must be instituted rapidly and may include pericardiocentesis, creation of a pericardial window, and identification and treatment of the underlying cause."
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q067",
+  "number": 67,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "Which of the following statements about constrictive pericarditis is/are correct?",
+  "options": [
+   "Most patients who develop constrictive pericarditis after cardiac operation present with symptoms within 6 months of the procedure.",
+   "Results of pericardiectomy for constrictive pericarditis are worse in patients who develop constriction after mediastinal irradiation.",
+   "Drainage of asymptomatic pericardial effusions arising from acute pericarditis is advised to prevent development of constrictive pericarditis.",
+   "If surgical treatment is planned for constrictive pericarditis it should involve total or complete pericardiectomy.",
+   "Echocardiography can usually make the diagnosis by imaging a thickened pericardium."
+  ],
+  "answer": [
+   "B",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q068",
+  "number": 68,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "The relationship between small-cell and non-small cell lung cancers can be described by the following:",
+  "options": [
+   "They differ by histology, clinical behavior and cell of origin",
+   "Of all lung cancers, approximately 80% are non-small cell and 20% are small cell",
+   "Both cell types are predictably responsive to chemotherapy",
+   "The International Staging System can be applied to both tumor types",
+   "The majority of non-small cell cancer patients vs. the minority of small cell cancer patients are candidates for pulmonary resection"
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q069",
+  "number": 69,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "A 62-year-old male smoker presents with right anterior chest pain. There is a 3 cm mass attached to the chest wall with radiographic evidence of rib erosion and positive cytology for non-small cell carcinoma. Which of the follow is/are true:",
+  "options": [
+   "The patient is inoperable due to tumor size and chest wall involvement",
+   "Radiation therapy is the preferred initial treatment",
+   "Operative resection should be performed with en bloc removal of the tumor and adjacent chest wall as well as a mediastinal lymph node resection",
+   "Positive mediastinal nodes will have little effect on survival",
+   "The patient would be classified Stage IIIa"
+  ],
+  "answer": [
+   "C",
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q070",
+  "number": 70,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "For the patient in the pervious question to become an operative candidate which of the following must be met?",
+  "options": [
+   "Extrathoracic metastases must be able to be controlled by another modality, e.g. radiotherapy",
+   "Tumor doubling time must exceed 40 days",
+   "If there is recurrence at the primary site, it must be treated before the metastatic disease",
+   "Even if effective systemic therapy is available, resection of metastases is preferred",
+   "If pulmonary reserve is marginal, resection of the maximal number of metastatic foci should be performed"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q071",
+  "number": 71,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "Biopsy of the lesion in the previous question is reported as “bronchial carcinoid with no signs of atypia.” Which of the follow is/are true?",
+  "options": [
+   "Sleeve resection of the bronchus would be appropriate",
+   "Lymph node biopsy at time of resection is unnecessary",
+   "Associated carcinoid syndrome is very unlikely",
+   "If carcinoid syndrome were found in a tumor this size, hepatic metastases would be likely",
+   "When bronchial carcinoid syndrome occurs, right-sided cardiac valves are affected"
+  ],
+  "answer": [
+   "A",
+   "C",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q072",
+  "number": 72,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "In the evaluation and preparation of a 55-year-old smoker for resection of a 3 cm pulmonary adenocarcinoma, the following is/are true:",
+  "options": [
+   "Preoperative cessation of smoking does not reduce postoperative pulmonary complications",
+   "Resting PaCO2 is of more value than PaO2",
+   "FEV1 is of more value than measured vital capacity",
+   "Diffusion capacity should be measured routinely",
+   "V/Q lung scan is useful when pulmonary reserve is marginal"
+  ],
+  "answer": [
+   "B",
+   "C",
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q073",
+  "number": 73,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "Following resection of a T1N1 squamous cell cancer in a 47-year-old male, the following is/are true:",
+  "options": [
+   "There is a higher risk of local recurrence than with any other histologic type of non-small cell cancer",
+   "The greatest risk to the patient is a distant metastasis",
+   "Of all metastatic sites, liver is most likely",
+   "If the patient survives five years, there is a greater risk of a new lung cancer than recurrence",
+   "To improve survival, the patient should be considered for adjuvant chemotherapy"
+  ],
+  "answer": [
+   "A",
+   "B",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q074",
+  "number": 74,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "A 42-year-old woman with hemoptysis is seen to have a 2 cm mulberry appearing polypoid lesion in the left mainstem bronchus suspicious for bronchial adenoma. The differential diagnosis includes which of the following:",
+  "options": [
+   "Mucoepidermoid carcinoma",
+   "Plasma cell granuloma",
+   "Carcinoid tumor",
+   "Adenoid cystic carcinoma",
+   "Mucous gland adenoma"
+  ],
+  "answer": [
+   "A",
+   "F",
+   "E",
+   "A",
+   "B",
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q075",
+  "number": 75,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "A 42-year-old man has a solitary “coin lesion” 2 cm in diameter in the area of the right upper lobe on a routine chest radiograph. Which of the following is/are true?",
+  "options": [
+   "A previous radiograph from five years prior showing the lesion to be 1.2 cm in diameter indicates malignancy",
+   "If a CT scan shows mediastinal adenopathy, mediastinoscopy is preferable to thoracotomy",
+   "In the absence of previous radiographs, the lesion should be followed by serial films at 6 month intervals",
+   "Calcification in a concentric or “popcorn” configuration denotes a benign lesion",
+   "Needle aspiration showing “chronic inflammatory cells” denotes a benign lesion"
+  ],
+  "answer": [
+   "B",
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q076",
+  "number": 76,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "A 2 cm peripheral squamous cell carcinoma in the lung of a 60-year-old male with a pleural effusion positive for malignant cells would be classified as:",
+  "options": [
+   "T1N0M1",
+   "T3N0M0",
+   "T3N0M1",
+   "T4N0M0",
+   "T4N0M1"
+  ],
+  "answer": [
+   "D",
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q077",
+  "number": 77,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "A 53-year-old woman who had a malignant tumor removed 2 years ago presents with a solitary lung nodule 1.5 cm in diameter. The following is/are true:",
+  "options": [
+   "If the primary tumor originated in the breast, the lesion is most likely to represent a new primary lung cancer.",
+   "If the primary tumor was melanoma, the lesion is most likely to be metastatic",
+   "If the remainder of the lung fields are clear, a CT scan is unnecessary",
+   "If the primary tumor was in the GI tract, there is very little chance that the lesion is a new primary lung cancer",
+   "Fine needle aspiration should always be performed prior to resection of the lung lesion"
+  ],
+  "answer": [
+   "A",
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q078",
+  "number": 78,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "A 61-year-old male presents with a painful mass 3.5 cm in diameter below the clavicle and attached to the chest wall. The following is/are true:",
+  "options": [
+   "A CT scan is the best study to determine rib destruction",
+   "The lesion should be removed enbloc without biopsy to minimize the chances for local recurrence",
+   "The chances are approximately 40% that the lesion is metastatic",
+   "If it is metastatic, the most likely primary tumor is in the lung or pancreas",
+   "Fortunately, less than 50% of chest wall tumors are malignant"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q079",
+  "number": 79,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "Concerning the sternum, the following is/are true:",
+  "options": [
+   "The xiphoid process is the anterior border of the thoracic outlet",
+   "Gladiolus is the body of the sternum",
+   "The angle of Louis is at the level of the 2nd costal cartilage",
+   "The 11th rib is attached via costal cartilage to the xiphoid",
+   "The sterno-manubrial junction is at the level of T4 posteriorly"
+  ],
+  "answer": [
+   "A",
+   "B",
+   "C",
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q080",
+  "number": 80,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "A 22-year-old woman recovering from a traumatic head injury is noted to have bright red bleeding when her tracheostomy is suctioned. The following is/are true statement(s):",
+  "options": [
+   "Antibiotics should be administered to treat the bronchitis",
+   "Deflation of the tracheal tube cuff is a useful diagnostic maneuver",
+   "If massive bleeding occurs, a finger should be used to compress the innominate artery against the sternum",
+   "Operative treatment of a tracheoinnominate fistula includes resection and prosthetic replacement of the innominate artery",
+   "Tracheal resection is usually required for a tracheoinnominate fistula to prevent recurrence"
+  ],
+  "answer": [
+   "B",
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q081",
+  "number": 81,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "A 52-year-old alcoholic with fever and a cough productive of purulent sputum is found to have the opacity on chest film as shown (Fig. 62-15). The following is/are true statement(s):",
+  "options": [
+   "The findings suggest a parapneumonic empyema",
+   "If pus is found on aspiration of the pleural space, a chest tube should be placed",
+   "If pus is found on aspiration, bronchoscopy is a necessary part of the patient’s evaluation",
+   "In this situation, rib resection for drainage is preferred to a large-bore chest tube",
+   "Decortication of the lung should be considered if the lung fails to expand within 4 weeks"
+  ],
+  "answer": [
+   "A",
+   "B",
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q082",
+  "number": 82,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "The lesion shown (Fig. 62-6) was found on a 32-year-old male on a routine chest film required for his employment. Which of the following is/are true?",
+  "options": [
+   "The stippled calcification and intact cortex of the rib are characteristic of osteochondroma",
+   "The stippled calcification is characteristic of osteogenic sarcoma",
+   "If the lesion is osteogenic sarcoma, the optimal treatment is resection and radiation therapy",
+   "If the lesion is an osteochondroma, it need not be resected in this age group",
+   "The radiographic picture is typical for Ewing sarcoma"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q083",
+  "number": 83,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "To resect a chondrosarcoma of the chest wall in a 42-year-old man, ribs 2–4 were removed, leaving a defect 8 x 8 cm. For reconstruction, the following is/are true:",
+  "options": [
+   "If this were to be posterior, beneath the scapula, reconstruction would not be required",
+   "If this defect is anterior, the primary benefit of reconstruction is an improved cosmetic result",
+   "Whenever chest wall reconstruction is considered, it should be delayed 6–12 months to allow detection of recurrent tumor",
+   "If Marlex is used for reconstruction, no wound drainage tube is necessary",
+   "If PTFE is used for reconstruction, both pleural and wound tubes should be used"
+  ],
+  "answer": [
+   "A",
+   "D",
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q084",
+  "number": 84,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "An upright chest film of a cachectic, homeless 47-year-old woman shows blunting of the right costophrenic angle. The following is/are true:",
+  "options": [
+   "A lateral decubitus film should be obtained to confirm the presence of fluid rather than a CT scan",
+   "Tuberculous effusion can readily be identified by stain and culture of aspirated fluid",
+   "A pleural fluid glucose level lower than in the serum is diagnostic of empyema",
+   "Bloody pleural effusion in this patient is diagnostic of an underlying malignancy",
+   "Pleural fluid cytology report of lumphoma should be viewed with skepticism"
+  ],
+  "answer": [
+   "A",
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q085",
+  "number": 85,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "Following shotgun wound of the chest wall, a 39-year-old woman desires reconstruction without a foreign-body prosthesis. Old incisions prohibit use of her rectus abdominus muscles. Considering chest wall muscles for reconstruction, the following is/are true statement(s):",
+  "options": [
+   "The pectoralis major muscle is available and innervated by the medial and lateral pectoral nerves so named because it describes their relationship to the pectoralis minor",
+   "The serratus anterior muscle is available since its absence has no functional significance",
+   "There is no serratus posterior muscle",
+   "The latissimus dorsi muscle is available and supplied by the thoracodorsal artery",
+   "The latissimus dorsi is innervated by the thoracodorsal nerve with fibers from C6, C7 and C8"
+  ],
+  "answer": [
+   "D",
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q086",
+  "number": 86,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "A 38-year-old man presents with facial and upper extremity edema, venous distention in the neck and arms and a cyanotic appearance. The following is/are true statement(s):",
+  "options": [
+   "The most likely cause of the problem is mediastinal granulomatous disease",
+   "A venogram should be obtained to confirm the diagnosis",
+   "Mediastinoscopy for diagnosis is contraindicated",
+   "If a malignancy is identified, resection is indicated for palliation",
+   "If the etiology is benign disease, gradual improvement without operation is to be expected"
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "medcosmos-thoracic-q087",
+  "number": 87,
+  "type": "multi",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "A 39-year-old woman with hypertension and radicular chest wall pain was found to have the lesion seen on chest radiograph (Fig. 63-23). The following is/are true statement(s):",
+  "options": [
+   "The location of the lesion suggests a teratoma",
+   "High urinary vanillylmandelic acid levels would indicate that the lesion is a paraganglioma",
+   "If the lesion was seen on a film 5 years earlier, resection would not be indicated",
+   "A neurosurgical consultation should be obtained",
+   "Vasoactive intestinal polypeptide level elevation suggests a ganglioneuroma"
+  ],
+  "answer": [
+   "D",
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ }
+]
