@@ -1,0 +1,4031 @@
+[
+ {
+  "id": "shahzad-2015-q001",
+  "number": 1,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Chest Wall & Diaphragm",
+  "stem": "The bony thorax serves to protect the organs of the chest and facilitate respiration by changing volume. The thorax is comprised of 12 paired ribs connecting the thoracic vertebral bodies with the sternum. Which one of the following statements about thoracic cage is correct?",
+  "options": [
+   "Each rib has a head that articulates with the same-numbered vertebral spine",
+   "Each rib has a tubercle which articulates with the vertebral body",
+   "Each rib has a neck that terminates in an anterior articulation.",
+   "Ribs 11-12 have double anterior articulations.",
+   "The superior aspect of each rib has a costal groove containing the neurovascular bundle."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q002",
+  "number": 2,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Chest Wall & Diaphragm",
+  "stem": "The diaphragm is the primary muscle of inspiration, contracting downward to increase intrathoracic volume. The diaphragm",
+  "options": [
+   "has crural fibers that connect to the ribs.",
+   "has aortic hiatus at T10 level.",
+   "contains oesophageal hiatus that transmits branches of the right phrenic nerve.",
+   "has foramen of Morgagni that transmits superior epigastric branches from internal mammary artery.",
+   "has caval hiatus at T12 level."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q003",
+  "number": 3,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Lung Cancer",
+  "stem": "Tracheobronchial lymph nodes are the key to staging lung cancer. Since 1997, the mediastinal lymph node classification system of Mountain and Dresler has been most widely used. Which one of the following statements regarding tracheobronchial lymph nodes is correct?",
+  "options": [
+   "Single-digit levels signify N1 disease.",
+   "Level 6 nodes sit posterior to the aortic arch.",
+   "Level 7 nodes are inaccessible via cervical mediastinoscopy.",
+   "Level 10 nodes lie along the pulmonary ligament.",
+   "Anterior mediastinoscopy provides access to level 5 and 6 nodes."
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q004",
+  "number": 4,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Lung Cancer",
+  "stem": "The only prospective, multi-institutional, randomized trial comparing lobectomy and sublobar resection for stage I NSCLC was published by the Lung Cancer Study Group in 1995. In this trial",
+  "options": [
+   "There was significant difference in morbidity between the 2 groups.",
+   "There was improved long-term preservation of pulmonary function in sublobar group.",
+   "Tumour size (even if less than 1 cm) did not affect local recurrence rates.",
+   "Sublobar resection was associated with lower local recurrence rates.",
+   "As compared with lobectomy, a fivefold increase in local recurrence rates after wedge resection was noted."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q005",
+  "number": 5,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Pediatric & Congenital Thoracic",
+  "stem": "Pulmonary sequestration is an abnormal segment of lung tissue that has no communication with the tracheobronchial tree. Pulmonary sequestration",
+  "options": [
+   "usually receives its arterial blood supply through the hilum.",
+   "predominantly affects females.",
+   "in an extralobar location is the predominant pathology.",
+   "venous return is usually in systemic venous system.",
+   "in an extralobar location has its own visceral pleura."
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q006",
+  "number": 6,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Pediatric & Congenital Thoracic",
+  "stem": "There are 4 phases of intrauterine pulmonary development. Which one of the following statements regarding intrauterine pulmonary development is correct?",
+  "options": [
+   "The median pharyngeal groove develops during embryonic phase.",
+   "Pseudoglandular phase is characterized by the development of lung buds.",
+   "The development of the pulmonary vasculature is complete by week 5.",
+   "The development of the respiratory bronchioles and alveolar ducts commences during the terminal sac phase.",
+   "Lung development is complete at birth."
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q007",
+  "number": 7,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Upper Extremity & Thoracic Outlet",
+  "stem": "Thoracic outlet syndrome (TOS) is defined as a constellation of symptoms related to compression of the neurovascular elements found in the thoracic outlet. TOS",
+  "options": [
+   "has 4 types.",
+   "in 90% of all cases progresses to Paget-Schroetter syndrome.",
+   "is more common in patients 20 to 40 years of age.",
+   "is more common in men than women.",
+   "symptoms are elicited by Allen test."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q008",
+  "number": 8,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Mediastinal Masses",
+  "stem": "Thymoma is the most common primary tumour in both the thymus and the anterior mediastinum. Thymoma",
+  "options": [
+   "affects men and woman with equal frequency.",
+   "patients in 75% cases have myasthenia gravis.",
+   "patients routinely present with compression of central airways.",
+   "patients in 90% cases have red cell aplasia.",
+   "patients in 50% cases have concomitant malignancy."
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q009",
+  "number": 9,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Benign Esophageal Tumors & Strictures",
+  "stem": "Oesophageal leiomyoma is the most common benign oesophageal tumour, accounting for more than 50% of all such tumours. Which one of the following statements correctly describes oesophageal leiomyoma?",
+  "options": [
+   "Histopathologically, it consists of intersecting bands of muscle and fibrous tissue without a well-defined capsule.",
+   "About 60% of these tumours are located in the distal third of the oesophagus.",
+   "Patients with these tumours are usually symptomatic.",
+   "Oesophageal leiomyomas commonly ulcerate.",
+   "Oesophageal leiomyomatosis is sometimes associated with Kartagener's syndrome."
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q010",
+  "number": 10,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Perioperative Care & Complications",
+  "stem": "In the forest plot shown below the area of each square is proportional to",
+  "options": [
+   "overall meta-analysed measure of effect.",
+   "the study's weight in the meta-analysis.",
+   "the size of the diamond.",
+   "the number of studies in the meta-analysis.",
+   "study duration."
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": [
+   "images/shahzad2015-q010-1.png"
+  ]
+ },
+ {
+  "id": "shahzad-2015-q011",
+  "number": 11,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Pleural Tumors & Mesothelioma",
+  "stem": "Treatment of malignant pleural mesothelioma (MPM) can be classified into radical procedures such as surgery and palliative measures which involve the removal of pleural effusions and prevention of their recurrence in order to relieve the symptoms such as dyspnoea and chest pain. Which one of the following statements regarding treatment of MPM is correct?",
+  "options": [
+   "Radical procedures have a better prognosis.",
+   "There is strong evidence of survival benefit with radical radiotherapy of the hemithorax when compared to best supportive care.",
+   "According to Mesothelioma and Radical Surgery (MARS) trial, MPM patients treated with pleurectomy/decortication had an equal to better outcome than those treated with extrapleural pneumonectomy.",
+   "Chemotherapy in MPM patients given as single agent treatment has shown improved response rates and survival compared to combination of drugs.",
+   "Immunotherapy has shown favourable results in clinical trials."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q012",
+  "number": 12,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Pleural Tumors & Mesothelioma",
+  "stem": "Solitary fibrous tumours of the pleura are rare. Their unpredictable clinical course is probably related to their histological and morphological characteristics. Which of the following statements about solitary fibrous tumours of the pleura is correct?",
+  "options": [
+   "These are mesothelial in origin.",
+   "These tumours tend to recur after excision.",
+   "Around 75% of the tumours are found to be malignant.",
+   "These tumours affect males more than females.",
+   "These tumours have a peak in the sixth and seventh decades of life."
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q013",
+  "number": 13,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Lymphedema & Vascular Malformations",
+  "stem": "Pulmonary arteriovenous malformations (PAVMs) are abnormal vascular structures that most often connect a pulmonary artery to a pulmonary vein. PAVMs",
+  "options": [
+   "bypass the normal pulmonary capillary bed and result in an intrapulmonary left-to-right shunt.",
+   "are predominantly sporadic.",
+   "occur in hereditary haemorrhagic telangiectasia, an autosomal recessive vascular disorder.",
+   "are best diagnosed by transthoracic contrast echocardiography.",
+   "are best treated with surgery."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q014",
+  "number": 14,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Mediastinal Masses",
+  "stem": "Thymic carcinomas are a heterogeneous group of aggressive, invasive epithelial malignancies. Thymic carcinomas",
+  "options": [
+   "occur predominantly in older men.",
+   "most frequently present with superior vena cava syndrome.",
+   "are small, soft, localized masses with areas of cystic change and necrosis",
+   "are prognosticated using Masaoka staging system.",
+   "are best treated by surgery."
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q015",
+  "number": 15,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Mediastinal Masses",
+  "stem": "Thymic carcinoid is a tumour of the thymus gland, which is histologically similar to carcinoid tumours found at other sites. Which one of the following statements regarding thymic carcinoid is correct?",
+  "options": [
+   "Its highest incidence is in the second and third decades of life.",
+   "It is associated with Budd-Chiari syndrome.",
+   "Metastasis is common.",
+   "Radiotherapy and chemotherapy are the treatment of choice in most cases.",
+   "The prognosis of these tumours is good."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q016",
+  "number": 16,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Mediastinal Masses",
+  "stem": "Mediastinal germ cell tumours (GCTs) are derived from primitive germ cells that fail to migrate completely during early embryonic development. Which one of the following statements about mediastinal GCTs is correct?",
+  "options": [
+   "Benign teratomas are calcified in up to 75% cases.",
+   "Primary mediastinal seminomas occur most frequently in men ages 40 to 60 years.",
+   "Seminomas are uniquely sensitive to radiation therapy.",
+   "20% of patients with mediastinal seminoma have Klinefelter syndrome.",
+   "85% of patients with mediastinal nonseminomatous GCTs are asymptomatic at diagnosis."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q017",
+  "number": 17,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Mediastinal Masses",
+  "stem": "Neuroenteric cysts are characterized by the presence of both enteric and neural tissue in surgical specimens. Neuroenteric cysts",
+  "options": [
+   "form in the anterior mediastinum above the level of the main carina.",
+   "are associated with multiple vertebral abnormalities.",
+   "form as a result of a persistent parietal recess during embryogenesis.",
+   "usually present in the third and fourth decade of life.",
+   "are diagnosed due to symptoms from vascular compression."
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q018",
+  "number": 18,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Lung Cancer",
+  "stem": "Pancoast tumours are located in the apex of the lung and involve through tissue contiguity the apical chest wall and/or the structures of the thoracic inlet. Which one of the following statements regarding Pancoast tumours is correct?",
+  "options": [
+   "Pancoast tumours account for 25% of all bronchogenic carcinomas.",
+   "Squamous cell carcinomas account for 2/3 of all Pancoast tumours.",
+   "Pancoast tumours are by definition T2 tumours.",
+   "Induction chemo-radiotherapy is the standard of care for any potentially resectable Pancoast tumour.",
+   "Surgery for Pancoast tumours is associated with 50% mortality rate."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q019",
+  "number": 19,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Lung Transplantation & Emphysema Surgery",
+  "stem": "Lung-volume-reduction surgery has been proposed as a palliative treatment for severe emphysema. Effects on mortality, the magnitude and durability of benefits, and criteria for the selection of patients have been evaluated in the National Emphysema Treatment Trial. This trial concluded that",
+  "options": [
+   "lung-volume-reduction surgery increases the chance of improved exercise capacity over medical therapy overall.",
+   "lung-volume-reduction surgery confers a survival advantage over medical therapy overall.",
+   "lung-volume reduction surgery yields a survival advantage for patients with predominantly lower-lobe emphysema.",
+   "patients with high base-line exercise capacity are good candidates for lung-volume-reduction surgery.",
+   "patients with high base-line exercise capacity have the most functional gain after lung-volume-reduction surgery."
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q020",
+  "number": 20,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Trachea & Airway",
+  "stem": "Tracheal surgery is indicated in tumourous tracheal stenoses mainly caused by a locally advanced lung cancer with infiltration of the bifurcation or by primary and secondary tracheal tumours. Which one of the following statements regarding tracheal tumours is correct?",
+  "options": [
+   "Primary tracheal tumours are common.",
+   "The majority of tracheal tumours in adults are benign.",
+   "Squamous cell carcinoma is the most common tumour type in adults.",
+   "Majority of the tumours are located in the middle trachea.",
+   "Distant mucosal metastases are very rare."
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q021",
+  "number": 21,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Chest Wall & Diaphragm",
+  "stem": "The thoracic inlet is essentially a hole surrounded by a bony ring, through which several vital structures pass. Which one of the following structures does not pass through the thoracic inlet?",
+  "options": [
+   "oesophagus",
+   "trachea",
+   "brachial plexus",
+   "left recurrent laryngeal nerve",
+   "right internal jugular vein"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q022",
+  "number": 22,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Pulmonary Physiology & Preoperative Evaluation",
+  "stem": "The flow-volume loop shown below is characteristic of which pathology?",
+  "options": [
+   "asthma",
+   "interstitial fibrosis",
+   "mixed lung disease",
+   "tracheal stenosis",
+   "extra-thoracic goitre"
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": [
+   "images/shahzad2015-q022-1.png"
+  ]
+ },
+ {
+  "id": "shahzad-2015-q023",
+  "number": 23,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Pulmonary Physiology & Preoperative Evaluation",
+  "stem": "A 46-year-old patient with a mass compressing the intra-thoracic portion of trachea undergoes spirometry as a part of pre-assessment for surgery. Which of the following flow-volume loops is likely to be obtained in this patient?",
+  "options": [
+   "Flow-volume loop A",
+   "Flow-volume loop B",
+   "Flow-volume loop C",
+   "Flow-volume loop D",
+   "Flow-volume loop E"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": [
+   "images/shahzad2015-q023-options.png"
+  ]
+ },
+ {
+  "id": "shahzad-2015-q024",
+  "number": 24,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Cardiac Anatomy & Physiology",
+  "stem": "In the left ventricular pressure-volume loop shown below, point A corresponds to",
+  "options": [
+   "end-diastolic point",
+   "ejection",
+   "end-systolic point",
+   "ventricular filling",
+   "diastolic filling phase"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": [
+   "images/shahzad2015-q024-1.png"
+  ]
+ },
+ {
+  "id": "shahzad-2015-q025",
+  "number": 25,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Pulmonary Physiology & Preoperative Evaluation",
+  "stem": "A 48-year-old male smoker is to undergo right upper lobectomy for squamous cell carcinoma. His FEV1 is 2.6 litres (80% of predicted normal). What is his predicted postoperative FEV1?",
+  "options": [
+   "2.5 litres",
+   "2.2 litres",
+   "1.6 litres",
+   "1.8 litres",
+   "1.1 litres"
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q026",
+  "number": 26,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Benign Esophageal Tumors & Strictures",
+  "stem": "A 36-year-old man complains of intermittent dysphagia for solids that is short-lived. He describes that food may become stuck in the oesophagus but can be forced down by drinking liquids or may be regurgitated. Which one of the following oesophageal disorders is this patient most likely to have?",
+  "options": [
+   "diffuse oesophageal spasm",
+   "nutcracker oesophagus",
+   "hypertensive lower oesophageal sphincter",
+   "focal oesophageal carcinoma",
+   "Schatzki ring"
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q027",
+  "number": 27,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Esophageal Motility Disorders & Diverticula",
+  "stem": "Achalasia is the best defined primary motility disorder and the only one with an established pathology. Which one of the following statements regarding the pathology of achalasia is correct?",
+  "options": [
+   "The predominant neuropathologic process of achalasia involves the loss of muscle cells from the wall of the oesophagus.",
+   "Extrinsic nerves are never involved.",
+   "Edrophonium decreases lower oesophageal sphincter pressure.",
+   "Atropine increases lower oesophageal sphincter pressure.",
+   "Achalasia is characterized by a loss of intrinsic acetylcholine-containing nerves."
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q028",
+  "number": 28,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Chest Wall & Diaphragm",
+  "stem": "A 17-year-old adolescent boy presented to the paediatrician with intermittent shortness of breath and sudden onset of pleuritic chest pain. A chest x-ray demonstrated a left-sided haemopneumothorax and triangular opacity in the left chest. A computed tomographic scan of the chest revealed a mass arising from the anterior aspect of the fifth rib and growing inwards. Which one of the following lesions is most likely to be responsible for these findings?",
+  "options": [
+   "enchondroma",
+   "chondroblastoma",
+   "osteochondroma",
+   "chondromyxoid fibroma",
+   "chondrosarcoma"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q029",
+  "number": 29,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Benign Lung Disease & Infection",
+  "stem": "A 32-year-old farmer presented with a history of paroxysms of cough with expectoration. He owned livestock and lived alongside them. Physical examination was unremarkable except for reduced air entry in the left infra-axillary and infrascapular areas. His chest x-ray and CT scan with the abnormality marked are shown below. What one of the following is the most likely diagnosis?",
+  "options": [
+   "Aspergilloma",
+   "Cavitating squamous cell carcinoma",
+   "Lung abscess",
+   "Cystic echinococcosis",
+   "Necrotizing Klebsiella pneumonia"
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": [
+   "images/shahzad2015-q029-1.png"
+  ]
+ },
+ {
+  "id": "shahzad-2015-q030",
+  "number": 30,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Arrhythmias & Surgical Ablation",
+  "stem": "The ECG shown below was obtained in a patient complaining of palpitations and syncopal symptoms. The patient was administered flecainide for supraventricular tachycardia. What one of the following is the most likely diagnosis?",
+  "options": [
+   "AV nodal re-entrant tachycardia",
+   "Wolff-Parkinson-White syndrome",
+   "Torsade de pointes",
+   "Ventricular fibrillation",
+   "Atrial fibrillation with variable block"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": [
+   "images/shahzad2015-q030-1.png"
+  ]
+ },
+ {
+  "id": "shahzad-2015-q031",
+  "number": 31,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Arrhythmias & Surgical Ablation",
+  "stem": "Sodium-channel blockers comprise the Class I antiarrhythmic compounds according to the Vaughan-Williams classification scheme. These drugs bind to and block the fast sodium channels that are responsible for the rapid depolarization of fast-response cardiac action potentials. Which one of the following class I antiarrhythmic drugs enhances digitalis toxicity?",
+  "options": [
+   "lidocaine",
+   "flecainide",
+   "procainamide",
+   "disopyramide",
+   "quinidine"
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q032",
+  "number": 32,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Arrhythmias & Surgical Ablation",
+  "stem": "Which phase of cardiac action potential is affected by Class I antiarrhythmic drugs?",
+  "options": [
+   "Phase 0",
+   "Phase 1",
+   "Phase 2",
+   "Phase 3",
+   "Phase 4"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q033",
+  "number": 33,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Arrhythmias & Surgical Ablation",
+  "stem": "Which one of the following Class I antiarrhythmic drugs is most likely to produce tachycardia, dry mouth, urinary retention, blurred vision and constipation?",
+  "options": [
+   "lidocaine",
+   "flecainide",
+   "propafenone",
+   "mexiletine",
+   "disopyramide"
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q034",
+  "number": 34,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Vascular Biology & Pharmacology",
+  "stem": "Three glycoprotein (GP) IIb/IIIa inhibitors are currently available for clinical use. Which one of the following statements regarding GP IIb/IIIa is correct?",
+  "options": [
+   "Tirofiban is a large molecule composed of the variable portion of mouse-derived Fab fragment linked to the constant region of the human immunoglobulin G Fab moiety.",
+   "Abciximab binding is specific.",
+   "Tirofiban binds to the GP IIb/IIIa receptors in a rapidly reversible manner.",
+   "Abciximab has elimination half-life of 7 days.",
+   "Eptifibatide and tirofiban have a longer duration of antiplatelet effect compared with abciximab."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q035",
+  "number": 35,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Mitral Valve Disease",
+  "stem": "The mitral apparatus is composed of the left atrial wall, the annulus, the leaflets, the chordae tendineae, the papillary muscles, and the left ventricular wall. Which one of the following statements regarding the mitral valve is correct?",
+  "options": [
+   "The mitral valve is located obliquely anterior to the aortic valve.",
+   "The left atrial myocardium extends over the proximal portion of the anterior leaflet.",
+   "The mitral annulus is a continuous ring around the mitral orifice.",
+   "The mitral annulus is a fibromuscular ring that connects with the leaflets.",
+   "The straight border of the annulus is posterior to the aortic valve."
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q036",
+  "number": 36,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Perioperative Care & Complications",
+  "stem": "Thromboelastogram obtained after aortic valve replacement in a patient with increased chest drain losses shows R time = 6 min; K time = 2 min; alpha angle = 58 degrees; MA = 60 mm; and LY 30 = 5%. Which one of the following statements regarding this situation is correct?",
+  "options": [
+   "This patient is deficient in clotting factors.",
+   "This patient has low levels of fibrinogen.",
+   "The bleeding will be best treated by cryoprecipitate.",
+   "This patient has normal coagulation.",
+   "This patient has excessive fibrinolysis."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q037",
+  "number": 37,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Cardiac Imaging & Hemodynamics",
+  "stem": "A 58 years old lady with severe mitral regurgitation had maximal tricuspid regurgitation velocity of 3 m/s. She had a CVP of 7 mmHg. What is the pulmonary artery systolic pressure of this patient?",
+  "options": [
+   "19 mm Hg",
+   "27 mmHg",
+   "36 mmHg",
+   "43 mmHg",
+   "56 mmHg"
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q038",
+  "number": 38,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Perioperative Care & Complications",
+  "stem": "How much data in a normal distribution lies within two standard deviations of the mean?",
+  "options": [
+   "34.1%",
+   "68.27%",
+   "75.3%",
+   "95.45%",
+   "99.73%"
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q039",
+  "number": 39,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Heart Failure & Mechanical Support",
+  "stem": "The primary goal of intra-aortic balloon pump (IABP) treatment is to improve the ventricular performance of the failing heart by facilitating an increase in myocardial oxygen supply and a decrease in myocardial oxygen demand. Which one of the following statements regarding the physiological effects of IABP therapy is correct?",
+  "options": [
+   "Inflation of IABP during diastole decreases diastolic pressure time index (DPTI).",
+   "Balloon deflation during systole increases tension time index (TTI).",
+   "Coronary sinus lactate increases if the IABP is working optimally.",
+   "Shorter diastolic time produces greater balloon augmentation per unit time.",
+   "Endocardial viability ratio (EVR) should increase if the IABP is working optimally."
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q040",
+  "number": 40,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Acyanotic Congenital Heart Disease",
+  "stem": "Interrupted aortic arch (IAA) is a relatively rare genetic disorder that usually occurs in association with a nonrestrictive ventricular septal defect (VSD) and ductus arteriosus or, less commonly, with a large aortopulmonary window or truncus arteriosus. Which one of the following statements regarding IAA is correct?",
+  "options": [
+   "Interrupted aortic arch has been classified into 4 types based on the site of aortic interruption.",
+   "In type A interrupted left aortic arch, the arch interruption occurs distal to the origin of the left subclavian artery.",
+   "In type B interrupted left aortic arch, the interruption occurs proximal to the origin of the left common carotid artery.",
+   "In type C interrupted left aortic arch, the interruption occurs distal to the origin of the left common carotid artery.",
+   "Type B interruptions account for about one third of cases."
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q041",
+  "number": 41,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Cardiac Anatomy & Physiology",
+  "stem": "The cardiac cycle refers to a complete heartbeat from its generation to the beginning of the next beat. When does the mitral valve close during the cardiac cycle?",
+  "options": [
+   "atrial contraction phase",
+   "isovolumetric contraction phase",
+   "rapid ejection phase",
+   "isovolumetric relaxation phase",
+   "reduced filling phase"
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q042",
+  "number": 42,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Acyanotic Congenital Heart Disease",
+  "stem": "The location of the supracristal (or doubly committed) ventricular septal defect (VSD), with its close proximity to the aortic root, accounts for the common development of aortic insufficiency with this defect. Left-to-right shunting of blood through the defect is believed to progressively pull aortic valve tissue through a Venturi effect. Which one of the following statements regarding supracristal VSD is correct?",
+  "options": [
+   "Supracristal VSD is the least common type of VSD in the Western Hemisphere.",
+   "The left coronary cusp usually prolapses in a supracristal VSD.",
+   "Supracristal VSD is best approached through the standard right atriotomy approach, looking through the tricuspid valve.",
+   "Tricuspid valve is involved in partial closure of the defect.",
+   "Conduction system tissue lies superior to the supracristal VSD."
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q043",
+  "number": 43,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Thoracic Aortic Aneurysm",
+  "stem": "Marfan syndrome is an inherited connective-tissue disorder characterized by tall stature, ectopia lentis, mitral valve prolapse, aortic root dilatation, and aortic dissection. Which one of the following statements about Marfan syndrome is correct?",
+  "options": [
+   "Marfan syndrome is transmitted as an autosomal recessive trait.",
+   "Marfan syndrome results from mutations in the fibrillin-2 gene.",
+   "The mutated gene in Marfan syndrome is present on chromosome 13.",
+   "Marfan syndrome is fully penetrant.",
+   "Abnormalities in the vascular endothelial growth factor signaling pathway may represent a final common pathway for the development of the Marfan phenotype."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q044",
+  "number": 44,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Coronary Artery Disease & CABG",
+  "stem": "The recently published European Society of Cardiology (ESC) guidelines suggest an unequivocal superiority of coronary artery bypass grafting (CABG) over percutaneous coronary intervention (PCI) for most lesions suitable for both procedures and low predicted operative mortality. Which one of the following is the only indication for revascularization where PCI is superior to CABG according to the recent ESC guidelines?",
+  "options": [
+   "Left main",
+   "SYNTAX score ≥ 33",
+   "SYNTAX score ≤ 32",
+   "2 vessel disease with non proximal left anterior descending artery involvement",
+   "SYNTAX score > 22"
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q045",
+  "number": 45,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Perioperative Care & Complications",
+  "stem": "The syndrome of inappropriate antidiuretic hormone secretion (SIADH) results from inappropriate, continued secretion or action of the antidiuretic hormone. Which one of the following statements regarding SIADH is correct?",
+  "options": [
+   "Serum sodium is consistently > 135 mmol/L.",
+   "Serum bicarbonate levels are low.",
+   "Serum potassium concentration remains unchanged.",
+   "The anion gap is increased.",
+   "The urinary osmolality is usually <100 mOsm/kg."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q046",
+  "number": 46,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Benign Lung Disease & Infection",
+  "stem": "The bronchial arteries are responsible for the majority of the oxygen supply to the lung parenchyma. Which one of the following statements regarding the anatomy of the bronchial arteries is correct?",
+  "options": [
+   "The bronchial arteries arise from the thoracic aorta at the level of T3 to T4.",
+   "There is usually one bronchial artery on the left that arises directly from the anterior surface of the thoracic aorta.",
+   "The intercostobronchial trunk arises from the left posterolateral aspect of the thoracic aorta.",
+   "The classic pattern of two bronchial arteries on the left and one on the right is found in 90% of patients.",
+   "The bronchial arteries supply the vasa vasorum of the aorta."
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q047",
+  "number": 47,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Thoracic Techniques & Postoperative Care",
+  "stem": "Sympathetic chain is each of the pair of ganglionated longitudinal cords of the sympathetic nervous system, situated on either side of the vertebral column. The sympathetic trunk travels from the base of the skull to the coccyx, just lateral to the vertebral bodies. Which one of the following statements regarding the sympathetic chain is correct?",
+  "options": [
+   "The superior end of the sympathetic chain is continued into the skull through the foramen magnum.",
+   "The superior cervical ganglion is also termed ganglion impar.",
+   "The inferior cervical ganglion gives rise to inferior cardiac branch.",
+   "The middle cervical ganglion is often fused with inferior cervical ganglion to form stellate ganglion.",
+   "The sympathetic chain is blocked at T2 level in facial blushing."
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q048",
+  "number": 48,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Lung Cancer",
+  "stem": "The figure below shows contrast enhanced computed tomography and positron emission tomography scans of a 56 years old male patient with chronic cough. What is the TNM stage of this tumour?",
+  "options": [
+   "T1aN2M0",
+   "T2aN0M0",
+   "T2aN2M0",
+   "T3N0M1",
+   "T3N1M0"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": [
+   "images/shahzad2015-q048-1.png"
+  ]
+ },
+ {
+  "id": "shahzad-2015-q049",
+  "number": 49,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Aortic Valve Disease",
+  "stem": "The Placement of Aortic Transcatheter Valves (PARTNER) trial was a multicenter, randomized clinical trial comparing transcatheter aortic-valve implantation (TAVI) with standard therapy in high-risk patients with severe aortic stenosis, including a prespecified cohort of patients who were not considered to be suitable candidates for surgery. Which one of the following statements regarding PARTNER trial is correct?",
+  "options": [
+   "The partner trial recruited 250 patients.",
+   "The primary end point was the rate of paravalvular leak.",
+   "At 1 year, the rate of death from any cause (Kaplan–Meier analysis) was same for the two groups.",
+   "Among survivors at 1 year, the rate of cardiac symptoms (New York Heart Association class III or IV) was same for the two groups.",
+   "In the year after TAVI, there was no deterioration in the functioning of the bioprosthetic valve."
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q050",
+  "number": 50,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "In a normal individual, a tube with a transducer at its tip is swallowed and passed an unknown distance down the oesophagus. Between swallows it records a pressure of 25 mm Hg. A small amount of water is swallowed. Within 2 seconds, the pressure falls to 5 mm Hg, where it remains until returning to its resting pressure 6 seconds later. In a patient with achalasia, the transducer is advanced to the same location. Between swallows, it records a pressure of 30 mm Hg. After swallowing, the pressure fails to decrease at all. In which of the following sites is the transducer most likely located?",
+  "options": [
+   "Oesophageal body distal to the diaphragm",
+   "Oesophageal body proximal to the diaphragm",
+   "Lower oesophageal sphincter",
+   "Pharynx",
+   "Upper oesophageal sphincter"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q051",
+  "number": 51,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Acyanotic Congenital Heart Disease",
+  "stem": "A 2-year-old child with uncomplicated coarctation of the aorta appears to be in good health. Growth and development are normal. The constriction is located just distal to the left subclavian artery. Which one of the following is decreased in this patient?",
+  "options": [
+   "Blood flow in the lower body",
+   "Blood flow in the upper body",
+   "Blood pressure in the upper body",
+   "Vascular resistance in the lower body",
+   "Vascular resistance in the upper body"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q052",
+  "number": 52,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Pediatric & Congenital Thoracic",
+  "stem": "A premature infant develops progressive difficulty breathing over the first few days of life. Deficient surfactant synthesis by which of the following cell types may be contributing to the infant’s respiratory problems?",
+  "options": [
+   "Alveolar capillary endothelial cells",
+   "Bronchial mucous cells",
+   "Bronchial respiratory epithelium",
+   "Type I pneumocytes",
+   "Type II pneumocytes"
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q053",
+  "number": 53,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Heart Failure & Mechanical Support",
+  "stem": "In a hospital cardiac care unit, there are three patients with different cardiac conditions: a 52-year-old man with dilated cardiomyopathy, an 18-year-old girl with mitral valve prolapse, and a 30-year-old man with infective endocarditis of the mitral valve. Which one of the following features do all these patients most likely share?",
+  "options": [
+   "Decreased compliance",
+   "Depressed myocardial contractility",
+   "Infectious aetiology",
+   "Mitral valve stenosis",
+   "Risk of systemic thromboembolism"
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q054",
+  "number": 54,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Cardiac Anatomy & Physiology",
+  "stem": "A 68-year-old man sustains a myocardial infarct resulting from thrombotic occlusion at the origin of the left circumflex artery. Cardiac catheterization demonstrates that the patient has a left dominant coronary circulation. In which of the following areas of the heart has ischaemic necrosis most likely occurred?",
+  "options": [
+   "Apex of left ventricle and anterior portion of septum",
+   "Lateral left ventricular wall and posterior portion of septum",
+   "Lateral wall of the left ventricle only",
+   "Posterior portion of the septum only",
+   "Right ventricular wall"
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q055",
+  "number": 55,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Thoracic Aortic Aneurysm",
+  "stem": "A 38-year-old man underwent a successful composite valve-graft replacement of the ascending aorta for acute dissection. The patient meets the clinical diagnostic criteria for Marfan syndrome (MFS). Which one of the following statements is correct?",
+  "options": [
+   "The chance of his only son to inherit MFS is likely to be 50%.",
+   "Detection of fibrillin-1 gene mutation is always present in patients with MFS.",
+   "Spontaneous mutations are responsible for most patients with MFS.",
+   "Diagnosis of MFS can easily be made from the early childhood.",
+   "In the presence of positive family history a minimum of 2 major manifestations of the disease is required for the diagnosis of MFS."
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q056",
+  "number": 56,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Thoracic Trauma",
+  "stem": "A 35-year-old builder was admitted to Accident and Emergency having fallen from 10 meters and landed on his torso. He is haemodynamically unstable but has responded to fluid resuscitation. A chest radiograph reveals widened mediastinum and a moderate left haemothorax. Axial CT with contrast reveals a pseudoaneurysm of the thoracic aorta, mediastinal haematoma and free fluid in the peritoneum. The diagnosis of traumatic aortic transection is made. Which one of the following statements is correct?",
+  "options": [
+   "Emergency repair of the aortic transection is required before any other surgical intervention.",
+   "Most deceleration injuries of the aorta occur just distal to the left subclavian artery.",
+   "Endovascular stent graft placement has no place in traumatic aortic transections.",
+   "Graft interposition repair is the only recommended approach for traumatic aortic transections.",
+   "Aortic cross-clamping with adjuvant distal perfusion technique does not alter the incidence of paraplegia compared with aortic cross-clamping alone."
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q057",
+  "number": 57,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Cardiac Trauma",
+  "stem": "A 24-year-old man is admitted as a trauma call to the emergency department having sustained a stab wound to the anterior chest. He is haemodynamically compromised with a systolic blood pressure of 50 mmHg, heart rate of 130/min and elevated jugular venous pressure. Upon inspection there is a 2 cm laceration left to the sternum at its lower third. Which one of the following statements is correct?",
+  "options": [
+   "Pericardiocentesis is a reliable diagnostic tool for penetrating cardiac trauma.",
+   "Upon emergency thoracotomy, a laceration to the ventricle should be repaired with continuous 4-0 prolene.",
+   "Repair of ventricular wounds without CPB can be facilitated with up to 10 minutes of inflow occlusion after placement of caval clamps.",
+   "Ventricular injuries are more common than atrial injuries.",
+   "Repair of lacerations near coronary vessels will inevitably lead to severe compromise of their flow."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q058",
+  "number": 58,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Myocardial Infarction & Its Complications",
+  "stem": "A 76-year-old female who suffered an acute myocardial infarction within the last 24 hours has developed a new loud pansystolic murmur. Her blood pressure is 90/65 mmHg and the urine output <0.5 mls/kg/hr despite adequate IV fluid administration. A bedside echocardiogram demonstrates a ventricular septal defect (VSD). Which one of the following statements is true?",
+  "options": [
+   "Coronary angiography should be the next step to identify the degree of coronary artery disease.",
+   "Intraaortic balloon pump should be inserted only after maximal inotropic support has been tried and failed to stabilise the patient.",
+   "The defect is most commonly on the posterior portion of the septum secondary to an inferior myocardial infarction.",
+   "Surgical repair of the VSD involves the suturing of a patch on the edges of the defect.",
+   "Hospital mortality despite VSD repair is 30-40%."
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q059",
+  "number": 59,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Cardiac Anatomy & Physiology",
+  "stem": "Which one of the following vessels is responsible for the venous drainage of the anterior interventricular groove?",
+  "options": [
+   "great cardiac vein",
+   "coronary sinus",
+   "middle cardiac veins",
+   "small cardiac vein",
+   "right marginal vein"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q060",
+  "number": 60,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Mediastinal Masses",
+  "stem": "Which of the following statements regarding the diagnosis and prognosis of mediastinal germ cell tumours is correct?",
+  "options": [
+   "Teratomas are uncommon amongst the benign germ cell tumours of the mediastinum.",
+   "Seminomas have a better cure rate compared to non seminomas.",
+   "AFP is increased in seminomas.",
+   "Non seminomas are highly radiosensitive.",
+   "Surgical resection is first line treatment for mediastinal seminomas."
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q061",
+  "number": 61,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Pediatric & Congenital Thoracic",
+  "stem": "A newborn girl has developed acute respiratory distress with associated cyanosis. Previous foetal ultrasound raised the suspicion of congenital cystic adenomatoid malformation (CCAM). Which one of the following statement is true?",
+  "options": [
+   "The cysts do not communicate with the bronchial tree.",
+   "CCAM is associated with oligohydramnios in gestation.",
+   "Air-fluid level lesions on the chest radiograph of the newborn are highly specific for CCAM.",
+   "All lesions should be resected and lobectomy is the procedure of choice.",
+   "Large lesions have a better prognosis compared with small lesions."
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q062",
+  "number": 62,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Mediastinal Masses",
+  "stem": "A 40-year-old woman presents with progressive dyspnoea and non-productive cough. Chest radiograph and subsequent computed tomography raise the suspicion of a thymoma. Which one of the following statements is correct?",
+  "options": [
+   "For thymomas that invade the SVC surgical resection is not feasible and therefore should not be attempted.",
+   "Complete resection of a Masaoka Stage I thymoma yields a 50-60% 10 year survival.",
+   "Tissue diagnosis should always follow the computed tomography of the chest.",
+   "Neoadjuvant chemotherapy is recommended for thymomas involving the great vessels.",
+   "40% of myasthenia gravis patients are found to have thymomas."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q063",
+  "number": 63,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Esophageal Cancer",
+  "stem": "A 60-year-old smoker presents with progressive dysphagia and loss of weight. Oesophagogastroscopy with biopsies reveal primary adenocarcinoma of the oesophagus. Clinical staging suggests IIB disease (T2N1M0). The patient is going to be treated with surgery. Which of the following statements is correct?",
+  "options": [
+   "The transhiatal approach is preferred to ensure wide lateral margins of resection and complete lymphadenectomy with the avoidance of thoracotomy.",
+   "The right gastric artery is divided and blood supply to the gastric conduit is maintained through the left gastric and gastroepiploic arteries.",
+   "Kocher maneuver is appropriate when additional length of the gastric conduit is required.",
+   "The thoracic component of the Ivor-Lewis oesophagectomy should be performed first to ensure good mobilisation of the oesophagus.",
+   "Ivor-Lewis is the procedure of choice for oesophageal tumours above the level of the carina."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q064",
+  "number": 64,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Cardiopulmonary Bypass & Myocardial Protection",
+  "stem": "Plasma proteins serve many different functions. Of all the plasma proteins, the first to be adsorbed to the cardiopulmonary bypass circuit is",
+  "options": [
+   "albumin",
+   "factor 8",
+   "fibrinogen",
+   "plasmin",
+   "protein C"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q065",
+  "number": 65,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Vascular Biology & Pharmacology",
+  "stem": "In heparin induced thrombocytopenia (HIT), the immune system forms antibodies against heparin when it is bound to a protein called platelet factor 4 (PF4). The treatment for HIT associated bleeding is",
+  "options": [
+   "Cryoprecipitate",
+   "FFP",
+   "Platelets",
+   "Vitamin K",
+   "Warfarin"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q066",
+  "number": 66,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Cardiopulmonary Bypass & Myocardial Protection",
+  "stem": "Which of the following leads to the greatest reduction in myocardial oxygen demand?",
+  "options": [
+   "empty beating heart",
+   "fibrillating heart",
+   "hyperkalemic cardiac arrest",
+   "hypothermic arrest",
+   "normothermic arrest"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q067",
+  "number": 67,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Coronary Artery Disease & CABG",
+  "stem": "Which of the following hearts has the best ability to revert to normal after successful myocardial revascularization?",
+  "options": [
+   "aneurysmal myocardium",
+   "hibernating myocardium",
+   "infarcted myocardium",
+   "ischemic myocardium",
+   "akinetic myocardium"
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q068",
+  "number": 68,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Cardiac Anatomy & Physiology",
+  "stem": "Right sided coronary artery dominance means",
+  "options": [
+   "RCA supplies the conus branch.",
+   "RCA supplies the posterior descending artery (PDA) which in turn supplies the AV node.",
+   "RCA supplies the posterior septum.",
+   "RCA supplies the SA node.",
+   "RCA supplies > 75% of right ventricle."
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q069",
+  "number": 69,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Myocardial Infarction & Its Complications",
+  "stem": "Ventricular septal rupture is a rare but lethal complication of myocardial infarction. The event occurs 2-8 days after an infarction and often precipitates cardiogenic shock. Which one of the following statements regarding ventricular septal rupture is correct?",
+  "options": [
+   "Serpiginous ventricular septal rupture is commonly seen after occlusion of left anterior descending artery.",
+   "The infarct associated with septal rupture is predominantly subendocardial.",
+   "The incidence of ventricular aneurysm formation is more in survivors of ventricular septal rupture than isolated acute infarction.",
+   "The most important determinant of early outcome following postinfarction ventricular septal rupture is the extent of coronary artery disease.",
+   "Two-thirds of patients after ventricular septal rupture have functional mitral insufficiency."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q070",
+  "number": 70,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Aortic Dissection",
+  "stem": "Thoracic aneurysms are usually found incidentally after chest radiographs or other imaging studies. Which of these is a negative prognostic predictor after repair of thoracic aneurysms?",
+  "options": [
+   "elevated blood pressure",
+   "persistence of false lumen",
+   "thinning of aneurysmal wall",
+   "thrombosis of false lumen",
+   "early discharge"
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q071",
+  "number": 71,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Aortic Dissection",
+  "stem": "Aortic dissection is defined as separation of the layers within the aortic wall. Tears in the intimal layer result in the propagation of dissection (proximally or distally) secondary to blood entering the intima-media space. Mortality is still high despite advances in diagnostic and therapeutic modalities. The most common site of intimal tears with aortic dissection is",
+  "options": [
+   "just distal to left subclavian artery",
+   "within a few cms of proximal ascending aorta",
+   "proximal arch",
+   "distal descending aorta",
+   "just proximal to left subclavian artery"
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q072",
+  "number": 72,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Cardiac Anatomy & Physiology",
+  "stem": "Dp/Dt is defined as",
+  "options": [
+   "rate of left atrial pressure change with time",
+   "rate of cardiac index with time",
+   "rate of myocardial fiber lengthening",
+   "rate of relaxation of myocardium",
+   "rate of myocardial fiber shortening"
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q073",
+  "number": 73,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Aortic Dissection",
+  "stem": "A 67 years old patient undergoes elective catheterization for evaluation of chest pain. During the procedure the cardiologist notices that the guide wire from the femoral artery has caused a small 0.2 cm flap just distal to the left subclavian artery. The patient is stable and has no symptoms. The best option now is",
+  "options": [
+   "continue with catheterization to determine CAD",
+   "set patient for left thoracotomy",
+   "CT scan to determine exact dimension of tear",
+   "Observe patient",
+   "emergency thoracic endovascular aneurysm repair"
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q074",
+  "number": 74,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Cyanotic Congenital Heart Disease",
+  "stem": "Patients who have undergone total surgical repair of tetralogy of Fallot (TOF) have improved haemodynamics and often have good to excellent cardiac function after the operation with some to no exercise intolerance (New York Heart Association Class I-II). The most common reason for patients operated with TOF in childhood to return with symptoms in adult life is due to",
+  "options": [
+   "recurrent VSD",
+   "pulmonary artery stenosis",
+   "pulmonary valve stenosis",
+   "pulmonary valve regurgitation",
+   "aortic regurgitation"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q075",
+  "number": 75,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Cyanotic Congenital Heart Disease",
+  "stem": "The umbilical vein is a vein present during fetal development that carries oxygenated blood from the placenta to the growing foetus. A young baby girl, 1 day old is born with a congenital heart defect. The umbilical vein oxygen is elevated and you suspect",
+  "options": [
+   "transposition of great arteries",
+   "umbilical vein left hepatic artery fistula",
+   "intracardiac shunt (ASD/VSD)",
+   "extracardiac anomalous venous return",
+   "hyperventilation with oxygen"
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q076",
+  "number": 76,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Acyanotic Congenital Heart Disease",
+  "stem": "On opening the right atrium, you see large amounts of blood coming via the coronary sinus, which is also very enlarged. You suspect",
+  "options": [
+   "partial anomalous pulmonary venous drainage",
+   "left superior vena cava",
+   "unroofed coronary sinus",
+   "unrecognised ASD",
+   "inadequate drainage from bicaval cannulation"
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q077",
+  "number": 77,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Acute Limb Ischemia & Compartment Syndrome",
+  "stem": "A young female with a long term intravenous jugular catheter is waiting for surgery. Two days later, she presents with a cold left leg. The best test for this patient now is",
+  "options": [
+   "Femoral angiogram",
+   "Cardiac catheterization",
+   "Echocardiogram",
+   "Septic screen",
+   "Venogram"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q078",
+  "number": 78,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Heart Transplantation",
+  "stem": "In the heterotopic heart transplantation, the patient's own heart is not removed. The new heart is positioned so that the chambers and blood vessels of both hearts can be connected to form what is effectively a 'double heart'. When a heterotopic heart transplant is done, a prosthetic graft is required for",
+  "options": [
+   "reconstructing the aorta",
+   "reconstructing the pulmonary artery",
+   "reconstruct the left atrium",
+   "reconstructing the IVC",
+   "reconstructing the SVC"
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q079",
+  "number": 79,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Cardiopulmonary Bypass & Myocardial Protection",
+  "stem": "Retrograde coronary sinus cardioplegia is being used for myocardial protection with ever-increasing frequency during complex cardiac operations. When a retrograde catheter is used for cardioplegia, venous drainage of the heart occurs primarily via",
+  "options": [
+   "anterior cardiac vein",
+   "great cardiac vein",
+   "superior vena cava",
+   "Thebesian veins",
+   "coronary sinus"
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q080",
+  "number": 80,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Cardiopulmonary Bypass & Myocardial Protection",
+  "stem": "Which one of the following ions if absent in the induction cardioplegia solution can worsen myocardial injury after induction?",
+  "options": [
+   "Ca",
+   "Mg",
+   "Mn",
+   "K",
+   "Na"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q081",
+  "number": 81,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Acyanotic Congenital Heart Disease",
+  "stem": "A 3 years old boy undergoes ligation of patent ductus arteriosus. Postoperatively he is extubated but his chest x ray reveals an elevated left hemi-diaphragm. For this patient, the best treatment is",
+  "options": [
+   "diaphragmatic plication",
+   "intubation",
+   "implantation of phrenic nerve stimulator",
+   "observation",
+   "phrenic nerve grafting"
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q082",
+  "number": 82,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Cyanotic Congenital Heart Disease",
+  "stem": "The goal of surgery is to repair the four defects of tetralogy of Fallot (TOF) so the heart can work as normally as possible. The most common cause of low cardiac output after TOF repair is",
+  "options": [
+   "left ventricular dysfunction",
+   "ventricular septal defect",
+   "right ventricular dysfunction",
+   "mitral regurgitation",
+   "coronary artery injury"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q083",
+  "number": 83,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Cardiopulmonary Bypass & Myocardial Protection",
+  "stem": "A 67 years old patient is undergoing aortic valve replacement for severe aortic regurgitation. Retrograde cardioplegia is administered. The effluent blood from the right coronary ostia is desaturated. The next step is",
+  "options": [
+   "give antegrade cardioplegia via the coronary ostia",
+   "increase oxygen in the cardioplegia solution",
+   "administer more volume",
+   "increase the pressure in the retrograde catheter",
+   "reposition the retrograde cardioplegia cannula into right atrium"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q084",
+  "number": 84,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Perioperative Care & Complications",
+  "stem": "Deficient neurological disorders after heart surgery are destructive and affect vital prognosis. They concern between 3% to 9% of patients and are related mainly to embolic episodes or brain perfusion defects. The highest incidence of stroke is with",
+  "options": [
+   "combined valve and CABG",
+   "isolated valve",
+   "isolated CABG",
+   "double valve",
+   "MIDCAB"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q085",
+  "number": 85,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Perioperative Care & Complications",
+  "stem": "Stroke after cardiac surgery is a devastating complication that leads to excess mortality and health resource utilization. The highest risk of stroke during bypass is when",
+  "options": [
+   "aortic cannulation is performed",
+   "during proximal anastomosis on a side biting clamp",
+   "during manipulation of left ventricle for distal anastomosis",
+   "during placement of retrograde cannula",
+   "axillary artery is cannulated"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q086",
+  "number": 86,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Coronary Artery Disease & CABG",
+  "stem": "Early vein graft failure coupled with occlusion is the most important limitation of saphenous vein grafts. Nevertheless, vein grafting is still an integral part of cardiac surgical practice. Most common cause of vein graft narrowing during the first 12 months after coronary artery bypass grafting is due to",
+  "options": [
+   "atherosclerosis",
+   "intimal hyperplasia",
+   "technical error",
+   "persistent spasm",
+   "progressively increasing proximal coronary artery stenosis"
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q087",
+  "number": 87,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Coronary Artery Disease & CABG",
+  "stem": "Redo-coronary artery bypass grafting (redo-CABG) still remains a challenging operation and is associated with a significantly higher risk of morbidity and mortality when compared with primary CABG. The higher risk of redo-CABG is largely attributable to the increased technical difficulty and the greater incremental risk in redo-CABG patients. Which one of the following factors is associated with the highest risk for redo-CABG?",
+  "options": [
+   "female gender",
+   "age",
+   "decreased left ventricular function",
+   "emergency surgery",
+   "chronic obstructive pulmonary disease"
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q088",
+  "number": 88,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Aortic Valve Disease",
+  "stem": "A patient has undergone Ross procedure. Postoperatively he develops a high incidence of ventricular arrhythmias. Which of the following is the most likely cause for these arrhythmias?",
+  "options": [
+   "poor myocardial protection",
+   "paravalvular leak",
+   "damage to coronary vessel",
+   "trauma to right ventricle",
+   "persistent pulmonary regurgitation"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q089",
+  "number": 89,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Aortic Valve Disease",
+  "stem": "You are suddenly called into the operating theatre by the anaesthesiologist. The patient was being put to sleep and he arrested. The most common cardiac lesion to present in this way is",
+  "options": [
+   "Aortic regurgitation",
+   "Mitral stenosis",
+   "Aortic stenosis",
+   "Mitral regurgitation",
+   "Mixed aortic valve disease"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q090",
+  "number": 90,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Perioperative Care & Complications",
+  "stem": "An elderly female undergoes a difficult mitral valve replacement. Postoperatively, she continues to bleed at 100 ml/hr for 6 hours. Transthoracic echocardiogram is limited by poor windows but the coagulation parameters are abnormal. She has already received 4 units of FFP and 2 units of blood. The next step is to",
+  "options": [
+   "return to operating theatre",
+   "subxiphoid window",
+   "administer cryoprecipitate",
+   "perform TOE",
+   "administer platelets"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q091",
+  "number": 91,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Coronary Artery Disease & CABG",
+  "stem": "A patient with triple vessel coronary artery disease undergoes coronary artery bypass grafting. He is unable to be weaned off cardiopulmonary bypass (CPB). TOE shows moderate mitral regurgitation and poor wall motion on the inferior aspect of the heart. The next step",
+  "options": [
+   "repair mitral valve",
+   "replacement of mitral valve",
+   "insert IABP and try to come off CPB",
+   "redo right coronary graft",
+   "commence adrenaline infusion and try to come off CPB"
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q092",
+  "number": 92,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Arrhythmias & Surgical Ablation",
+  "stem": "An 8 months old patient developed junctional ectopic tachycardia after repair of tetralogy of Fallot. Junctional ectopic tachycardia can usually be terminated by",
+  "options": [
+   "Beta blockers",
+   "Verapamil",
+   "Potassium administration",
+   "Cooling",
+   "Bretylium"
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q093",
+  "number": 93,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Acyanotic Congenital Heart Disease",
+  "stem": "A 15 years old boy presents with mild aortic regurgitation and a subarterial ventricular septal defect (VSD). The best plan of treatment is",
+  "options": [
+   "close VSD",
+   "close VSD and repair aortic valve",
+   "close VSD and replace aortic valve",
+   "close VSD and perform Ross procedure",
+   "arrange six-monthly follow-up with TOE"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q094",
+  "number": 94,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Acyanotic Congenital Heart Disease",
+  "stem": "During repair of partial atrioventricular canal defect, the coronary sinus is placed on the left side of the heart because",
+  "options": [
+   "the coronary sinus will relieve the pressure in the right atrium",
+   "suturing is easier",
+   "the coronary sinus will be occluded by placing it on the right side",
+   "to prevent conduction blocks",
+   "to prevent kinking of right coronary artery"
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q095",
+  "number": 95,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Acyanotic Congenital Heart Disease",
+  "stem": "A 3 years old undergoes correction of a partial atrioventricular (AV) canal defect. Despite bicaval cannulation there is an increasing amount of blood in the left atrial field. The most likely diagnosis is",
+  "options": [
+   "persistent systemic venous return",
+   "unroofed coronary sinus",
+   "a second ASD",
+   "absent coronary sinus",
+   "persistent ductus venosus"
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q096",
+  "number": 96,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Cyanotic Congenital Heart Disease",
+  "stem": "In tetralogy of Fallot (TOF) patients with dilated tortuous pulmonary arteries, severe respiratory distress is due to",
+  "options": [
+   "vascular ring",
+   "tracheal compression",
+   "large VSD",
+   "right ventricular hypertrophy",
+   "pulmonary stenosis"
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q097",
+  "number": 97,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Cyanotic Congenital Heart Disease",
+  "stem": "A child undergoes a right Blalock-Taussig shunt for tricuspid atresia. Two days later, the chest drainage reveals plasma like fluid. It is free of triglycerides. He continues to drain fluid. The next step is",
+  "options": [
+   "contralateral classic BT shunt and removal of the right shunt",
+   "percutaneous drainage of fluid",
+   "removal of shunt",
+   "revise shunt",
+   "commencement of total parenteral nutrition"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q098",
+  "number": 98,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Acyanotic Congenital Heart Disease",
+  "stem": "Persistence or recurrence of stenosis is a complication of coarctation repair and is associated with major long-term morbidity. The rate of recurrence varies significantly, depending on the age of the patient, technique at initial repair, and the arch anatomy. Recurrent coarctation is best treated by",
+  "options": [
+   "balloon dilatation",
+   "surgical revision",
+   "axillary-femoral bypass",
+   "subclavian artery flap turndown",
+   "antihypertensive medication"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q099",
+  "number": 99,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Perioperative Care & Complications",
+  "stem": "A 73-year-old female undergoes coronary angiography that reveals severe stenosis of left main stem and occluded right coronary artery. She received the platelet IIb/IIIa receptor antagonist (Reopro®) in anticipation of stenting. However, stenting is technically difficult and due to ongoing chest pain she is rushed to surgery. In addition to the routine orders, the anaesthetist should order",
+  "options": [
+   "aprotinin",
+   "type and cross-match an extra 10 units of blood",
+   "platelets",
+   "cryoprecipitate",
+   "fibrinogen"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q100",
+  "number": 100,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Coronary Artery Disease & CABG",
+  "stem": "Redo-coronary artery bypass grafting (redo-CABG) still remains a challenging operation and the higher risk of redo-CABG is largely attributable to the increased technical difficulty. Which one of the following situations does not increase the risk during re-entry for median sternotomy?",
+  "options": [
+   "patent vein graft to RCA",
+   "right ventricular enlargement",
+   "patent in-situ LIMA to circumflex",
+   "right atrial enlargement",
+   "dilated ascending aorta measuring 6 cm on TOE"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q101",
+  "number": 101,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Heart Failure & Mechanical Support",
+  "stem": "A 38 years old patient undergoes aortic valve replacement with a mechanical valve but fails to come off bypass with very poor ventricular function. An intra-aortic balloon pump followed by a left ventricular assist device (LVAD) is inserted. Five days later the patient cannot be weaned of the VAD. The next step is",
+  "options": [
+   "cardiac transplant",
+   "place RVAD",
+   "transoesophageal echocardiography",
+   "cardiac catheterization to rule out unsuspected coronary disease",
+   "consider ECMO"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q102",
+  "number": 102,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Cyanotic Congenital Heart Disease",
+  "stem": "Upon opening the chest of a 6 month old infant with truncus arteriosus, there is no thymus gland present. The truncus repair goes on. The surgeon should watch out for",
+  "options": [
+   "aberrant parathyroid gland",
+   "low calcium levels",
+   "location of thymus gland in middle mediastinum",
+   "hypermagnesemia",
+   "tricuspid atresia"
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q103",
+  "number": 103,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Arrhythmias & Surgical Ablation",
+  "stem": "Wolff-Parkinson-White (WPW) syndrome is defined as a congenital condition involving abnormal conductive tissue between the atria and the ventricles that provides a pathway for a reentrant tachycardia circuit. The congenital heart disorder with the highest incidence of WPW is",
+  "options": [
+   "Tetralogy of Fallot",
+   "Double outlet right ventricle",
+   "Hypoplastic heart",
+   "Ebstein anomaly",
+   "Interrupted aortic arch"
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q104",
+  "number": 104,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Acyanotic Congenital Heart Disease",
+  "stem": "An isolated ventricular septal defect (VSD) occurs in approximately 2-6 of every 1000 live births and accounts for more than 20% of all congenital heart diseases. Elective closure of asymptomatic VSD should be done by what age?",
+  "options": [
+   "1 year",
+   "6 months",
+   "3 months",
+   "at birth",
+   "5 years"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q105",
+  "number": 105,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Perioperative Care & Complications",
+  "stem": "A 56 years old post CABG patient in the intensive care unit has the following haemodynamic parameters: Cardiac index 1.8, systolic blood pressure 80, systemic vascular resistance 2,800, and wedge 15. He is on renal dopamine. You would",
+  "options": [
+   "start on milrinone",
+   "start with dobutamine",
+   "administer fluids",
+   "start on epinephrine",
+   "insert intra-aortic balloon pump"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q106",
+  "number": 106,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Heart Failure & Mechanical Support",
+  "stem": "A 54 years old patient receives a left ventricular assist device (LVAD) after a difficult CABG. Haemodynamics obtained in the operating theatre show CI < 2, LAP <15, and RAP >20. The next step is to",
+  "options": [
+   "place a right ventricular assist device",
+   "insert intra-aortic balloon pump",
+   "nitric oxide",
+   "redo coronary artery bypass grafting",
+   "administer more fluid"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q107",
+  "number": 107,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Thoracic Trauma",
+  "stem": "Traumatic transection of the thoracic aorta is a highly morbid injury. The most important factor to consider in the repair of traumatic aortic transection is",
+  "options": [
+   "the timing of repair",
+   "risk of paraplegia",
+   "presence of coronary artery disease",
+   "renal failure",
+   "age of the patient"
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q108",
+  "number": 108,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Thoracic Trauma",
+  "stem": "In a patient with a traumatic aortic transection, the chest is opened and there is torrential bleeding. The next step is",
+  "options": [
+   "immediate fem-fem bypass",
+   "clamp and sew",
+   "partial left atrial femoral bypass",
+   "Gott shunt",
+   "pack and transfuse blood products"
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q109",
+  "number": 109,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Mitral Valve Disease",
+  "stem": "Upon completion of a mitral valve repair for Barlow’s disease and weaning off cardiopulmonary bypass, the left atrial waveform reveals large v waves. The next step is",
+  "options": [
+   "return to cardiopulmonary bypass",
+   "give diuretic to decrease preload",
+   "administer an afterload reducing agent",
+   "place intra-aortic balloon pump",
+   "commence adrenaline infusion"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q110",
+  "number": 110,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Cardiac Imaging & Hemodynamics",
+  "stem": "The following values were obtained in a 63-year-old male patient who underwent diagnostic cardiac catheterization. heart rate 70 beats/min arterial [O2] 0.24 ml O2/min venous [O2] 0.16 ml O2/min whole body O2 consumption 500 ml/min pulmonary diastolic pressure 15 mm Hg pulmonary systolic pressure 25 mm Hg wedge pressure 5 mm Hg What is the cardiac output?",
+  "options": [
+   "1.65 L/min",
+   "4.55 L/min",
+   "5.00 L/min",
+   "6.25 L/min",
+   "8.00 L/min"
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q111",
+  "number": 111,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Cardiac Imaging & Hemodynamics",
+  "stem": "The following values were obtained in a 63-year-old male patient who underwent diagnostic cardiac catheterization. heart rate 70 beats/min arterial [O2] 0.24 ml O2/min venous [O2] 0.16 ml O2/min whole body O2 consumption 500 ml/min pulmonary diastolic pressure 15 mm Hg pulmonary systolic pressure 25 mm Hg wedge pressure 5 mm Hg What is the stroke volume?",
+  "options": [
+   "75 ml",
+   "80 ml",
+   "85 ml",
+   "90 ml",
+   "95 ml"
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q112",
+  "number": 112,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Cardiac Imaging & Hemodynamics",
+  "stem": "The following values were obtained in a 63-year-old male patient who underwent diagnostic cardiac catheterization. heart rate 70 beats/min arterial [O2] 0.24 ml O2/min venous [O2] 0.16 ml O2/min whole body O2 consumption 500 ml/min pulmonary diastolic pressure 15 mm Hg pulmonary systolic pressure 25 mm Hg wedge pressure 5 mm Hg What is the pulmonary vascular resistance?",
+  "options": [
+   "1.5 resistance units (mm Hg/L/min)",
+   "2.0 resistance units (mm Hg/L/min)",
+   "2.5 resistance units (mm Hg/L/min)",
+   "3.0 resistance units (mm Hg/L/min)",
+   "3.5 resistance units (mm Hg/L/min)"
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q113",
+  "number": 113,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Pulmonary Physiology & Preoperative Evaluation",
+  "stem": "A 65-year-old worker in ship building industry with decades of work related exposure to dust is examined for pulmonary fibrosis. His FEV1 is 75% (normal > 65%) and his arterial oxygen saturation is 92%. His alveolar ventilation is 6000 mL/min at a tidal volume of 600 mL and a breathing rate of 12 breaths/min. Pathologic changes in lung compliance and residual volume are also documented in this patient. This patient’s residual volume",
+  "options": [
+   "cannot be measured directly with a spirometer",
+   "is part of vital capacity",
+   "is part of the expiratory reserve volume",
+   "is the volume at which the lungs tend to recoil outward",
+   "represents the resting volume of the lungs"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q114",
+  "number": 114,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Pulmonary Physiology & Preoperative Evaluation",
+  "stem": "A front seat passenger involved in head-on collision suffered multiple rib fractures and flail chest. He was ventilated in the ICU. In this patient if alveolar ventilation is halved (and if CO2 production remains unchanged), then",
+  "options": [
+   "alveolar CO2 pressure (PACO2) will be halved",
+   "alveolar O2 pressure (PAO2) will double",
+   "arterial O2 pressure (PaO2) will double",
+   "arterial CO2 pressure (PaCO2) will double",
+   "arterial O2 pressure (PaO2) will not change"
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q115",
+  "number": 115,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Pulmonary Physiology & Preoperative Evaluation",
+  "stem": "A 45-year-old patient on arrival in ICU following mitral valve repair is given 100% O2 to breathe. Following this his arterial blood gases are determined and a PaO2 of 125 mm Hg is measured. This result is associated with:",
+  "options": [
+   "anatomic right-to-left shunting",
+   "diffusion abnormality",
+   "profound hypoventilation",
+   "the normal response",
+   "ventilation/perfusion inequality"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q116",
+  "number": 116,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Aortic Valve Disease",
+  "stem": "Aortic regurgitation is the diastolic flow of blood from the aorta into the left ventricle. Regurgitation is due to incompetence of the aortic valve or any disturbance of the valvular apparatus (eg, leaflets, annulus of the aorta) resulting in the diastolic flow of blood into the left ventricular chamber. Which of the following statements regarding acute aortic regurgitation is correct?",
+  "options": [
+   "Acute severe aortic regurgitation (AR) is well-tolerated by patients with pre-existing pressure overload hypertrophy.",
+   "Cardiomegaly is a characteristic diagnostic feature of acute AR.",
+   "In acute severe AR increase in forward stroke volume is the most important compensatory mechanism.",
+   "In acute severe AR wide pulse pressure is not seen.",
+   "Intensity of the first heart sound is increased due to elevated LV diastolic pressure."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q117",
+  "number": 117,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Prosthetic Valves & Anticoagulation",
+  "stem": "Aortic valve replacement is necessary when the aortic valve has become diseased. Which of the following is a Class I recommendation for aortic valve selection?",
+  "options": [
+   "A bioprosthesis is reasonable for AVR in patients aged 65 years or older without risk factors for thromboembolism.",
+   "A bioprosthesis might be considered for AVR in a woman of childbearing age",
+   "Aortic valve re-replacement with a homograft is reasonable for patients with active prosthetic valve endocarditis.",
+   "A mechanical prosthesis is recommended for AVR in patients with a mechanical valve in the mitral or tricuspid position.",
+   "A mechanical prosthesis is reasonable for AVR in patients under 65 years of age who do not have a contraindication to anticoagulation."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q118",
+  "number": 118,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Aortic Valve Disease",
+  "stem": "A 72 years old patient is referred for surgery with the diagnosis of severe aortic stenosis. Which of the following criteria is characteristic of severe aortic stenosis?",
+  "options": [
+   "Jet velocity of 3.5 m/sec.",
+   "Mean gradient of 35 mmHg.",
+   "Valve area index less than 0.6 cm2 per m2.",
+   "Valve area index less than 1.6 cm2 per m2.",
+   "Valve area of 1.2 cm2."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q119",
+  "number": 119,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Heart Transplantation",
+  "stem": "Cyclosporine is an immunosuppressant drug widely used in organ transplantation to prevent rejection. Cyclosporine",
+  "options": [
+   "is a 15-amino-acid cyclic peptide produced by the fungus Tolypocladium inflatum.",
+   "attenuates suppressor T-lymphocyte population.",
+   "causes widespread immunosuppression.",
+   "has low therapeutic index.",
+   "has improved cardiac transplant by reducing the incidence of immunosuppression-induced nephropathy."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q120",
+  "number": 120,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Coronary Artery Disease & CABG",
+  "stem": "Current guidelines recommend coronary artery bypass graft surgery (CABG) when treating significant de novo left main (LM) stenosis; however, percutaneous coronary intervention (PCI) has a Class IIa indication for unprotected LM disease in selected patients. At 5-year follow-up in the SYNTAX trial",
+  "options": [
+   "MACCE was increased in CABG arm in patients with low SYNTAX scores.",
+   "MACCE was increased in PCI arm in patients with intermediate SYNTAX scores.",
+   "MACCE was similar between arms in patients with high SYNTAX scores.",
+   "MACCE was increased in CABG arm in patients with high SYNTAX scores.",
+   "No difference in overall MACCE was found between treatment groups."
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q121",
+  "number": 121,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Cyanotic Congenital Heart Disease",
+  "stem": "Parents of a 3 weeks old baby are being consented for surgical treatment of hypoplastic left heart syndrome. Which one of the following statements regarding outcomes after Norwood procedure is correct?",
+  "options": [
+   "Hospital mortality at experienced centers approaches 5%.",
+   "Most late deaths occur before the second stage reconstruction (bidirectional cavopulmonary shunt).",
+   "Hypoplastic ascending aorta is associated with increased risk of death.",
+   "One-year survival is less than 30%.",
+   "Systolic pressure gradients usually occur at the level of the pulmonary valve."
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q122",
+  "number": 122,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Acyanotic Congenital Heart Disease",
+  "stem": "A 6-year-old child is being considered for surgical treatment of late diagnosed coarctation of aorta. Which one of the following statements regarding surgery for aortic coarctation is correct?",
+  "options": [
+   "A residual gradient is due to hypoplastic aortic arch.",
+   "The declamping syndrome causes hypoxia due to ligation of the patent ductus arteriosus.",
+   "The subclavian flap technique is best suited for children under the age of 10 years.",
+   "Intercostal arteries are best dealt with by ligation and division.",
+   "Distal arch hypoplasia is best treated by a modified Norwood procedure."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q123",
+  "number": 123,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Acyanotic Congenital Heart Disease",
+  "stem": "A 23 years old man is diagnosed with coronary arteriovenous fistula. Which one of the following statements regarding this condition is correct?",
+  "options": [
+   "Most fistulae open into the right heart.",
+   "The right coronary artery is involved in less than 10% cases.",
+   "The involved coronary artery is usually anomalous.",
+   "Left heart fistulae produce a left-to-right shunt.",
+   "Most coronary arteriovenous fistulae exist as part of a spectrum of complex cardiac anomalies."
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q124",
+  "number": 124,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Acyanotic Congenital Heart Disease",
+  "stem": "A patient with ALCAPA (anomalous left coronary artery to pulmonary artery) is offered surgery. Which one of the following statements regarding outcomes of surgery for ALCAPA is correct?",
+  "options": [
+   "Mitral regurgitation improves in nearly all patients.",
+   "Left ventricular function remains depressed after surgical correction.",
+   "Absence of symptoms denotes patency after Takeuchi operation.",
+   "Ligation of the anomalous coronary artery increases coronary blood flow.",
+   "Establishment of two coronary system carries mortality in excess of 25%."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q125",
+  "number": 125,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Coronary Artery Disease & CABG",
+  "stem": "Which one of the following is a recognized risk factor for late mortality after coronary artery bypass grafting?",
+  "options": [
+   "Acute non-Q wave infarction",
+   "Bilateral internal mammary artery grafting",
+   "Unstable angina",
+   "Multivessel coronary artery disease",
+   "Impaired ventricular function"
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q126",
+  "number": 126,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Coronary Artery Disease & CABG",
+  "stem": "A 56 years old man is reluctant to undergo treatment for newly diagnosed multivessel coronary artery disease and asks for more information regarding. Which one of the following statements regarding prognosis of coronary artery disease is correct?",
+  "options": [
+   "Five-year survival in two system disease exceeds 95%.",
+   "Ten-year survival in three system disease exceeds 75%.",
+   "Left main stem stenosis reduces 5-year survival to 80%.",
+   "Survival for single system disease of the LAD is better than for single system disease of the right coronary artery.",
+   "Degree of positivity on graded exercise testing is associated with lower survival."
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q127",
+  "number": 127,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Mitral Valve Disease",
+  "stem": "A 55 years old female is to undergo double valve replacement for concomitant rheumatic aortic and mitral valve disease. Which one of the following statements regarding concomitant surgery for aortic and mitral valve disease is correct?",
+  "options": [
+   "Patients with nonrheumatic disease have greater long-term survival.",
+   "Additional coronary artery bypass grafting reduces operative mortality by improving postoperative ventricular function.",
+   "The most common mode of early death is acute heart failure.",
+   "There is a high prevalence of early tricuspid regurgitation.",
+   "Long-term survival with mechanical prostheses is lower than with bioprostheses."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q128",
+  "number": 128,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Myocardial Infarction & Its Complications",
+  "stem": "A 62 years old man is diagnosed with post-infarction ventricular septal defect. Which one of the following statements regarding surgery for this condition is correct?",
+  "options": [
+   "Hospital mortality is 10-15%",
+   "Extensive resection of the necrotic muscle including ventricular septum is mandatory.",
+   "An apical VSD is best closed by direct suture.",
+   "Up to 40% of patients have a residual VSD after surgery.",
+   "The most common mode of death after surgery is postoperative haemorrhage."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q129",
+  "number": 129,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Aortic Valve Disease",
+  "stem": "Which one of the following statements regarding the natural history of aortic stenosis is correct?",
+  "options": [
+   "Average survival after the development of symptoms is 5 years.",
+   "Sudden cardiac death occurs in less than 1% of asymptomatic patients per year.",
+   "Systolic dysfunction of the left ventricle is severe when the LV mass exceeds 150g/m2.",
+   "Chronic heart failure is most commonly due to concomitant coronary artery disease.",
+   "The natural history of aortic regurgitation is similar to that of aortic stenosis."
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q130",
+  "number": 130,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Infective Endocarditis",
+  "stem": "A 42 years old man with embolic stroke was diagnosed with aortic valve endocarditis. Which one of the following statements regarding embolisation and neurologic complications of endocarditis is correct?",
+  "options": [
+   "Mycotic aneurysm is a contraindication to early operation.",
+   "Brain abscess is the most common neurologic event.",
+   "Staphylococcus aureus infection increases the risk of neurologic complications.",
+   "Neurologic complications increase the overall mortality by 50%.",
+   "The size of the vegetation does not affect the risk for embolisation."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q131",
+  "number": 131,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Myocardial Infarction & Its Complications",
+  "stem": "A 62 years old man is diagnosed with left ventricular aneurysm. Which one of the following statements regarding left ventricular aneurysm is correct?",
+  "options": [
+   "Extensive collateral formation is a prerequisite for aneurysm formation.",
+   "Left ventricular aneurysms continue to expand in size indefinitely.",
+   "Right ventricular function is preserved even in extensive left ventricular aneurysms.",
+   "Dyskinesia is associated with adverse outcome.",
+   "Size of the aneurysm does not affect survival."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q132",
+  "number": 132,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Benign Lung Disease & Infection",
+  "stem": "A 36 years old lady with cystic fibrosis and bronchiectasis is having repeated bouts of chest infection. Which one of the following statements regarding this condition is correct?",
+  "options": [
+   "Focal bronchiectasis is most commonly due to a congenital condition.",
+   "The most frequently isolated potential pathogenic organism is Staphylococcus aureus.",
+   "Upper lobe involvement on CT scan is suggestive of cystic fibrosis.",
+   "Single lung transplantation is the preferred choice to allow wider organ usage.",
+   "Massive haemoptysis is best managed with emergency surgery."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q133",
+  "number": 133,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Chest Wall & Diaphragm",
+  "stem": "A 42 years old patient with chest wall tumour is diagnosed as having a desmoid tumour. Which one of the following statements regarding chest wall desmoid tumour is correct?",
+  "options": [
+   "It invades mediastinal structures.",
+   "Vascular invasion and occlusion is a common feature.",
+   "It erodes the brachial plexus.",
+   "It is usually diagnosed in infancy.",
+   "It is best managed by enucleation and radiotherapy."
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q134",
+  "number": 134,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Pediatric & Congenital Thoracic",
+  "stem": "An infant underwent surgical repair of congenital oesophageal atresia. Which one of the following statements regarding surgery for congenital oesophageal atresia is correct?",
+  "options": [
+   "Isolated oesophageal atresia is best managed with delayed primary anastomosis or oesophageal replacement.",
+   "The standard approach in patients with a left-sided aortic arch is left thoracotomy.",
+   "An H-type fistula should be approached through left chest.",
+   "Delayed primary anastomosis is best avoided in low birth weight infants.",
+   "Discrepancy in size between proximal and distal oesophagus on barium swallow should be treated with bougienage."
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q135",
+  "number": 135,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Mediastinal Masses",
+  "stem": "Thymic tumours are the most frequent anterior mediastinal tumours in adults. Thymic tumours",
+  "options": [
+   "affect females more often than males.",
+   "of the capsulated variety most commonly invade superior vena cava.",
+   "are asymptomatic in 60% cases.",
+   "peak around 60-70 years in patients with myasthenia gravis.",
+   "have a 55% 10-year survival rate for completely resected stage III."
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q136",
+  "number": 136,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Lung Cancer",
+  "stem": "A Pancoast tumour, also called a pulmonary sulcus tumour or superior sulcus tumour, is a tumour of the pulmonary apex. Several approaches have been developed for resection of Pancoast tumours. Which one of the following statements regarding surgery for Pancoast tumour is correct?",
+  "options": [
+   "Classical posterior Shaw-Paulson approach allows a direct and safe visualisation, manipulation and complete oncological clearance of all anatomical structures composing the thoracic inlet.",
+   "The anterior transcervical approach is associated with high surgical morbidity and mortality compared to posterior Shaw-Paulson approach.",
+   "Invasion of the vertebral body is a contraindication for resection of Pancoast tumour.",
+   "Trimodality therapy has reduced local recurrence rates to single digit.",
+   "Loco-regional recurrence or survival rates are not influenced by intraoperative brachytherapy."
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q137",
+  "number": 137,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Mediastinal Masses",
+  "stem": "A 42 years old gentleman has a thymoma with macroscopic invasion into fatty tissue. What is the Masaoka stage of this tumour?",
+  "options": [
+   "Stage I",
+   "Stage IIA",
+   "Stage IIB",
+   "Stage III",
+   "Stage IVA"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q138",
+  "number": 138,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Mediastinal Masses",
+  "stem": "The contrast-enhanced axial CT images of a 70-year-old man show an ill-defined heterogeneously enhancing mass (asterisk) in the anterior mediastinum that extends into the superior mediastinum (white arrow). The most likely diagnosis is",
+  "options": [
+   "Undifferentiated carcinoma of the thyroid",
+   "Ectopic parathyroid",
+   "Lymphangioma",
+   "Liposarcoma",
+   "Lipoma"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": [
+   "images/shahzad2015-q138-1.png"
+  ]
+ },
+ {
+  "id": "shahzad-2015-q139",
+  "number": 139,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Mediastinal Masses",
+  "stem": "The contrast-enhanced CT scan of a 35-year-old male with vague symptoms of chest tightness and dry cough reveals a well-defined lesion of fluid attenuation as shown below. The most likely diagnosis is",
+  "options": [
+   "Bronchogenic cyst",
+   "Thymoma",
+   "Lymphoma",
+   "Foregut duplication cyst",
+   "Pericardial cyst"
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": [
+   "images/shahzad2015-q139-1.png"
+  ]
+ },
+ {
+  "id": "shahzad-2015-q140",
+  "number": 140,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Lung Cancer",
+  "stem": "Computed tomography images of a 77-year-old man show tumour nodules in (A) the right upper and (B) right lower lobes. According to the current TNM staging this tumour is",
+  "options": [
+   "T2",
+   "T3",
+   "T4",
+   "M1a",
+   "M1b"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": [
+   "images/shahzad2015-q140-1.png"
+  ]
+ },
+ {
+  "id": "shahzad-2015-q141",
+  "number": 141,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Benign Lung Disease & Infection",
+  "stem": "Pulmonary cystic echinococcosis, a zoonosis caused by the larvae of the dog tapeworm Echinococcus granulosus, is considered as a major public health problem in those countries where dogs are used to care for large herds because of the incapacitating effects produced in affected population. Which one of the following statements regarding this condition is correct?",
+  "options": [
+   "The ratio lung:liver involvement is higher in children than in adults.",
+   "The majority of infected people with pulmonary echinococcosis are symptomatic.",
+   "Most symptoms of pulmonary cystic echinococcosis are caused by rupture of the cyst.",
+   "Chemotherapy using benzimidazoles is the main therapeutic approach.",
+   "Casoni skin test is the main diagnostic test for pulmonary cystic echinococcosis."
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q142",
+  "number": 142,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Arrhythmias & Surgical Ablation",
+  "stem": "Multicenter Automatic Defibrillator Implantation Trial–II (MADIT-II) was initiated in July 1997 to determine if the ICD would save lives in coronary patients with a prior myocardial infarction and advanced left ventricular dysfunction. In the MADIT-II trial",
+  "options": [
+   "invasive electrophysiological testing for risk stratification was mandatory.",
+   "patients were randomly assigned in a 1:1 ratio to receive an implantable defibrillator or conventional medical therapy.",
+   "the effect of defibrillator therapy on survival was similar in subgroup analyses stratified according to age, sex, ejection fraction, New York Heart Association class, and the QRS interval.",
+   "prophylactic implantation of a defibrillator did not impact the primary end point of death from any cause.",
+   "prophylactic implantation of a defibrillator was recommended for patients with prior myocardial infarction and ejection fraction ≥ 30%."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q143",
+  "number": 143,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Thoracic Trauma",
+  "stem": "While the technique of emergency thoracotomy is fairly standard, the indications for performing surgery remain a source of controversy. Which one of the following is an absolute indication for emergency room thoracotomy?",
+  "options": [
+   "Aortic transection",
+   "Blunt thoracic injuries with no witnessed cardiac activity",
+   "Chest tube loss of ≤ 500 mls",
+   "Penetrating thoracic injury with responsive hypotension",
+   "Traumatic arrest secondary to penetrating thoracic injury with previously witnessed cardiac activity"
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q144",
+  "number": 144,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "GERD & Hiatal Hernia",
+  "stem": "Which of the following is the most accurate test to confirm the diagnosis of recurrent gastroesophageal reflux?",
+  "options": [
+   "Ambulatory 24-hour pH monitoring",
+   "Oesophageal manometry",
+   "Endoscopic evaluation",
+   "Combined multichannel intraluminal impedance-pH monitoring",
+   "Radiologic foregut evaluation"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q145",
+  "number": 145,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Esophageal Cancer",
+  "stem": "Five days after transhiatal oesophagectomy, a patient complained of shortness of breath. Chest radiograph demonstrated a new right pleural effusion. Thoracentesis yielded cloudy fluid with a pH of 7.52, LDH 212 U/L, glucose 83 mg/dL, triglycerides 411 mg/dL, and cholesterol 12 mg/dL. Gram stain was negative and cell count revealed a lymphocyte predominance. The most appropriate initial therapy is:",
+  "options": [
+   "intravenous alimentation and chest drainage",
+   "laparotomy and thoracic duct resection",
+   "mediastinal irradiation",
+   "oral etilefrine followed by pleuro-caval shunt",
+   "percutaneous thoracic duct embolisation"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q146",
+  "number": 146,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "GERD & Hiatal Hernia",
+  "stem": "The most common pattern of failure following laparoscopic Nissen fundoplication is:",
+  "options": [
+   "adhesive obstruction",
+   "gastric volvulus",
+   "recurrent hernia",
+   "slipped fundoplication",
+   "tight fundoplication"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q147",
+  "number": 147,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Benign Lung Disease & Infection",
+  "stem": "A 58-year-old lady presented with a fourth documented episode of haemoptysis. Within six hours the bleeding stops. She has localised bronchiectasis involving right lower lobe of lung. She has FEV1 of 1.6 liters. The best management for this patient is",
+  "options": [
+   "bronchoscopy followed by angiography with arterial embolisation.",
+   "continued observation in the intensive care unit for another 48 hours and if no further bleeding occurs discharge to home on antibiotics.",
+   "resection of the involved area.",
+   "treatment with anti-fungal chemotherapy for six weeks.",
+   "treatment with rotating bactericidal antibiotics."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q148",
+  "number": 148,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Benign Lung Disease & Infection",
+  "stem": "An immunocompromised elderly patient was hospitalized for one month for what was presumed to be an aspiration pneumonia. After initial clinical recovery haemoptysis developed and increased. Pulmonary function tests were near normal. The computed tomographic scan revealed large mobile aspergilloma in a lung abscess cavity involving the left upper lobe abutting the chest wall. The best management is",
+  "options": [
+   "cavernostomy.",
+   "intravenous amphotericin.",
+   "left upper lobectomy.",
+   "left upper lobectomy with en-bloc chest wall resection.",
+   "percutaneous abscess drainage."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q149",
+  "number": 149,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Thoracic Techniques & Postoperative Care",
+  "stem": "A 53 years old heavy smoker underwent left pneumonectomy for squamous cell carcinoma. On postoperative day five he developed fever and cough productive of copious sputum. Chest radiograph shows falling air/fluid level in the post-pneumonectomy space. The best first intervention in this situation is",
+  "options": [
+   "bronchoscopy.",
+   "chest drainage.",
+   "intubation and ventilation.",
+   "pleural fluid aspiration and culture.",
+   "sputum culture and antibiotic administration."
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q150",
+  "number": 150,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Lung Transplantation & Emphysema Surgery",
+  "stem": "A 48 years old gentleman with progressively increasing shortness of breath was found to have the following pathology on diagnostic CT scan of his chest. The best therapeutic option for this condition is",
+  "options": [
+   "bronchodilators, chest physiotherapy and steroids for periodic exacerbations.",
+   "bronchoscopic drainage.",
+   "course of pulmonary rehabilitation.",
+   "excision of the lesion.",
+   "tube thoracostomy."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": [
+   "images/shahzad2015-q150-1.png"
+  ]
+ },
+ {
+  "id": "shahzad-2015-q151",
+  "number": 151,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Lung Cancer",
+  "stem": "A 52 years old patient with biopsy proven squamous cell carcinoma (clinical T1bN0) during staging computed tomography was found to have a right adrenal mass. To evaluate this mass, the next diagnostic step is",
+  "options": [
+   "abdominal ultrasound.",
+   "laparoscopy.",
+   "magnetic resonance imaging.",
+   "needle biopsy.",
+   "resection."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q152",
+  "number": 152,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Lung Cancer",
+  "stem": "A 55 years old patient with operable T2aN0 squamous cell lung cancer is found to have a solitary brain metastasis on computed tomography. The treatment of choice for this patient is",
+  "options": [
+   "radiation therapy to brain and lung.",
+   "radiation therapy to brain and resection of lung disease.",
+   "radiation therapy to brain and systemic chemotherapy.",
+   "resection of both the brain metastasis and lung disease.",
+   "resection of the brain metastasis and radiation therapy to lung."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q153",
+  "number": 153,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Benign Lung Disease & Infection",
+  "stem": "An expatriate Indian farmer is found to have a 2 cm rounded opacity on chest x-ray performed for health insurance assessment. CT scan report suggests it to be a hydatid cyst. The patient is currently asymptomatic. He has a positive Casoni skin test; echinococcal haemagglutination test is positive, and Western blot test is positive. The next step in his management should be",
+  "options": [
+   "needle biopsy to confirm the diagnosis.",
+   "observation until symptoms develop or the masses enlarge.",
+   "percutaneous drainage.",
+   "surgical resection.",
+   "treatment with Albendazole."
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q154",
+  "number": 154,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Pleural Effusion & Empyema",
+  "stem": "A 58 years old gentleman presented with low-grade fever, persistent cough and weight loss 5 months after right upper lobectomy. Chest radiograph is as shown below. Bronchoscopy revealed no bronchopleural fistula or recurrence. The best definitive management is",
+  "options": [
+   "completion pneumonectomy.",
+   "decortication.",
+   "muscle transposition.",
+   "permanent drainage.",
+   "thoracoplasty."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": [
+   "images/shahzad2015-q154-1.png"
+  ]
+ },
+ {
+  "id": "shahzad-2015-q155",
+  "number": 155,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "GERD & Hiatal Hernia",
+  "stem": "A 46 years old man with history of heartburn is found to have a true paraoesophageal hernia. Oesophageal manometry performed in this patient will demonstrate that the lower oesophageal sphincter usually is",
+  "options": [
+   "above the normal position.",
+   "at the normal position.",
+   "hypertensive.",
+   "hypotensive.",
+   "short."
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q156",
+  "number": 156,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Chest Wall & Diaphragm",
+  "stem": "A 26 years old obese gentleman with progressive shortness of breath underwent a diagnostic CT scan with relevant slices shown below. The most likely pathology is",
+  "options": [
+   "extralobar sequestration.",
+   "hernia through the foramen of Bochdalek.",
+   "hernia through the foramen of Morgagni.",
+   "large pericardial effusion.",
+   "pericardial cyst."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": [
+   "images/shahzad2015-q156-1.png"
+  ]
+ },
+ {
+  "id": "shahzad-2015-q157",
+  "number": 157,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "A 76 years old otherwise fit and healthy lady complains of entrapment of oral medication in the gullet. The usual site of entrapment in the oesophagus occurs at the level of the",
+  "options": [
+   "upper oesophageal sphincter.",
+   "cervical esophagus.",
+   "thoracic inlet.",
+   "aortic arch.",
+   "lower oesophageal sphincter."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q158",
+  "number": 158,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Esophageal Cancer",
+  "stem": "A 53 years old patient with advanced oesophageal cancer and chronic cough is found to have an oesophagorespiratory fistula on oesophagoscopy. A malignant oesophagorespiratory fistula most commonly involves",
+  "options": [
+   "bronchus intermedius.",
+   "trachea.",
+   "left main stem bronchus.",
+   "multiple sites.",
+   "right main stem bronchus."
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q159",
+  "number": 159,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Mediastinal Masses",
+  "stem": "A 29 years old patient had a mediastinal paraganglioma resected. Which of the following parameters is best correlated with the malignant potential of a mediastinal paraganglioma?",
+  "options": [
+   "immunohistochemical staining for chromogranin.",
+   "immunohistochemical staining for leu-enkephalin.",
+   "local invasion at time of exploration.",
+   "lymph node metastases.",
+   "mitotic index."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q160",
+  "number": 160,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Esophageal Motility Disorders & Diverticula",
+  "stem": "A 29 years old lady with dysphagia and aspiration is found to have a narrow-necked epiphrenic diverticulum on barium swallow. The best surgical treatment for this condition is",
+  "options": [
+   "diverticulectomy.",
+   "diverticulectomy and oesophagomyotomy.",
+   "diverticulopexy.",
+   "diverticulopexy and anti-reflux procedure.",
+   "oesophagomyotomy."
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q161",
+  "number": 161,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Lung Transplantation & Emphysema Surgery",
+  "stem": "The National Emphysema Treatment Trial (NETT) was a multicenter prospective randomized controlled trial that compared optimal medical treatment, including pulmonary rehabilitation, with optimal medical treatment plus lung volume reduction surgery (LVRS). It was the largest and most complete collection of patient demographic, clinical, physiological, and radiographic data ever compiled in severe emphysema. Which one of the following statements regarding the NET trial is correct?",
+  "options": [
+   "The trial randomized over 3000 patients.",
+   "Overall mortality was significantly more in the LVRS group.",
+   "After 24 months, improvement in exercise capacity was similar in the medical-therapy group and LVRS groups.",
+   "Among patients with predominantly upper-lobe emphysema and low exercise capacity, mortality was higher in the LVRS group than in the medical-therapy group.",
+   "Among patients with non-upper-lobe emphysema and high exercise capacity, mortality was higher in the LVRS group than in the medical-therapy group."
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q162",
+  "number": 162,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Pleural Effusion & Empyema",
+  "stem": "In human anatomy, the thoracic duct is the largest lymphatic vessel of the lymphatic system. It is also known as the left lymphatic duct, alimentary duct, chyliferous duct, and Van Hoorne's canal. The thoracic duct",
+  "options": [
+   "appears in the twelfth week of foetal life as lymphatic clefts surrounded with mesenchyme near large veins.",
+   "extends from the second lumbar vertebra to the fifth thoracic vertebra.",
+   "enters the thorax through the oesophageal opening of the diaphragm.",
+   "is separated from the pericardium by a recess of the right pleural cavity.",
+   "lies anterior to the diaphragm, oesophagus, and pericardium."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q163",
+  "number": 163,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "The oesophagus is a 25-cm long muscular tube that connects the pharynx to the stomach. The oesophagus",
+  "options": [
+   "extends from the level of the fourth or fifth cervical vertebra to the level of the ninth thoracic vertebra in an adult.",
+   "has 4 constrictions in its vertical course.",
+   "is crossed by the aortic arch and left main bronchus at a distance of 23 cm from incisors in an adult.",
+   "in the thorax is related to the hemiazygos vein on the right side.",
+   "passes through the left crus of the diaphragm."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q164",
+  "number": 164,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Esophageal Anatomy & Physiology",
+  "stem": "Which one of the following arteries supplies blood to the abdominal portion of the oesophagus?",
+  "options": [
+   "left phrenic artery",
+   "right gastroepiploic artery",
+   "gastroduodenal artery",
+   "splenic artery",
+   "right gastric artery"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q165",
+  "number": 165,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Heart Failure & Mechanical Support",
+  "stem": "Surgical ventricular reconstruction is a specific procedure designed to reduce left ventricular volume in patients with heart failure caused by coronary artery disease. STICH II trial was conducted to address the question of whether surgical ventricular reconstruction added to coronary-artery bypass grafting (CABG) would decrease the rate of death or hospitalization for cardiac causes, as compared with CABG alone. The STICH II trial",
+  "options": [
+   "randomized patients to undergo either CABG alone or surgical ventricular reconstruction alone.",
+   "confirmed that surgical ventricular reconstruction was not associated with a greater improvement in symptoms.",
+   "confirmed that surgical ventricular reconstruction was associated with a greater improvement in exercise tolerance.",
+   "confirmed that surgical ventricular reconstruction was associated with a greater reduction in the rate of death",
+   "confirmed that surgical ventricular reconstruction was associated with a greater reduction in the rate of hospitalization for cardiac causes."
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q166",
+  "number": 166,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Thoracic Techniques & Postoperative Care",
+  "stem": "While performing extended mediastinal lymph node dissection for a squamous cell carcinoma of the right upper lobe bronchus, a patient's right sympathetic trunk was accidentally severed just cranial to the level of spinal nerve T1. Which function would be left intact in the affected region?",
+  "options": [
+   "Arrector pili muscle activity",
+   "Dilation/constriction of blood vessels",
+   "Sweat production",
+   "Visceral reflex activity",
+   "Voluntary muscle activity"
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q167",
+  "number": 167,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Pleural Effusion & Empyema",
+  "stem": "An SHO is about to perform her first pleural fluid aspiration. If you are supervising her where would you ask her to insert the aspiration needle to avoid injuring lung or neurovascular elements?",
+  "options": [
+   "the top of interspace 8 in the midclavicular line",
+   "the bottom of interspace 8 in the midclavicular line",
+   "the top of interspace 9 in the midaxillary line",
+   "the bottom of interspace 9 in the midaxillary line",
+   "the top of interspace 11 in the scapular line"
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q168",
+  "number": 168,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Perioperative Care & Complications",
+  "stem": "A 56-year-old patient is diagnosed with diabetes insipidus following embolic stroke. In this patient with diabetes insipidus although vasopressin (ADH) significantly contributes to fluid and electrolyte balance, it does not appear to closely regulate blood volume in the long run. Blood volume is maintained at near normal levels in this patient because",
+  "options": [
+   "the peripheral renin-angiotensin system is stimulated",
+   "water intake is appropriately adjusted",
+   "plasma oncotic pressure increases",
+   "sympathetic reflexes decrease glomerular filtration",
+   "renal blood flow decreases"
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q169",
+  "number": 169,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Cardiac Anatomy & Physiology",
+  "stem": "Which of the following statements correctly describes effects of autonomic nerve activity on the cardiovascular system in a healthy subject?",
+  "options": [
+   "Stimulation of parasympathetic nerves decreases the strength of cardiac ventricular contractions.",
+   "Stimulation of sympathetic nerves decreases the strength of cardiac ventricular contractions.",
+   "Inhibition of parasympathetic nerves increases heart rate.",
+   "Inhibition of parasympathetic nerves increases total peripheral resistance.",
+   "Inhibition of parasympathetic nerves decreases total peripheral resistance."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q170",
+  "number": 170,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Cardiac Anatomy & Physiology",
+  "stem": "A patient at rest has a systolic/diastolic blood pressure of 130/70 mm Hg and a cardiac output of 5 L/min. What is his total peripheral resistance?",
+  "options": [
+   "18 mm Hg • min/L",
+   "20 mm Hg • min/L",
+   "22 mm Hg • min/L",
+   "0.05 L/min • mm Hg",
+   "20 L/min • mm Hg"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q171",
+  "number": 171,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Cardiac Anatomy & Physiology",
+  "stem": "Which of the following statements regarding foetal circulation is correct?",
+  "options": [
+   "The liver and heart of the foetus receive blood with very high O2 saturation.",
+   "PO2 of foetal blood leaving the placenta is slightly greater than maternal mixed venous PO2.",
+   "The presence of foetal hemoglobin shifts the oxyhemoglobin dissociation to the right.",
+   "The foramen ovale closes during the third trimester unless the foetus has an atrial septal defect.",
+   "The major portion of right ventricular output passes through the lungs."
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q172",
+  "number": 172,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Atherosclerosis & Medical Therapy",
+  "stem": "Which of the following is most likely to be seen following administration of simvastatin?",
+  "options": [
+   "Increase in HDL cholesterol by 2-4%",
+   "Increase in gut motility",
+   "Possible increase in triglycerides",
+   "Decrease in meal-stimulated gastric acid secretion",
+   "Decrease in LDL cholesterol by 20-25%"
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q173",
+  "number": 173,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Thoracic Trauma",
+  "stem": "A 55-year-old woman driver was received in the resuscitation room after a single vehicle road traffic accident. She had been travelling in her car at approximately 45 mph before losing control and colliding head-on with a tree. She had been seat belt restrained, the vehicle did not have airbags, and she had not been able to extricate herself from the vehicle at the scene. On arrival in the emergency department she was clinically shocked with a pulse of 104 bpm, oxygen saturation of 82% on room air, and a left brachial systolic blood pressure of 70 mmHg. She complained of sharp and pleuritic chest pain radiating to her back, and her cervical spine had been immobilized. Her scored Glasgow Coma Scale was 15. After resuscitation and exclusion of immediate life threatening injuries she had trauma radiological series shown below. The most likely pathology is",
+  "options": [
+   "aortic transection",
+   "left pulmonary artery transection",
+   "diaphragmatic hernia",
+   "oesophageal rupture",
+   "splenic rupture"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": [
+   "images/shahzad2015-q173-1.png",
+   "images/shahzad2015-q173-2.png"
+  ]
+ },
+ {
+  "id": "shahzad-2015-q174",
+  "number": 174,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Lung Cancer",
+  "stem": "A 48 years old heavy smoker with chronic cough was noted to have a 3.3 cm spiculated peripheral lesion in his left upper lobe with enlarged ipsilateral peribronchial lymph nodes ≥ 1 cm on computed tomography (CT) scan. CT-guided biopsy of the nodule confirmed it to be a squamous cell carcinoma. The TNM stage of the tumour is",
+  "options": [
+   "T1aN0M0",
+   "T1bN1M0",
+   "T2aN1M0",
+   "T2bN1M0",
+   "T2aN2M0"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q175",
+  "number": 175,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Lung Cancer",
+  "stem": "A 58 years old lady with chronic cough, haemoptysis and shortness of breath was found to have a 2.1 cm peripheral spiculated nodule in the right upper lobe and another 1.6 cm nodule in the same lobe with enlarged ipsilateral subcarinal nodes ≥ 1 cm on computed tomography (CT) scan. CT-guided biopsy of both nodules confirmed it to be a squamous cell carcinoma. The TNM stage of the tumour is",
+  "options": [
+   "T1aN2M0",
+   "T2aN1M0",
+   "T2bN1M0",
+   "T3N1M0",
+   "T3N2M0"
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q176",
+  "number": 176,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Coronary Artery Disease & CABG",
+  "stem": "At 5 years the subgroup analysis examining the effect of diabetes on left main coronary disease and/or three-vessel disease in patients treated with percutaneous coronary intervention (PCI) or coronary artery bypass grafting (CABG) in the SYNTAX trial revealed",
+  "options": [
+   "similar major adverse cardiac or cerebrovascular events (MACCE) rates for PCI vs CABG.",
+   "similar repeat revascularisation rates for PCI vs CABG.",
+   "similar composite safety end-point of all-cause death/stroke/myocardial infarction (MI) for PCI vs CABG",
+   "lower stroke rate for PCI.",
+   "higher MI rate for PCI."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q177",
+  "number": 177,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Coronary Artery Disease & CABG",
+  "stem": "FREEDOM trial was undertaken to discover whether aggressive medical therapy and the use of drug-eluting stents could alter the revascularisation approach for patients with diabetes and multivessel coronary artery disease. Which one of the following statements regarding FREEDOM trial is correct?",
+  "options": [
+   "The primary outcome measure was a composite of death from any cause, nonfatal myocardial infarction, or nonfatal stroke.",
+   "The primary outcome occurred more frequently in the coronary artery bypass grafting (CABG) group.",
+   "5-year stroke rates were similar for the PCI and CABG groups.",
+   "Myocardial infarction rates were significantly increased in the CABG group.",
+   "The rates of death from any cause were similar for the PCI and CABG groups."
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q178",
+  "number": 178,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Aortic Valve Disease",
+  "stem": "Patients with severe aortic stenosis (AS) who were deemed too high risk or inoperable for conventional aortic valve replacement (AVR) in the PARTNER (Placement of Aortic Transcatheter Valves) trial were randomized to transcatheter aortic valve replacement (TAVR) versus AVR (PARTNER-A arm) or standard therapy (PARTNER-B arm). Which one of the following statements regarding PARTNER trial is correct?",
+  "options": [
+   "In the PARTNER-A arm superior early survival was seen in AVR group.",
+   "In the PARTNER-A arm cardiovascular death rate was highest in the trans-apical TAVR group.",
+   "In the PARTNER-B arm, risk of death with standard therapy was 90% per year.",
+   "In the PARTNER-B arm trans-femoral TAVR reduced risk of death to 20% per year.",
+   "In the PARTNER-A arm noncardiovascular death rate was lowest in the AVR group."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q179",
+  "number": 179,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Pulmonary Physiology & Preoperative Evaluation",
+  "stem": "The lung has two circulations, the pulmonary circulation that perfuses alveoli, and the bronchial circulation that provides nutrients and gas exchange for the conducting airways. What percentage of cardiac output is received by bronchial circulation?",
+  "options": [
+   "2%",
+   "12%",
+   "20%",
+   "50%",
+   "70%"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q180",
+  "number": 180,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Pulmonary Physiology & Preoperative Evaluation",
+  "stem": "The oxygen-haemoglobin dissociation curve is usually a sigmoid plot. The curve will shift to the right with:",
+  "options": [
+   "acute alkalosis",
+   "decrease in PCO2",
+   "decrease in temperature",
+   "decrease in 2,3-diphosphoglycerate (DPG).",
+   "exercise"
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q181",
+  "number": 181,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Pulmonary Physiology & Preoperative Evaluation",
+  "stem": "Driving pressure is the difference between inflow and outflow pressure. What is the normal mean intravascular driving pressure for the pulmonary circulation?",
+  "options": [
+   "10 mm Hg",
+   "30 mm Hg",
+   "50 mm Hg",
+   "75 mm Hg",
+   "100 mm Hg"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q182",
+  "number": 182,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Cardiac Anatomy & Physiology",
+  "stem": "Poiseuille-Hagen formula can be used for determining the relation between the resistance of a blood vessel and its diameter. If the resistance of a blood vessel is 16 PRU then doubling the vessel diameter would change the resistance to:",
+  "options": [
+   "1 PRU",
+   "2 PRU",
+   "4 PRU",
+   "8 PRU",
+   "10 PRU"
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q183",
+  "number": 183,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Thoracic Aortic Aneurysm",
+  "stem": "Thoracic aortic aneurysm (TAA) dissection is an important cause of death in the western world. Loeys-Dietz syndrome is a recently discovered syndromic form of TAA. Which one of the following statements regarding Loeys-Dietz syndrome is correct?",
+  "options": [
+   "Loeys–Dietz syndrome is an autosomal recessive disorder of connective tissue with widespread systemic involvement.",
+   "It is caused by heterozygous mutations in the genes encoding transforming growth factor beta receptor 1 or 2.",
+   "Loeys–Dietz syndrome type 1 is characterized by lack of typical facial dysmorphic features (cleft palate, craniosynostosis or hypertelorism).",
+   "The disease is characterized by aortic dissections at larger diameters than observed in Marfan syndrome.",
+   "Aortic arch enlargement is the most consistent cardiovascular finding."
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q184",
+  "number": 184,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Mitral Valve Disease",
+  "stem": "Most commonly, ischaemic mitral regurgitation is due to chronic left ventricle (LV) remodelling following myocardial infarction. The resulting papillary muscle displacement leads to tethering of the mitral valve leaflets and mitral regurgitation. Which one of the following statements regarding ischaemic mitral regurgitation is correct?",
+  "options": [
+   "The presence of ischemic mitral regurgitation following myocardial infarction is associated with a 5-year mortality in excess of 60%.",
+   "5-year survival is superior for patients who undergo repair of mitral valve in chronic ischemic mitral regurgitation compared to mitral valve replacement.",
+   "Chordal cutting increases the incidence of late recurrent mitral regurgitation and negatively impacts postoperative left ventricular function.",
+   "An end-diastolic dimension more than 45 mm is associated with poor reverse remodeling following coronary artery bypass grafting even in the presence of viable myocardium.",
+   "Tenting height more than 2.5 mm on echocardiography is a predictor of recurrent regurgitation following repair."
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q185",
+  "number": 185,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Coronary Artery Disease & CABG",
+  "stem": "The Arterial Revascularisation Trial (ART) is a randomized comparison of bilateral internal mammary artery (BIMA) versus single internal mammary artery (SIMA) grafting in coronary artery bypass graft (CABG) surgery and is one of the largest randomized trials of surgery ever conducted. Which one of the following statements regarding ART is correct?",
+  "options": [
+   "There was a statistically significant decrease in 30-day mortality after off-pump CABG compared to on-pump CABG.",
+   "There was a significant increase in stroke rates after 1 year in the on-pump CABG group compared to off-pump CABG group.",
+   "There was a statistically significant increase in the need for intra-aortic balloon pump and renal support after on-pump CABG.",
+   "A similar average number of grafts were performed with on- and off-pump surgery.",
+   "Repeat revascularisation was significantly higher in off-pump patients at 30 days and at 1 year."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q186",
+  "number": 186,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Coronary Artery Disease & CABG",
+  "stem": "A 50 year old woman with a history of coronary artery spasm and obstructive coronary artery disease underwent coronary artery bypass grafting for unstable angina. Two hours postoperatively she develops marked S-T segment elevation accompanied by hypotension (70/40 mmHg). Initial treatment should include infusion of",
+  "options": [
+   "amrinone and nitroglycerin.",
+   "dobutamine and nitroglycerin.",
+   "dopamine and verapamil.",
+   "epinephrine and sublingual nifedipine.",
+   "nitroglycerin and sublingual nifedipine."
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q187",
+  "number": 187,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Perioperative Care & Complications",
+  "stem": "The occurrence of postoperative coronary artery spasm following coronary revascularisation is highest in patients with",
+  "options": [
+   "a grafted left anterior descending coronary artery with proximal disease.",
+   "a grafted right coronary artery with proximal disease.",
+   "incomplete revascularisation.",
+   "an ungrafted (normal) left anterior descending coronary artery.",
+   "an ungrafted (normal) right coronary artery."
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q188",
+  "number": 188,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Perioperative Care & Complications",
+  "stem": "A 65-year-old man with normal preoperative left ventricular function has just returned to the intensive care unit following coronary artery bypass grafting. His intraoperative course was unremarkable. His initial haemodynamic and laboratory data includes: Pulse: 75 beats per minute Pulmonary artery pressure: 35/17 mmHg Haemoglobin: 11 gm/dL Pulmonary artery wedge pressure: 13 mmHg Blood pressure: 130/84 mmHg Cardiac index: 1.7 L/[min*m2] Systemic vascular resistance index: 4100 dynes sec cm-5/m2 The most appropriate initial treatment of this patient is",
+  "options": [
+   "250 cc fluid bolus for volume expansion.",
+   "dobutamine 5.0 mcg/[kg*min].",
+   "epinephrine 0.1 mcg/[kg*min].",
+   "nitroglycerin 1.0 mcg/[kg*min].",
+   "sodium nitroprusside 0.1 mcg/[kg*min]."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q189",
+  "number": 189,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Perioperative Care & Complications",
+  "stem": "A 70 kg man is in the intensive care unit following uncomplicated coronary artery bypass grafting. His ventilator is set as follows: Tidal volume: 1,000 cc Intermittent mandatory ventilation: 12 breaths per minute FiO2: 0.80 Positive end-expiratory pressure: 8 cm H2O Peak inspiratory pressure is 45 cm H2O. His initial arterial blood gas reveals: pH of 7.49; pO2 160 mmHg; pCO2 35 mmHg The most important initial ventilatory adjustment is to decrease the",
+  "options": [
+   "FiO2 to 0.6.",
+   "inspiratory time.",
+   "positive end-expiratory pressure to 5 cm H2O.",
+   "respiratory rate to 10 beats per minute.",
+   "tidal volume to 700 cc."
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q190",
+  "number": 190,
+  "type": "single",
+  "specialty": "vascular",
+  "topic": "Carotid & Vertebral Disease",
+  "stem": "A 69-year-old man is scheduled to undergo elective myocardial revascularisation. On preoperative physical examination he has a high-pitched, moderately loud right carotid bruit. He denies any neurological symptoms. Duplex ultrasound shows a 50% stenosis of the right internal carotid artery just above the bifurcation of the common carotid artery. Which of the following is the most appropriate plan for the management of this patient?",
+  "options": [
+   "cancel myocardial revascularisation and obtain a carotid angiogram",
+   "proceed with carotid artery repair and reschedule myocardial revascularisation",
+   "proceed with myocardial revascularisation and follow up with serial Duplex examinations",
+   "proceed with simultaneous myocardial revascularisation and carotid artery repair",
+   "stage myocardial revascularisation and carotid artery repair"
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q191",
+  "number": 191,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Lung Cancer",
+  "stem": "A 64 years old patient with a 2 cm lung cancer, negative lymph nodes on CT staging and diminished pulmonary reserve needs a pulmonary resection. In view of the diminished pulmonary reserve, the decision was taken to perform segmentectomy. Which one of the following statements regarding segmentectomy is correct?",
+  "options": [
+   "equivalent local recurrence rate when compared to lobectomy",
+   "fewer pleural space complications when performed without a stapler compared to lobectomy",
+   "reduced air leakage when performed with the classic stripping technique compared to lobectomy",
+   "reduced mortality compared to lobectomy patients",
+   "similar pulmonary function one year after operation compared to lobectomy"
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q192",
+  "number": 192,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Coronary Artery Disease & CABG",
+  "stem": "Anti-platelet therapy is an important component of medical therapy post coronary artery bypass grafting (CABG). While aspirin administration is a Class I indication after CABG, the benefit of concomitant clopidogrel is a controversial issue. Which one of the following statements regarding dual anti-platelet therapy after CABG is correct?",
+  "options": [
+   "Early occlusion rates are similar among patients treated with single therapy or dual anti-platelet therapy.",
+   "Single anti-platelet therapy is associated with a significantly increased arterial graft loss compared to dual anti-platelet therapy.",
+   "In-hospital or 30-day mortality is lower with dual anti-platelet therapy compared to single anti-platelet therapy alone.",
+   "Risk of angina or perioperative myocardial infarction was lower with dual anti-platelet therapy compared to single anti-platelet therapy alone.",
+   "Dual anti-platelet therapy is associated with a significantly increased incidence of major bleeding episodes compared to single anti-platelet therapy alone."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q193",
+  "number": 193,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Coronary Artery Disease & CABG",
+  "stem": "The radial artery (RA), as an alternative to the saphenous vein or the right internal thoracic artery (RITA) for coronary artery bypass grafting, has gained considerable interest over the years. Radial Artery Patency Study (RAPS) Investigators sought to determine the relative patency rate of radial-artery and saphenous vein grafts in a randomized trial in which they controlled for bias in the selection of patients and vessels. Which one of the following statements regarding RAPS is correct?",
+  "options": [
+   "The primary endpoint was all-cause death.",
+   "Symptom-directed angiography was performed.",
+   "Diffuse narrowing of the graft (the angiographic \"string sign\") was present in 30 percent of radial artery grafts.",
+   "At one year similar graft occlusion rates were observed for radial artery and saphenous vein grafts.",
+   "At five years the frequency of functional graft occlusion was lower in radial arteries compared with saphenous vein grafts."
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q194",
+  "number": 194,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Trachea & Airway",
+  "stem": "The retrotracheal space (also known as the Raider triangle or retrotracheal triangle) is a radiolucent area that extends from the thoracic inlet to the aortic arch and is visible on lateral chest radiographs. A wide spectrum of diseases can occur in this region; they may arise either from the normal contents of the retrotracheal space or from adjacent structures. Which one of the following statements regarding the retrotracheal space is correct?",
+  "options": [
+   "Lungs are a normal content of the retrotracheal space.",
+   "The posterior tracheal line forms the posterior margin of the retrotracheal space.",
+   "The posterior tracheal line is produced by oesophagus in contact with the posterior wall of the trachea.",
+   "The most common lesions in the retrotracheal space are neurogenic in origin.",
+   "Right recurrent laryngeal nerve is the most consistent content of the retrotracheal space."
+  ],
+  "answer": [
+   "A"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q195",
+  "number": 195,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Benign Esophageal Tumors & Strictures",
+  "stem": "Oesophageal duplication cysts are congenital abnormalities of the oesophagus. Oesophageal duplication cysts",
+  "options": [
+   "account for 25% of all tumours and tumour-like lesions of the oesophagus.",
+   "are in the lower part of the oesophagus in approximately 60% of cases.",
+   "are lined by gastric mucosa in most cases.",
+   "typically manifest as heterogenous spheric or tubular masses in proximity to the oesophageal wall on CT scan.",
+   "are best managed conservatively."
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q196",
+  "number": 196,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Thoracic Aortic Aneurysm",
+  "stem": "The treatment of complex pathologies of the aortic arch and proximal descending aorta represents a significant challenge for cardiac surgeons. Various surgical techniques and prostheses have been implemented over the past several decades, all with varying degrees of success. The introduction of the frozen elephant trunk (FET) technique facilitates one-stage repair of such pathologies. Which one of the following statements regarding FET is correct?",
+  "options": [
+   "The reported mortality is in excess of 20%.",
+   "Multiple organ failure is the most frequent cause of death.",
+   "Spinal cord injury is experienced by 25% of patients.",
+   "Cerebral perfusion time strongly correlates with mortality.",
+   "Five-year survival ranges between 85-90%."
+  ],
+  "answer": [
+   "B"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q197",
+  "number": 197,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Coronary Artery Disease & CABG",
+  "stem": "Conventional coronary artery bypass grafting (CABG) performed with the use of cardiopulmonary bypass is a well-validated treatment for patients with ischemic heart disease. OFF-PUMP coronary artery bypass grafting (OPCAB) has been suggested to reduce the number of perioperative complications, especially in elderly patients. The Danish on-pump versus OFF-PUMP randomization study compares OPCAB with conventional CABG. Which one of the following statements regarding the Danish on-pump versus OFF-PUMP randomization study is correct?",
+  "options": [
+   "The primary endpoint was graft patency.",
+   "At the 6-month follow-up, mortality was lower with OPCAB.",
+   "Both groups showed significant improvement in self-assessed health-related quality of life.",
+   "The trial randomized patients aged ≥ 80 years.",
+   "There was no difference between the proportion of open grafts with on-pump CABG and OPCAB."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q198",
+  "number": 198,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Coronary Artery Disease & CABG",
+  "stem": "Off-pump coronary artery bypass grafting compared with coronary revascularization with cardiopulmonary bypass seems safe and results in about the same outcome in low-risk patients. Observational studies indicate that off-pump surgery may provide more benefit in high-risk patients. The best bypass surgery trial conducted was to compare 30-day outcomes in high-risk patients randomized to coronary artery bypass grafting without or with cardiopulmonary bypass. Which one of the following statements regarding the best bypass surgery trial is correct?",
+  "options": [
+   "The primary outcome was all-cause mortality.",
+   "Fewer grafts per patient were performed in the off-pump group.",
+   "No significant differences in the composite primary outcome were found at 30-day follow-up.",
+   "Fewer strokes were experienced by the off-pump group.",
+   "More acute myocardial infarctions were experienced by the off-pump group."
+  ],
+  "answer": [
+   "C"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q199",
+  "number": 199,
+  "type": "single",
+  "specialty": "cardiac",
+  "topic": "Prosthetic Valves & Anticoagulation",
+  "stem": "The Medtronic Freestyle bioprosthesis (FSB) provides an alternative to other prostheses for both aortic valve and aortic root surgery. FSB compared to homografts",
+  "options": [
+   "is associated with significantly increased hospital mortality.",
+   "is associated with inferior 8-year survival.",
+   "is associated with superior 8-year survival.",
+   "is associated with comparable reduction in left ventricular mass index.",
+   "is associated with superior reduction in left ventricular mass index."
+  ],
+  "answer": [
+   "D"
+  ],
+  "explanation": "",
+  "images": []
+ },
+ {
+  "id": "shahzad-2015-q200",
+  "number": 200,
+  "type": "single",
+  "specialty": "thoracic",
+  "topic": "Pediatric & Congenital Thoracic",
+  "stem": "Bronchopulmonary sequestration, intralobar and extralobar, represents an anomaly of tracheobronchial branching with retention of the embryonic systemic arterial supply. Which one of the following statements regarding bronchopulmonary sequestration is correct?",
+  "options": [
+   "Extralobar sequestration is much more common.",
+   "Intralobar sequestration is characterised by the sequestered lung having its own separate pleural covering.",
+   "Extralobar sequestration usually is found on the right side next to the hemidiaphragm.",
+   "Extralobar sequestration usually is diagnosed later in adulthood compared to intralobar sequestration.",
+   "Multiple supply arteries are found in 15% of sequestrations."
+  ],
+  "answer": [
+   "E"
+  ],
+  "explanation": "",
+  "images": []
+ }
+]

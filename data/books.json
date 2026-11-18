@@ -144,6 +144,551 @@
    "file": "shahzad-2014.json",
    "count": 303,
    "cover": "data/covers/shahzad-2014.jpg"
+  },
+  {
+   "id": "shahzad-2015",
+   "title": "Shahzad 2015 – Cardiothoracic Practice Questions",
+   "short": "Shahzad 2015",
+   "code": "SP",
+   "specialty": "cardiac",
+   "publisher": "Nova Biomedical",
+   "edition": "2015",
+   "description": "Practice questions across cardiac, thoracic and congenital surgery, physiology and trials.",
+   "file": "shahzad-2015.json",
+   "count": 200,
+   "cover": "data/covers/shahzad-2015.jpg"
+  },
+  {
+   "id": "osler-2008",
+   "title": "Osler 2008 – Cardiothoracic MCQs",
+   "short": "Osler 2008",
+   "code": "OS",
+   "specialty": "cardiac",
+   "publisher": "The Osler Institute",
+   "edition": "2008",
+   "description": "Thoracic Surgery Review: general thoracic practice questions and a 500-question cardiac set.",
+   "chapters": [
+    {
+     "id": "ch1",
+     "title": "General Thoracic"
+    },
+    {
+     "id": "ch2",
+     "title": "Cardiac"
+    }
+   ],
+   "file": "osler-2008.json",
+   "count": 553,
+   "cover": "data/covers/osler-2008.jpg"
+  },
+  {
+   "id": "johns-hopkins-2016",
+   "title": "Johns Hopkins – Cardiothoracic Surgery Board Review",
+   "short": "Johns Hopkins",
+   "code": "JH",
+   "specialty": "cardiac",
+   "publisher": "Johns Hopkins Medicine",
+   "edition": "2016",
+   "description": "Chapter-by-chapter board review: thoracic, adult cardiac and congenital heart surgery.",
+   "chapters": [
+    {
+     "id": "ch1",
+     "title": "1. Preoperative Evaluation of the Thoracic Surgical Patient"
+    },
+    {
+     "id": "ch2",
+     "title": "2. Thoracic Trauma"
+    },
+    {
+     "id": "ch3",
+     "title": "3. Pulmonary Physiology, Function Tests, and Bronchoscopic Techniques"
+    },
+    {
+     "id": "ch4",
+     "title": "4. Congenital Pulmonary Disorders"
+    },
+    {
+     "id": "ch5",
+     "title": "5. Benign Diffuse Pulmonary Disorders"
+    },
+    {
+     "id": "ch6",
+     "title": "6. Thoracic Infections"
+    },
+    {
+     "id": "ch7",
+     "title": "7. Surgical Management of Emphysema"
+    },
+    {
+     "id": "ch8",
+     "title": "8. Tracheal Diseases"
+    },
+    {
+     "id": "ch9",
+     "title": "9. Primary Lung Cancer"
+    },
+    {
+     "id": "ch10",
+     "title": "10. Pulmonary Metastasis"
+    },
+    {
+     "id": "ch11",
+     "title": "11. Lung and Heart-Lung Transplantation"
+    },
+    {
+     "id": "ch12",
+     "title": "12. Esophageal Physiology, Function Tests, and Endoscopic Techniques"
+    },
+    {
+     "id": "ch13",
+     "title": "13. Congenital Esophageal Anomalies"
+    },
+    {
+     "id": "ch14",
+     "title": "14. Gastroesophageal Reflux Disease and Esophageal Motility Disorders"
+    },
+    {
+     "id": "ch15",
+     "title": "15. Esophageal Perforation"
+    },
+    {
+     "id": "ch16",
+     "title": "16. Esophageal Cancer"
+    },
+    {
+     "id": "ch17",
+     "title": "17. Mediastinal Disease"
+    },
+    {
+     "id": "ch18",
+     "title": "18. Chest Wall Tumors"
+    },
+    {
+     "id": "ch19",
+     "title": "19. Congenital Chest Wall Anomalies"
+    },
+    {
+     "id": "ch20",
+     "title": "20. Benign Pleural Disorders"
+    },
+    {
+     "id": "ch21",
+     "title": "21. Benign and Malignant Pleural Tumors"
+    },
+    {
+     "id": "ch22",
+     "title": "22. Diaphragmatic Disorders"
+    },
+    {
+     "id": "ch23",
+     "title": "23. Cardiovascular Function and Physiology"
+    },
+    {
+     "id": "ch24",
+     "title": "24. Cardiopulmonary Bypass"
+    },
+    {
+     "id": "ch25",
+     "title": "25. Myocardial Protection"
+    },
+    {
+     "id": "ch26",
+     "title": "26. Postoperative Management of the Cardiac Surgical Patient"
+    },
+    {
+     "id": "ch27",
+     "title": "27. Primary Coronary Artery Bypass Surgery"
+    },
+    {
+     "id": "ch28",
+     "title": "28. Off-Pump Coronary Artery Bypass"
+    },
+    {
+     "id": "ch29",
+     "title": "29. Reoperative Coronary Artery Bypass Surgery"
+    },
+    {
+     "id": "ch30",
+     "title": "30. Management of Concomitant Carotid and Coronary Artery Disease"
+    },
+    {
+     "id": "ch31",
+     "title": "31. Mechanical Complications of Myocardial Infarction"
+    },
+    {
+     "id": "ch32",
+     "title": "32. Aortic Valve Replacement"
+    },
+    {
+     "id": "ch33",
+     "title": "33. Aortic Root Replacement"
+    },
+    {
+     "id": "ch34",
+     "title": "34. Mitral Valve Pathophysiology"
+    },
+    {
+     "id": "ch35",
+     "title": "35. Mitral Valve Replacement"
+    },
+    {
+     "id": "ch36",
+     "title": "36. Mitral Valve Repair for Degenerative Disease"
+    },
+    {
+     "id": "ch37",
+     "title": "37. Tricuspid Valve Disease"
+    },
+    {
+     "id": "ch38",
+     "title": "38. Surgical Treatment of Endocarditis"
+    },
+    {
+     "id": "ch39",
+     "title": "39. Ascending and Arch Aneurysms of the Aorta"
+    },
+    {
+     "id": "ch40",
+     "title": "40. Thoracoabdominal Aneurysms"
+    },
+    {
+     "id": "ch41",
+     "title": "41. Aortic Dissection"
+    },
+    {
+     "id": "ch42",
+     "title": "42. Endovascular Repair of Thoracic Aortic Pathology"
+    },
+    {
+     "id": "ch43",
+     "title": "43. Surgical Therapies for Atrial Fibrillation"
+    },
+    {
+     "id": "ch44",
+     "title": "44. Pacemaker and Defibrillator Therapy in Cardiac Surgery Patients"
+    },
+    {
+     "id": "ch45",
+     "title": "45. Surgical Treatment of Chronic Pulmonary Thromboembolic Disease"
+    },
+    {
+     "id": "ch46",
+     "title": "46. Role of Surgery in Management of Hypertrophic Cardiomyopathy"
+    },
+    {
+     "id": "ch47",
+     "title": "47. Pericardial Disease"
+    },
+    {
+     "id": "ch48",
+     "title": "48. Primary Cardiac Tumors"
+    },
+    {
+     "id": "ch49",
+     "title": "49. The Immunobiology of Thoracic Transplantation"
+    },
+    {
+     "id": "ch50",
+     "title": "50. Cardiac Transplantation"
+    },
+    {
+     "id": "ch51",
+     "title": "51. Mechanical Circulatory Support"
+    },
+    {
+     "id": "ch52",
+     "title": "52. Surgical Ventricular Remodeling"
+    },
+    {
+     "id": "ch53",
+     "title": "53. Stem Cells for Cardiac Surgical Disease"
+    },
+    {
+     "id": "ch54",
+     "title": "54. Minimally Invasive Cardiac Surgery"
+    },
+    {
+     "id": "ch55",
+     "title": "55. Cardiac Catheterization and Interventions"
+    },
+    {
+     "id": "ch56",
+     "title": "56. Echocardiography in Cardiac Surgery"
+    },
+    {
+     "id": "ch57",
+     "title": "57. Cardiac Magnetic Resonance Imaging"
+    },
+    {
+     "id": "ch60",
+     "title": "60. Perioperative Critical Care of the Pediatric Cardiac Surgical Patient"
+    },
+    {
+     "id": "ch62",
+     "title": "62. Palliative Operations for Congenital Heart Disease"
+    },
+    {
+     "id": "ch63",
+     "title": "63. Patent Ductus Arteriosus"
+    },
+    {
+     "id": "ch64",
+     "title": "64. Atrial Septal Defects and Partial Anomalous Pulmonary Venous Connection"
+    },
+    {
+     "id": "ch65",
+     "title": "65. Ventricular Septal Defects"
+    },
+    {
+     "id": "ch66",
+     "title": "66. Atrioventricular Septal Defects"
+    },
+    {
+     "id": "ch67",
+     "title": "67. Aortopulmonary Window"
+    },
+    {
+     "id": "ch68",
+     "title": "68. Tetralogy of Fallot"
+    },
+    {
+     "id": "ch69",
+     "title": "69. Pulmonary Atresia with Ventricular Septal Defect and Major Aortopulmonary Collaterals"
+    },
+    {
+     "id": "ch70",
+     "title": "70. Pulmonary Stenosis and Pulmonary Atresia with Intact Ventricular Septum"
+    },
+    {
+     "id": "ch71",
+     "title": "71. Double Outlet Right Ventricle"
+    },
+    {
+     "id": "ch72",
+     "title": "72. Truncus Arteriosus"
+    },
+    {
+     "id": "ch73",
+     "title": "73. Total Anomalous Pulmonary Venous Connection"
+    },
+    {
+     "id": "ch74",
+     "title": "74. Transposition of the Great Arteries"
+    },
+    {
+     "id": "ch75",
+     "title": "75. Congenitally Corrected Transposition"
+    },
+    {
+     "id": "ch76",
+     "title": "76. Hypoplastic Left Heart Syndrome"
+    },
+    {
+     "id": "ch77",
+     "title": "77. Tricuspid Atresia and the Functionally Single Ventricle"
+    },
+    {
+     "id": "ch78",
+     "title": "78. Surgery for Left Ventricular Outflow Tract Obstruction in Children"
+    },
+    {
+     "id": "ch79",
+     "title": "79. Coarctation of the Aorta and Interrupted Aortic Arch"
+    },
+    {
+     "id": "ch80",
+     "title": "80. Cor Triatriatum"
+    },
+    {
+     "id": "ch82",
+     "title": "82. Cardiac Surgical Intervention in Pediatric Patients with Connective Tissue Disorders"
+    },
+    {
+     "id": "ch83",
+     "title": "83. Surgery for Congenital Coronary Anomalies"
+    },
+    {
+     "id": "ch84",
+     "title": "84. Vascular Rings and Pulmonary Artery Sling"
+    },
+    {
+     "id": "ch85",
+     "title": "85. Ebstein’s Anomaly"
+    },
+    {
+     "id": "ch87",
+     "title": "87. Extracorporeal Membrane Oxygenation in Pediatric Cardiac Care"
+    },
+    {
+     "id": "ch88",
+     "title": "88. Ventricular Assist Devices in Children"
+    },
+    {
+     "id": "ch89",
+     "title": "89. Pediatric Cardiac Transplantation"
+    },
+    {
+     "id": "ch90",
+     "title": "90. Management of Adults with Congenital Heart Disease"
+    }
+   ],
+   "file": "johns-hopkins-2016.json",
+   "count": 422,
+   "cover": "data/covers/johns-hopkins-2016.jpg"
+  },
+  {
+   "id": "cardiothoracic-2015",
+   "title": "Cardiothoracic Surgery Board Review 2015",
+   "short": "KT Cardiothoracic 2015",
+   "code": "KT",
+   "specialty": "cardiac",
+   "publisher": "Knowledge Testing",
+   "edition": "2015",
+   "description": "Board-style questions on cardiothoracic surgery, critical care, physiology and pharmacology.",
+   "chapters": [
+    {
+     "id": "ch1",
+     "title": "Section 1 (Q1–200)"
+    },
+    {
+     "id": "ch2",
+     "title": "Section 2 (Q201–400)"
+    },
+    {
+     "id": "ch3",
+     "title": "Section 3 (Q401–600)"
+    },
+    {
+     "id": "ch4",
+     "title": "Section 4 (Q601–800)"
+    },
+    {
+     "id": "ch5",
+     "title": "Section 5 (Q801–1000)"
+    },
+    {
+     "id": "ch6",
+     "title": "Section 6 (Q1001–1200)"
+    },
+    {
+     "id": "ch7",
+     "title": "Section 7 (Q1201–1400)"
+    },
+    {
+     "id": "ch8",
+     "title": "Section 8 (Q1401–1600)"
+    },
+    {
+     "id": "ch9",
+     "title": "Section 9 (Q1601–1800)"
+    },
+    {
+     "id": "ch10",
+     "title": "Section 10 (Q1801–2000)"
+    }
+   ],
+   "file": "cardiothoracic-2015.json",
+   "count": 2000,
+   "cover": "data/covers/cardiothoracic-2015.jpg"
+  },
+  {
+   "id": "sachinder-vascular-2024",
+   "title": "Sachinder – Vascular and Endovascular Self-Assessment",
+   "short": "Sachinder Vascular",
+   "code": "SV",
+   "specialty": "vascular",
+   "publisher": "CRC Press",
+   "edition": "2024",
+   "description": "Self-assessment for vascular and endovascular specialists in 21 sections.",
+   "chapters": [
+    {
+     "id": "ch1",
+     "title": "Anatomy, Physiology, and Hemodynamics"
+    },
+    {
+     "id": "ch2",
+     "title": "Vascular Laboratory"
+    },
+    {
+     "id": "ch3",
+     "title": "Radiation Safety"
+    },
+    {
+     "id": "ch4",
+     "title": "Vascular Medicine"
+    },
+    {
+     "id": "ch5",
+     "title": "Cerebrovascular Disease"
+    },
+    {
+     "id": "ch6",
+     "title": "Vascular Surgical Critical Care"
+    },
+    {
+     "id": "ch7",
+     "title": "Thoracic Outlet Syndrome"
+    },
+    {
+     "id": "ch8",
+     "title": "Aortoiliac Disease"
+    },
+    {
+     "id": "ch9",
+     "title": "Lower Extremity Arterial Disease"
+    },
+    {
+     "id": "ch10",
+     "title": "Renal and Mesenteric Disease"
+    },
+    {
+     "id": "ch11",
+     "title": "Upper Extremity Arterial Disease"
+    },
+    {
+     "id": "ch12",
+     "title": "Vascular Trauma"
+    },
+    {
+     "id": "ch13",
+     "title": "Venous Disease"
+    },
+    {
+     "id": "ch14",
+     "title": "Lymphology"
+    },
+    {
+     "id": "ch15",
+     "title": "Dialysis Access"
+    },
+    {
+     "id": "ch16",
+     "title": "Amputations"
+    },
+    {
+     "id": "ch17",
+     "title": "Endovascular Retrieval of Foreign Bodies"
+    },
+    {
+     "id": "ch18",
+     "title": "Graft Infections"
+    },
+    {
+     "id": "ch19",
+     "title": "Vascular Closure Device"
+    },
+    {
+     "id": "ch20",
+     "title": "Rare Vascular Entities"
+    },
+    {
+     "id": "ch21",
+     "title": "Biostatistics"
+    }
+   ],
+   "file": "sachinder-vascular-2024.json",
+   "count": 510,
+   "cover": "data/covers/sachinder-vascular-2024.jpg"
   }
  ]
 }
