@@ -435,7 +435,7 @@
     else if (sameSet(picked, q.ans)) title = "Correct · " + answerLetters(q);
     else title = "Not quite · Answer: " + answerLetters(q);
     var ok = q.type !== "matching" && !revealedOnly && sameSet(picked, q.ans);
-    return '<div class="answer-panel' + (ok ? " is-ok" : "") + '"><span class="answer-panel-icon">' + icon(ok ? "check" : "info") + '</span><div><strong>' + title + '</strong>' + (q.answerText ? '<p class="answer-text">' + txt(q.answerText) + '</p>' : "") + (q.explanation ? '<p>' + txt(q.explanation) + '</p>' : "") + '</div></div>';
+    return '<div class="answer-panel' + (ok ? " is-ok" : "") + '"><span class="answer-panel-icon">' + icon(ok ? "check" : "info") + '</span><div><strong>' + title + '</strong>' + (q.answerText ? '<p class="answer-text">' + txt(q.answerText) + '</p>' : "") + (q.explanation ? '<p>' + txt(q.explanation) + '</p>' : "") + (q.note ? '<p class="q-note">' + icon("info") + ' <span>' + txt(q.note) + '</span></p>' : "") + '</div></div>';
   }
 
   function actionButtons(q) {
@@ -553,7 +553,8 @@
         return '<button class="topic-card" data-book-topic="' + esc(t.name) + '" type="button"><span class="topic-card-marker topic-card-marker--' + t.specialty + '"></span><span><h4>' + esc(t.name) + '</h4><p>' + ts.seen + ' of ' + ts.total + ' done</p></span><span class="topic-card-progress"><strong>' + ts.total + '</strong><span>' + (ts.total === 1 ? "question" : "questions") + '</span></span></button>';
       }).join("") + '</div></div>';
     }
-    return head + section + '</section>';
+    var notes = b.notes && b.notes.length ? '<div class="section-block"><article class="card book-notes"><h3>' + icon("info") + ' Notes about this book</h3><ul>' + b.notes.map(function (n) { return '<li>' + esc(n) + '</li>'; }).join("") + '</ul></article></div>' : "";
+    return head + notes + section + '</section>';
   }
 
   function filteredTopics() {
