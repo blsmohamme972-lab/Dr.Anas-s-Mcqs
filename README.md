@@ -1,6 +1,6 @@
 # Dr.Anas-s-Mcqs
 
-Atlas MCQs is a mobile-first English-only PWA for studying vascular, thoracic, and cardiac surgery.
+Dr.Anas's MCQs is a mobile-first English-only PWA for studying vascular, thoracic, and cardiac surgery.
 
 ## First milestone
 

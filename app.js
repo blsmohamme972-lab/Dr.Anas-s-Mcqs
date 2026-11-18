@@ -58,7 +58,7 @@
   ];
 
   var PAGE_COPY = {
-    home: ["Atlas MCQs", "Home"],
+    home: ["Dr.Anas's MCQs", "Home"],
     books: ["Open a whole book", "Books"],
     topics: ["66 topics", "Topics"],
     study: ["Study mode", "Study"],
